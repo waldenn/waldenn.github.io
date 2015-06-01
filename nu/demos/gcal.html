@@ -7,6 +7,7 @@
 <script src='../lib/moment.min.js'></script>
 <script src='../lib/jquery.min.js'></script>
 <script src='../fullcalendar.min.js'></script>
+<script src='../lang/nl.js'></script>
 <script src='../gcal.js'></script>
 <script>
 
@@ -31,8 +32,47 @@
 			
 			loading: function(bool) {
 				$('#loading').toggle(bool);
-			}
-			
+			},
+
+
+			views: {
+				basic: {
+					// options apply to basicWeek and basicDay views
+				},
+				agenda: {
+					// options apply to agendaWeek and agendaDay views
+				},
+				week: {
+					// options apply to basicWeek and agendaWeek views
+				},
+				day: {
+					// options apply to basicDay and agendaDay views
+
+					businessHours: true,
+
+					/*
+					businessHours: {
+						start: '11:00',
+						end:   '12:00',
+						dow: [ 1, 2, 3, 4, 5]
+					},
+					*/
+
+				}
+			},
+
+			header: {
+				left: 'prev,next today',
+				center: 'Spirare Kalender',
+				right: 'agendaDay,agendaWeek,month'
+			},
+
+			defaultView: 'agendaDay',
+
+			//aspectRatio: 1.4,
+
+			//theme: true
+
 		});
 		
 	});
@@ -55,7 +95,7 @@
 	}
 
 	#calendar {
-		max-width: 900px;
+		max-width: 75%;
 		margin: 0 auto;
 	}
 
