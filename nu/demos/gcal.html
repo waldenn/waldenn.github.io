@@ -5,167 +5,181 @@
 
 <!--  Enable responsive view on mobile devices -->
 <!-- meta name="viewport" content="width=device-width, initial-scale=1.0" / -->
-  
-<title>spirare kalender</title>
 
-<link href='../lib/mytheme/jquery-ui.min.css' rel='stylesheet' />
+<head>
+	<title>spirare kalender</title>
+		
+	<!-- CSS -->
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/css/bootstrap-combined.min.css" rel="stylesheet" />
 
-<link href='../fullcalendar.css' rel='stylesheet' />
-<link href='../fullcalendar.print.css' rel='stylesheet' media='print' />
-
-<!-- link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css' -->
-
-<script src='../lib/moment.min.js'></script>
-<script src='../lib/jquery.min.js'></script>
-<script src='../fullcalendar.min.js'></script>
-<script src='../lang/nl.js'></script>
-<script src='../gcal.js'></script>
-
-<script>
-
-	$(document).ready(function() {
+	<!--link href='../lib/mytheme/jquery-ui.min.css' rel='stylesheet' /-->
+	<link href='../fullcalendar.css' rel='stylesheet' />
+	<link href='../fullcalendar.print.css' rel='stylesheet' media='print' />
 	
-		$('#calendar').fullCalendar({
+	<!-- SCRIPTS -->
+	<script src='../lib/moment.min.js'></script>
+	<script src='../lib/jquery.min.js'></script>
+	<script src='../fullcalendar.min.js'></script>
+	<script src='../lang/nl.js'></script>
+	<script src='../gcal.js'></script>
 
-			// To make your own Google API key, follow the directions here:
-			// http://fullcalendar.io/docs/google_calendar/
-			googleCalendarApiKey: 'AIzaSyBWVS86R3zhMsswB2vlWhOo1WoPb5bGMQs',
+	<!--script class="cssdesk" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js" type="text/javascript"></script-->
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.1.0/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!-- link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css' -->
+
+	<script>
+
+		$(document).ready(function() {
 		
-			// US Holidays
-			//events: 'usa__en@holiday.calendar.google.com',
+			$('#calendar').fullCalendar({
 
-			events: 'spirare.kalender@gmail.com',
+				// To make your own Google API key, follow the directions here:
+				// http://fullcalendar.io/docs/google_calendar/
+				googleCalendarApiKey: 'AIzaSyBWVS86R3zhMsswB2vlWhOo1WoPb5bGMQs',
 			
-			eventClick: function(event) {
-				// opens events in a popup window
-				window.open(event.url, 'gcalevent', 'width=700,height=600');
-				return false;
-			},
-			
-			loading: function(bool) {
-				$('#loading').toggle(bool);
-			},
+				// US Holidays
+				//events: 'usa__en@holiday.calendar.google.com',
 
-            eventRender: function(event, element) {
-
-				if (event.location){
-
-					console.log(event.location);
-
-					// spanje
-					if (event.location.toLowerCase().indexOf("spanje") != -1) { element.css('background-color', '#FFCC00'); }
-
-					// italie
-					if (event.location.toLowerCase().indexOf("itali") != -1) { element.css('background-color', '#99CC00'); }
-
-					// china
-					if (event.location.toLowerCase().indexOf("china") != -1) { element.css('background-color', '#92CDDC'); }
-
-					// turkije
-					if (event.location.toLowerCase().indexOf("turkije") != -1) { element.css('background-color', '#CC0066'); }
-
-					// theater
-					if (event.location.toLowerCase().indexOf("theater") != -1) { element.css('background-color', '#8064A2'); }
-
-					// boerderij
-					if (event.location.toLowerCase().indexOf("boerderij") != -1) { element.css('background-color', '#F79646'); }
-				}
-            },
-
-			weekNumbers: true,
-
-			businessHours: true,
-
-			views: {
-				basic: {
-					// options apply to basicWeek and basicDay views
+				events: 'spirare.kalender@gmail.com',
+				
+				eventClick: function(event) {
+					// opens events in a popup window
+					window.open(event.url, 'gcalevent', 'width=700,height=600');
+					return false;
 				},
-				agenda: {
-					// options apply to agendaWeek and agendaDay views
+				
+				loading: function(bool) {
+					$('#loading').toggle(bool);
 				},
-				week: {
-					// options apply to basicWeek and agendaWeek views
+
+				eventRender: function(event, element) {
+
+					if (event.location){
+
+						console.log(event.location);
+
+						// spanje
+						if (event.location.toLowerCase().indexOf("spanje") != -1) { element.css('background-color', '#FFCC00'); }
+
+						// italie
+						if (event.location.toLowerCase().indexOf("itali") != -1) { element.css('background-color', '#99CC00'); }
+
+						// china
+						if (event.location.toLowerCase().indexOf("china") != -1) { element.css('background-color', '#92CDDC'); }
+
+						// turkije
+						if (event.location.toLowerCase().indexOf("turkije") != -1) { element.css('background-color', '#CC0066'); }
+
+						// theater
+						if (event.location.toLowerCase().indexOf("theater") != -1) { element.css('background-color', '#8064A2'); }
+
+						// boerderij
+						if (event.location.toLowerCase().indexOf("boerderij") != -1) { element.css('background-color', '#F79646'); }
+					}
 				},
-				day: {
-					// options apply to basicDay and agendaDay views
 
-					// FIXME
-					// http://fullcalendar.io/docs/display/businessHours/
-					businessHours: true,
+				weekNumbers: true,
 
-					/*
-					businessHours: {
-						start: '11:00',
-						end:   '12:00',
-						dow: [ 1, 2, 3, 4, 5]
+				businessHours: true,
+
+				views: {
+					basic: {
+						// options apply to basicWeek and basicDay views
 					},
-					*/
+					agenda: {
+						// options apply to agendaWeek and agendaDay views
+					},
+					week: {
+						// options apply to basicWeek and agendaWeek views
+					},
+					day: {
+						// options apply to basicDay and agendaDay views
 
-				}
-			},
+						// FIXME
+						// http://fullcalendar.io/docs/display/businessHours/
+						businessHours: true,
 
-			header: {
-				left: 'prev,next today',
-				center: 'Spirare Kalender',
-				right: 'agendaDay,agendaWeek,month'
-			},
+						/*
+						businessHours: {
+							start: '11:00',
+							end:   '12:00',
+							dow: [ 1, 2, 3, 4, 5]
+						},
+						*/
 
-			defaultView: 'agendaDay',
+					}
+				},
 
-			//aspectRatio: 1.4,
+				header: {
+					left: 'prev,next today',
+					center: 'Spirare Kalender',
+					right: 'agendaDay,agendaWeek,month'
+				},
 
-			//theme: true
+				defaultView: 'agendaDay',
 
+				//aspectRatio: 1.4,
+
+				//theme: true
+
+			});
+			
 		});
-		
-	});
 
-</script>
-<style>
-	/** @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300); **/
-	@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
-	@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+	</script>
 
-	body {
-		margin: 40px 10px;
-		padding: 0;
-		font-family: "Ubuntu", "Ubuntu Condensed", "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-		font-size: 14px;
-	}
-		
-	#loading {
-		display: none;
-		position: absolute;
-		top: 10px;
-		right: 10px;
-	}
+	<style>
+		/** @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300); **/
+		@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+		@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
-	#calendar {
-		max-width: 75%;
-		margin: 0 auto;
-	}
+		body {
+			margin: 40px 10px;
+			padding: 0;
+			font-family: "Ubuntu", "Ubuntu Condensed", "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+			font-size: 14px;
+		}
+			
+		#loading {
+			display: none;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
 
-	.fc-time-grid-event .fc-time {
-		font-size: 0.75em;
-	}
+		#calendar {
+			width: 100%%;
+			/* max-width: 75%; */
+			margin: 0 auto;
+		}
 
-	.fc-time {
-	  color: rgb(86, 73, 73);
-	}
+		.fc-time-grid-event .fc-time {
+			font-size: 0.75em;
+		}
 
-	.fc-event {
-		font-size: 1.1em;
-		/*color: #131111;*/
-		font-weight: bold;
-	}
+		.fc-time {
+		  color: rgb(86, 73, 73);
+		}
 
-</style>
+		.fc-event {
+			font-size: 1.1em;
+			/*color: #131111;*/
+			font-weight: bold;
+		}
+
+	</style>
+
 </head>
+
 <body>
 
-	<div id='loading'>loading...</div>
+	<div class="container">
 
-	<div id='calendar'></div>
+		<div id='loading'>loading...</div>
+		<div id='calendar'></div>
+
+	</div>
 
 </body>
 </html>
