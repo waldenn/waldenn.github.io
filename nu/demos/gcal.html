@@ -44,9 +44,12 @@
             eventRender: function(event, element) {
 				//console.log(event.description);
 
-                if (event.location.toLowerCase().indexOf("itali") != -1) {
-                    element.css('background-color', 'lightgreen');
-                }
+				if (event.location){
+
+					if (event.location.toLowerCase().indexOf("itali") != -1) {
+						element.css('background-color', 'lightgreen');
+					}
+				}
             },
 
 			weekNumbers: true,
