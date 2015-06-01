@@ -147,6 +147,8 @@ function transformOptions(sourceOptions, start, end, timezone, calendar) {
 						url = injectQsComponent(url, 'ctz=' + timezoneArg);
 					}
 
+					console.log(entry);
+
 					events.push({
 						id: entry.id,
 						title: entry.summary,
