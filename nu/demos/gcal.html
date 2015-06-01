@@ -42,11 +42,11 @@
 			},
 
             eventRender: function(event, element) {
-				console.log(event.description);
+				//console.log(event.description);
 
-                //if (event.description == "blah blah") {
-                //    element.css('background-color', '#ff000');
-                //}
+                if (event.description !== "blah blah") {
+                    element.css('background-color', 'yellow');
+                }
             },
 
 			weekNumbers: true,
