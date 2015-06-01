@@ -46,9 +46,20 @@
 
 				if (event.location){
 
-					if (event.location.toLowerCase().indexOf("itali") != -1) {
-						element.css('background-color', 'lightgreen');
-					}
+					// spanje (geel)
+					if (event.location.toLowerCase().indexOf("spanje") != -1) { element.css('background-color', 'orange'); }
+
+					// italie (groen)
+					if (event.location.toLowerCase().indexOf("itali") != -1) { element.css('background-color', 'green'); }
+
+					// china (lichtblauw)
+					if (event.location.toLowerCase().indexOf("china") != -1) { element.css('background-color', 'lightblue'); }
+
+					// turkije (rood / roze)
+					if (event.location.toLowerCase().indexOf("turkije") != -1) { element.css('background-color', 'red'); }
+
+					// theater (paars)
+					if (event.location.toLowerCase().indexOf("theater") != -1) { element.css('background-color', 'purple'); }
 				}
             },
 
