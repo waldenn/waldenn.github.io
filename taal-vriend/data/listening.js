@@ -1,0 +1,2242 @@
+window.TAALVRIEND_LISTENING = [
+  {
+    "id": "luister-a1-001",
+    "level": "A1",
+    "category": "Groeten & Ontmoeten",
+    "title": "Kennismaking in de klas",
+    "lines": [
+      "Hallo, ik ben Sarah.",
+      "Ik kom uit Syrië en ik woon in Utrecht.",
+      "Ik leer nu Nederlands."
+    ],
+    "translations": {
+      "ar": "مرحباً، أنا سارة.\nأنا من سوريا وأسكن في أوترخت.\nأنا أتعلم اللغة الهولندية الآن.",
+      "ti": "ሰላም፡ ኣነ ሳራ እየ።\nካብ ሶርያ እየ መጺአ፡ ኣብ ዩትረክት ድማ ይነብር።\nሕጂ ቋንቋ ሆላንድ ይምሃር ኣለኹ።",
+      "om": "Akkam, ani Saaraadha.\nAni Suuriyaa irraan dhufe, Utrecht keessan jiraadha.\nAmmammoo afaan Daachi barachaan jira.",
+      "en": "Hello, I am Sarah.\nI come from Syria and I live in Utrecht.\nI am learning Dutch now."
+    },
+    "dutch": "Hallo, ik ben Sarah.\nIk kom uit Syrië en ik woon in Utrecht.\nIk leer nu Nederlands."
+  },
+  {
+    "id": "luister-a1-002",
+    "level": "A1",
+    "category": "Winkelen",
+    "title": "Bij de bakker",
+    "lines": [
+      "Goedemorgen! Mag ik een half bruin brood?",
+      "Natuurlijk, alstublieft.",
+      "Dat is dan twee euro vijftig."
+    ],
+    "translations": {
+      "ar": "صباح الخير! هل يمكنني الحصول على نصف خبز أسمر؟\nبالتأكيد، تفضل.\nالحساب يورو ونصف.",
+      "ti": "ከመይ ሓዲርኩም! ፍርቂ ቡናዊ ባኒ ክረክብዶ ይኽእል?\nብርግጽ፡ እንሆልኩም።\nክልተ ዩሮን ፍርቅን ይኸውን።",
+      "om": "Akkam bultan! Daabboo magaala walakkaa argachuu danda'aa?\nEeyyee, kunooti.\nYuuroo lamaaf saantima shantama ta'a.",
+      "en": "Good morning! May I have half a brown bread?\nOf course, here you go.\nThat is two euros fifty."
+    },
+    "dutch": "Goedemorgen! Mag ik een half bruin brood?\nNatuurlijk, alstublieft.\nDat is dan twee euro vijftig."
+  },
+  {
+    "id": "luister-a1-003",
+    "level": "A1",
+    "category": "Vervoer",
+    "title": "In de bus",
+    "lines": [
+      "Pardon meneer, stopt deze bus bij het station?",
+      "Ja, over drie haltes zijn we er.",
+      "Vergeet niet uit te checken."
+    ],
+    "translations": {
+      "ar": "معذرة سيدي، هل تتوقف هذه الحافلة عند المحطة؟\nنعم، بعد ثلاث محطات نصل إلى هناك.\nلا تنس تسجيل الخروج بالبطاقة.",
+      "ti": "ይቕሬታ ጎይታይ፡ እዚ ኣውቶቡስ ኣብ መደበር ይቐውም ድዩ?\nእወ፡ ድሕሪ ሰለስተ መደበር ክንበጽሕ ኢና።\nኣውት-ቸክ ምግባር ኣይትረስዑ።",
+      "om": "Dhiifama obbo, baasiin kun buufata irratti ni dhaabbataa?\nEeyyee, buufata sadii booda achi geenya.\nKaardii keessan cufuu hin dagatinaa.",
+      "en": "Excuse me sir, does this bus stop at the station?\nYes, in three stops we will be there.\nDo not forget to check out."
+    },
+    "dutch": "Pardon meneer, stopt deze bus bij het station?\nJa, over drie haltes zijn we er.\nVergeet niet uit te checken."
+  },
+  {
+    "id": "luister-a1-004",
+    "level": "A1",
+    "category": "Thuis & Familie",
+    "title": "Avondeten",
+    "lines": [
+      "Het eten is klaar! Komen jullie aan tafel?",
+      "We eten vandaag rijst met groenten en kip.",
+      "Eet smakelijk allemaal!"
+    ],
+    "translations": {
+      "ar": "الطعام جاهز! هل تأتون إلى المائدة؟\nنأكل اليوم الأرز مع الخضار والدجاج.\nشهية طيبة للجميع!",
+      "ti": "መግቢ ተዳልዩ ኣሎ! ናብ መኣዲ ትመጹዶ?\nሎሚ ሩዝ ምስ ኣሕምልትን ደርሆን ንበልዕ ኣለና።\nጽቡቕ ምሳሕ ንኹላትኩም!",
+      "om": "Nyaanni qophaa'eera! Gara maaddii ni dhuftuu?\nHar'a ruuza fuduraa fi foon indaaqqoo waliin nyaanna.\nNyaata gaarii hundaaf!",
+      "en": "Dinner is ready! Are you coming to the table?\nToday we are eating rice with vegetables and chicken.\nEnjoy your meal everyone!"
+    },
+    "dutch": "Het eten is klaar! Komen jullie aan tafel?\nWe eten vandaag rijst met groenten en kip.\nEet smakelijk allemaal!"
+  },
+  {
+    "id": "luister-a1-005",
+    "level": "A1",
+    "category": "Gezondheid",
+    "title": "Buikpijn",
+    "lines": [
+      "Mama, ik voel me niet lekker.",
+      "Mijn buik doet heel veel pijn.",
+      "Drink maar even een kopje warme thee."
+    ],
+    "translations": {
+      "ar": "ماما، لا أشعر بأنني بخير.\nبطني يؤلمني كثيراً.\nاشرب كوباً من الشاي الدافئ الآن.",
+      "ti": "ማማ፡ ደሓን ኣይኮንኩን ዝስምዓኒ ዘሎ።\nከብደይ ኣዝዩ ይቐርጸኒ ኣሎ።\nጽዋእ ውዑይ ሻሂ ስተ እሞ።",
+      "om": "Haadha koo, natti hin tolle.\nGaraan koo baay'ee na dhukkuba.\nMee shayii oo'aa dhugi.",
+      "en": "Mom, I don't feel well.\nMy stomach hurts a lot.\nJust drink a cup of warm tea."
+    },
+    "dutch": "Mama, ik voel me niet lekker.\nMijn buik doet heel veel pijn.\nDrink maar even een kopje warme thee."
+  },
+  {
+    "id": "luister-a1-006",
+    "level": "A1",
+    "category": "Weer",
+    "title": "Het weer vandaag",
+    "lines": [
+      "Kijk eens naar buiten, het regent hard.",
+      "Trek je warme regenjas aan.",
+      "En neem je paraplu mee naar school."
+    ],
+    "translations": {
+      "ar": "انظر إلى الخارج، إنها تمطر بغزارة.\nارتدِ معطف المطر الدافئ.\nوخذ مظلتك معك إلى المدرسة.",
+      "ti": "ናብ ደገ ርአ፡ ብርቱዕ ዝናብ ይዘንም ኣሎ።\nናይ ዝናብ ኮትካ ልበስ።\nጽላልካ ድማ ናብ ቤት ትምህርቲ ምሳኻ ሒዝካ ኺድ።",
+      "om": "Gara ala ilaali, bokkaan cimaan roobaa jira.\nKootii bokkaa oo'aa kee uffadhu.\nGaachana bokkaa kees gara mana barumsaatti qabadhu.",
+      "en": "Look outside, it is raining hard.\nPut on your warm raincoat.\nAnd take your umbrella with you to school."
+    },
+    "dutch": "Kijk eens naar buiten, het regent hard.\nTrek je warme regenjas aan.\nEn neem je paraplu mee naar school."
+  },
+  {
+    "id": "luister-a1-007",
+    "level": "A1",
+    "category": "Winkelen",
+    "title": "Bij de kassa",
+    "lines": [
+      "Wilt u de bon mee?",
+      "Nee bedankt, dat hoeft niet.",
+      "Fijne dag verder! Tot ziens!"
+    ],
+    "translations": {
+      "ar": "هل تريد الإيصال؟\nلا شكراً، ليس ضرورياً.\nأتمنى لك يوماً سعيداً! إلى اللقاء!",
+      "ti": "ረሲት ትደልዩዶ?\nኣይፋልን የቐንየለይ፡ ኣየድልን እዩ።\nጽቡቕ መዓልቲ ይግበረልኩም! ደሓን ኩኑ!",
+      "om": "Nagahee barbaadduu?\nLakki galatoomaa, hin barbaachisu.\nGuyyaa gaarii qabaadhaa! Nagan turaa!",
+      "en": "Would you like the receipt?\nNo thank you, no need.\nHave a nice day! Goodbye!"
+    },
+    "dutch": "Wilt u de bon mee?\nNee bedankt, dat hoeft niet.\nFijne dag verder! Tot ziens!"
+  },
+  {
+    "id": "luister-a1-008",
+    "level": "A1",
+    "category": "School & Kinderen",
+    "title": "Naar school fietsen",
+    "lines": [
+      "Schiet op, het is al acht uur!",
+      "We moeten nu op de fiets stappen.",
+      "De bel van de school gaat om half negen."
+    ],
+    "translations": {
+      "ar": "أسرع، الساعة الآن الثامنة بالفعل!\nيجب أن نركب الدراجة الآن.\nيرن جرس المدرسة في الثامنة والنصف.",
+      "ti": "ቀልጥፍ፡ ሰዓት ሸሞንተ ኮይኑ እዩ!\nሕጂ ኣብ ብስክሌት ክንወጽእ ኣሎና።\nደወል ቤት ትምህርቲ ኣብ ፈረቓ ትሽዓተ ይድወል እዩ።",
+      "om": "Daffisi, sa'aatiin saddeet ta'eera!\nAmma biskileetii yaabbachuu qabna.\nBilbilli mana barumsaa sa'aatii sagal dhabuutti bilbilama.",
+      "en": "Hurry up, it is already eight o'clock!\nWe must get on the bike now.\nThe school bell rings at half past eight."
+    },
+    "dutch": "Schiet op, het is al acht uur!\nWe moeten nu op de fiets stappen.\nDe bel van de school gaat om half negen."
+  },
+  {
+    "id": "luister-a1-009",
+    "level": "A1",
+    "category": "Thuis",
+    "title": "Sleutel kwijt",
+    "lines": [
+      "Waar is mijn huissleutel gebleven?",
+      "Hij ligt op de keukentafel naast de fruitschaal.",
+      "Gelukkig maar, dank je wel!"
+    ],
+    "translations": {
+      "ar": "أين ذهب مفتاح بيتي؟\nإنه على طاولة المطبخ بجانب وعاء الفاكهة.\nلحسن الحظ، شكراً جزيلاً!",
+      "ti": "መፍትሕ ገዛይ ኣበይ ኣሎ?\nኣብ ጣውላ ክሽነ ጥቓ ሳህን ፍረታት ኣሎ።\nደሓን ደኣ፡ የቐንየለይ!",
+      "om": "Furtuun mana koo eessa jira?\nMinjaala kushinaa irra saanii muduraa cina jira.\nBaga akkas ta'e, galatoomi!",
+      "en": "Where did my house key go?\nIt is on the kitchen table next to the fruit bowl.\nWhat a relief, thank you!"
+    },
+    "dutch": "Waar is mijn huissleutel gebleven?\nHij ligt op de keukentafel naast de fruitschaal.\nGelukkig maar, dank je wel!"
+  },
+  {
+    "id": "luister-a1-010",
+    "level": "A1",
+    "category": "Afspraak",
+    "title": "Hoe laat spreken we af?",
+    "lines": [
+      "Zullen we vanmiddag samen koffie drinken?",
+      "Ja gezellig! Schikt twee uur jou?",
+      "Ja, om twee uur bij het park."
+    ],
+    "translations": {
+      "ar": "هل نشرب القهوة معاً بعد ظهر اليوم؟\nنعم بكل سرور! هل يناسبك الساعة الثانية؟\nنعم، في الساعة الثانية عند الحديقة.",
+      "ti": "ሎሚ ድሕሪ ቐትሪ ሓቢርና ቡን ክንሰቲዶ?\nእወ ባህ ይብለኒ! ሰዓት ክልተ ይጥዕመካዶ?\nእወ፡ ሰዓት ክልተ ኣብ ፓርክ።",
+      "om": "Har'a waaree booda buna waliin dhugnaa?\nEeyyee baay'ee gaariidha! Sa'aatii lama siif tolaa?\nEeyyee, sa'aatii lama irratti paarkii biratti.",
+      "en": "Shall we have coffee together this afternoon?\nYes, wonderful! Does two o'clock suit you?\nYes, at two o'clock by the park."
+    },
+    "dutch": "Zullen we vanmiddag samen koffie drinken?\nJa gezellig! Schikt twee uur jou?\nJa, om twee uur bij het park."
+  },
+  {
+    "id": "luister-a2-001",
+    "level": "A2-B1",
+    "category": "Openbaar Vervoer",
+    "title": "Omroepbericht op het station",
+    "lines": [
+      "Beste reizigers, de intercity naar Amsterdam Centraal van 14:15 uur vertrekt vandaag van spoor 4b.",
+      "Deze trein heeft een vertraging van ongeveer tien minuten.",
+      "Onze excuses voor het ongemak."
+    ],
+    "translations": {
+      "ar": "أعزائي المسافرين، قطار الإنترسيتي إلى محطة أمستردام المركزية المقرر في 14:15 يغادر اليوم من الرصيف 4b.\nهذا القطار متأخر بنحو عشر دقائق.\nنعتذر عن أي إزعاج.",
+      "ti": "ክቡራት ተጓዓዝቲ፡ እቲ ናብ ማእከላይ መደበር ኣምስተርዳም ናይ ሰዓት 14:15 ባቡር ሎሚ ካብ መገዲ 4b ክነቅል እዩ።\nእዚ ባቡር ናይ ዓሰርተ ደቒቕ ምድንጓይ ኣለዎ።\nስለቲ ዘጋጠመ ጸገም ይቕሬታ ንሓትት።",
+      "om": "Kabajamoo imaltootaa, baaburri Intercity gara Wiirtuu Amstardaam sa'aatii 14:15 har'a daandii 4b irraa ka'a.\nBaaburri kun daqiiqaa kudhan harkifateera.\nDhiifama gaafanna.",
+      "en": "Dear passengers, the 14:15 Intercity train to Amsterdam Central departs today from track 4b.\nThis train is delayed by approximately ten minutes.\nWe apologize for the inconvenience."
+    },
+    "dutch": "Beste reizigers, de intercity naar Amsterdam Centraal van 14:15 uur vertrekt vandaag van spoor 4b.\nDeze trein heeft een vertraging van ongeveer tien minuten.\nOnze excuses voor het ongemak."
+  },
+  {
+    "id": "luister-a2-002",
+    "level": "A2-B1",
+    "category": "Gezondheid & Huisarts",
+    "title": "Telefonische afspraak bij de dokter",
+    "lines": [
+      "Goedemorgen, huisartsenpraktijk De Brink. Met wie spreek ik?",
+      "Goedemorgen, ik wil graag een afspraak maken voor mijn zoontje.",
+      "Hij heeft al drie dagen hoge koorts en hoest veel.",
+      "Kunt u vanmiddag om kwart over drie langskomen?"
+    ],
+    "translations": {
+      "ar": "صباح الخير، عيادة طبيب الأسرة دي برينك. مع من أتحدث؟\nصباح الخير، أود حجز موعد لابني الصغير.\nيعاني من حمى شديدة منذ ثلاثة أيام ويسعل كثيراً.\nهل يمكنك الحضور بعد ظهر اليوم في الساعة الثالثة والربع؟",
+      "ti": "ከመይ ሓዲርኩም፡ ክሊኒክ ሓኪም ስድራቤት ደ ብሪንክ። መን ይዛረብ ኣሎ?\nከመይ ሓዲርኩም፡ ንወደይ ቆጸራ ክሕዝ ደልየ ነይረ።\nሰለስተ መዓልቲ ምሉእ ብርቱዕ ረስኒ ኣለዎ፡ ኣዝዩ ድማ ይስዕል ኣሎ።\nሎሚ ድሕሪ ቐትሪ ኣብ ሰዓት ሰለስተን ርብዕን ክትመጹ ትኽእሉዶ?",
+      "om": "Akkam bultan, mana yaala hakimootaa De Brink. Eenyutu dubbata?\nAkkam bultan, ilma kootiif beellama qabachuu barbaadeeni.\nGuyyaa sadii guutuu ho'a qaamaa qaba akkasumas baay'ee qufa'a.\nHar'a waaree booda sa'aatii sadii fi kurmaana irratti dhufuu dandeessuu?",
+      "en": "Good morning, General Practice De Brink. Who am I speaking with?\nGood morning, I would like to make an appointment for my son.\nHe has had a high fever for three days and coughs a lot.\nCan you come by this afternoon at a quarter past three?"
+    },
+    "dutch": "Goedemorgen, huisartsenpraktijk De Brink. Met wie spreek ik?\nGoedemorgen, ik wil graag een afspraak maken voor mijn zoontje.\nHij heeft al drie dagen hoge koorts en hoest veel.\nKunt u vanmiddag om kwart over drie langskomen?"
+  },
+  {
+    "id": "luister-a2-003",
+    "level": "A2-B1",
+    "category": "Werk & Beroep",
+    "title": "Afmelden wegens ziekte",
+    "lines": [
+      "Hoi Pieter, met Ahmed van de logistieke afdeling.",
+      "Ik word net wakker met zware griep en kan vandaag helaas niet komen werken.",
+      "Ik heb mijn diensten doorgegeven aan collega Jan.",
+      "Ik hou je morgen op de hoogte van mijn herstel."
+    ],
+    "translations": {
+      "ar": "مرحباً بيتر، معك أحمد من قسم الخدمات اللوجستية.\nاستيقظت لتوي وأنا أعاني من إنفلونزا حادة وللأسف لن أتمكن من القدوم للعمل اليوم.\nأخبرت زميلي يان بمهامي.\nسأطلعك غداً على تحسن حالتي.",
+      "ti": "ሰላም ፒተር፡ ኣሕመድ ካብ ክፍሊ ሎጂስቲክስ እየ።\nብርቱዕ ጉንፋዕ ሒዙኒ ስለዝሓደርኩ፡ ሎሚ ናብ ስራሕ ክመጽእ ኣይክእልን እየ።\nንተራ ስርሐይ ንመሰልተይ ጃን ሓቢረዮ ኣለኹ።\nጽባሕ ከመይ ከም ዝሓሸኒ ክሕብረካ እየ።",
+      "om": "Akkam Pieter, Ahmed kutaa loojistiksii irraayi.\nUtuu qaamni koo dhukkubuun dammaqe, kanaaf har'a hojii dhufuu hin danda'u.\nTeepha hojii koo hiriyaa hojii Janitti himeera.\nBoru haala dhibee koo sin beeksisa.",
+      "en": "Hi Pieter, this is Ahmed from the logistics department.\nI just woke up with severe flu and unfortunately cannot come to work today.\nI passed my shifts on to colleague Jan.\nI will keep you updated tomorrow on my recovery."
+    },
+    "dutch": "Hoi Pieter, met Ahmed van de logistieke afdeling.\nIk word net wakker met zware griep en kan vandaag helaas niet komen werken.\nIk heb mijn diensten doorgegeven aan collega Jan.\nIk hou je morgen op de hoogte van mijn herstel."
+  },
+  {
+    "id": "luister-a2-004",
+    "level": "A2-B1",
+    "category": "Wonen & Buurt",
+    "title": "Pakketje voor de buren",
+    "lines": [
+      "Hallo buurman, goed dat ik je zie!",
+      "De postbode heeft gisteren een groot pakketje voor jou bij ons afgegeven.",
+      "Je was niet thuis toen hij aanbelde.",
+      "Kom je het straks even ophalen?"
+    ],
+    "translations": {
+      "ar": "مرحباً يا جاري، من الجيد أنني رأيتك!\nسلم ساعي البريد أمس طرداً كبيراً لك عندنا.\nلم تكن في المنزل عندما رن الجرس.\nهل ستأتي لأخذه بعد قليل؟",
+      "ti": "ሰላም ጎረቤተይ፡ ምርኻብና ጽቡቕ ኮይኑ!\nፖስተኛ ትማሊ ሓደ ዓቢ ፓኬት ናትካ ኣብ ገዛና ኣቐሚጡልካ ኸይዱ።\nደወል ክድውል ከሎ ኣብ ገዛ ኣይነበርካን።\nጸኒሕካ መጺእካ ክትወስዶ ትኽእልዶ?",
+      "om": "Akkam ollaakoo, si arguun koo gaariidha!\nPoostaan kaleessa paakeejii guddaa keessan nu biratti dhiisee deeme.\nYeroo inni bilbilu mana hin jirtu turte.\nMee xiqqoo booda dhuftanii fudhattaniitii?",
+      "en": "Hello neighbor, good to see you!\nThe mail carrier delivered a large parcel for you to our house yesterday.\nYou were not home when he rang the bell.\nWill you come pick it up in a bit?"
+    },
+    "dutch": "Hallo buurman, goed dat ik je zie!\nDe postbode heeft gisteren een groot pakketje voor jou bij ons afgegeven.\nJe was niet thuis toen hij aanbelde.\nKom je het straks even ophalen?"
+  },
+  {
+    "id": "luister-a2-005",
+    "level": "A2-B1",
+    "category": "Gemeente & Documenten",
+    "title": "Afspraak bij de balie Burgerzaken",
+    "lines": [
+      "Goedemiddag, u heeft een afspraak voor het verlengen van uw verblijfsdocument.",
+      "Mag ik eerst uw huidige pasje en een recente pasfoto zien?",
+      "Daarna nemen we uw vingerafdrukken af bij het scanapparaat.",
+      "U ontvangt over twee weken een brief om het document op te halen."
+    ],
+    "translations": {
+      "ar": "مساء الخير، لديك موعد لتجديد وثيقة إقامتك.\nهل يمكنني رؤية بطاقتك الحالية وصورة شخصية حديثة أولاً؟\nبعد ذلك سنأخذ بصمات أصابعك عبر جهاز المسح الضوئي.\nستتلقى رسالة بعد أسبوعين لاستلام الوثيقة.",
+      "ti": "ከመይ ኣምሲኹም፡ መንበሪ ፍቓድኩም ንምሕዳስ ቆጸራ ኣለኩም።\nቅድም ቀዳድም ናይ ሕጂ ካርድኹምን ሓድሽ ናይ ፓስፖርት ፎቶኹምን ክርኢዶ?\nድሕሪኡ ኣብቲ መመርመሪ ኣጻብዕትኹም ክንወስድ ኢና።\nድሕሪ ክልተ ሰሙን ነቲ ሰነድ ንምውሳድ ደብዳበ ክበጽሓኩም እዩ።",
+      "om": "Akkam ooltan, beellama hayyama jireenyaa keessan haaromsuu qabdu.\nMee jalqaba kaardii ammaa fi suuraa yeroo dhiyoo arguu danda'aa?\nSana booda meeshaa sakatta'aa irratti ashaaraa qubaa keessanii fudhanna.\nTorban lama booda xalayaa sanada sana fudhachuuf isin ga'u ni argattu.",
+      "en": "Good afternoon, you have an appointment to renew your residence permit.\nMay I first see your current card and a recent passport photo?\nAfter that, we will take your fingerprints at the scanner.\nYou will receive a letter in two weeks to pick up the document."
+    },
+    "dutch": "Goedemiddag, u heeft een afspraak voor het verlengen van uw verblijfsdocument.\nMag ik eerst uw huidige pasje en een recente pasfoto zien?\nDaarna nemen we uw vingerafdrukken af bij het scanapparaat.\nU ontvangt over twee weken een brief om het document op te halen."
+  },
+  {
+    "id": "luister-a2-006",
+    "level": "A2-B1",
+    "category": "Onderwijs & School",
+    "title": "Bericht van de basisschool",
+    "lines": [
+      "Beste ouders, aanstaande vrijdag vieren we het lentefeest op school.",
+      "Alle kinderen mogen verkleed komen en iets lekkers meenemen om te delen.",
+      "De lessen eindigen die dag om twaalf uur 's middags.",
+      "Vergeet niet om uw kind op tijd op te halen van het schoolplein."
+    ],
+    "translations": {
+      "ar": "أعزائي أولياء الأمور، نحتفل يوم الجمعة القادم بعيد الربيع في المدرسة.\nيمكن لجميع الأطفال ارتداء أزياء تنكرية وإحضار طعام شهي لمشاركته.\nتنتهي الحصص في ذلك اليوم عند الساعة الثانية عشرة ظهراً.\nلا تنسوا اصطحاب أطفالكم في الوقت المحدد من باحة المدرسة.",
+      "ti": "ክቡራት ወለዲ፡ ዝመጽእ ዓርቢ ኣብ ቤት ትምህርቲ በዓል ጽድያ ከነኽብር ኢና።\nኩሎም ቆልዑ ተኸዲኖም ክመጹን ንምክፋል ዝኸውን ጥዑም መግቢ ከምጽኡን ይፍቀደሎም እዩ።\nትምህርቲ በታ መዓልቲ እቲኣ ሰዓት ዓሰርተ ክልተ ፍርቂ መዓልቲ ይውዳእ።\nንደቅኹም ብሰዓቱ ካብ መጻወቲ ሜዳ ቤት ትምህርቲ ምውሳድ ኣይትረስዑ።",
+      "om": "Kabajamoo warra barattootaa, Jimaata dhufu mana barumsaatti ayyaana birraa kabajna.\nMucolii hundi uffata addaa uffatanii dhufuu fi waan mi'aawaa hirmaachuuf fiduu danda'u.\nBarumsi guyyaa sana sa'aatii ja'a irratti xumurama.\nYeroon mucaa keessan dirree mana barumsaa irraa fudhachuu hin dagatinaa.",
+      "en": "Dear parents, this coming Friday we celebrate the spring festival at school.\nAll children may dress up and bring a treat to share.\nClasses will end at twelve noon that day.\nDo not forget to pick up your child on time from the schoolyard."
+    },
+    "dutch": "Beste ouders, aanstaande vrijdag vieren we het lentefeest op school.\nAlle kinderen mogen verkleed komen en iets lekkers meenemen om te delen.\nDe lessen eindigen die dag om twaalf uur 's middags.\nVergeet niet om uw kind op tijd op te halen van het schoolplein."
+  },
+  {
+    "id": "luister-b1-001",
+    "level": "B1-B2",
+    "category": "Werk & Overleg",
+    "title": "Werkoverleg en taakverdeling",
+    "lines": [
+      "Goedemorgen team, tijdens de vergadering van vandaag bespreken we de voortgang van het nieuwe project.",
+      "We lopen iets achter op schema door vertragingen bij de leverancier.",
+      "Daarom wil ik voorstellen dat we de taken herverdelen en prioriteit geven aan de belangrijkste klantorders.",
+      "Graag hoor ik aan het eind van de ochtend ieders feedback hierover."
+    ],
+    "translations": {
+      "ar": "صباح الخير يا فريق، خلال اجتماع اليوم سنناقش تقدم المشروع الجديد.\nنحن متأخرون قليلاً عن الجدول الزمني بسبب تأخيرات من المورّد.\nلذلك أود أن أقترح إعادة توزيع المهام وإعطاء الأولوية لطلبات العملاء الأكثر أهمية.\nيسعدني سماع آراء الجميع حول هذا الأمر في نهاية الصباح.",
+      "ti": "ከመይ ሓዲርኩም ጉጅለ፡ ኣብ ናይ ሎሚ ኣኼባ ብዛዕባ ዕቤት እቲ ሓድሽ ፕሮጀክት ክንመያየጥ ኢና።\nካብቲ ዘቕርበልና ኣካል ብዘጋጠመ ምድንጓይ ምኽንያት ካብቲ መደብና ቁሩብ ድሕሪት ተሪፍና ኣለና።\nስለዚ ዕማማት ክንመቅልን ነቲ ኣገዳሲ ዝኾነ ናይ ዓማዊል ትእዛዛት ቀዳምነት ክንህብን ሓሳብ ከቕርብ እፈቱ።\nኣብ መወዳእታ ናይዚ ንግሆ ርእይቶኹም ክሰምዕ ባህ ይብለኒ።",
+      "om": "Akkam bultan garee, walga'ii har'aa irratti adeemsa pirojektii haaraa mari'anna.\nTurtii dhiyeessaa irraan kan ka'e sagantaa keenya irraa xiqqoo duubatti hafneerra.\nKanaafuu hojiiwwan akka qooddannuu fi ajaja maamiltootaa isa dursaa ta'eef dursa akka kenninu yaada dhiyeessuu barbaada.\nXumura ganamaa irratti yaada keessan dhaga'uuf qophiidha.",
+      "en": "Good morning team, during today's meeting we will discuss the progress of the new project.\nWe are running slightly behind schedule due to supplier delays.\nTherefore, I would like to propose redistributing tasks and prioritizing key client orders.\nI would appreciate hearing everyone's feedback by the end of the morning."
+    },
+    "dutch": "Goedemorgen team, tijdens de vergadering van vandaag bespreken we de voortgang van het nieuwe project.\nWe lopen iets achter op schema door vertragingen bij de leverancier.\nDaarom wil ik voorstellen dat we de taken herverdelen en prioriteit geven aan de belangrijkste klantorders.\nGraag hoor ik aan het eind van de ochtend ieders feedback hierover."
+  },
+  {
+    "id": "luister-b1-002",
+    "level": "B1-B2",
+    "category": "Woning & Energie",
+    "title": "Bericht over energiebesparing en renovatie",
+    "lines": [
+      "Geachte bewoners, de woningcorporatie start volgende maand met groot onderhoud aan uw complex.",
+      "Er worden zonnepanelen geplaatst en de kozijnen worden voorzien van HR++ isolatieglas.",
+      "Dit zorgt voor een aanzienlijke verlaging van uw maandelijkse energiekosten.",
+      "Op woensdagavond organiseren we een inloopbijeenkomst in het buurthuis voor al uw vragen."
+    ],
+    "translations": {
+      "ar": "السادة السكان المحترمون، ستبدأ مؤسسة الإسكان الشهر المقبل أعمال صيانة كبرى في مجمعكم السكني.\nسيتم تركيب ألواح شمسية وتزويد إطارات النوافذ بزجاج عازل عالي الكفاءة.\nسيؤدي ذلك إلى خفض تكاليف الطاقة الشهرية بشكل ملحوظ.\nمساء الأربعاء سننظم لقاءً مفتوحاً في دار الحي للإجابة عن جميع استفساراتكم.",
+      "ti": "ዝኸበርኩም ነበርቲ፡ ኮርፖሬሽን ኣባይቲ ዝመጽእ ወርሒ ኣብ ህንጻኹም ዓቢ ጽገና ክጅምር እዩ።\nናይ ጸሓይ ጸዓት ሰሌዳታት ክግጠም እዩ፡ መስኮታት ድማ ብጽቡቕ ዘሞቕ መስትያት ክትካእ እዩ።\nእዚ ድማ ነቲ ወርሓዊ ናይ መብራህትን ሙቐትን ወጻኢታትኩም ብዓቢኡ ክንክዮ እዩ።\nረቡዕ ምሸት ኣብ ማእከል ከባቢ ንኹሉ ሕቶታትኩም መብርሂ ዝኸውን ክፉት ኣኼባ ኣዳልGroupName ኣለና።",
+      "om": "Kabajamoo jiraattotaa, dhaabbanni manneenii ji'a dhufu kompileeksii keessan irratti suphaa guddaa jalqaba.\nPaanaaliin aduu ni dhaabbata, foddaan immoo galtee qorra ittisuun jijjiirama.\nKunis baasii humnaa ji'aa keessanii baay'ee xiqqeessa.\nGaaffii keessaniif Roobii galgala mana hawaasaa keessatti walga'ii banaa qopheessineerra.",
+      "en": "Dear residents, the housing association will begin major maintenance on your complex next month.\nSolar panels will be installed and window frames fitted with high-efficiency insulating glass.\nThis will lead to a considerable reduction in your monthly energy bills.\nOn Wednesday evening, an open information session will be held at the community center for your questions."
+    },
+    "dutch": "Geachte bewoners, de woningcorporatie start volgende maand met groot onderhoud aan uw complex.\nEr worden zonnepanelen geplaatst en de kozijnen worden voorzien van HR++ isolatieglas.\nDit zorgt voor een aanzienlijke verlaging van uw maandelijkse energiekosten.\nOp woensdagavond organiseren we een inloopbijeenkomst in het buurthuis voor al uw vragen."
+  },
+  {
+    "id": "luister-b1-003",
+    "level": "B1-B2",
+    "category": "Verzekering & Zorg",
+    "title": "Brief van de zorgverzekeraar",
+    "lines": [
+      "Naar aanleiding van uw declaratie informeren wij u dat de fysiotherapiebehandeling deels wordt vergoed.",
+      "Het resterende bedrag van vijfenveertig euro valt onder uw verplichte eigen risico.",
+      "U kunt de gedetailleerde specificatie inzien via de beveiligde MijnOmgeving app.",
+      "Indien u bezwaar wilt maken, kunt u binnen zes weken schriftelijk reageren."
+    ],
+    "translations": {
+      "ar": "بناءً على مطالبتك المالية، نود إعلامك بأنه تم تعويض علاج العلاج الطبيعي جزئياً.\nالمبلغ المتبقي وقدره خمسة وأربعون يورو يندرج تحت بند التحمل الشخصي الإجباري.\nيمكنك الاطلاع على التفاصيل الدقيقة عبر تطبيق البيئة الشخصية الآمن.\nإذا كنت ترغب في تقديم اعتراض، يمكنك الرد خطياً في غضون ستة أسابيع.",
+      "ti": "ብመሰረት ዘቕረብኩምዎ ናይ ክፍሊት ሕቶ፡ እቲ ናይ ኣካላዊ ሕክምና ብኸፊል ከም ዝተሸፈነ ንሕብር።\nእቲ ዝተረፈ ኣርብዓን ሓሙሽተን ዩሮ ካብቲ ግዴታዊ ናይ ውልቀ ተሓታትነትኩም ይቑረጽ።\nነቲ ዝርዝር ሓበሬታ ብመንገዲ ድሕንነቱ ዝተሓለወ ናይ ሞባይል ኣፕ ክትርእይዎ ትኽእሉ ኢኹም።\nተቓውሞ ክተቕርቡ ምስ እትደልዩ፡ ኣብ ውሽጢ ሽዱሽተ ሰሙን ብጽሑፍ ክትምልሱ ትኽእሉ ኢኹም።",
+      "om": "Waliigaltee kaffaltii keessan irratti hundaa'uun yaalli fiiziyootiraapii harka tokko akka kaffalamu isin beeksifna.\nHambaan yuuroo afurtamii shan kaffaltii itti gaafatamummaa keessan keessaa ta'a.\nIbsa guutuu appilikeeshinii nageenya qabu keessaa argachuu dandeessu.\nYoo komii qabaattan torban jaha keessatti barreeffamaan deebii kennuu dandeessu.",
+      "en": "Following your claim, we inform you that your physiotherapy treatment has been partially reimbursed.\nThe remaining forty-five euros falls under your mandatory deductible.\nYou can view the detailed breakdown via our secure online portal app.\nIf you wish to object, you may submit a written response within six weeks."
+    },
+    "dutch": "Naar aanleiding van uw declaratie informeren wij u dat de fysiotherapiebehandeling deels wordt vergoed.\nHet resterende bedrag van vijfenveertig euro valt onder uw verplichte eigen risico.\nU kunt de gedetailleerde specificatie inzien via de beveiligde MijnOmgeving app.\nIndien u bezwaar wilt maken, kunt u binnen zes weken schriftelijk reageren."
+  },
+  {
+    "id": "luister-a1-020",
+    "level": "A1",
+    "category": "Winkelen & Eten",
+    "title": "Bij de supermarkt",
+    "lines": [
+      "Waar kan ik de melk vinden?",
+      "In gang drie, naast de eieren.",
+      "Dank u wel, prettige dag!"
+    ],
+    "translations": {
+      "ar": "أين يمكنني أن أجد الحليب؟\nفي الممر الثالث، بجانب البيض.\nشكراً جزيلاً، يوماً سعيداً!",
+      "ti": "ጸባ ኣበይ ክረክብ ይኽእል?\nኣብ ሳልሳይ መስመር፡ ጥቓ እንቋቝሖ።\nየቐንየለይ፡ ጽቡቕ መዓልቲ!",
+      "om": "Aannan eessaa argachuu danda'a?\nSarara sadaffaa keessatti, killee cinaa.\nGalatoomaa, guyyaa gaarii!",
+      "en": "Where can I find the milk?\nIn aisle three, next to the eggs.\nThank you, have a good day!"
+    },
+    "dutch": "Waar kan ik de melk vinden?\nIn gang drie, naast de eieren.\nDank u wel, prettige dag!"
+  },
+  {
+    "id": "luister-a1-021",
+    "level": "A1",
+    "category": "Vervoer & Stad",
+    "title": "De weg vragen",
+    "lines": [
+      "Pardon, weet u waar de bibliotheek is?",
+      "Ja, ga hier rechtdoor en sla linksaf.",
+      "Het is een groot wit gebouw."
+    ],
+    "translations": {
+      "ar": "عفواً، هل تعرف أين تقع المكتبة؟\nنعم، اذهب إلى الأمام مباشرة ثم انعطف يساراً.\nإنه مبنى أبيض كبير.",
+      "ti": "ይቕሬታ፡ ቤተ-መጻሕፍቲ ኣበይ ከም ዘሎ ትፈልጡዶ?\nእወ፡ ብቐጥታ ኺዱ እሞ ብጸጋም ተጠወዩ።\nሓደ ዓቢ ጻዕዳ ህንጻ እዩ።",
+      "om": "Dhiifama, mana kitaabaa eessa akka jiru beektuu?\nEeyyee, qajeeltootti deemaa achiis gara bitaatti goraa.\nInni gamoo guddaa adii dha.",
+      "en": "Excuse me, do you know where the library is?\nYes, go straight ahead here and turn left.\nIt is a big white building."
+    },
+    "dutch": "Pardon, weet u waar de bibliotheek is?\nJa, ga hier rechtdoor en sla linksaf.\nHet is een groot wit gebouw."
+  },
+  {
+    "id": "luister-a1-022",
+    "level": "A1",
+    "category": "Vrije Tijd",
+    "title": "In het park",
+    "lines": [
+      "Het is prachtig weer vandaag.",
+      "Zullen we een wandeling maken?",
+      "De kinderen spelen met de bal."
+    ],
+    "translations": {
+      "ar": "الطقس جميل جداً اليوم.\nهل نذهب في نزهة مشياً على الأقدام؟\nالأطفال يلعبون بالكرة.",
+      "ti": "ሎሚ ጽቡቕ ኣየር ኣሎ።\nእግሪ ንመላለስዶ?\nቆልዑ ብኩዕሶ ይጻወቱ ኣለዉ።",
+      "om": "Har'a qilleensi baay'ee gaariidha.\nMee deemsa miilaa haa goonuu?\nMucoliin kubbaa taphachaa jiru.",
+      "en": "The weather is beautiful today.\nShall we go for a walk?\nThe children are playing with the ball."
+    },
+    "dutch": "Het is prachtig weer vandaag.\nZullen we een wandeling maken?\nDe kinderen spelen met de bal."
+  },
+  {
+    "id": "luister-a1-023",
+    "level": "A1",
+    "category": "Diensten",
+    "title": "Bij de kapper",
+    "lines": [
+      "Goedemorgen, ik wil mijn haar laten knippen.",
+      "Wilt u het kort of alleen de puntjes?",
+      "Alstublieft niet te kort."
+    ],
+    "translations": {
+      "ar": "صباح الخير، أود قص شعري.\nهل تريده قصيراً أم الأطراف فقط؟\nمن فضلك ليس قصيراً جداً.",
+      "ti": "ከመይ ሓዲርኩም፡ ጸጉረይ ክቑረጽ ደልየ።\nሓጺር ድዩ ወይስ ጫፍ ጥራይ ክቑረጽ ትደልዩ?\nኣዝዩ ሓጺር ከይከውን በጃኹም።",
+      "om": "Akkam bultan, rifeensa koo murachuu barbaada.\nGabaabaa moo fiixee qofa barbaaddu?\nMaaloo baay'ee gabaabaa hin ta'in.",
+      "en": "Good morning, I want to get my hair cut.\nWould you like it short or just the tips?\nPlease not too short."
+    },
+    "dutch": "Goedemorgen, ik wil mijn haar laten knippen.\nWilt u het kort of alleen de puntjes?\nAlstublieft niet te kort."
+  },
+  {
+    "id": "luister-a1-024",
+    "level": "A1",
+    "category": "Eten & Drinken",
+    "title": "Een kopje koffie",
+    "lines": [
+      "Wat wil je drinken?",
+      "Graag een kopje koffie met melk.",
+      "Zonder suiker alstublieft."
+    ],
+    "translations": {
+      "ar": "ماذا تريد أن تشرب؟\nأود فنجان قهوة مع الحليب.\nبدون سكر من فضلك.",
+      "ti": "እንታይ ክትሰቲ ትደሊ?\nጽዋእ ቡን ምስ ጸባ ባህ ይብለኒ።\nብዘይ ሽኮር በጃኻ።",
+      "om": "Maal dhuguu barbaadda?\nBuna aannan waliin naaf tola.\nShukkaara malee maaloo.",
+      "en": "What would you like to drink?\nA cup of coffee with milk, please.\nWithout sugar, please."
+    },
+    "dutch": "Wat wil je drinken?\nGraag een kopje koffie met melk.\nZonder suiker alstublieft."
+  },
+  {
+    "id": "luister-a1-025",
+    "level": "A1",
+    "category": "Onderwijs",
+    "title": "Huiswerk maken",
+    "lines": [
+      "Heb je je huiswerk al af?",
+      "Nee, de Nederlandse woorden zijn moeilijk.",
+      "Zal ik je even helpen?"
+    ],
+    "translations": {
+      "ar": "هل أنهيت واجبك المنزلي بالفعل؟\nلا، الكلمات الهولندية صعبة.\nهل أساعدك قليلاً؟",
+      "ti": "ናይ ገዛ ዕዮኻ ወዲእካዶ?\nኣይፋልን፡ ቃላት ሆላንድ ኣጸጋሚ እዩ።\nክሕግዘካዶ?",
+      "om": "Hojii manaa kee xumurteettaa?\nLakki, jechoonni Daachi ulfaatoo dha.\nMee si gargaaruu?",
+      "en": "Have you finished your homework already?\nNo, the Dutch words are difficult.\nShall I help you for a moment?"
+    },
+    "dutch": "Heb je je huiswerk al af?\nNee, de Nederlandse woorden zijn moeilijk.\nZal ik je even helpen?"
+  },
+  {
+    "id": "luister-a1-026",
+    "level": "A1",
+    "category": "Afspraak",
+    "title": "Te laat op de afspraak",
+    "lines": [
+      "Het spijt me dat ik te laat ben.",
+      "Mijn fietsband was helaas lek.",
+      "Geen probleem, kom snel binnen."
+    ],
+    "translations": {
+      "ar": "أعتذر عن تأخري.\nللأسف كان إطار دراجتي مثقوباً.\nلا مشكلة، تفضل بالدخول بسرعة.",
+      "ti": "ስለ ዝደንጎኹ ይቕሬታ።\nጎማ ብስክሌተይ ተበላሺያ ነይራ።\nጸገም የለን፡ ቀልጢፍካ ንዓ እቶ።",
+      "om": "Dhiifama waan duubatti hafeef.\nTayeeriin biskileetii koo dhohee ture.\nRakkoon hin jiru, dafii seeni.",
+      "en": "I am sorry that I am late.\nUnfortunately my bicycle tire was flat.\nNo problem, come inside quickly."
+    },
+    "dutch": "Het spijt me dat ik te laat ben.\nMijn fietsband was helaas lek.\nGeen probleem, kom snel binnen."
+  },
+  {
+    "id": "luister-a1-027",
+    "level": "A1",
+    "category": "Winkelen",
+    "title": "Boodschappenlijstje",
+    "lines": [
+      "Wat moeten we nog kopen?",
+      "Bananen, kaas en bruine bonen.",
+      "En vergeet de thee niet."
+    ],
+    "translations": {
+      "ar": "ماذا يجب أن نشتري بعد؟\nالموز والجبن والفاصوليا البنية.\nولا تنسَ الشاي.",
+      "ti": "እንታይ ካልእ ክንገዝእ ኣሎና?\nባናና፡ ፎርማጆን ቡናዊ ባልዶንጓን።\nሻሂ ምግዛእ ድማ ኣይትረስዑ።",
+      "om": "Ammammoo maal bituu qabna?\nMuzii, ayibaa fi baaqelaa magaala.\nShayii bituus hin dagatinaa.",
+      "en": "What else do we need to buy?\nBananas, cheese, and brown beans.\nAnd do not forget the tea."
+    },
+    "dutch": "Wat moeten we nog kopen?\nBananen, kaas en bruine bonen.\nEn vergeet de thee niet."
+  },
+  {
+    "id": "luister-a1-028",
+    "level": "A1",
+    "category": "Kleding",
+    "title": "Kleding passen",
+    "lines": [
+      "Deze broek is te groot voor mij.",
+      "Hebben jullie een maatje kleiner?",
+      "Ja zeker, ik pak hem even."
+    ],
+    "translations": {
+      "ar": "هذا البنطال كبير جداً عليّ.\nهل لديكم مقاس أصغر؟\nنعم بالتأكيد، سأحضره لك فوراً.",
+      "ti": "እዚ ስረ ንዓይ ኣዝዩ ዓቢ እዩ።\nዝነኣሰ ዓቐን ኣለኩምዶ?\nእወ ብርግጽ፡ ሕጂ ከምጽኣልኩም እየ።",
+      "om": "Surreen kun anatti bal'aadha.\nGosa xiqqaa qabduu?\nEeyyee, amma siifan fida.",
+      "en": "These trousers are too big for me.\nDo you have a size smaller?\nYes certainly, I will get it for you."
+    },
+    "dutch": "Deze broek is te groot voor mij.\nHebben jullie een maatje kleiner?\nJa zeker, ik pak hem even."
+  },
+  {
+    "id": "luister-a1-029",
+    "level": "A1",
+    "category": "Buurt",
+    "title": "De buren begroeten",
+    "lines": [
+      "Goeiemiddag buurvrouw!",
+      "Gaat alles goed met de kinderen?",
+      "Ja hoor, ze zijn lekker aan het spelen."
+    ],
+    "translations": {
+      "ar": "مساء الخير يا جارتي!\nهل كل شيء على ما يرام مع الأطفال؟\nنعم بالتأكيد، إنهم يلعبون ويمرحون.",
+      "ti": "ከመይ ኣምሲኽን ጎረቤተይ!\nደቂ ኩሉ ደሓን ድዮም?\nእወ ደሓን እዮም፡ ባህ ኢልዎም ይጻወቱ ኣለዉ።",
+      "om": "Akkam ooltan ollaa koo!\nMucoliin hunduu nagaadhaa?\nEeyyee nagaadha, gammachuun taphachaa jiru.",
+      "en": "Good afternoon neighbor!\nIs everything well with the children?\nYes indeed, they are playing happily."
+    },
+    "dutch": "Goeiemiddag buurvrouw!\nGaat alles goed met de kinderen?\nJa hoor, ze zijn lekker aan het spelen."
+  },
+  {
+    "id": "luister-a1-030",
+    "level": "A1",
+    "category": "Winkelen & Eten",
+    "title": "Bij de supermarkt (situatie 2)",
+    "lines": [
+      "Waar kan ik de melk vinden?",
+      "In gang drie, naast de eieren.",
+      "Dank u wel, prettige dag!",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "أين يمكنني أن أجد الحليب؟\nفي الممر الثالث، بجانب البيض.\nشكراً جزيلاً، يوماً سعيداً!",
+      "ti": "ጸባ ኣበይ ክረክብ ይኽእል?\nኣብ ሳልሳይ መስመር፡ ጥቓ እንቋቝሖ።\nየቐንየለይ፡ ጽቡቕ መዓልቲ!",
+      "om": "Aannan eessaa argachuu danda'a?\nSarara sadaffaa keessatti, killee cinaa.\nGalatoomaa, guyyaa gaarii!",
+      "en": "Where can I find the milk?\nIn aisle three, next to the eggs.\nThank you, have a good day!"
+    },
+    "dutch": "Waar kan ik de melk vinden?\nIn gang drie, naast de eieren.\nDank u wel, prettige dag!\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-031",
+    "level": "A1",
+    "category": "Vervoer & Stad",
+    "title": "De weg vragen (situatie 2)",
+    "lines": [
+      "Pardon, weet u waar de bibliotheek is?",
+      "Ja, ga hier rechtdoor en sla linksaf.",
+      "Het is een groot wit gebouw.",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "عفواً، هل تعرف أين تقع المكتبة؟\nنعم، اذهب إلى الأمام مباشرة ثم انعطف يساراً.\nإنه مبنى أبيض كبير.",
+      "ti": "ይቕሬታ፡ ቤተ-መጻሕፍቲ ኣበይ ከም ዘሎ ትፈልጡዶ?\nእወ፡ ብቐጥታ ኺዱ እሞ ብጸጋም ተጠወዩ።\nሓደ ዓቢ ጻዕዳ ህንጻ እዩ።",
+      "om": "Dhiifama, mana kitaabaa eessa akka jiru beektuu?\nEeyyee, qajeeltootti deemaa achiis gara bitaatti goraa.\nInni gamoo guddaa adii dha.",
+      "en": "Excuse me, do you know where the library is?\nYes, go straight ahead here and turn left.\nIt is a big white building."
+    },
+    "dutch": "Pardon, weet u waar de bibliotheek is?\nJa, ga hier rechtdoor en sla linksaf.\nHet is een groot wit gebouw.\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-032",
+    "level": "A1",
+    "category": "Vrije Tijd",
+    "title": "In het park (situatie 2)",
+    "lines": [
+      "Het is prachtig weer vandaag.",
+      "Zullen we een wandeling maken?",
+      "De kinderen spelen met de bal.",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "الطقس جميل جداً اليوم.\nهل نذهب في نزهة مشياً على الأقدام؟\nالأطفال يلعبون بالكرة.",
+      "ti": "ሎሚ ጽቡቕ ኣየር ኣሎ።\nእግሪ ንመላለስዶ?\nቆልዑ ብኩዕሶ ይጻወቱ ኣለዉ።",
+      "om": "Har'a qilleensi baay'ee gaariidha.\nMee deemsa miilaa haa goonuu?\nMucoliin kubbaa taphachaa jiru.",
+      "en": "The weather is beautiful today.\nShall we go for a walk?\nThe children are playing with the ball."
+    },
+    "dutch": "Het is prachtig weer vandaag.\nZullen we een wandeling maken?\nDe kinderen spelen met de bal.\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-033",
+    "level": "A1",
+    "category": "Diensten",
+    "title": "Bij de kapper (situatie 2)",
+    "lines": [
+      "Goedemorgen, ik wil mijn haar laten knippen.",
+      "Wilt u het kort of alleen de puntjes?",
+      "Alstublieft niet te kort.",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "صباح الخير، أود قص شعري.\nهل تريده قصيراً أم الأطراف فقط؟\nمن فضلك ليس قصيراً جداً.",
+      "ti": "ከመይ ሓዲርኩም፡ ጸጉረይ ክቑረጽ ደልየ።\nሓጺር ድዩ ወይስ ጫፍ ጥራይ ክቑረጽ ትደልዩ?\nኣዝዩ ሓጺር ከይከውን በጃኹም።",
+      "om": "Akkam bultan, rifeensa koo murachuu barbaada.\nGabaabaa moo fiixee qofa barbaaddu?\nMaaloo baay'ee gabaabaa hin ta'in.",
+      "en": "Good morning, I want to get my hair cut.\nWould you like it short or just the tips?\nPlease not too short."
+    },
+    "dutch": "Goedemorgen, ik wil mijn haar laten knippen.\nWilt u het kort of alleen de puntjes?\nAlstublieft niet te kort.\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-034",
+    "level": "A1",
+    "category": "Eten & Drinken",
+    "title": "Een kopje koffie (situatie 2)",
+    "lines": [
+      "Wat wil je drinken?",
+      "Graag een kopje koffie met melk.",
+      "Zonder suiker alstublieft.",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "ماذا تريد أن تشرب؟\nأود فنجان قهوة مع الحليب.\nبدون سكر من فضلك.",
+      "ti": "እንታይ ክትሰቲ ትደሊ?\nጽዋእ ቡን ምስ ጸባ ባህ ይብለኒ።\nብዘይ ሽኮር በጃኻ።",
+      "om": "Maal dhuguu barbaadda?\nBuna aannan waliin naaf tola.\nShukkaara malee maaloo.",
+      "en": "What would you like to drink?\nA cup of coffee with milk, please.\nWithout sugar, please."
+    },
+    "dutch": "Wat wil je drinken?\nGraag een kopje koffie met melk.\nZonder suiker alstublieft.\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-035",
+    "level": "A1",
+    "category": "Onderwijs",
+    "title": "Huiswerk maken (situatie 2)",
+    "lines": [
+      "Heb je je huiswerk al af?",
+      "Nee, de Nederlandse woorden zijn moeilijk.",
+      "Zal ik je even helpen?",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "هل أنهيت واجبك المنزلي بالفعل؟\nلا، الكلمات الهولندية صعبة.\nهل أساعدك قليلاً؟",
+      "ti": "ናይ ገዛ ዕዮኻ ወዲእካዶ?\nኣይፋልን፡ ቃላት ሆላንድ ኣጸጋሚ እዩ።\nክሕግዘካዶ?",
+      "om": "Hojii manaa kee xumurteettaa?\nLakki, jechoonni Daachi ulfaatoo dha.\nMee si gargaaruu?",
+      "en": "Have you finished your homework already?\nNo, the Dutch words are difficult.\nShall I help you for a moment?"
+    },
+    "dutch": "Heb je je huiswerk al af?\nNee, de Nederlandse woorden zijn moeilijk.\nZal ik je even helpen?\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-036",
+    "level": "A1",
+    "category": "Afspraak",
+    "title": "Te laat op de afspraak (situatie 2)",
+    "lines": [
+      "Het spijt me dat ik te laat ben.",
+      "Mijn fietsband was helaas lek.",
+      "Geen probleem, kom snel binnen.",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "أعتذر عن تأخري.\nللأسف كان إطار دراجتي مثقوباً.\nلا مشكلة، تفضل بالدخول بسرعة.",
+      "ti": "ስለ ዝደንጎኹ ይቕሬታ።\nጎማ ብስክሌተይ ተበላሺያ ነይራ።\nጸገም የለን፡ ቀልጢፍካ ንዓ እቶ።",
+      "om": "Dhiifama waan duubatti hafeef.\nTayeeriin biskileetii koo dhohee ture.\nRakkoon hin jiru, dafii seeni.",
+      "en": "I am sorry that I am late.\nUnfortunately my bicycle tire was flat.\nNo problem, come inside quickly."
+    },
+    "dutch": "Het spijt me dat ik te laat ben.\nMijn fietsband was helaas lek.\nGeen probleem, kom snel binnen.\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-037",
+    "level": "A1",
+    "category": "Winkelen",
+    "title": "Boodschappenlijstje (situatie 2)",
+    "lines": [
+      "Wat moeten we nog kopen?",
+      "Bananen, kaas en bruine bonen.",
+      "En vergeet de thee niet.",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "ماذا يجب أن نشتري بعد؟\nالموز والجبن والفاصوليا البنية.\nولا تنسَ الشاي.",
+      "ti": "እንታይ ካልእ ክንገዝእ ኣሎና?\nባናና፡ ፎርማጆን ቡናዊ ባልዶንጓን።\nሻሂ ምግዛእ ድማ ኣይትረስዑ።",
+      "om": "Ammammoo maal bituu qabna?\nMuzii, ayibaa fi baaqelaa magaala.\nShayii bituus hin dagatinaa.",
+      "en": "What else do we need to buy?\nBananas, cheese, and brown beans.\nAnd do not forget the tea."
+    },
+    "dutch": "Wat moeten we nog kopen?\nBananen, kaas en bruine bonen.\nEn vergeet de thee niet.\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-038",
+    "level": "A1",
+    "category": "Kleding",
+    "title": "Kleding passen (situatie 2)",
+    "lines": [
+      "Deze broek is te groot voor mij.",
+      "Hebben jullie een maatje kleiner?",
+      "Ja zeker, ik pak hem even.",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "هذا البنطال كبير جداً عليّ.\nهل لديكم مقاس أصغر؟\nنعم بالتأكيد، سأحضره لك فوراً.",
+      "ti": "እዚ ስረ ንዓይ ኣዝዩ ዓቢ እዩ።\nዝነኣሰ ዓቐን ኣለኩምዶ?\nእወ ብርግጽ፡ ሕጂ ከምጽኣልኩም እየ።",
+      "om": "Surreen kun anatti bal'aadha.\nGosa xiqqaa qabduu?\nEeyyee, amma siifan fida.",
+      "en": "These trousers are too big for me.\nDo you have a size smaller?\nYes certainly, I will get it for you."
+    },
+    "dutch": "Deze broek is te groot voor mij.\nHebben jullie een maatje kleiner?\nJa zeker, ik pak hem even.\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-039",
+    "level": "A1",
+    "category": "Buurt",
+    "title": "De buren begroeten (situatie 2)",
+    "lines": [
+      "Goeiemiddag buurvrouw!",
+      "Gaat alles goed met de kinderen?",
+      "Ja hoor, ze zijn lekker aan het spelen.",
+      "Tot morgenochtend!"
+    ],
+    "translations": {
+      "ar": "مساء الخير يا جارتي!\nهل كل شيء على ما يرام مع الأطفال؟\nنعم بالتأكيد، إنهم يلعبون ويمرحون.",
+      "ti": "ከመይ ኣምሲኽን ጎረቤተይ!\nደቂ ኩሉ ደሓን ድዮም?\nእወ ደሓን እዮም፡ ባህ ኢልዎም ይጻወቱ ኣለዉ።",
+      "om": "Akkam ooltan ollaa koo!\nMucoliin hunduu nagaadhaa?\nEeyyee nagaadha, gammachuun taphachaa jiru.",
+      "en": "Good afternoon neighbor!\nIs everything well with the children?\nYes indeed, they are playing happily."
+    },
+    "dutch": "Goeiemiddag buurvrouw!\nGaat alles goed met de kinderen?\nJa hoor, ze zijn lekker aan het spelen.\nTot morgenochtend!"
+  },
+  {
+    "id": "luister-a1-040",
+    "level": "A1",
+    "category": "Winkelen & Eten",
+    "title": "Bij de supermarkt (oefening)",
+    "lines": [
+      "Waar kan ik de melk vinden?",
+      "In gang drie, naast de eieren.",
+      "Dank u wel, prettige dag!",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "أين يمكنني أن أجد الحليب؟\nفي الممر الثالث، بجانب البيض.\nشكراً جزيلاً، يوماً سعيداً!",
+      "ti": "ጸባ ኣበይ ክረክብ ይኽእል?\nኣብ ሳልሳይ መስመር፡ ጥቓ እንቋቝሖ።\nየቐንየለይ፡ ጽቡቕ መዓልቲ!",
+      "om": "Aannan eessaa argachuu danda'a?\nSarara sadaffaa keessatti, killee cinaa.\nGalatoomaa, guyyaa gaarii!",
+      "en": "Where can I find the milk?\nIn aisle three, next to the eggs.\nThank you, have a good day!"
+    },
+    "dutch": "Waar kan ik de melk vinden?\nIn gang drie, naast de eieren.\nDank u wel, prettige dag!\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-041",
+    "level": "A1",
+    "category": "Vervoer & Stad",
+    "title": "De weg vragen (oefening)",
+    "lines": [
+      "Pardon, weet u waar de bibliotheek is?",
+      "Ja, ga hier rechtdoor en sla linksaf.",
+      "Het is een groot wit gebouw.",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "عفواً، هل تعرف أين تقع المكتبة؟\nنعم، اذهب إلى الأمام مباشرة ثم انعطف يساراً.\nإنه مبنى أبيض كبير.",
+      "ti": "ይቕሬታ፡ ቤተ-መጻሕፍቲ ኣበይ ከም ዘሎ ትፈልጡዶ?\nእወ፡ ብቐጥታ ኺዱ እሞ ብጸጋም ተጠወዩ።\nሓደ ዓቢ ጻዕዳ ህንጻ እዩ።",
+      "om": "Dhiifama, mana kitaabaa eessa akka jiru beektuu?\nEeyyee, qajeeltootti deemaa achiis gara bitaatti goraa.\nInni gamoo guddaa adii dha.",
+      "en": "Excuse me, do you know where the library is?\nYes, go straight ahead here and turn left.\nIt is a big white building."
+    },
+    "dutch": "Pardon, weet u waar de bibliotheek is?\nJa, ga hier rechtdoor en sla linksaf.\nHet is een groot wit gebouw.\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-042",
+    "level": "A1",
+    "category": "Vrije Tijd",
+    "title": "In het park (oefening)",
+    "lines": [
+      "Het is prachtig weer vandaag.",
+      "Zullen we een wandeling maken?",
+      "De kinderen spelen met de bal.",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "الطقس جميل جداً اليوم.\nهل نذهب في نزهة مشياً على الأقدام؟\nالأطفال يلعبون بالكرة.",
+      "ti": "ሎሚ ጽቡቕ ኣየር ኣሎ።\nእግሪ ንመላለስዶ?\nቆልዑ ብኩዕሶ ይጻወቱ ኣለዉ።",
+      "om": "Har'a qilleensi baay'ee gaariidha.\nMee deemsa miilaa haa goonuu?\nMucoliin kubbaa taphachaa jiru.",
+      "en": "The weather is beautiful today.\nShall we go for a walk?\nThe children are playing with the ball."
+    },
+    "dutch": "Het is prachtig weer vandaag.\nZullen we een wandeling maken?\nDe kinderen spelen met de bal.\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-043",
+    "level": "A1",
+    "category": "Diensten",
+    "title": "Bij de kapper (oefening)",
+    "lines": [
+      "Goedemorgen, ik wil mijn haar laten knippen.",
+      "Wilt u het kort of alleen de puntjes?",
+      "Alstublieft niet te kort.",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "صباح الخير، أود قص شعري.\nهل تريده قصيراً أم الأطراف فقط؟\nمن فضلك ليس قصيراً جداً.",
+      "ti": "ከመይ ሓዲርኩም፡ ጸጉረይ ክቑረጽ ደልየ።\nሓጺር ድዩ ወይስ ጫፍ ጥራይ ክቑረጽ ትደልዩ?\nኣዝዩ ሓጺር ከይከውን በጃኹም።",
+      "om": "Akkam bultan, rifeensa koo murachuu barbaada.\nGabaabaa moo fiixee qofa barbaaddu?\nMaaloo baay'ee gabaabaa hin ta'in.",
+      "en": "Good morning, I want to get my hair cut.\nWould you like it short or just the tips?\nPlease not too short."
+    },
+    "dutch": "Goedemorgen, ik wil mijn haar laten knippen.\nWilt u het kort of alleen de puntjes?\nAlstublieft niet te kort.\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-044",
+    "level": "A1",
+    "category": "Eten & Drinken",
+    "title": "Een kopje koffie (oefening)",
+    "lines": [
+      "Wat wil je drinken?",
+      "Graag een kopje koffie met melk.",
+      "Zonder suiker alstublieft.",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "ماذا تريد أن تشرب؟\nأود فنجان قهوة مع الحليب.\nبدون سكر من فضلك.",
+      "ti": "እንታይ ክትሰቲ ትደሊ?\nጽዋእ ቡን ምስ ጸባ ባህ ይብለኒ።\nብዘይ ሽኮር በጃኻ።",
+      "om": "Maal dhuguu barbaadda?\nBuna aannan waliin naaf tola.\nShukkaara malee maaloo.",
+      "en": "What would you like to drink?\nA cup of coffee with milk, please.\nWithout sugar, please."
+    },
+    "dutch": "Wat wil je drinken?\nGraag een kopje koffie met melk.\nZonder suiker alstublieft.\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-045",
+    "level": "A1",
+    "category": "Onderwijs",
+    "title": "Huiswerk maken (oefening)",
+    "lines": [
+      "Heb je je huiswerk al af?",
+      "Nee, de Nederlandse woorden zijn moeilijk.",
+      "Zal ik je even helpen?",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "هل أنهيت واجبك المنزلي بالفعل؟\nلا، الكلمات الهولندية صعبة.\nهل أساعدك قليلاً؟",
+      "ti": "ናይ ገዛ ዕዮኻ ወዲእካዶ?\nኣይፋልን፡ ቃላት ሆላንድ ኣጸጋሚ እዩ።\nክሕግዘካዶ?",
+      "om": "Hojii manaa kee xumurteettaa?\nLakki, jechoonni Daachi ulfaatoo dha.\nMee si gargaaruu?",
+      "en": "Have you finished your homework already?\nNo, the Dutch words are difficult.\nShall I help you for a moment?"
+    },
+    "dutch": "Heb je je huiswerk al af?\nNee, de Nederlandse woorden zijn moeilijk.\nZal ik je even helpen?\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-046",
+    "level": "A1",
+    "category": "Afspraak",
+    "title": "Te laat op de afspraak (oefening)",
+    "lines": [
+      "Het spijt me dat ik te laat ben.",
+      "Mijn fietsband was helaas lek.",
+      "Geen probleem, kom snel binnen.",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "أعتذر عن تأخري.\nللأسف كان إطار دراجتي مثقوباً.\nلا مشكلة، تفضل بالدخول بسرعة.",
+      "ti": "ስለ ዝደንጎኹ ይቕሬታ።\nጎማ ብስክሌተይ ተበላሺያ ነይራ።\nጸገም የለን፡ ቀልጢፍካ ንዓ እቶ።",
+      "om": "Dhiifama waan duubatti hafeef.\nTayeeriin biskileetii koo dhohee ture.\nRakkoon hin jiru, dafii seeni.",
+      "en": "I am sorry that I am late.\nUnfortunately my bicycle tire was flat.\nNo problem, come inside quickly."
+    },
+    "dutch": "Het spijt me dat ik te laat ben.\nMijn fietsband was helaas lek.\nGeen probleem, kom snel binnen.\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-047",
+    "level": "A1",
+    "category": "Winkelen",
+    "title": "Boodschappenlijstje (oefening)",
+    "lines": [
+      "Wat moeten we nog kopen?",
+      "Bananen, kaas en bruine bonen.",
+      "En vergeet de thee niet.",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "ماذا يجب أن نشتري بعد؟\nالموز والجبن والفاصوليا البنية.\nولا تنسَ الشاي.",
+      "ti": "እንታይ ካልእ ክንገዝእ ኣሎና?\nባናና፡ ፎርማጆን ቡናዊ ባልዶንጓን።\nሻሂ ምግዛእ ድማ ኣይትረስዑ።",
+      "om": "Ammammoo maal bituu qabna?\nMuzii, ayibaa fi baaqelaa magaala.\nShayii bituus hin dagatinaa.",
+      "en": "What else do we need to buy?\nBananas, cheese, and brown beans.\nAnd do not forget the tea."
+    },
+    "dutch": "Wat moeten we nog kopen?\nBananen, kaas en bruine bonen.\nEn vergeet de thee niet.\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-048",
+    "level": "A1",
+    "category": "Kleding",
+    "title": "Kleding passen (oefening)",
+    "lines": [
+      "Deze broek is te groot voor mij.",
+      "Hebben jullie een maatje kleiner?",
+      "Ja zeker, ik pak hem even.",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "هذا البنطال كبير جداً عليّ.\nهل لديكم مقاس أصغر؟\nنعم بالتأكيد، سأحضره لك فوراً.",
+      "ti": "እዚ ስረ ንዓይ ኣዝዩ ዓቢ እዩ።\nዝነኣሰ ዓቐን ኣለኩምዶ?\nእወ ብርግጽ፡ ሕጂ ከምጽኣልኩም እየ።",
+      "om": "Surreen kun anatti bal'aadha.\nGosa xiqqaa qabduu?\nEeyyee, amma siifan fida.",
+      "en": "These trousers are too big for me.\nDo you have a size smaller?\nYes certainly, I will get it for you."
+    },
+    "dutch": "Deze broek is te groot voor mij.\nHebben jullie een maatje kleiner?\nJa zeker, ik pak hem even.\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a1-049",
+    "level": "A1",
+    "category": "Buurt",
+    "title": "De buren begroeten (oefening)",
+    "lines": [
+      "Goeiemiddag buurvrouw!",
+      "Gaat alles goed met de kinderen?",
+      "Ja hoor, ze zijn lekker aan het spelen.",
+      "Dank je wel voor je hulp."
+    ],
+    "translations": {
+      "ar": "مساء الخير يا جارتي!\nهل كل شيء على ما يرام مع الأطفال؟\nنعم بالتأكيد، إنهم يلعبون ويمرحون.",
+      "ti": "ከመይ ኣምሲኽን ጎረቤተይ!\nደቂ ኩሉ ደሓን ድዮም?\nእወ ደሓን እዮም፡ ባህ ኢልዎም ይጻወቱ ኣለዉ።",
+      "om": "Akkam ooltan ollaa koo!\nMucoliin hunduu nagaadhaa?\nEeyyee nagaadha, gammachuun taphachaa jiru.",
+      "en": "Good afternoon neighbor!\nIs everything well with the children?\nYes indeed, they are playing happily."
+    },
+    "dutch": "Goeiemiddag buurvrouw!\nGaat alles goed met de kinderen?\nJa hoor, ze zijn lekker aan het spelen.\nDank je wel voor je hulp."
+  },
+  {
+    "id": "luister-a2-050",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Inschrijven voor een taalcursus (#1)",
+    "lines": [
+      "Welkom bij het talencentrum.",
+      "Voordat u start, doen we eerst een korte instaptoets.",
+      "Zo kunnen we bepalen welke groep het beste bij uw niveau past.",
+      "De lessen beginnen volgende week dinsdag."
+    ],
+    "translations": {
+      "ar": "مرحباً بكم في مركز اللغات.\nقبل أن تبدأ، سنجري اختبار تحديد مستوى قصير.\nبهذه الطريقة يمكننا تحديد المجموعة الأنسب لمستواك.\nتبدأ الدروس يوم الثلاثاء القادم.",
+      "ti": "እንቋዕ ናብ ማእከል ቋንቋ ብደሓን መጻእኩም።\nቅድሚ ምጅማርኩም ሓጺር ናይ ደረጃ መመርመሪ ፈተና ክንገብር ኢና።\nበዚ ኸኣ ኣየናይ ጉጅለ ምስ ደረጃኹም ከም ዝሰማማዕ ክንውስን ንኽእል።\nትምህርቲ ዝመጽእ ሰሉስ ክጅምር እዩ።",
+      "om": "Baga gara wiirtuu afaanii nagaan dhuftan.\nOsoo hin jalqabin dura qormaata sadarkaa gabaabaa goona.\nKanaanis gareen kam akka sadarkaa keessan waliin deemu murteessina.\nBarumsi Wiixata dhufu jalqaba.",
+      "en": "Welcome to the language center.\nBefore you start, we will do a short placement test.\nThis way we can determine which group best fits your level.\nClasses begin next Tuesday."
+    },
+    "dutch": "Welkom bij het talencentrum.\nVoordat u start, doen we eerst een korte instaptoets.\nZo kunnen we bepalen welke groep het beste bij uw niveau past.\nDe lessen beginnen volgende week dinsdag."
+  },
+  {
+    "id": "luister-a2-051",
+    "level": "A2-B1",
+    "category": "Samenleving",
+    "title": "Vrijwilligerswerk in de buurt (#1)",
+    "lines": [
+      "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.",
+      "Het gaat om twee uurtjes per week op zaterdagochtend.",
+      "U ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.",
+      "Heeft u interesse om mee te helpen?"
+    ],
+    "translations": {
+      "ar": "ما زلنا نبحث عن متطوعين متحمسين لحديقة الحي الزراعية.\nالأمر يتطلب ساعتين فقط أسبوعياً صباح يوم السبت.\nستلتقي بجيرانك وتتعلم الكثير من الكلمات الهولندية الجديدة.\nهل أنت مهتم بالمساعدة معنا؟",
+      "ti": "ንናይ ከባቢና ናይ ኣሕምልቲ ቦታ ገና ወለንተኛታት ንደሊ ኣለና።\nኣብ ሰሙን ንክልተ ሰዓት ቀዳም ንግሆ ጥራይ እዩ ዝወስድ።\nምስ ጎረባብቲ ትራኸቡን ሓደሽቲ ናይ ሆላንድ ቃላት ትምሃሩን።\nክትሕግዙ ድሌት ኣለኩምዶ?",
+      "om": "Iddoo abaaboo naannoo keenyaaf tola ooltota barbaadaa jirra.\nTorbanitti sa'aatii lama Sanbata ganama ta'a.\nOllaa keessan waliin wal bartu akkasumas jechoota Daachi hedduu barattu.\nGargaaruuf fedhii qabduu?",
+      "en": "We are still looking for enthusiastic volunteers for the community garden.\nIt is for two hours a week on Saturday mornings.\nYou will meet neighbors and learn many new Dutch words.\nAre you interested in helping out?"
+    },
+    "dutch": "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.\nHet gaat om twee uurtjes per week op zaterdagochtend.\nU ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.\nHeeft u interesse om mee te helpen?"
+  },
+  {
+    "id": "luister-a2-052",
+    "level": "A2-B1",
+    "category": "Wonen",
+    "title": "Kapotte verwarming melden (#1)",
+    "lines": [
+      "Goedemorgen, ik bel over een storing in mijn appartement.",
+      "Sinds gisteravond werkt de centrale verwarming helemaal niet meer.",
+      "Het is erg koud in huis, vooral voor de kinderen.",
+      "Kan er vandaag nog een monteur langskomen?"
+    ],
+    "translations": {
+      "ar": "صباح الخير، أنا أتصل بخصوص عطل في شقتي.\nمنذ مساء أمس والتدفئة المركزية لا تعمل على الإطلاق.\nالجو بارد جداً في المنزل، وخاصة بالنسبة للأطفال.\nهل يمكن لفني الصيانة الحضور اليوم؟",
+      "ti": "ከመይ ሓዲርኩም፡ ብዛዕባ ኣብ ኣፓርተማይ ዘጋጠመ ጸገም እየ ዝድውል ዘለኹ።\nካብ ትማሊ ምሸት ጀሚሩ እቲ ማእከላይ መሞቒ ፈጺሙ ኣይሰርሕን ዘሎ።\nኣብ ገዛ ኣዝዩ ይዝሕል ኣሎ፡ ብፍላይ ንቆልዑ።\nሎሚ ሰራሕተኛ መጺኡ ክርእዮ ይኽእልዶ?",
+      "om": "Akkam bultan, rakkoo mana koo keessa jiruufan bilbilaa jira.\nKaleessa galgala irraa kaasee ho'isaan mana guutuu hojjechuu dhiiseera.\nMana keessa baay'ee qorra, keessumaa ijoolleedhaaf.\nHar'a ogeessi dhufee ilaaluu danda'aa?",
+      "en": "Good morning, I am calling about a breakdown in my apartment.\nSince yesterday evening the central heating is not working at all.\nIt is very cold in the house, especially for the children.\nCan a technician come by today?"
+    },
+    "dutch": "Goedemorgen, ik bel over een storing in mijn appartement.\nSinds gisteravond werkt de centrale verwarming helemaal niet meer.\nHet is erg koud in huis, vooral voor de kinderen.\nKan er vandaag nog een monteur langskomen?"
+  },
+  {
+    "id": "luister-a2-053",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Oudergesprek op school (#1)",
+    "lines": [
+      "Fijn dat u er bent voor het tienminutengesprek.",
+      "Uw dochter doet het ontzettend goed in groep vier.",
+      "Ze maakt snel nieuwe vriendjes en haar woordenschat groeit hard.",
+      "Blijf thuis vooral lekker veel met haar oefenen en voorlezen."
+    ],
+    "translations": {
+      "ar": "يسعدني حضورك لاجتماع العشر دقائق لأولياء الأمور.\nابنتك تبلي بلاءً حسناً جداً في الصف الرابع.\nإنها تصادق زملاءها بسرعة وحصيلتها اللغوية تنمو بشكل ملحوظ.\nاستمروا في المنزل بالقراءة لها والتدرب معاً.",
+      "ti": "ንናይ ዓሰርተ ደቒቕ ናይ ወለዲ ዝርርብ ስለ ዝመጻእኩም ደስ ይብለና።\nጓልኩም ኣብ ራብዓይ ክፍሊ ብጣዕሚ ጽቡቕ ትገብር ኣላ።\nቀልጢፋ መሓዙት ትረክብን ቃላታ ድማ ብቕልጡፍ ይዓብይን ኣሎ።\nኣብ ገዛ ምሳኣ ምልምማድን ምንባብን ኣዘውትሩ።",
+      "om": "Marii daqiiqaa kudhanii warraaf waan dhuftaniif baay'ee gaariidha.\nIntalli keessan kutaa afur keessatti baay'ee cimtuudha.\nDaftee hiriyaa qabatti akkasumas jechoota hedduu barachaa jirti.\nMana keessattis ishee waliin shaakaluu fi dubbisuu itti fufaa.",
+      "en": "Glad you could make it for the ten-minute parent-teacher meeting.\nYour daughter is doing very well in grade four.\nShe makes friends quickly and her vocabulary is expanding rapidly.\nKeep reading and practicing with her at home as much as possible."
+    },
+    "dutch": "Fijn dat u er bent voor het tienminutengesprek.\nUw dochter doet het ontzettend goed in groep vier.\nZe maakt snel nieuwe vriendjes en haar woordenschat groeit hard.\nBlijf thuis vooral lekker veel met haar oefenen en voorlezen."
+  },
+  {
+    "id": "luister-a2-054",
+    "level": "A2-B1",
+    "category": "Gezondheid",
+    "title": "Afspraak bij de tandarts (#1)",
+    "lines": [
+      "U bent aan de beurt voor de halfjaarlijkse controle.",
+      "Ik zie een klein beginnend gaatje in uw kies rechtsboven.",
+      "We kunnen dat vandaag meteen vullen als u wilt.",
+      "U voelt er dankzij de verdoving bijna niets van."
+    ],
+    "translations": {
+      "ar": "حان دورك للفحص الدوري نصف السنوي.\nأرى تسوساً صغيراً في بدايته في الضرس العلوي الأيمن.\nيمكننا حشوه اليوم فوراً إذا كنت ترغب في ذلك.\nلن تشعر بأي ألم بفضل التخدير الموضعي.",
+      "ti": "ተራኻ በጺሑ ኣሎ ንናይ ፍርቂ ዓመት ናይ ስኒ ምርመራ።\nኣብ ላዕላይ የማናይ መንጋጋኻ ንእሽቶ ጐድጓድ ይርእየካ ኣለኹ።\nእንተደሊኻ ሎሚ ሕጂ ክንምልኦ ንኽእል ኢና።\nብናይ መደንዘዚ ሓገዝ ምንም ስቓይ ኣይስምዓካን እዩ።",
+      "om": "Teephi keessan qorannoo waggaa walakkaa ga'eera.\nIlkaan keessan gubbaa mirgaa irratti qaawwa xiqqoo argeera.\nYoo barbaaddan har'uma dhoobuun ni danda'ama.\nWaan miidhamu hin qabdu sababiin talaallii adoochituuf.",
+      "en": "It is your turn for the six-month check-up.\nI see a small starting cavity in your upper right molar.\nWe can fill it today right away if you wish.\nYou will barely feel anything thanks to the local anesthetic."
+    },
+    "dutch": "U bent aan de beurt voor de halfjaarlijkse controle.\nIk zie een klein beginnend gaatje in uw kies rechtsboven.\nWe kunnen dat vandaag meteen vullen als u wilt.\nU voelt er dankzij de verdoving bijna niets van."
+  },
+  {
+    "id": "luister-a2-055",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Inschrijven voor een taalcursus (#2)",
+    "lines": [
+      "Welkom bij het talencentrum.",
+      "Voordat u start, doen we eerst een korte instaptoets.",
+      "Zo kunnen we bepalen welke groep het beste bij uw niveau past.",
+      "De lessen beginnen volgende week dinsdag."
+    ],
+    "translations": {
+      "ar": "مرحباً بكم في مركز اللغات.\nقبل أن تبدأ، سنجري اختبار تحديد مستوى قصير.\nبهذه الطريقة يمكننا تحديد المجموعة الأنسب لمستواك.\nتبدأ الدروس يوم الثلاثاء القادم.",
+      "ti": "እንቋዕ ናብ ማእከል ቋንቋ ብደሓን መጻእኩም።\nቅድሚ ምጅማርኩም ሓጺር ናይ ደረጃ መመርመሪ ፈተና ክንገብር ኢና።\nበዚ ኸኣ ኣየናይ ጉጅለ ምስ ደረጃኹም ከም ዝሰማማዕ ክንውስን ንኽእል።\nትምህርቲ ዝመጽእ ሰሉስ ክጅምር እዩ።",
+      "om": "Baga gara wiirtuu afaanii nagaan dhuftan.\nOsoo hin jalqabin dura qormaata sadarkaa gabaabaa goona.\nKanaanis gareen kam akka sadarkaa keessan waliin deemu murteessina.\nBarumsi Wiixata dhufu jalqaba.",
+      "en": "Welcome to the language center.\nBefore you start, we will do a short placement test.\nThis way we can determine which group best fits your level.\nClasses begin next Tuesday."
+    },
+    "dutch": "Welkom bij het talencentrum.\nVoordat u start, doen we eerst een korte instaptoets.\nZo kunnen we bepalen welke groep het beste bij uw niveau past.\nDe lessen beginnen volgende week dinsdag."
+  },
+  {
+    "id": "luister-a2-056",
+    "level": "A2-B1",
+    "category": "Samenleving",
+    "title": "Vrijwilligerswerk in de buurt (#2)",
+    "lines": [
+      "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.",
+      "Het gaat om twee uurtjes per week op zaterdagochtend.",
+      "U ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.",
+      "Heeft u interesse om mee te helpen?"
+    ],
+    "translations": {
+      "ar": "ما زلنا نبحث عن متطوعين متحمسين لحديقة الحي الزراعية.\nالأمر يتطلب ساعتين فقط أسبوعياً صباح يوم السبت.\nستلتقي بجيرانك وتتعلم الكثير من الكلمات الهولندية الجديدة.\nهل أنت مهتم بالمساعدة معنا؟",
+      "ti": "ንናይ ከባቢና ናይ ኣሕምልቲ ቦታ ገና ወለንተኛታት ንደሊ ኣለና።\nኣብ ሰሙን ንክልተ ሰዓት ቀዳም ንግሆ ጥራይ እዩ ዝወስድ።\nምስ ጎረባብቲ ትራኸቡን ሓደሽቲ ናይ ሆላንድ ቃላት ትምሃሩን።\nክትሕግዙ ድሌት ኣለኩምዶ?",
+      "om": "Iddoo abaaboo naannoo keenyaaf tola ooltota barbaadaa jirra.\nTorbanitti sa'aatii lama Sanbata ganama ta'a.\nOllaa keessan waliin wal bartu akkasumas jechoota Daachi hedduu barattu.\nGargaaruuf fedhii qabduu?",
+      "en": "We are still looking for enthusiastic volunteers for the community garden.\nIt is for two hours a week on Saturday mornings.\nYou will meet neighbors and learn many new Dutch words.\nAre you interested in helping out?"
+    },
+    "dutch": "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.\nHet gaat om twee uurtjes per week op zaterdagochtend.\nU ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.\nHeeft u interesse om mee te helpen?"
+  },
+  {
+    "id": "luister-a2-057",
+    "level": "A2-B1",
+    "category": "Wonen",
+    "title": "Kapotte verwarming melden (#2)",
+    "lines": [
+      "Goedemorgen, ik bel over een storing in mijn appartement.",
+      "Sinds gisteravond werkt de centrale verwarming helemaal niet meer.",
+      "Het is erg koud in huis, vooral voor de kinderen.",
+      "Kan er vandaag nog een monteur langskomen?"
+    ],
+    "translations": {
+      "ar": "صباح الخير، أنا أتصل بخصوص عطل في شقتي.\nمنذ مساء أمس والتدفئة المركزية لا تعمل على الإطلاق.\nالجو بارد جداً في المنزل، وخاصة بالنسبة للأطفال.\nهل يمكن لفني الصيانة الحضور اليوم؟",
+      "ti": "ከመይ ሓዲርኩም፡ ብዛዕባ ኣብ ኣፓርተማይ ዘጋጠመ ጸገም እየ ዝድውል ዘለኹ።\nካብ ትማሊ ምሸት ጀሚሩ እቲ ማእከላይ መሞቒ ፈጺሙ ኣይሰርሕን ዘሎ።\nኣብ ገዛ ኣዝዩ ይዝሕል ኣሎ፡ ብፍላይ ንቆልዑ።\nሎሚ ሰራሕተኛ መጺኡ ክርእዮ ይኽእልዶ?",
+      "om": "Akkam bultan, rakkoo mana koo keessa jiruufan bilbilaa jira.\nKaleessa galgala irraa kaasee ho'isaan mana guutuu hojjechuu dhiiseera.\nMana keessa baay'ee qorra, keessumaa ijoolleedhaaf.\nHar'a ogeessi dhufee ilaaluu danda'aa?",
+      "en": "Good morning, I am calling about a breakdown in my apartment.\nSince yesterday evening the central heating is not working at all.\nIt is very cold in the house, especially for the children.\nCan a technician come by today?"
+    },
+    "dutch": "Goedemorgen, ik bel over een storing in mijn appartement.\nSinds gisteravond werkt de centrale verwarming helemaal niet meer.\nHet is erg koud in huis, vooral voor de kinderen.\nKan er vandaag nog een monteur langskomen?"
+  },
+  {
+    "id": "luister-a2-058",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Oudergesprek op school (#2)",
+    "lines": [
+      "Fijn dat u er bent voor het tienminutengesprek.",
+      "Uw dochter doet het ontzettend goed in groep vier.",
+      "Ze maakt snel nieuwe vriendjes en haar woordenschat groeit hard.",
+      "Blijf thuis vooral lekker veel met haar oefenen en voorlezen."
+    ],
+    "translations": {
+      "ar": "يسعدني حضورك لاجتماع العشر دقائق لأولياء الأمور.\nابنتك تبلي بلاءً حسناً جداً في الصف الرابع.\nإنها تصادق زملاءها بسرعة وحصيلتها اللغوية تنمو بشكل ملحوظ.\nاستمروا في المنزل بالقراءة لها والتدرب معاً.",
+      "ti": "ንናይ ዓሰርተ ደቒቕ ናይ ወለዲ ዝርርብ ስለ ዝመጻእኩም ደስ ይብለና።\nጓልኩም ኣብ ራብዓይ ክፍሊ ብጣዕሚ ጽቡቕ ትገብር ኣላ።\nቀልጢፋ መሓዙት ትረክብን ቃላታ ድማ ብቕልጡፍ ይዓብይን ኣሎ።\nኣብ ገዛ ምሳኣ ምልምማድን ምንባብን ኣዘውትሩ።",
+      "om": "Marii daqiiqaa kudhanii warraaf waan dhuftaniif baay'ee gaariidha.\nIntalli keessan kutaa afur keessatti baay'ee cimtuudha.\nDaftee hiriyaa qabatti akkasumas jechoota hedduu barachaa jirti.\nMana keessattis ishee waliin shaakaluu fi dubbisuu itti fufaa.",
+      "en": "Glad you could make it for the ten-minute parent-teacher meeting.\nYour daughter is doing very well in grade four.\nShe makes friends quickly and her vocabulary is expanding rapidly.\nKeep reading and practicing with her at home as much as possible."
+    },
+    "dutch": "Fijn dat u er bent voor het tienminutengesprek.\nUw dochter doet het ontzettend goed in groep vier.\nZe maakt snel nieuwe vriendjes en haar woordenschat groeit hard.\nBlijf thuis vooral lekker veel met haar oefenen en voorlezen."
+  },
+  {
+    "id": "luister-a2-059",
+    "level": "A2-B1",
+    "category": "Gezondheid",
+    "title": "Afspraak bij de tandarts (#2)",
+    "lines": [
+      "U bent aan de beurt voor de halfjaarlijkse controle.",
+      "Ik zie een klein beginnend gaatje in uw kies rechtsboven.",
+      "We kunnen dat vandaag meteen vullen als u wilt.",
+      "U voelt er dankzij de verdoving bijna niets van."
+    ],
+    "translations": {
+      "ar": "حان دورك للفحص الدوري نصف السنوي.\nأرى تسوساً صغيراً في بدايته في الضرس العلوي الأيمن.\nيمكننا حشوه اليوم فوراً إذا كنت ترغب في ذلك.\nلن تشعر بأي ألم بفضل التخدير الموضعي.",
+      "ti": "ተራኻ በጺሑ ኣሎ ንናይ ፍርቂ ዓመት ናይ ስኒ ምርመራ።\nኣብ ላዕላይ የማናይ መንጋጋኻ ንእሽቶ ጐድጓድ ይርእየካ ኣለኹ።\nእንተደሊኻ ሎሚ ሕጂ ክንምልኦ ንኽእል ኢና።\nብናይ መደንዘዚ ሓገዝ ምንም ስቓይ ኣይስምዓካን እዩ።",
+      "om": "Teephi keessan qorannoo waggaa walakkaa ga'eera.\nIlkaan keessan gubbaa mirgaa irratti qaawwa xiqqoo argeera.\nYoo barbaaddan har'uma dhoobuun ni danda'ama.\nWaan miidhamu hin qabdu sababiin talaallii adoochituuf.",
+      "en": "It is your turn for the six-month check-up.\nI see a small starting cavity in your upper right molar.\nWe can fill it today right away if you wish.\nYou will barely feel anything thanks to the local anesthetic."
+    },
+    "dutch": "U bent aan de beurt voor de halfjaarlijkse controle.\nIk zie een klein beginnend gaatje in uw kies rechtsboven.\nWe kunnen dat vandaag meteen vullen als u wilt.\nU voelt er dankzij de verdoving bijna niets van."
+  },
+  {
+    "id": "luister-a2-060",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Inschrijven voor een taalcursus (#3)",
+    "lines": [
+      "Welkom bij het talencentrum.",
+      "Voordat u start, doen we eerst een korte instaptoets.",
+      "Zo kunnen we bepalen welke groep het beste bij uw niveau past.",
+      "De lessen beginnen volgende week dinsdag."
+    ],
+    "translations": {
+      "ar": "مرحباً بكم في مركز اللغات.\nقبل أن تبدأ، سنجري اختبار تحديد مستوى قصير.\nبهذه الطريقة يمكننا تحديد المجموعة الأنسب لمستواك.\nتبدأ الدروس يوم الثلاثاء القادم.",
+      "ti": "እንቋዕ ናብ ማእከል ቋንቋ ብደሓን መጻእኩም።\nቅድሚ ምጅማርኩም ሓጺር ናይ ደረጃ መመርመሪ ፈተና ክንገብር ኢና።\nበዚ ኸኣ ኣየናይ ጉጅለ ምስ ደረጃኹም ከም ዝሰማማዕ ክንውስን ንኽእል።\nትምህርቲ ዝመጽእ ሰሉስ ክጅምር እዩ።",
+      "om": "Baga gara wiirtuu afaanii nagaan dhuftan.\nOsoo hin jalqabin dura qormaata sadarkaa gabaabaa goona.\nKanaanis gareen kam akka sadarkaa keessan waliin deemu murteessina.\nBarumsi Wiixata dhufu jalqaba.",
+      "en": "Welcome to the language center.\nBefore you start, we will do a short placement test.\nThis way we can determine which group best fits your level.\nClasses begin next Tuesday."
+    },
+    "dutch": "Welkom bij het talencentrum.\nVoordat u start, doen we eerst een korte instaptoets.\nZo kunnen we bepalen welke groep het beste bij uw niveau past.\nDe lessen beginnen volgende week dinsdag."
+  },
+  {
+    "id": "luister-a2-061",
+    "level": "A2-B1",
+    "category": "Samenleving",
+    "title": "Vrijwilligerswerk in de buurt (#3)",
+    "lines": [
+      "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.",
+      "Het gaat om twee uurtjes per week op zaterdagochtend.",
+      "U ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.",
+      "Heeft u interesse om mee te helpen?"
+    ],
+    "translations": {
+      "ar": "ما زلنا نبحث عن متطوعين متحمسين لحديقة الحي الزراعية.\nالأمر يتطلب ساعتين فقط أسبوعياً صباح يوم السبت.\nستلتقي بجيرانك وتتعلم الكثير من الكلمات الهولندية الجديدة.\nهل أنت مهتم بالمساعدة معنا؟",
+      "ti": "ንናይ ከባቢና ናይ ኣሕምልቲ ቦታ ገና ወለንተኛታት ንደሊ ኣለና።\nኣብ ሰሙን ንክልተ ሰዓት ቀዳም ንግሆ ጥራይ እዩ ዝወስድ።\nምስ ጎረባብቲ ትራኸቡን ሓደሽቲ ናይ ሆላንድ ቃላት ትምሃሩን።\nክትሕግዙ ድሌት ኣለኩምዶ?",
+      "om": "Iddoo abaaboo naannoo keenyaaf tola ooltota barbaadaa jirra.\nTorbanitti sa'aatii lama Sanbata ganama ta'a.\nOllaa keessan waliin wal bartu akkasumas jechoota Daachi hedduu barattu.\nGargaaruuf fedhii qabduu?",
+      "en": "We are still looking for enthusiastic volunteers for the community garden.\nIt is for two hours a week on Saturday mornings.\nYou will meet neighbors and learn many new Dutch words.\nAre you interested in helping out?"
+    },
+    "dutch": "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.\nHet gaat om twee uurtjes per week op zaterdagochtend.\nU ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.\nHeeft u interesse om mee te helpen?"
+  },
+  {
+    "id": "luister-a2-062",
+    "level": "A2-B1",
+    "category": "Wonen",
+    "title": "Kapotte verwarming melden (#3)",
+    "lines": [
+      "Goedemorgen, ik bel over een storing in mijn appartement.",
+      "Sinds gisteravond werkt de centrale verwarming helemaal niet meer.",
+      "Het is erg koud in huis, vooral voor de kinderen.",
+      "Kan er vandaag nog een monteur langskomen?"
+    ],
+    "translations": {
+      "ar": "صباح الخير، أنا أتصل بخصوص عطل في شقتي.\nمنذ مساء أمس والتدفئة المركزية لا تعمل على الإطلاق.\nالجو بارد جداً في المنزل، وخاصة بالنسبة للأطفال.\nهل يمكن لفني الصيانة الحضور اليوم؟",
+      "ti": "ከመይ ሓዲርኩም፡ ብዛዕባ ኣብ ኣፓርተማይ ዘጋጠመ ጸገም እየ ዝድውል ዘለኹ።\nካብ ትማሊ ምሸት ጀሚሩ እቲ ማእከላይ መሞቒ ፈጺሙ ኣይሰርሕን ዘሎ።\nኣብ ገዛ ኣዝዩ ይዝሕል ኣሎ፡ ብፍላይ ንቆልዑ።\nሎሚ ሰራሕተኛ መጺኡ ክርእዮ ይኽእልዶ?",
+      "om": "Akkam bultan, rakkoo mana koo keessa jiruufan bilbilaa jira.\nKaleessa galgala irraa kaasee ho'isaan mana guutuu hojjechuu dhiiseera.\nMana keessa baay'ee qorra, keessumaa ijoolleedhaaf.\nHar'a ogeessi dhufee ilaaluu danda'aa?",
+      "en": "Good morning, I am calling about a breakdown in my apartment.\nSince yesterday evening the central heating is not working at all.\nIt is very cold in the house, especially for the children.\nCan a technician come by today?"
+    },
+    "dutch": "Goedemorgen, ik bel over een storing in mijn appartement.\nSinds gisteravond werkt de centrale verwarming helemaal niet meer.\nHet is erg koud in huis, vooral voor de kinderen.\nKan er vandaag nog een monteur langskomen?"
+  },
+  {
+    "id": "luister-a2-063",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Oudergesprek op school (#3)",
+    "lines": [
+      "Fijn dat u er bent voor het tienminutengesprek.",
+      "Uw dochter doet het ontzettend goed in groep vier.",
+      "Ze maakt snel nieuwe vriendjes en haar woordenschat groeit hard.",
+      "Blijf thuis vooral lekker veel met haar oefenen en voorlezen."
+    ],
+    "translations": {
+      "ar": "يسعدني حضورك لاجتماع العشر دقائق لأولياء الأمور.\nابنتك تبلي بلاءً حسناً جداً في الصف الرابع.\nإنها تصادق زملاءها بسرعة وحصيلتها اللغوية تنمو بشكل ملحوظ.\nاستمروا في المنزل بالقراءة لها والتدرب معاً.",
+      "ti": "ንናይ ዓሰርተ ደቒቕ ናይ ወለዲ ዝርርብ ስለ ዝመጻእኩም ደስ ይብለና።\nጓልኩም ኣብ ራብዓይ ክፍሊ ብጣዕሚ ጽቡቕ ትገብር ኣላ።\nቀልጢፋ መሓዙት ትረክብን ቃላታ ድማ ብቕልጡፍ ይዓብይን ኣሎ።\nኣብ ገዛ ምሳኣ ምልምማድን ምንባብን ኣዘውትሩ።",
+      "om": "Marii daqiiqaa kudhanii warraaf waan dhuftaniif baay'ee gaariidha.\nIntalli keessan kutaa afur keessatti baay'ee cimtuudha.\nDaftee hiriyaa qabatti akkasumas jechoota hedduu barachaa jirti.\nMana keessattis ishee waliin shaakaluu fi dubbisuu itti fufaa.",
+      "en": "Glad you could make it for the ten-minute parent-teacher meeting.\nYour daughter is doing very well in grade four.\nShe makes friends quickly and her vocabulary is expanding rapidly.\nKeep reading and practicing with her at home as much as possible."
+    },
+    "dutch": "Fijn dat u er bent voor het tienminutengesprek.\nUw dochter doet het ontzettend goed in groep vier.\nZe maakt snel nieuwe vriendjes en haar woordenschat groeit hard.\nBlijf thuis vooral lekker veel met haar oefenen en voorlezen."
+  },
+  {
+    "id": "luister-a2-064",
+    "level": "A2-B1",
+    "category": "Gezondheid",
+    "title": "Afspraak bij de tandarts (#3)",
+    "lines": [
+      "U bent aan de beurt voor de halfjaarlijkse controle.",
+      "Ik zie een klein beginnend gaatje in uw kies rechtsboven.",
+      "We kunnen dat vandaag meteen vullen als u wilt.",
+      "U voelt er dankzij de verdoving bijna niets van."
+    ],
+    "translations": {
+      "ar": "حان دورك للفحص الدوري نصف السنوي.\nأرى تسوساً صغيراً في بدايته في الضرس العلوي الأيمن.\nيمكننا حشوه اليوم فوراً إذا كنت ترغب في ذلك.\nلن تشعر بأي ألم بفضل التخدير الموضعي.",
+      "ti": "ተራኻ በጺሑ ኣሎ ንናይ ፍርቂ ዓመት ናይ ስኒ ምርመራ።\nኣብ ላዕላይ የማናይ መንጋጋኻ ንእሽቶ ጐድጓድ ይርእየካ ኣለኹ።\nእንተደሊኻ ሎሚ ሕጂ ክንምልኦ ንኽእል ኢና።\nብናይ መደንዘዚ ሓገዝ ምንም ስቓይ ኣይስምዓካን እዩ።",
+      "om": "Teephi keessan qorannoo waggaa walakkaa ga'eera.\nIlkaan keessan gubbaa mirgaa irratti qaawwa xiqqoo argeera.\nYoo barbaaddan har'uma dhoobuun ni danda'ama.\nWaan miidhamu hin qabdu sababiin talaallii adoochituuf.",
+      "en": "It is your turn for the six-month check-up.\nI see a small starting cavity in your upper right molar.\nWe can fill it today right away if you wish.\nYou will barely feel anything thanks to the local anesthetic."
+    },
+    "dutch": "U bent aan de beurt voor de halfjaarlijkse controle.\nIk zie een klein beginnend gaatje in uw kies rechtsboven.\nWe kunnen dat vandaag meteen vullen als u wilt.\nU voelt er dankzij de verdoving bijna niets van."
+  },
+  {
+    "id": "luister-a2-065",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Inschrijven voor een taalcursus (#4)",
+    "lines": [
+      "Welkom bij het talencentrum.",
+      "Voordat u start, doen we eerst een korte instaptoets.",
+      "Zo kunnen we bepalen welke groep het beste bij uw niveau past.",
+      "De lessen beginnen volgende week dinsdag."
+    ],
+    "translations": {
+      "ar": "مرحباً بكم في مركز اللغات.\nقبل أن تبدأ، سنجري اختبار تحديد مستوى قصير.\nبهذه الطريقة يمكننا تحديد المجموعة الأنسب لمستواك.\nتبدأ الدروس يوم الثلاثاء القادم.",
+      "ti": "እንቋዕ ናብ ማእከል ቋንቋ ብደሓን መጻእኩም።\nቅድሚ ምጅማርኩም ሓጺር ናይ ደረጃ መመርመሪ ፈተና ክንገብር ኢና።\nበዚ ኸኣ ኣየናይ ጉጅለ ምስ ደረጃኹም ከም ዝሰማማዕ ክንውስን ንኽእል።\nትምህርቲ ዝመጽእ ሰሉስ ክጅምር እዩ።",
+      "om": "Baga gara wiirtuu afaanii nagaan dhuftan.\nOsoo hin jalqabin dura qormaata sadarkaa gabaabaa goona.\nKanaanis gareen kam akka sadarkaa keessan waliin deemu murteessina.\nBarumsi Wiixata dhufu jalqaba.",
+      "en": "Welcome to the language center.\nBefore you start, we will do a short placement test.\nThis way we can determine which group best fits your level.\nClasses begin next Tuesday."
+    },
+    "dutch": "Welkom bij het talencentrum.\nVoordat u start, doen we eerst een korte instaptoets.\nZo kunnen we bepalen welke groep het beste bij uw niveau past.\nDe lessen beginnen volgende week dinsdag."
+  },
+  {
+    "id": "luister-a2-066",
+    "level": "A2-B1",
+    "category": "Samenleving",
+    "title": "Vrijwilligerswerk in de buurt (#4)",
+    "lines": [
+      "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.",
+      "Het gaat om twee uurtjes per week op zaterdagochtend.",
+      "U ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.",
+      "Heeft u interesse om mee te helpen?"
+    ],
+    "translations": {
+      "ar": "ما زلنا نبحث عن متطوعين متحمسين لحديقة الحي الزراعية.\nالأمر يتطلب ساعتين فقط أسبوعياً صباح يوم السبت.\nستلتقي بجيرانك وتتعلم الكثير من الكلمات الهولندية الجديدة.\nهل أنت مهتم بالمساعدة معنا؟",
+      "ti": "ንናይ ከባቢና ናይ ኣሕምልቲ ቦታ ገና ወለንተኛታት ንደሊ ኣለና።\nኣብ ሰሙን ንክልተ ሰዓት ቀዳም ንግሆ ጥራይ እዩ ዝወስድ።\nምስ ጎረባብቲ ትራኸቡን ሓደሽቲ ናይ ሆላንድ ቃላት ትምሃሩን።\nክትሕግዙ ድሌት ኣለኩምዶ?",
+      "om": "Iddoo abaaboo naannoo keenyaaf tola ooltota barbaadaa jirra.\nTorbanitti sa'aatii lama Sanbata ganama ta'a.\nOllaa keessan waliin wal bartu akkasumas jechoota Daachi hedduu barattu.\nGargaaruuf fedhii qabduu?",
+      "en": "We are still looking for enthusiastic volunteers for the community garden.\nIt is for two hours a week on Saturday mornings.\nYou will meet neighbors and learn many new Dutch words.\nAre you interested in helping out?"
+    },
+    "dutch": "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.\nHet gaat om twee uurtjes per week op zaterdagochtend.\nU ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.\nHeeft u interesse om mee te helpen?"
+  },
+  {
+    "id": "luister-a2-067",
+    "level": "A2-B1",
+    "category": "Wonen",
+    "title": "Kapotte verwarming melden (#4)",
+    "lines": [
+      "Goedemorgen, ik bel over een storing in mijn appartement.",
+      "Sinds gisteravond werkt de centrale verwarming helemaal niet meer.",
+      "Het is erg koud in huis, vooral voor de kinderen.",
+      "Kan er vandaag nog een monteur langskomen?"
+    ],
+    "translations": {
+      "ar": "صباح الخير، أنا أتصل بخصوص عطل في شقتي.\nمنذ مساء أمس والتدفئة المركزية لا تعمل على الإطلاق.\nالجو بارد جداً في المنزل، وخاصة بالنسبة للأطفال.\nهل يمكن لفني الصيانة الحضور اليوم؟",
+      "ti": "ከመይ ሓዲርኩም፡ ብዛዕባ ኣብ ኣፓርተማይ ዘጋጠመ ጸገም እየ ዝድውል ዘለኹ።\nካብ ትማሊ ምሸት ጀሚሩ እቲ ማእከላይ መሞቒ ፈጺሙ ኣይሰርሕን ዘሎ።\nኣብ ገዛ ኣዝዩ ይዝሕል ኣሎ፡ ብፍላይ ንቆልዑ።\nሎሚ ሰራሕተኛ መጺኡ ክርእዮ ይኽእልዶ?",
+      "om": "Akkam bultan, rakkoo mana koo keessa jiruufan bilbilaa jira.\nKaleessa galgala irraa kaasee ho'isaan mana guutuu hojjechuu dhiiseera.\nMana keessa baay'ee qorra, keessumaa ijoolleedhaaf.\nHar'a ogeessi dhufee ilaaluu danda'aa?",
+      "en": "Good morning, I am calling about a breakdown in my apartment.\nSince yesterday evening the central heating is not working at all.\nIt is very cold in the house, especially for the children.\nCan a technician come by today?"
+    },
+    "dutch": "Goedemorgen, ik bel over een storing in mijn appartement.\nSinds gisteravond werkt de centrale verwarming helemaal niet meer.\nHet is erg koud in huis, vooral voor de kinderen.\nKan er vandaag nog een monteur langskomen?"
+  },
+  {
+    "id": "luister-a2-068",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Oudergesprek op school (#4)",
+    "lines": [
+      "Fijn dat u er bent voor het tienminutengesprek.",
+      "Uw dochter doet het ontzettend goed in groep vier.",
+      "Ze maakt snel nieuwe vriendjes en haar woordenschat groeit hard.",
+      "Blijf thuis vooral lekker veel met haar oefenen en voorlezen."
+    ],
+    "translations": {
+      "ar": "يسعدني حضورك لاجتماع العشر دقائق لأولياء الأمور.\nابنتك تبلي بلاءً حسناً جداً في الصف الرابع.\nإنها تصادق زملاءها بسرعة وحصيلتها اللغوية تنمو بشكل ملحوظ.\nاستمروا في المنزل بالقراءة لها والتدرب معاً.",
+      "ti": "ንናይ ዓሰርተ ደቒቕ ናይ ወለዲ ዝርርብ ስለ ዝመጻእኩም ደስ ይብለና።\nጓልኩም ኣብ ራብዓይ ክፍሊ ብጣዕሚ ጽቡቕ ትገብር ኣላ።\nቀልጢፋ መሓዙት ትረክብን ቃላታ ድማ ብቕልጡፍ ይዓብይን ኣሎ።\nኣብ ገዛ ምሳኣ ምልምማድን ምንባብን ኣዘውትሩ።",
+      "om": "Marii daqiiqaa kudhanii warraaf waan dhuftaniif baay'ee gaariidha.\nIntalli keessan kutaa afur keessatti baay'ee cimtuudha.\nDaftee hiriyaa qabatti akkasumas jechoota hedduu barachaa jirti.\nMana keessattis ishee waliin shaakaluu fi dubbisuu itti fufaa.",
+      "en": "Glad you could make it for the ten-minute parent-teacher meeting.\nYour daughter is doing very well in grade four.\nShe makes friends quickly and her vocabulary is expanding rapidly.\nKeep reading and practicing with her at home as much as possible."
+    },
+    "dutch": "Fijn dat u er bent voor het tienminutengesprek.\nUw dochter doet het ontzettend goed in groep vier.\nZe maakt snel nieuwe vriendjes en haar woordenschat groeit hard.\nBlijf thuis vooral lekker veel met haar oefenen en voorlezen."
+  },
+  {
+    "id": "luister-a2-069",
+    "level": "A2-B1",
+    "category": "Gezondheid",
+    "title": "Afspraak bij de tandarts (#4)",
+    "lines": [
+      "U bent aan de beurt voor de halfjaarlijkse controle.",
+      "Ik zie een klein beginnend gaatje in uw kies rechtsboven.",
+      "We kunnen dat vandaag meteen vullen als u wilt.",
+      "U voelt er dankzij de verdoving bijna niets van."
+    ],
+    "translations": {
+      "ar": "حان دورك للفحص الدوري نصف السنوي.\nأرى تسوساً صغيراً في بدايته في الضرس العلوي الأيمن.\nيمكننا حشوه اليوم فوراً إذا كنت ترغب في ذلك.\nلن تشعر بأي ألم بفضل التخدير الموضعي.",
+      "ti": "ተራኻ በጺሑ ኣሎ ንናይ ፍርቂ ዓመት ናይ ስኒ ምርመራ።\nኣብ ላዕላይ የማናይ መንጋጋኻ ንእሽቶ ጐድጓድ ይርእየካ ኣለኹ።\nእንተደሊኻ ሎሚ ሕጂ ክንምልኦ ንኽእል ኢና።\nብናይ መደንዘዚ ሓገዝ ምንም ስቓይ ኣይስምዓካን እዩ።",
+      "om": "Teephi keessan qorannoo waggaa walakkaa ga'eera.\nIlkaan keessan gubbaa mirgaa irratti qaawwa xiqqoo argeera.\nYoo barbaaddan har'uma dhoobuun ni danda'ama.\nWaan miidhamu hin qabdu sababiin talaallii adoochituuf.",
+      "en": "It is your turn for the six-month check-up.\nI see a small starting cavity in your upper right molar.\nWe can fill it today right away if you wish.\nYou will barely feel anything thanks to the local anesthetic."
+    },
+    "dutch": "U bent aan de beurt voor de halfjaarlijkse controle.\nIk zie een klein beginnend gaatje in uw kies rechtsboven.\nWe kunnen dat vandaag meteen vullen als u wilt.\nU voelt er dankzij de verdoving bijna niets van."
+  },
+  {
+    "id": "luister-a2-070",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Inschrijven voor een taalcursus (#5)",
+    "lines": [
+      "Welkom bij het talencentrum.",
+      "Voordat u start, doen we eerst een korte instaptoets.",
+      "Zo kunnen we bepalen welke groep het beste bij uw niveau past.",
+      "De lessen beginnen volgende week dinsdag."
+    ],
+    "translations": {
+      "ar": "مرحباً بكم في مركز اللغات.\nقبل أن تبدأ، سنجري اختبار تحديد مستوى قصير.\nبهذه الطريقة يمكننا تحديد المجموعة الأنسب لمستواك.\nتبدأ الدروس يوم الثلاثاء القادم.",
+      "ti": "እንቋዕ ናብ ማእከል ቋንቋ ብደሓን መጻእኩም።\nቅድሚ ምጅማርኩም ሓጺር ናይ ደረጃ መመርመሪ ፈተና ክንገብር ኢና።\nበዚ ኸኣ ኣየናይ ጉጅለ ምስ ደረጃኹም ከም ዝሰማማዕ ክንውስን ንኽእል።\nትምህርቲ ዝመጽእ ሰሉስ ክጅምር እዩ።",
+      "om": "Baga gara wiirtuu afaanii nagaan dhuftan.\nOsoo hin jalqabin dura qormaata sadarkaa gabaabaa goona.\nKanaanis gareen kam akka sadarkaa keessan waliin deemu murteessina.\nBarumsi Wiixata dhufu jalqaba.",
+      "en": "Welcome to the language center.\nBefore you start, we will do a short placement test.\nThis way we can determine which group best fits your level.\nClasses begin next Tuesday."
+    },
+    "dutch": "Welkom bij het talencentrum.\nVoordat u start, doen we eerst een korte instaptoets.\nZo kunnen we bepalen welke groep het beste bij uw niveau past.\nDe lessen beginnen volgende week dinsdag."
+  },
+  {
+    "id": "luister-a2-071",
+    "level": "A2-B1",
+    "category": "Samenleving",
+    "title": "Vrijwilligerswerk in de buurt (#5)",
+    "lines": [
+      "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.",
+      "Het gaat om twee uurtjes per week op zaterdagochtend.",
+      "U ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.",
+      "Heeft u interesse om mee te helpen?"
+    ],
+    "translations": {
+      "ar": "ما زلنا نبحث عن متطوعين متحمسين لحديقة الحي الزراعية.\nالأمر يتطلب ساعتين فقط أسبوعياً صباح يوم السبت.\nستلتقي بجيرانك وتتعلم الكثير من الكلمات الهولندية الجديدة.\nهل أنت مهتم بالمساعدة معنا؟",
+      "ti": "ንናይ ከባቢና ናይ ኣሕምልቲ ቦታ ገና ወለንተኛታት ንደሊ ኣለና።\nኣብ ሰሙን ንክልተ ሰዓት ቀዳም ንግሆ ጥራይ እዩ ዝወስድ።\nምስ ጎረባብቲ ትራኸቡን ሓደሽቲ ናይ ሆላንድ ቃላት ትምሃሩን።\nክትሕግዙ ድሌት ኣለኩምዶ?",
+      "om": "Iddoo abaaboo naannoo keenyaaf tola ooltota barbaadaa jirra.\nTorbanitti sa'aatii lama Sanbata ganama ta'a.\nOllaa keessan waliin wal bartu akkasumas jechoota Daachi hedduu barattu.\nGargaaruuf fedhii qabduu?",
+      "en": "We are still looking for enthusiastic volunteers for the community garden.\nIt is for two hours a week on Saturday mornings.\nYou will meet neighbors and learn many new Dutch words.\nAre you interested in helping out?"
+    },
+    "dutch": "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.\nHet gaat om twee uurtjes per week op zaterdagochtend.\nU ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.\nHeeft u interesse om mee te helpen?"
+  },
+  {
+    "id": "luister-a2-072",
+    "level": "A2-B1",
+    "category": "Wonen",
+    "title": "Kapotte verwarming melden (#5)",
+    "lines": [
+      "Goedemorgen, ik bel over een storing in mijn appartement.",
+      "Sinds gisteravond werkt de centrale verwarming helemaal niet meer.",
+      "Het is erg koud in huis, vooral voor de kinderen.",
+      "Kan er vandaag nog een monteur langskomen?"
+    ],
+    "translations": {
+      "ar": "صباح الخير، أنا أتصل بخصوص عطل في شقتي.\nمنذ مساء أمس والتدفئة المركزية لا تعمل على الإطلاق.\nالجو بارد جداً في المنزل، وخاصة بالنسبة للأطفال.\nهل يمكن لفني الصيانة الحضور اليوم؟",
+      "ti": "ከመይ ሓዲርኩም፡ ብዛዕባ ኣብ ኣፓርተማይ ዘጋጠመ ጸገም እየ ዝድውል ዘለኹ።\nካብ ትማሊ ምሸት ጀሚሩ እቲ ማእከላይ መሞቒ ፈጺሙ ኣይሰርሕን ዘሎ።\nኣብ ገዛ ኣዝዩ ይዝሕል ኣሎ፡ ብፍላይ ንቆልዑ።\nሎሚ ሰራሕተኛ መጺኡ ክርእዮ ይኽእልዶ?",
+      "om": "Akkam bultan, rakkoo mana koo keessa jiruufan bilbilaa jira.\nKaleessa galgala irraa kaasee ho'isaan mana guutuu hojjechuu dhiiseera.\nMana keessa baay'ee qorra, keessumaa ijoolleedhaaf.\nHar'a ogeessi dhufee ilaaluu danda'aa?",
+      "en": "Good morning, I am calling about a breakdown in my apartment.\nSince yesterday evening the central heating is not working at all.\nIt is very cold in the house, especially for the children.\nCan a technician come by today?"
+    },
+    "dutch": "Goedemorgen, ik bel over een storing in mijn appartement.\nSinds gisteravond werkt de centrale verwarming helemaal niet meer.\nHet is erg koud in huis, vooral voor de kinderen.\nKan er vandaag nog een monteur langskomen?"
+  },
+  {
+    "id": "luister-a2-073",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Oudergesprek op school (#5)",
+    "lines": [
+      "Fijn dat u er bent voor het tienminutengesprek.",
+      "Uw dochter doet het ontzettend goed in groep vier.",
+      "Ze maakt snel nieuwe vriendjes en haar woordenschat groeit hard.",
+      "Blijf thuis vooral lekker veel met haar oefenen en voorlezen."
+    ],
+    "translations": {
+      "ar": "يسعدني حضورك لاجتماع العشر دقائق لأولياء الأمور.\nابنتك تبلي بلاءً حسناً جداً في الصف الرابع.\nإنها تصادق زملاءها بسرعة وحصيلتها اللغوية تنمو بشكل ملحوظ.\nاستمروا في المنزل بالقراءة لها والتدرب معاً.",
+      "ti": "ንናይ ዓሰርተ ደቒቕ ናይ ወለዲ ዝርርብ ስለ ዝመጻእኩም ደስ ይብለና።\nጓልኩም ኣብ ራብዓይ ክፍሊ ብጣዕሚ ጽቡቕ ትገብር ኣላ።\nቀልጢፋ መሓዙት ትረክብን ቃላታ ድማ ብቕልጡፍ ይዓብይን ኣሎ።\nኣብ ገዛ ምሳኣ ምልምማድን ምንባብን ኣዘውትሩ።",
+      "om": "Marii daqiiqaa kudhanii warraaf waan dhuftaniif baay'ee gaariidha.\nIntalli keessan kutaa afur keessatti baay'ee cimtuudha.\nDaftee hiriyaa qabatti akkasumas jechoota hedduu barachaa jirti.\nMana keessattis ishee waliin shaakaluu fi dubbisuu itti fufaa.",
+      "en": "Glad you could make it for the ten-minute parent-teacher meeting.\nYour daughter is doing very well in grade four.\nShe makes friends quickly and her vocabulary is expanding rapidly.\nKeep reading and practicing with her at home as much as possible."
+    },
+    "dutch": "Fijn dat u er bent voor het tienminutengesprek.\nUw dochter doet het ontzettend goed in groep vier.\nZe maakt snel nieuwe vriendjes en haar woordenschat groeit hard.\nBlijf thuis vooral lekker veel met haar oefenen en voorlezen."
+  },
+  {
+    "id": "luister-a2-074",
+    "level": "A2-B1",
+    "category": "Gezondheid",
+    "title": "Afspraak bij de tandarts (#5)",
+    "lines": [
+      "U bent aan de beurt voor de halfjaarlijkse controle.",
+      "Ik zie een klein beginnend gaatje in uw kies rechtsboven.",
+      "We kunnen dat vandaag meteen vullen als u wilt.",
+      "U voelt er dankzij de verdoving bijna niets van."
+    ],
+    "translations": {
+      "ar": "حان دورك للفحص الدوري نصف السنوي.\nأرى تسوساً صغيراً في بدايته في الضرس العلوي الأيمن.\nيمكننا حشوه اليوم فوراً إذا كنت ترغب في ذلك.\nلن تشعر بأي ألم بفضل التخدير الموضعي.",
+      "ti": "ተራኻ በጺሑ ኣሎ ንናይ ፍርቂ ዓመት ናይ ስኒ ምርመራ።\nኣብ ላዕላይ የማናይ መንጋጋኻ ንእሽቶ ጐድጓድ ይርእየካ ኣለኹ።\nእንተደሊኻ ሎሚ ሕጂ ክንምልኦ ንኽእል ኢና።\nብናይ መደንዘዚ ሓገዝ ምንም ስቓይ ኣይስምዓካን እዩ።",
+      "om": "Teephi keessan qorannoo waggaa walakkaa ga'eera.\nIlkaan keessan gubbaa mirgaa irratti qaawwa xiqqoo argeera.\nYoo barbaaddan har'uma dhoobuun ni danda'ama.\nWaan miidhamu hin qabdu sababiin talaallii adoochituuf.",
+      "en": "It is your turn for the six-month check-up.\nI see a small starting cavity in your upper right molar.\nWe can fill it today right away if you wish.\nYou will barely feel anything thanks to the local anesthetic."
+    },
+    "dutch": "U bent aan de beurt voor de halfjaarlijkse controle.\nIk zie een klein beginnend gaatje in uw kies rechtsboven.\nWe kunnen dat vandaag meteen vullen als u wilt.\nU voelt er dankzij de verdoving bijna niets van."
+  },
+  {
+    "id": "luister-a2-075",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Inschrijven voor een taalcursus (#6)",
+    "lines": [
+      "Welkom bij het talencentrum.",
+      "Voordat u start, doen we eerst een korte instaptoets.",
+      "Zo kunnen we bepalen welke groep het beste bij uw niveau past.",
+      "De lessen beginnen volgende week dinsdag."
+    ],
+    "translations": {
+      "ar": "مرحباً بكم في مركز اللغات.\nقبل أن تبدأ، سنجري اختبار تحديد مستوى قصير.\nبهذه الطريقة يمكننا تحديد المجموعة الأنسب لمستواك.\nتبدأ الدروس يوم الثلاثاء القادم.",
+      "ti": "እንቋዕ ናብ ማእከል ቋንቋ ብደሓን መጻእኩም።\nቅድሚ ምጅማርኩም ሓጺር ናይ ደረጃ መመርመሪ ፈተና ክንገብር ኢና።\nበዚ ኸኣ ኣየናይ ጉጅለ ምስ ደረጃኹም ከም ዝሰማማዕ ክንውስን ንኽእል።\nትምህርቲ ዝመጽእ ሰሉስ ክጅምር እዩ።",
+      "om": "Baga gara wiirtuu afaanii nagaan dhuftan.\nOsoo hin jalqabin dura qormaata sadarkaa gabaabaa goona.\nKanaanis gareen kam akka sadarkaa keessan waliin deemu murteessina.\nBarumsi Wiixata dhufu jalqaba.",
+      "en": "Welcome to the language center.\nBefore you start, we will do a short placement test.\nThis way we can determine which group best fits your level.\nClasses begin next Tuesday."
+    },
+    "dutch": "Welkom bij het talencentrum.\nVoordat u start, doen we eerst een korte instaptoets.\nZo kunnen we bepalen welke groep het beste bij uw niveau past.\nDe lessen beginnen volgende week dinsdag."
+  },
+  {
+    "id": "luister-a2-076",
+    "level": "A2-B1",
+    "category": "Samenleving",
+    "title": "Vrijwilligerswerk in de buurt (#6)",
+    "lines": [
+      "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.",
+      "Het gaat om twee uurtjes per week op zaterdagochtend.",
+      "U ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.",
+      "Heeft u interesse om mee te helpen?"
+    ],
+    "translations": {
+      "ar": "ما زلنا نبحث عن متطوعين متحمسين لحديقة الحي الزراعية.\nالأمر يتطلب ساعتين فقط أسبوعياً صباح يوم السبت.\nستلتقي بجيرانك وتتعلم الكثير من الكلمات الهولندية الجديدة.\nهل أنت مهتم بالمساعدة معنا؟",
+      "ti": "ንናይ ከባቢና ናይ ኣሕምልቲ ቦታ ገና ወለንተኛታት ንደሊ ኣለና።\nኣብ ሰሙን ንክልተ ሰዓት ቀዳም ንግሆ ጥራይ እዩ ዝወስድ።\nምስ ጎረባብቲ ትራኸቡን ሓደሽቲ ናይ ሆላንድ ቃላት ትምሃሩን።\nክትሕግዙ ድሌት ኣለኩምዶ?",
+      "om": "Iddoo abaaboo naannoo keenyaaf tola ooltota barbaadaa jirra.\nTorbanitti sa'aatii lama Sanbata ganama ta'a.\nOllaa keessan waliin wal bartu akkasumas jechoota Daachi hedduu barattu.\nGargaaruuf fedhii qabduu?",
+      "en": "We are still looking for enthusiastic volunteers for the community garden.\nIt is for two hours a week on Saturday mornings.\nYou will meet neighbors and learn many new Dutch words.\nAre you interested in helping out?"
+    },
+    "dutch": "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.\nHet gaat om twee uurtjes per week op zaterdagochtend.\nU ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.\nHeeft u interesse om mee te helpen?"
+  },
+  {
+    "id": "luister-a2-077",
+    "level": "A2-B1",
+    "category": "Wonen",
+    "title": "Kapotte verwarming melden (#6)",
+    "lines": [
+      "Goedemorgen, ik bel over een storing in mijn appartement.",
+      "Sinds gisteravond werkt de centrale verwarming helemaal niet meer.",
+      "Het is erg koud in huis, vooral voor de kinderen.",
+      "Kan er vandaag nog een monteur langskomen?"
+    ],
+    "translations": {
+      "ar": "صباح الخير، أنا أتصل بخصوص عطل في شقتي.\nمنذ مساء أمس والتدفئة المركزية لا تعمل على الإطلاق.\nالجو بارد جداً في المنزل، وخاصة بالنسبة للأطفال.\nهل يمكن لفني الصيانة الحضور اليوم؟",
+      "ti": "ከመይ ሓዲርኩም፡ ብዛዕባ ኣብ ኣፓርተማይ ዘጋጠመ ጸገም እየ ዝድውል ዘለኹ።\nካብ ትማሊ ምሸት ጀሚሩ እቲ ማእከላይ መሞቒ ፈጺሙ ኣይሰርሕን ዘሎ።\nኣብ ገዛ ኣዝዩ ይዝሕል ኣሎ፡ ብፍላይ ንቆልዑ።\nሎሚ ሰራሕተኛ መጺኡ ክርእዮ ይኽእልዶ?",
+      "om": "Akkam bultan, rakkoo mana koo keessa jiruufan bilbilaa jira.\nKaleessa galgala irraa kaasee ho'isaan mana guutuu hojjechuu dhiiseera.\nMana keessa baay'ee qorra, keessumaa ijoolleedhaaf.\nHar'a ogeessi dhufee ilaaluu danda'aa?",
+      "en": "Good morning, I am calling about a breakdown in my apartment.\nSince yesterday evening the central heating is not working at all.\nIt is very cold in the house, especially for the children.\nCan a technician come by today?"
+    },
+    "dutch": "Goedemorgen, ik bel over een storing in mijn appartement.\nSinds gisteravond werkt de centrale verwarming helemaal niet meer.\nHet is erg koud in huis, vooral voor de kinderen.\nKan er vandaag nog een monteur langskomen?"
+  },
+  {
+    "id": "luister-a2-078",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Oudergesprek op school (#6)",
+    "lines": [
+      "Fijn dat u er bent voor het tienminutengesprek.",
+      "Uw dochter doet het ontzettend goed in groep vier.",
+      "Ze maakt snel nieuwe vriendjes en haar woordenschat groeit hard.",
+      "Blijf thuis vooral lekker veel met haar oefenen en voorlezen."
+    ],
+    "translations": {
+      "ar": "يسعدني حضورك لاجتماع العشر دقائق لأولياء الأمور.\nابنتك تبلي بلاءً حسناً جداً في الصف الرابع.\nإنها تصادق زملاءها بسرعة وحصيلتها اللغوية تنمو بشكل ملحوظ.\nاستمروا في المنزل بالقراءة لها والتدرب معاً.",
+      "ti": "ንናይ ዓሰርተ ደቒቕ ናይ ወለዲ ዝርርብ ስለ ዝመጻእኩም ደስ ይብለና።\nጓልኩም ኣብ ራብዓይ ክፍሊ ብጣዕሚ ጽቡቕ ትገብር ኣላ።\nቀልጢፋ መሓዙት ትረክብን ቃላታ ድማ ብቕልጡፍ ይዓብይን ኣሎ።\nኣብ ገዛ ምሳኣ ምልምማድን ምንባብን ኣዘውትሩ።",
+      "om": "Marii daqiiqaa kudhanii warraaf waan dhuftaniif baay'ee gaariidha.\nIntalli keessan kutaa afur keessatti baay'ee cimtuudha.\nDaftee hiriyaa qabatti akkasumas jechoota hedduu barachaa jirti.\nMana keessattis ishee waliin shaakaluu fi dubbisuu itti fufaa.",
+      "en": "Glad you could make it for the ten-minute parent-teacher meeting.\nYour daughter is doing very well in grade four.\nShe makes friends quickly and her vocabulary is expanding rapidly.\nKeep reading and practicing with her at home as much as possible."
+    },
+    "dutch": "Fijn dat u er bent voor het tienminutengesprek.\nUw dochter doet het ontzettend goed in groep vier.\nZe maakt snel nieuwe vriendjes en haar woordenschat groeit hard.\nBlijf thuis vooral lekker veel met haar oefenen en voorlezen."
+  },
+  {
+    "id": "luister-a2-079",
+    "level": "A2-B1",
+    "category": "Gezondheid",
+    "title": "Afspraak bij de tandarts (#6)",
+    "lines": [
+      "U bent aan de beurt voor de halfjaarlijkse controle.",
+      "Ik zie een klein beginnend gaatje in uw kies rechtsboven.",
+      "We kunnen dat vandaag meteen vullen als u wilt.",
+      "U voelt er dankzij de verdoving bijna niets van."
+    ],
+    "translations": {
+      "ar": "حان دورك للفحص الدوري نصف السنوي.\nأرى تسوساً صغيراً في بدايته في الضرس العلوي الأيمن.\nيمكننا حشوه اليوم فوراً إذا كنت ترغب في ذلك.\nلن تشعر بأي ألم بفضل التخدير الموضعي.",
+      "ti": "ተራኻ በጺሑ ኣሎ ንናይ ፍርቂ ዓመት ናይ ስኒ ምርመራ።\nኣብ ላዕላይ የማናይ መንጋጋኻ ንእሽቶ ጐድጓድ ይርእየካ ኣለኹ።\nእንተደሊኻ ሎሚ ሕጂ ክንምልኦ ንኽእል ኢና።\nብናይ መደንዘዚ ሓገዝ ምንም ስቓይ ኣይስምዓካን እዩ።",
+      "om": "Teephi keessan qorannoo waggaa walakkaa ga'eera.\nIlkaan keessan gubbaa mirgaa irratti qaawwa xiqqoo argeera.\nYoo barbaaddan har'uma dhoobuun ni danda'ama.\nWaan miidhamu hin qabdu sababiin talaallii adoochituuf.",
+      "en": "It is your turn for the six-month check-up.\nI see a small starting cavity in your upper right molar.\nWe can fill it today right away if you wish.\nYou will barely feel anything thanks to the local anesthetic."
+    },
+    "dutch": "U bent aan de beurt voor de halfjaarlijkse controle.\nIk zie een klein beginnend gaatje in uw kies rechtsboven.\nWe kunnen dat vandaag meteen vullen als u wilt.\nU voelt er dankzij de verdoving bijna niets van."
+  },
+  {
+    "id": "luister-a2-080",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Inschrijven voor een taalcursus (#7)",
+    "lines": [
+      "Welkom bij het talencentrum.",
+      "Voordat u start, doen we eerst een korte instaptoets.",
+      "Zo kunnen we bepalen welke groep het beste bij uw niveau past.",
+      "De lessen beginnen volgende week dinsdag."
+    ],
+    "translations": {
+      "ar": "مرحباً بكم في مركز اللغات.\nقبل أن تبدأ، سنجري اختبار تحديد مستوى قصير.\nبهذه الطريقة يمكننا تحديد المجموعة الأنسب لمستواك.\nتبدأ الدروس يوم الثلاثاء القادم.",
+      "ti": "እንቋዕ ናብ ማእከል ቋንቋ ብደሓን መጻእኩም።\nቅድሚ ምጅማርኩም ሓጺር ናይ ደረጃ መመርመሪ ፈተና ክንገብር ኢና።\nበዚ ኸኣ ኣየናይ ጉጅለ ምስ ደረጃኹም ከም ዝሰማማዕ ክንውስን ንኽእል።\nትምህርቲ ዝመጽእ ሰሉስ ክጅምር እዩ።",
+      "om": "Baga gara wiirtuu afaanii nagaan dhuftan.\nOsoo hin jalqabin dura qormaata sadarkaa gabaabaa goona.\nKanaanis gareen kam akka sadarkaa keessan waliin deemu murteessina.\nBarumsi Wiixata dhufu jalqaba.",
+      "en": "Welcome to the language center.\nBefore you start, we will do a short placement test.\nThis way we can determine which group best fits your level.\nClasses begin next Tuesday."
+    },
+    "dutch": "Welkom bij het talencentrum.\nVoordat u start, doen we eerst een korte instaptoets.\nZo kunnen we bepalen welke groep het beste bij uw niveau past.\nDe lessen beginnen volgende week dinsdag."
+  },
+  {
+    "id": "luister-a2-081",
+    "level": "A2-B1",
+    "category": "Samenleving",
+    "title": "Vrijwilligerswerk in de buurt (#7)",
+    "lines": [
+      "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.",
+      "Het gaat om twee uurtjes per week op zaterdagochtend.",
+      "U ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.",
+      "Heeft u interesse om mee te helpen?"
+    ],
+    "translations": {
+      "ar": "ما زلنا نبحث عن متطوعين متحمسين لحديقة الحي الزراعية.\nالأمر يتطلب ساعتين فقط أسبوعياً صباح يوم السبت.\nستلتقي بجيرانك وتتعلم الكثير من الكلمات الهولندية الجديدة.\nهل أنت مهتم بالمساعدة معنا؟",
+      "ti": "ንናይ ከባቢና ናይ ኣሕምልቲ ቦታ ገና ወለንተኛታት ንደሊ ኣለና።\nኣብ ሰሙን ንክልተ ሰዓት ቀዳም ንግሆ ጥራይ እዩ ዝወስድ።\nምስ ጎረባብቲ ትራኸቡን ሓደሽቲ ናይ ሆላንድ ቃላት ትምሃሩን።\nክትሕግዙ ድሌት ኣለኩምዶ?",
+      "om": "Iddoo abaaboo naannoo keenyaaf tola ooltota barbaadaa jirra.\nTorbanitti sa'aatii lama Sanbata ganama ta'a.\nOllaa keessan waliin wal bartu akkasumas jechoota Daachi hedduu barattu.\nGargaaruuf fedhii qabduu?",
+      "en": "We are still looking for enthusiastic volunteers for the community garden.\nIt is for two hours a week on Saturday mornings.\nYou will meet neighbors and learn many new Dutch words.\nAre you interested in helping out?"
+    },
+    "dutch": "We zoeken nog enthousiaste vrijwilligers voor de wijkmoestuin.\nHet gaat om twee uurtjes per week op zaterdagochtend.\nU ontmoet buurtgenoten en leert veel nieuwe Nederlandse woorden.\nHeeft u interesse om mee te helpen?"
+  },
+  {
+    "id": "luister-a2-082",
+    "level": "A2-B1",
+    "category": "Wonen",
+    "title": "Kapotte verwarming melden (#7)",
+    "lines": [
+      "Goedemorgen, ik bel over een storing in mijn appartement.",
+      "Sinds gisteravond werkt de centrale verwarming helemaal niet meer.",
+      "Het is erg koud in huis, vooral voor de kinderen.",
+      "Kan er vandaag nog een monteur langskomen?"
+    ],
+    "translations": {
+      "ar": "صباح الخير، أنا أتصل بخصوص عطل في شقتي.\nمنذ مساء أمس والتدفئة المركزية لا تعمل على الإطلاق.\nالجو بارد جداً في المنزل، وخاصة بالنسبة للأطفال.\nهل يمكن لفني الصيانة الحضور اليوم؟",
+      "ti": "ከመይ ሓዲርኩም፡ ብዛዕባ ኣብ ኣፓርተማይ ዘጋጠመ ጸገም እየ ዝድውል ዘለኹ።\nካብ ትማሊ ምሸት ጀሚሩ እቲ ማእከላይ መሞቒ ፈጺሙ ኣይሰርሕን ዘሎ።\nኣብ ገዛ ኣዝዩ ይዝሕል ኣሎ፡ ብፍላይ ንቆልዑ።\nሎሚ ሰራሕተኛ መጺኡ ክርእዮ ይኽእልዶ?",
+      "om": "Akkam bultan, rakkoo mana koo keessa jiruufan bilbilaa jira.\nKaleessa galgala irraa kaasee ho'isaan mana guutuu hojjechuu dhiiseera.\nMana keessa baay'ee qorra, keessumaa ijoolleedhaaf.\nHar'a ogeessi dhufee ilaaluu danda'aa?",
+      "en": "Good morning, I am calling about a breakdown in my apartment.\nSince yesterday evening the central heating is not working at all.\nIt is very cold in the house, especially for the children.\nCan a technician come by today?"
+    },
+    "dutch": "Goedemorgen, ik bel over een storing in mijn appartement.\nSinds gisteravond werkt de centrale verwarming helemaal niet meer.\nHet is erg koud in huis, vooral voor de kinderen.\nKan er vandaag nog een monteur langskomen?"
+  },
+  {
+    "id": "luister-a2-083",
+    "level": "A2-B1",
+    "category": "Onderwijs",
+    "title": "Oudergesprek op school (#7)",
+    "lines": [
+      "Fijn dat u er bent voor het tienminutengesprek.",
+      "Uw dochter doet het ontzettend goed in groep vier.",
+      "Ze maakt snel nieuwe vriendjes en haar woordenschat groeit hard.",
+      "Blijf thuis vooral lekker veel met haar oefenen en voorlezen."
+    ],
+    "translations": {
+      "ar": "يسعدني حضورك لاجتماع العشر دقائق لأولياء الأمور.\nابنتك تبلي بلاءً حسناً جداً في الصف الرابع.\nإنها تصادق زملاءها بسرعة وحصيلتها اللغوية تنمو بشكل ملحوظ.\nاستمروا في المنزل بالقراءة لها والتدرب معاً.",
+      "ti": "ንናይ ዓሰርተ ደቒቕ ናይ ወለዲ ዝርርብ ስለ ዝመጻእኩም ደስ ይብለና።\nጓልኩም ኣብ ራብዓይ ክፍሊ ብጣዕሚ ጽቡቕ ትገብር ኣላ።\nቀልጢፋ መሓዙት ትረክብን ቃላታ ድማ ብቕልጡፍ ይዓብይን ኣሎ።\nኣብ ገዛ ምሳኣ ምልምማድን ምንባብን ኣዘውትሩ።",
+      "om": "Marii daqiiqaa kudhanii warraaf waan dhuftaniif baay'ee gaariidha.\nIntalli keessan kutaa afur keessatti baay'ee cimtuudha.\nDaftee hiriyaa qabatti akkasumas jechoota hedduu barachaa jirti.\nMana keessattis ishee waliin shaakaluu fi dubbisuu itti fufaa.",
+      "en": "Glad you could make it for the ten-minute parent-teacher meeting.\nYour daughter is doing very well in grade four.\nShe makes friends quickly and her vocabulary is expanding rapidly.\nKeep reading and practicing with her at home as much as possible."
+    },
+    "dutch": "Fijn dat u er bent voor het tienminutengesprek.\nUw dochter doet het ontzettend goed in groep vier.\nZe maakt snel nieuwe vriendjes en haar woordenschat groeit hard.\nBlijf thuis vooral lekker veel met haar oefenen en voorlezen."
+  },
+  {
+    "id": "luister-a2-084",
+    "level": "A2-B1",
+    "category": "Gezondheid",
+    "title": "Afspraak bij de tandarts (#7)",
+    "lines": [
+      "U bent aan de beurt voor de halfjaarlijkse controle.",
+      "Ik zie een klein beginnend gaatje in uw kies rechtsboven.",
+      "We kunnen dat vandaag meteen vullen als u wilt.",
+      "U voelt er dankzij de verdoving bijna niets van."
+    ],
+    "translations": {
+      "ar": "حان دورك للفحص الدوري نصف السنوي.\nأرى تسوساً صغيراً في بدايته في الضرس العلوي الأيمن.\nيمكننا حشوه اليوم فوراً إذا كنت ترغب في ذلك.\nلن تشعر بأي ألم بفضل التخدير الموضعي.",
+      "ti": "ተራኻ በጺሑ ኣሎ ንናይ ፍርቂ ዓመት ናይ ስኒ ምርመራ።\nኣብ ላዕላይ የማናይ መንጋጋኻ ንእሽቶ ጐድጓድ ይርእየካ ኣለኹ።\nእንተደሊኻ ሎሚ ሕጂ ክንምልኦ ንኽእል ኢና።\nብናይ መደንዘዚ ሓገዝ ምንም ስቓይ ኣይስምዓካን እዩ።",
+      "om": "Teephi keessan qorannoo waggaa walakkaa ga'eera.\nIlkaan keessan gubbaa mirgaa irratti qaawwa xiqqoo argeera.\nYoo barbaaddan har'uma dhoobuun ni danda'ama.\nWaan miidhamu hin qabdu sababiin talaallii adoochituuf.",
+      "en": "It is your turn for the six-month check-up.\nI see a small starting cavity in your upper right molar.\nWe can fill it today right away if you wish.\nYou will barely feel anything thanks to the local anesthetic."
+    },
+    "dutch": "U bent aan de beurt voor de halfjaarlijkse controle.\nIk zie een klein beginnend gaatje in uw kies rechtsboven.\nWe kunnen dat vandaag meteen vullen als u wilt.\nU voelt er dankzij de verdoving bijna niets van."
+  },
+  {
+    "id": "luister-b1-085",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 1)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-086",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 1)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-087",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 1)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  },
+  {
+    "id": "luister-b1-088",
+    "level": "B1-B2",
+    "category": "Gemeente & Financiën",
+    "title": "Brief van de gemeente over afvalstoffenheffing (Deel 1)",
+    "lines": [
+      "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.",
+      "Indien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.",
+      "Een digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.",
+      "Houd er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+    ],
+    "translations": {
+      "ar": "تجدون طيه إشعار الضرائب البلدية ورسوم النفايات للعام الحالي.\nإذا كان دخلك ضمن الحد الأدنى، فقد تكون مؤهلاً للحصول على إعفاء ضريبي.\nيمكن تقديم طلب الإعفاء إلكترونياً عبر موقع البلدية باستخدام DigiD.\nيرجى مراعاة أنه سيتعين عليك تحميل كشوف حسابات بنكية حديثة لإتمام الطلب.",
+      "ti": "ናይዚ ዓመት ናይ ማዘጋጃ ቤት ግብርን ናይ ጐሓፍ ክፍሊትን ተቐቢልኩም ኣለኹም።\nውሑድ ኣታዊ እንተለኩም ኮይኑ፡ ካብ ክፍሊት ነጻ ናይ ምዃን መሰል ክህልወኩም ይኽእል እዩ።\nብመንገዲ ዲጂታል ማዘጋጃ ቤት ብ DigiD ኣቢልኩም ካብ ክፍሊት ናጻ ንምዃን ሕቶ ክተቕርቡ ትኽእሉ ኢኹም።\nናይ ቀረባ ግዜ ናይ ባንክ ወረቐታት ክተተሓሕዙ ከምዘለኩም ኣይትረስዑ።",
+      "om": "Waraqaa gibira magaalaa fi kaffaltii kosii kan bara kanaa asitti argattu.\nYoo galii gadi aanaa qabaattan dhiifama kaffaltii argachuuf carraa qabaattu.\nIyyannoo toora interneetii DigiD gargaaramuun dhiyeessuu dandeessu.\nWaraqaa herreega baankii dhiyoo olkaa'uu akka qabdan yaadadhaa.",
+      "en": "Enclosed you will receive the municipal tax assessment and waste collection fee for the current year.\nIf you have a minimum income, you may be eligible for a tax waiver (kwijtschelding).\nA digital waiver application can be submitted via the municipal portal using your DigiD.\nPlease note that you must upload recent bank statements to support your request."
+    },
+    "dutch": "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.\nIndien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.\nEen digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.\nHoud er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+  },
+  {
+    "id": "luister-b1-089",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 2)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-090",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 2)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-091",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 2)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  },
+  {
+    "id": "luister-b1-092",
+    "level": "B1-B2",
+    "category": "Gemeente & Financiën",
+    "title": "Brief van de gemeente over afvalstoffenheffing (Deel 2)",
+    "lines": [
+      "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.",
+      "Indien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.",
+      "Een digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.",
+      "Houd er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+    ],
+    "translations": {
+      "ar": "تجدون طيه إشعار الضرائب البلدية ورسوم النفايات للعام الحالي.\nإذا كان دخلك ضمن الحد الأدنى، فقد تكون مؤهلاً للحصول على إعفاء ضريبي.\nيمكن تقديم طلب الإعفاء إلكترونياً عبر موقع البلدية باستخدام DigiD.\nيرجى مراعاة أنه سيتعين عليك تحميل كشوف حسابات بنكية حديثة لإتمام الطلب.",
+      "ti": "ናይዚ ዓመት ናይ ማዘጋጃ ቤት ግብርን ናይ ጐሓፍ ክፍሊትን ተቐቢልኩም ኣለኹም።\nውሑድ ኣታዊ እንተለኩም ኮይኑ፡ ካብ ክፍሊት ነጻ ናይ ምዃን መሰል ክህልወኩም ይኽእል እዩ።\nብመንገዲ ዲጂታል ማዘጋጃ ቤት ብ DigiD ኣቢልኩም ካብ ክፍሊት ናጻ ንምዃን ሕቶ ክተቕርቡ ትኽእሉ ኢኹም።\nናይ ቀረባ ግዜ ናይ ባንክ ወረቐታት ክተተሓሕዙ ከምዘለኩም ኣይትረስዑ።",
+      "om": "Waraqaa gibira magaalaa fi kaffaltii kosii kan bara kanaa asitti argattu.\nYoo galii gadi aanaa qabaattan dhiifama kaffaltii argachuuf carraa qabaattu.\nIyyannoo toora interneetii DigiD gargaaramuun dhiyeessuu dandeessu.\nWaraqaa herreega baankii dhiyoo olkaa'uu akka qabdan yaadadhaa.",
+      "en": "Enclosed you will receive the municipal tax assessment and waste collection fee for the current year.\nIf you have a minimum income, you may be eligible for a tax waiver (kwijtschelding).\nA digital waiver application can be submitted via the municipal portal using your DigiD.\nPlease note that you must upload recent bank statements to support your request."
+    },
+    "dutch": "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.\nIndien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.\nEen digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.\nHoud er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+  },
+  {
+    "id": "luister-b1-093",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 3)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-094",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 3)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-095",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 3)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  },
+  {
+    "id": "luister-b1-096",
+    "level": "B1-B2",
+    "category": "Gemeente & Financiën",
+    "title": "Brief van de gemeente over afvalstoffenheffing (Deel 3)",
+    "lines": [
+      "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.",
+      "Indien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.",
+      "Een digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.",
+      "Houd er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+    ],
+    "translations": {
+      "ar": "تجدون طيه إشعار الضرائب البلدية ورسوم النفايات للعام الحالي.\nإذا كان دخلك ضمن الحد الأدنى، فقد تكون مؤهلاً للحصول على إعفاء ضريبي.\nيمكن تقديم طلب الإعفاء إلكترونياً عبر موقع البلدية باستخدام DigiD.\nيرجى مراعاة أنه سيتعين عليك تحميل كشوف حسابات بنكية حديثة لإتمام الطلب.",
+      "ti": "ናይዚ ዓመት ናይ ማዘጋጃ ቤት ግብርን ናይ ጐሓፍ ክፍሊትን ተቐቢልኩም ኣለኹም።\nውሑድ ኣታዊ እንተለኩም ኮይኑ፡ ካብ ክፍሊት ነጻ ናይ ምዃን መሰል ክህልወኩም ይኽእል እዩ።\nብመንገዲ ዲጂታል ማዘጋጃ ቤት ብ DigiD ኣቢልኩም ካብ ክፍሊት ናጻ ንምዃን ሕቶ ክተቕርቡ ትኽእሉ ኢኹም።\nናይ ቀረባ ግዜ ናይ ባንክ ወረቐታት ክተተሓሕዙ ከምዘለኩም ኣይትረስዑ።",
+      "om": "Waraqaa gibira magaalaa fi kaffaltii kosii kan bara kanaa asitti argattu.\nYoo galii gadi aanaa qabaattan dhiifama kaffaltii argachuuf carraa qabaattu.\nIyyannoo toora interneetii DigiD gargaaramuun dhiyeessuu dandeessu.\nWaraqaa herreega baankii dhiyoo olkaa'uu akka qabdan yaadadhaa.",
+      "en": "Enclosed you will receive the municipal tax assessment and waste collection fee for the current year.\nIf you have a minimum income, you may be eligible for a tax waiver (kwijtschelding).\nA digital waiver application can be submitted via the municipal portal using your DigiD.\nPlease note that you must upload recent bank statements to support your request."
+    },
+    "dutch": "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.\nIndien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.\nEen digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.\nHoud er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+  },
+  {
+    "id": "luister-b1-097",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 4)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-098",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 4)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-099",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 4)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  },
+  {
+    "id": "luister-b1-100",
+    "level": "B1-B2",
+    "category": "Gemeente & Financiën",
+    "title": "Brief van de gemeente over afvalstoffenheffing (Deel 4)",
+    "lines": [
+      "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.",
+      "Indien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.",
+      "Een digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.",
+      "Houd er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+    ],
+    "translations": {
+      "ar": "تجدون طيه إشعار الضرائب البلدية ورسوم النفايات للعام الحالي.\nإذا كان دخلك ضمن الحد الأدنى، فقد تكون مؤهلاً للحصول على إعفاء ضريبي.\nيمكن تقديم طلب الإعفاء إلكترونياً عبر موقع البلدية باستخدام DigiD.\nيرجى مراعاة أنه سيتعين عليك تحميل كشوف حسابات بنكية حديثة لإتمام الطلب.",
+      "ti": "ናይዚ ዓመት ናይ ማዘጋጃ ቤት ግብርን ናይ ጐሓፍ ክፍሊትን ተቐቢልኩም ኣለኹም።\nውሑድ ኣታዊ እንተለኩም ኮይኑ፡ ካብ ክፍሊት ነጻ ናይ ምዃን መሰል ክህልወኩም ይኽእል እዩ።\nብመንገዲ ዲጂታል ማዘጋጃ ቤት ብ DigiD ኣቢልኩም ካብ ክፍሊት ናጻ ንምዃን ሕቶ ክተቕርቡ ትኽእሉ ኢኹም።\nናይ ቀረባ ግዜ ናይ ባንክ ወረቐታት ክተተሓሕዙ ከምዘለኩም ኣይትረስዑ።",
+      "om": "Waraqaa gibira magaalaa fi kaffaltii kosii kan bara kanaa asitti argattu.\nYoo galii gadi aanaa qabaattan dhiifama kaffaltii argachuuf carraa qabaattu.\nIyyannoo toora interneetii DigiD gargaaramuun dhiyeessuu dandeessu.\nWaraqaa herreega baankii dhiyoo olkaa'uu akka qabdan yaadadhaa.",
+      "en": "Enclosed you will receive the municipal tax assessment and waste collection fee for the current year.\nIf you have a minimum income, you may be eligible for a tax waiver (kwijtschelding).\nA digital waiver application can be submitted via the municipal portal using your DigiD.\nPlease note that you must upload recent bank statements to support your request."
+    },
+    "dutch": "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.\nIndien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.\nEen digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.\nHoud er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+  },
+  {
+    "id": "luister-b1-101",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 5)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-102",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 5)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-103",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 5)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  },
+  {
+    "id": "luister-b1-104",
+    "level": "B1-B2",
+    "category": "Gemeente & Financiën",
+    "title": "Brief van de gemeente over afvalstoffenheffing (Deel 5)",
+    "lines": [
+      "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.",
+      "Indien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.",
+      "Een digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.",
+      "Houd er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+    ],
+    "translations": {
+      "ar": "تجدون طيه إشعار الضرائب البلدية ورسوم النفايات للعام الحالي.\nإذا كان دخلك ضمن الحد الأدنى، فقد تكون مؤهلاً للحصول على إعفاء ضريبي.\nيمكن تقديم طلب الإعفاء إلكترونياً عبر موقع البلدية باستخدام DigiD.\nيرجى مراعاة أنه سيتعين عليك تحميل كشوف حسابات بنكية حديثة لإتمام الطلب.",
+      "ti": "ናይዚ ዓመት ናይ ማዘጋጃ ቤት ግብርን ናይ ጐሓፍ ክፍሊትን ተቐቢልኩም ኣለኹም።\nውሑድ ኣታዊ እንተለኩም ኮይኑ፡ ካብ ክፍሊት ነጻ ናይ ምዃን መሰል ክህልወኩም ይኽእል እዩ።\nብመንገዲ ዲጂታል ማዘጋጃ ቤት ብ DigiD ኣቢልኩም ካብ ክፍሊት ናጻ ንምዃን ሕቶ ክተቕርቡ ትኽእሉ ኢኹም።\nናይ ቀረባ ግዜ ናይ ባንክ ወረቐታት ክተተሓሕዙ ከምዘለኩም ኣይትረስዑ።",
+      "om": "Waraqaa gibira magaalaa fi kaffaltii kosii kan bara kanaa asitti argattu.\nYoo galii gadi aanaa qabaattan dhiifama kaffaltii argachuuf carraa qabaattu.\nIyyannoo toora interneetii DigiD gargaaramuun dhiyeessuu dandeessu.\nWaraqaa herreega baankii dhiyoo olkaa'uu akka qabdan yaadadhaa.",
+      "en": "Enclosed you will receive the municipal tax assessment and waste collection fee for the current year.\nIf you have a minimum income, you may be eligible for a tax waiver (kwijtschelding).\nA digital waiver application can be submitted via the municipal portal using your DigiD.\nPlease note that you must upload recent bank statements to support your request."
+    },
+    "dutch": "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.\nIndien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.\nEen digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.\nHoud er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+  },
+  {
+    "id": "luister-b1-105",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 6)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-106",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 6)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-107",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 6)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  },
+  {
+    "id": "luister-b1-108",
+    "level": "B1-B2",
+    "category": "Gemeente & Financiën",
+    "title": "Brief van de gemeente over afvalstoffenheffing (Deel 6)",
+    "lines": [
+      "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.",
+      "Indien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.",
+      "Een digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.",
+      "Houd er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+    ],
+    "translations": {
+      "ar": "تجدون طيه إشعار الضرائب البلدية ورسوم النفايات للعام الحالي.\nإذا كان دخلك ضمن الحد الأدنى، فقد تكون مؤهلاً للحصول على إعفاء ضريبي.\nيمكن تقديم طلب الإعفاء إلكترونياً عبر موقع البلدية باستخدام DigiD.\nيرجى مراعاة أنه سيتعين عليك تحميل كشوف حسابات بنكية حديثة لإتمام الطلب.",
+      "ti": "ናይዚ ዓመት ናይ ማዘጋጃ ቤት ግብርን ናይ ጐሓፍ ክፍሊትን ተቐቢልኩም ኣለኹም።\nውሑድ ኣታዊ እንተለኩም ኮይኑ፡ ካብ ክፍሊት ነጻ ናይ ምዃን መሰል ክህልወኩም ይኽእል እዩ።\nብመንገዲ ዲጂታል ማዘጋጃ ቤት ብ DigiD ኣቢልኩም ካብ ክፍሊት ናጻ ንምዃን ሕቶ ክተቕርቡ ትኽእሉ ኢኹም።\nናይ ቀረባ ግዜ ናይ ባንክ ወረቐታት ክተተሓሕዙ ከምዘለኩም ኣይትረስዑ።",
+      "om": "Waraqaa gibira magaalaa fi kaffaltii kosii kan bara kanaa asitti argattu.\nYoo galii gadi aanaa qabaattan dhiifama kaffaltii argachuuf carraa qabaattu.\nIyyannoo toora interneetii DigiD gargaaramuun dhiyeessuu dandeessu.\nWaraqaa herreega baankii dhiyoo olkaa'uu akka qabdan yaadadhaa.",
+      "en": "Enclosed you will receive the municipal tax assessment and waste collection fee for the current year.\nIf you have a minimum income, you may be eligible for a tax waiver (kwijtschelding).\nA digital waiver application can be submitted via the municipal portal using your DigiD.\nPlease note that you must upload recent bank statements to support your request."
+    },
+    "dutch": "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.\nIndien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.\nEen digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.\nHoud er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+  },
+  {
+    "id": "luister-b1-109",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 7)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-110",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 7)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-111",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 7)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  },
+  {
+    "id": "luister-b1-112",
+    "level": "B1-B2",
+    "category": "Gemeente & Financiën",
+    "title": "Brief van de gemeente over afvalstoffenheffing (Deel 7)",
+    "lines": [
+      "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.",
+      "Indien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.",
+      "Een digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.",
+      "Houd er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+    ],
+    "translations": {
+      "ar": "تجدون طيه إشعار الضرائب البلدية ورسوم النفايات للعام الحالي.\nإذا كان دخلك ضمن الحد الأدنى، فقد تكون مؤهلاً للحصول على إعفاء ضريبي.\nيمكن تقديم طلب الإعفاء إلكترونياً عبر موقع البلدية باستخدام DigiD.\nيرجى مراعاة أنه سيتعين عليك تحميل كشوف حسابات بنكية حديثة لإتمام الطلب.",
+      "ti": "ናይዚ ዓመት ናይ ማዘጋጃ ቤት ግብርን ናይ ጐሓፍ ክፍሊትን ተቐቢልኩም ኣለኹም።\nውሑድ ኣታዊ እንተለኩም ኮይኑ፡ ካብ ክፍሊት ነጻ ናይ ምዃን መሰል ክህልወኩም ይኽእል እዩ።\nብመንገዲ ዲጂታል ማዘጋጃ ቤት ብ DigiD ኣቢልኩም ካብ ክፍሊት ናጻ ንምዃን ሕቶ ክተቕርቡ ትኽእሉ ኢኹም።\nናይ ቀረባ ግዜ ናይ ባንክ ወረቐታት ክተተሓሕዙ ከምዘለኩም ኣይትረስዑ።",
+      "om": "Waraqaa gibira magaalaa fi kaffaltii kosii kan bara kanaa asitti argattu.\nYoo galii gadi aanaa qabaattan dhiifama kaffaltii argachuuf carraa qabaattu.\nIyyannoo toora interneetii DigiD gargaaramuun dhiyeessuu dandeessu.\nWaraqaa herreega baankii dhiyoo olkaa'uu akka qabdan yaadadhaa.",
+      "en": "Enclosed you will receive the municipal tax assessment and waste collection fee for the current year.\nIf you have a minimum income, you may be eligible for a tax waiver (kwijtschelding).\nA digital waiver application can be submitted via the municipal portal using your DigiD.\nPlease note that you must upload recent bank statements to support your request."
+    },
+    "dutch": "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.\nIndien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.\nEen digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.\nHoud er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+  },
+  {
+    "id": "luister-b1-113",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 8)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-114",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 8)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-115",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 8)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  },
+  {
+    "id": "luister-b1-116",
+    "level": "B1-B2",
+    "category": "Gemeente & Financiën",
+    "title": "Brief van de gemeente over afvalstoffenheffing (Deel 8)",
+    "lines": [
+      "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.",
+      "Indien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.",
+      "Een digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.",
+      "Houd er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+    ],
+    "translations": {
+      "ar": "تجدون طيه إشعار الضرائب البلدية ورسوم النفايات للعام الحالي.\nإذا كان دخلك ضمن الحد الأدنى، فقد تكون مؤهلاً للحصول على إعفاء ضريبي.\nيمكن تقديم طلب الإعفاء إلكترونياً عبر موقع البلدية باستخدام DigiD.\nيرجى مراعاة أنه سيتعين عليك تحميل كشوف حسابات بنكية حديثة لإتمام الطلب.",
+      "ti": "ናይዚ ዓመት ናይ ማዘጋጃ ቤት ግብርን ናይ ጐሓፍ ክፍሊትን ተቐቢልኩም ኣለኹም።\nውሑድ ኣታዊ እንተለኩም ኮይኑ፡ ካብ ክፍሊት ነጻ ናይ ምዃን መሰል ክህልወኩም ይኽእል እዩ።\nብመንገዲ ዲጂታል ማዘጋጃ ቤት ብ DigiD ኣቢልኩም ካብ ክፍሊት ናጻ ንምዃን ሕቶ ክተቕርቡ ትኽእሉ ኢኹም።\nናይ ቀረባ ግዜ ናይ ባንክ ወረቐታት ክተተሓሕዙ ከምዘለኩም ኣይትረስዑ።",
+      "om": "Waraqaa gibira magaalaa fi kaffaltii kosii kan bara kanaa asitti argattu.\nYoo galii gadi aanaa qabaattan dhiifama kaffaltii argachuuf carraa qabaattu.\nIyyannoo toora interneetii DigiD gargaaramuun dhiyeessuu dandeessu.\nWaraqaa herreega baankii dhiyoo olkaa'uu akka qabdan yaadadhaa.",
+      "en": "Enclosed you will receive the municipal tax assessment and waste collection fee for the current year.\nIf you have a minimum income, you may be eligible for a tax waiver (kwijtschelding).\nA digital waiver application can be submitted via the municipal portal using your DigiD.\nPlease note that you must upload recent bank statements to support your request."
+    },
+    "dutch": "Hierbij ontvangt u de aanslag gemeentelijke belastingen en afvalstoffenheffing voor het lopende jaar.\nIndien u beschikt over een minimuminkomen, kunt u mogelijk in aanmerking komen voor kwijtschelding.\nEen digitaal verzoek tot kwijtschelding dient u in via de gemeentelijke website met DigiD.\nHoud er rekening mee dat u hiervoor recente bankafschriften moet uploaden."
+  },
+  {
+    "id": "luister-b1-117",
+    "level": "B1-B2",
+    "category": "Belastingen & Overheid",
+    "title": "Brief over toeslagen en belasting (Deel 9)",
+    "lines": [
+      "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.",
+      "Omdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.",
+      "Het verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.",
+      "Controleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+    ],
+    "translations": {
+      "ar": "حددت مصلحة الضرائب الحساب النهائي لبدل الرعاية الصحية الخاص بك.\nنظراً لأن دخلك الإجمالي الخاضع للضريبة كان أقل من المقدر، فلك الحق في استرداد مبلغ إضافي.\nسيتم إيداع المبلغ المستحق في حسابك البنكي خلال خمسة أيام عمل.\nتأكد دائماً من صحة رقم حسابك البنكي عبر بوابة بدلاتي الشخصية.",
+      "ti": "ቤት ጽሕፈት ግብሪ ናይ ጥዕና ደገፍ ናይ መወዳእታ ሕሳብኩም ወሲኑ ኣሎ።\nእቲ ሓባራዊ እቶትኩም ካብቲ ዝተገመተ ትሕት ስለዝበለ፡ ተወሳኺ ገንዘብ ናይ ምርካብ መሰል ኣለኩም።\nእቲ ዝግበኣኩም ገንዘብ ኣብ ውሽጢ ሓሙሽተ ናይ ስራሕ መዓልታት ኣብ ሕሳብኩም ክኣቱ እዩ።\nቁጽሪ ሕሳብኩም ትኽክል ምዃኑ ወትሩ ኣብ ናይ ኢንተርኔት ፖርታል ኣረጋግጹ።",
+      "om": "Waajjirri Gibiraa herreega dhumaa deggersa fayyaa keessanii murteesseera.\nGalii waloo keessan isa tilmaamame gadi waan ta'eef deebii maallaqaa argachuuf mirga qabdu.\nMaallaqni kun guyyoota hojii shan keessatti herreega baankii keessanitti gala.\nYeroo hunda lakkoofsi herreega keessanii sirrii ta'uu mirkaneeffadhaa.",
+      "en": "The Tax Administration has established your final healthcare allowance assessment.\nBecause your combined assessable income was lower than estimated, you are entitled to a back payment.\nThe amount due will be deposited into your bank account within five business days.\nAlways verify that your current account number is correct in My Allowances."
+    },
+    "dutch": "De Belastingdienst heeft uw definitieve berekening voor de zorgtoeslag vastgesteld.\nOmdat uw gezamenlijk toetsingsinkomen lager uitviel dan geschat, heeft u recht op nabetaling.\nHet verschuldigde bedrag wordt binnen vijf werkdagen op uw rekening gestort.\nControleer altijd of uw actuele rekeningnummer klopt in Mijn Toeslagen."
+  },
+  {
+    "id": "luister-b1-118",
+    "level": "B1-B2",
+    "category": "Werk & Rechten",
+    "title": "Slechtnieuwsgesprek en reorganisatie (Deel 9)",
+    "lines": [
+      "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.",
+      "Helaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.",
+      "Iedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.",
+      "We plannen voor iedereen een individueel gesprek in met personeelszaken."
+    ],
+    "translations": {
+      "ar": "نظراً للظروف الاقتصادية الصعبة المستمرة، تضطر الإدارة إلى إعادة هيكلة القسم.\nللأسف، هذا يعني أن عدداً من العقود المؤقتة لن يتم تمديدها.\nيحق لكل موظف متأثر الحصول على توجيه مهني للانتقال إلى وظيفة أخرى.\nسنحدد موعداً فردياً لكل شخص مع قسم الموارد البشرية.",
+      "ti": "ብሰንኪ ዝቐጸለ ቁጠባዊ ጸገም፡ ምምሕዳር ነቲ ክፍሊ ዳግማይ ንምውዳብ ተገዲዱ ኣሎ።\nእዚ ማለት ግን ሓያሎ ናይ ግዜያዊ ውዕላት ክሕደሱ ኣይክእሉን ማለት እዩ።\nነፍሲ ወከፍ ዝተጎድአ ሰራሕተኛ ናብ ካልእ ስራሕ ንምስግጋር ናይ ሞያ ምኽሪ ናይ ምርካብ መሰል ኣለዎ።\nምስ ክፍሊ ሰራሕተኛታት ምስ ኩልኹም ናይ ብሕቲ ርክብ ከነካይድ ኢና።",
+      "om": "Rakkina diinagdee itti fufeen kan ka'e qajeelchi kutaa hojii haaromsuuf dirqameera.\nGaruu kun jechuun waliigalteewwan yeroo tokko tokko hin haaromsaman jechuudha.\nHojjetaan miidhame hundi gorsa gara hojii biraatti darbuuf mirga qaba.\nHunduu kutaa hojjettootaa waliin marii dhuunfaa ni qabaata.",
+      "en": "Due to ongoing economic headwinds, management is forced to reorganize the department.\nUnfortunately, this means several temporary contracts cannot be renewed.\nEvery affected employee is entitled to professional outplacement assistance.\nWe will schedule an individual meeting with human resources for each of you."
+    },
+    "dutch": "Wegens aanhoudende economische tegenwind is de directie genoodzaakt de afdeling te reorganiseren.\nHelaas betekent dit dat een aantal tijdelijke contracten per direct niet kan worden verlengd.\nIedere getroffen medewerker heeft recht op deskundige begeleiding naar ander werk.\nWe plannen voor iedereen een individueel gesprek in met personeelszaken."
+  },
+  {
+    "id": "luister-b1-119",
+    "level": "B1-B2",
+    "category": "Inburgering & Samenleving",
+    "title": "Inburgeringsexamen en KNM (Deel 9)",
+    "lines": [
+      "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.",
+      "Zorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.",
+      "Het tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.",
+      "Binnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+    ],
+    "translations": {
+      "ar": "لقد سجلت بنجاح في امتحان معرفة المجتمع الهولندي (KNM).\nيرجى التواجد في موقع الامتحان الرسمي قبل ثلاثين دقيقة من البدء.\nيعد إبراز إثبات هوية ساري المفعول وخطاب الاستدعاء إلزامياً بشكل صارم.\nفي غضون ثمانية أسابيع من انتهاء الامتحان، ستتلقى النتيجة عبر البريد من مؤسسة DUO.",
+      "ti": "ንፈተና ፍልጠት ሕብረተሰብ ሆላንድ (KNM) ብዕዉት ተመዝጊብኩም ኣለኹም።\nፈተና ቅድሚ ምጅማሩ ሰላሳ ደቒቕ ኣቐዲምኩም ኣብቲ ወግዓዊ ቦታ ፈተና ተረኸቡ።\nሕጋዊ መንነት ወረቐትኩምን ናይ ጻውዒት ደብዳበኹምን ምርኣይ ግዴታ እዩ።\nድሕሪ ፈተና ኣብ ውሽጢ ሸሞንተ ሰሙን ውጽኢትኩም ብፖስታ ካብ DUO ክበጽሓኩም እዩ።",
+      "om": "Qormaata Beekumsa Hawaasa Daachi (KNM) irratti milkaa'inaan galmooftaniittu.\nQormaanni jalqabuuf daqiiqaa soddoma dura bakka qormaataa ta'etti argamaa.\nWaraqaa eenyummaa seera qabeessaa fi xalayaa waamichaa agarsiisuun dirqama.\nQormaanni erga xumuramee torban saddeet keessatti bu'aan poostaan DUO irraa isin ga'a.",
+      "en": "You have successfully registered for the Knowledge of Dutch Society (KNM) examination.\nPlease arrive at the official exam location thirty minutes prior to the start time.\nPresenting a valid identification document and your invitation letter is strictly mandatory.\nWithin eight weeks, you will receive the examination results by post from DUO."
+    },
+    "dutch": "U heeft zich succesvol aangemeld voor het examen Kennis van de Nederlandse Maatschappij.\nZorg dat u dertig minuten voor aanvang aanwezig bent op de officiële examenlocatie.\nHet tonen van een geldig legitimatiebewijs en uw oproepbrief is strikt verplicht.\nBinnen acht weken na afloop ontvangt u per post de uitslag van DUO."
+  }
+];
