@@ -1,22 +1,6 @@
-/**
- * TaalVriend Zinnen Database (470 Zinnen)
- * Honderden praktische zinnen voor nieuwkomers in 3 niveaus
- */
 window.TAALVRIEND_SENTENCES = [
   {
-    "id": "sent_basis_1",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Hallo, fijn om u weer te zien!",
-    "translations": {
-      "ar": "مرحباً، يسعدني رؤيتك مرة أخرى!",
-      "ti": "ሰላም፡ ዳግማይ ብምርኣየይ ሓጎስ ይስምዓኒ!",
-      "om": "Akkam, ammas isin arguun koo baay'ee na gammachiise!",
-      "en": "Hello, nice to see you again!"
-    }
-  },
-  {
-    "id": "sent_basis_2",
+    "id": "sent_basis_001",
     "level": "basis",
     "topic": "Begroeting",
     "dutch": "Goedemorgen, hoe gaat het met u?",
@@ -28,1903 +12,703 @@ window.TAALVRIEND_SENTENCES = [
     }
   },
   {
-    "id": "sent_basis_3",
+    "id": "sent_basis_002",
     "level": "basis",
     "topic": "Begroeting",
-    "dutch": "Goedemiddag, kan ik u ergens mee helpen?",
+    "dutch": "Goedemiddag, fijn om u te ontmoeten.",
     "translations": {
-      "ar": "مساء الخير، هل يمكنني مساعدتك في شيء ما؟",
-      "ti": "ደሓን ቀትሪ፡ ኣብ ገለ ነገር ክሕግዘኩምዶ፧",
-      "om": "Akkam ooltan, waan tokkoon isin gargaaruu danda'aa?",
-      "en": "Good afternoon, can I help you with anything?"
+      "ar": "مساء الخير، يسعدني مقابلتك.",
+      "ti": "ደሓን ቀትሪ፡ ብምርኻብና ደስ ይብለኒ።",
+      "om": "Akkam ooltan, isin arguun koo gammachuu dha.",
+      "en": "Good afternoon, nice to meet you."
     }
   },
   {
-    "id": "sent_basis_4",
+    "id": "sent_basis_003",
     "level": "basis",
     "topic": "Begroeting",
-    "dutch": "Goedenavond, heeft u een tafeltje voor twee personen?",
+    "dutch": "Goedenavond allemaal, welkom in de klas.",
     "translations": {
-      "ar": "مساء الخير، هل لديكم طاولة لشخصين؟",
-      "ti": "ደሓን ምሸት፡ ናይ ክልተ ሰብ ጠረጴዛ ኣለኩምዶ፧",
-      "om": "Akkam dhiitan, gabatee nama lamaaf ta'u qabduu?",
-      "en": "Good evening, do you have a table for two people?"
+      "ar": "مساء الخير للجميع، مرحباً بكم في الفصل.",
+      "ti": "ደሓን ምሸት ንኹልኹም፡ ናብ ክፍሊ እንቋዕ ብደሓን መጻእኩም።",
+      "om": "Akkam dhiitan hundi keessanuu, gara kutaa barnootaatti baga nagaan dhuftan.",
+      "en": "Good evening everyone, welcome to the class."
     }
   },
   {
-    "id": "sent_basis_5",
+    "id": "sent_basis_004",
     "level": "basis",
     "topic": "Begroeting",
-    "dutch": "Fijne dag verder en tot ziens!",
+    "dutch": "Prettig weekend en tot volgende week maandag!",
     "translations": {
-      "ar": "أتمنى لك يوماً سعيداً وإلى اللقاء!",
-      "ti": "ጽቡቕ መዓልቲ ይግበረልኩም፡ ደሓን ኩኑ!",
-      "om": "Guyyaa gaarii qabaadhaa, walgarra!",
-      "en": "Have a nice day and goodbye!"
+      "ar": "عطلة نهاية أسبوع سعيدة وإلى اللقاء يوم الاثنين القادم!",
+      "ti": "ጽቡቕ ቀዳመ-ሰንበትን ክሳብ ዝመጽእ ሰኑይን!",
+      "om": "Sanbata gaarii fi hamma Wiixata dhufuutti!",
+      "en": "Have a nice weekend and see you next Monday!"
     }
   },
   {
-    "id": "sent_basis_6",
+    "id": "sent_basis_005",
     "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Ik leer Nederlands omdat ik hier wil werken en wonen.",
+    "topic": "Begroeting",
+    "dutch": "Tot ziens, een hele fijne dag nog!",
     "translations": {
-      "ar": "أنا أتعلم اللغة الهولندية لأنني أريد العمل والعيش هنا.",
-      "ti": "ኣብዚ ክሰርሕን ክነብርን ስለ ዝደሊ ኔዘርላንድስኛ ይምሃር ኣለኹ።",
-      "om": "Asitti hojjechuu fi jiraachuu waanun barbaaduuf Afaan Neezerlaandi barachaa jira.",
-      "en": "I am learning Dutch because I want to work and live here."
+      "ar": "إلى اللقاء، أتمنى لك بقية يوم سعيدة!",
+      "ti": "ደሓን ኩኑ፡ ጽቡቕ መዓልቲ ይግበረልኩም!",
+      "om": "Walgarra, guyyaa baay'ee gaarii qabaadhaa!",
+      "en": "Goodbye, have a wonderful day!"
     }
   },
   {
-    "id": "sent_basis_7",
+    "id": "sent_basis_006",
     "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Wat is uw voornaam en achternaam?",
+    "topic": "Begroeting",
+    "dutch": "Alstublieft, hier is uw kopje warme thee.",
     "translations": {
-      "ar": "ما هو اسمك الأول واسم عائلتك؟",
-      "ti": "ስምካን ስም ኣቦኻን መን ይበሃል፧",
-      "om": "Maqaan kee fi maqaan abbaa kee eenyu?",
-      "en": "What is your first name and last name?"
+      "ar": "تفضل، ها هو كوب الشاي الدافئ الخاص بك.",
+      "ti": "እንሆልኩም፡ እዚ ናትኩም ጽዋእ ውዑይ ሻሂ እዩ።",
+      "om": "Kunooti, kun xoofoo shayii oo'aa keessaniiti.",
+      "en": "Here you go, here is your cup of warm tea."
     }
   },
   {
-    "id": "sent_basis_8",
+    "id": "sent_basis_007",
     "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Ik woon nu één jaar met mijn familie in Nederland.",
+    "topic": "Begroeting",
+    "dutch": "Dank u wel voor uw vriendelijke hulp.",
     "translations": {
-      "ar": "أنا أعيش الآن مع عائلتي في هولندا منذ عام واحد.",
-      "ti": "ምስ ስድራቤተይ ኣብ ኔዘርላንድስ ካብ እንነብር ሓደ ዓመት ኮይኑና።",
-      "om": "Ani maatii koo wajjin Neezerlaandi keessa ergan jiraachuu jalqabee waggaa tokko ta'eera.",
-      "en": "I have been living in the Netherlands with my family for one year now."
+      "ar": "شكراً جزيلاً لك على مساعدتك اللطيفة.",
+      "ti": "ስለቲ ሕያው ሓገዝኩም ኣዝየ የቐንየለይ።",
+      "om": "Gargaarsa keessan gaariif galatoomaa.",
+      "en": "Thank you very much for your kind help."
     }
   },
   {
-    "id": "sent_basis_9",
+    "id": "sent_basis_008",
     "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Kunt u dat alstublieft nog een keer herhalen?",
+    "topic": "Begroeting",
+    "dutch": "Pardon, mag ik u even iets vragen?",
     "translations": {
-      "ar": "هل يمكنك تكرار ذلك من فضلك مرة أخرى؟",
-      "ti": "ብኽብረትኩም ነዚ ክትደግሙለይ ትኽእሉዶ፧",
-      "om": "Mee irra deebitanii natti himuu dandeessuu?",
-      "en": "Could you please repeat that once more?"
+      "ar": "معذرة، هل يمكنني أن أسألك عن شيء؟",
+      "ti": "ይቕሬታ፡ ሓደ ነገር ክሓተኩም ይኽእልዶ፧",
+      "om": "Dhiifama, waan tokko isin gaafachuu nan danda'aa?",
+      "en": "Excuse me, may I ask you something?"
     }
   },
   {
-    "id": "sent_basis_10",
+    "id": "sent_basis_009",
     "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Kunt u een beetje langzamer praten?",
+    "topic": "Begroeting",
+    "dutch": "Geen dank, het is heel graag gedaan!",
     "translations": {
-      "ar": "هل يمكنك التحدث ببطء أكثر قليلاً؟",
-      "ti": "ቁሩብ ቀስ ኢልኩም ክትዛረቡ ትኽእሉዶ፧",
-      "om": "Mee suuta xiqqoo dubbachuu dandeessuu?",
-      "en": "Could you speak a little slower, please?"
+      "ar": "عفواً، على الرحب والسعة دائماً!",
+      "ti": "ምንም ኣይኮነን፡ ብፍታው ዝተገብረ እዩ!",
+      "om": "Homaa miti, gammachuudhaani!",
+      "en": "You are welcome, it was my pleasure!"
     }
   },
   {
-    "id": "sent_basis_11",
+    "id": "sent_basis_010",
     "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Mag ik een halfje bruin brood en vier krentenbollen?",
+    "topic": "Begroeting",
+    "dutch": "Hoe heet u en waar komt u vandaan?",
     "translations": {
-      "ar": "هل يمكنني الحصول على نصف رغيف خبز أسمر وأربع لفائف زبيب؟",
-      "ti": "ፍርቂ ቡናዊ ባኒን ኣርባዕተ ናይ ዘቢብ ኬክን ክረክብ ይኽእልዶ፧",
-      "om": "Daabboo magaala walakkaa fi daabboo zabiibii afur nan argadhaa?",
-      "en": "May I have half a brown loaf and four currant buns?"
+      "ar": "ما اسمك ومن أين أنت؟",
+      "ti": "ስምኩም መን ይበሃል፡ ካበይከ መጺእኩም፧",
+      "om": "Maqaan keessan eenyu, eessaa dhuftan?",
+      "en": "What is your name and where are you from?"
     }
   },
   {
-    "id": "sent_basis_12",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Zijn de bananen en appels vandaag in de aanbieding?",
-    "translations": {
-      "ar": "هل الموز والتفاح في العرض المخفض اليوم؟",
-      "ti": "ሎሚ ባናናን ቱፋሕን ቅናሽ ኣለዎምዶ፧",
-      "om": "Muuzee fi appiliin har'a gatii hir'ifamaa qabuu?",
-      "en": "Are bananas and apples on special offer today?"
-    }
-  },
-  {
-    "id": "sent_basis_13",
+    "id": "sent_basis_011",
     "level": "basis",
     "topic": "Boodschappen",
-    "dutch": "Kunt u mij het wisselgeld teruggeven, alstublieft?",
+    "dutch": "Waar kan ik de verse melk vinden?",
     "translations": {
-      "ar": "هل يمكنك إعطائي باقي النقود من فضلك؟",
-      "ti": "ብኽብረትኩም እቲ ዝተረፈ ገንዘበይ ክትመልሱለይ ትኽእሉዶ፧",
-      "om": "Mee maallaqa hafe deebiftanii naaf kennuu dandeessuu?",
-      "en": "Could you please give me the change back?"
+      "ar": "أين يمكنني أن أجد الحليب الطازج؟",
+      "ti": "ሓድሽ ጸባ ኣበይ ክረክብ ይኽእል፧",
+      "om": "Aannan haaraa eessatti argachuu danda'a?",
+      "en": "Where can I find the fresh milk?"
     }
   },
   {
-    "id": "sent_basis_14",
+    "id": "sent_basis_012",
     "level": "basis",
     "topic": "Boodschappen",
-    "dutch": "Ik heb helaas geen muntje voor het winkelwagentje.",
+    "dutch": "Hoeveel kost een kilo rode appeltjes?",
     "translations": {
-      "ar": "للأسف ليس معي قطعة نقود معدنية لعربة التسوق.",
-      "ti": "ንዓረብያ ዕዳጋ ዝኸውን ሳንቲም የብለይን።",
-      "om": "Gaarii gabaatiif saantima hin qabu.",
-      "en": "Unfortunately I do not have a coin for the shopping trolley."
+      "ar": "كم يكلف كيلو التفاح الأحمر؟",
+      "ti": "ኪሎ ቀያሕቲ ቱፋሕ ክንደይ ዋጋ ኣለዎ፧",
+      "om": "Kiiloon appilii diimaa gatiin isaa meeqa?",
+      "en": "How much does a kilo of red apples cost?"
     }
   },
   {
-    "id": "sent_basis_15",
+    "id": "sent_basis_013",
     "level": "basis",
     "topic": "Boodschappen",
-    "dutch": "Waar staan de eieren en de flessen melk?",
+    "dutch": "Mag ik een half volkorenbrood van u?",
     "translations": {
-      "ar": "أين يوجد البيض وزجاجات الحليب؟",
-      "ti": "እንቋቝሖን ናይ ጸባ ጥርሙዛትን ኣበይ ኣለዉ፧",
-      "om": "Buuphaalee fi qaruuraan aannanii eessa jiru?",
-      "en": "Where are the eggs and bottles of milk?"
+      "ar": "هل يمكنني الحصول على نصف خبز قمح كامل منك؟",
+      "ti": "ካባኻትኩም ፍርቂ ናይ ስርናይ ባኒ ክረክብ ይኽእልዶ፧",
+      "om": "Daabboo qamadii walakkaa naaf kennituu maaloo?",
+      "en": "May I have half a whole wheat bread from you?"
     }
   },
   {
-    "id": "sent_basis_16",
+    "id": "sent_basis_014",
     "level": "basis",
     "topic": "Boodschappen",
-    "dutch": "Mag ik hier pinnen met mijn bankpas?",
+    "dutch": "Kan ik hier met mijn pinpas betalen?",
     "translations": {
       "ar": "هل يمكنني الدفع هنا ببطاقتي المصرفية؟",
-      "ti": "ኣብዚ ብካርድ ክኸፍል ይኽእልዶ፧",
-      "om": "Asitti kaardii baankiitiin kaffaluu nan danda'aa?",
-      "en": "Can I pay by debit card here?"
+      "ti": "ኣብዚ ብናይ ባንክ ካርድ ክኸፍል ይኽእልዶ፧",
+      "om": "Asitti kaardii baankiitiin kaffaluu danda'aa?",
+      "en": "Can I pay with my debit card here?"
     }
   },
   {
-    "id": "sent_basis_17",
+    "id": "sent_basis_015",
     "level": "basis",
     "topic": "Boodschappen",
-    "dutch": "Heeft u een plastic tasje voor mij?",
+    "dutch": "Ik wil graag contant met muntgeld betalen.",
     "translations": {
-      "ar": "هل لديك كيس بلاستيكي لي؟",
-      "ti": "ፌስታል ኣለኩምዶ፧",
-      "om": "Koorojoo bilaastikaa naaf qabduu?",
-      "en": "Do you have a plastic bag for me?"
+      "ar": "أود الدفع نقداً بالقطع النقدية المعدنية.",
+      "ti": "ብጥረ ገንዘብ ብሳንቲም ክኸፍል ደልየ ኣለኹ።",
+      "om": "Maallaqa harkaan saantimaan kaffaluu barbaada.",
+      "en": "I would like to pay cash in coins."
     }
   },
   {
-    "id": "sent_basis_18",
+    "id": "sent_basis_016",
     "level": "basis",
     "topic": "Boodschappen",
-    "dutch": "Dit product is over de datum.",
+    "dutch": "Heeft u voor mij een papieren tasje?",
     "translations": {
-      "ar": "هذا المنتج منتهي الصلاحية.",
-      "ti": "ናይዚ ፍርያት ግዜኡ ሓሊፉ እዩ።",
-      "om": "Omishni kun yeroon isaa darbeera.",
-      "en": "This product is past its expiration date."
+      "ar": "هل لديك كيس ورقي لي؟",
+      "ti": "ናይ ወረቐት ፌስታል ኣለኩምዶ፧",
+      "om": "Koorojoo waraqaa naaf qabduu?",
+      "en": "Do you have a paper bag for me?"
     }
   },
   {
-    "id": "sent_basis_19",
+    "id": "sent_basis_017",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "De bananen zijn vandaag erg voordelig.",
+    "translations": {
+      "ar": "الموز بسعر مناسب واقتصادي للغاية اليوم.",
+      "ti": "ባናና ሎሚ ኣዝዩ ሕሱርን ምቹእን እዩ።",
+      "om": "Muuziin har'a baay'ee rakasa.",
+      "en": "The bananas are very affordable today."
+    }
+  },
+  {
+    "id": "sent_basis_018",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Vergeet de boter en de kaas niet.",
+    "translations": {
+      "ar": "لا تنس الزبدة والجبن.",
+      "ti": "ጠስምን ፎርማጆን ምግዛእ ኣይትረስዕ።",
+      "om": "Dhadhaafi ayiba bituu hin dagatin.",
+      "en": "Do not forget the butter and cheese."
+    }
+  },
+  {
+    "id": "sent_basis_019",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Ik heb een eigen boodschappentas meegenomen.",
+    "translations": {
+      "ar": "لقد أحضرت كيس تسوق خاص بي معي.",
+      "ti": "ናተይ ናይ ዕዳጋ ቦርሳ ምሳይ ሒዘ መጺአ ኣለኹ።",
+      "om": "Koorojoo gabaa koo qabadheen dhufe.",
+      "en": "I brought my own shopping bag."
+    }
+  },
+  {
+    "id": "sent_basis_020",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Waar staan de flessen mineraalwater in deze winkel?",
+    "translations": {
+      "ar": "أين توجد زجاجات المياه المعدنية في هذا المتجر؟",
+      "ti": "ኣብዛ ድኳን ጥርሙዛት ማይ ኣበይ ኣለዋ፧",
+      "om": "Dukaana kana keessatti qaruuraan bishaan albuudaa eessa jira?",
+      "en": "Where are the bottles of mineral water in this shop?"
+    }
+  },
+  {
+    "id": "sent_basis_021",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Dit product heeft korting met de bonuskaart.",
+    "translations": {
+      "ar": "هذا المنتج عليه خصم مع بطاقة المكافآت.",
+      "ti": "እዚ ፍርያት ብናይ ቦኑስ ካርድ ቅናሽ ኣለዎ።",
+      "om": "Omishni kun kaardii faayidaatiin gatii hir'ifamaa qaba.",
+      "en": "This product has a discount with the bonus card."
+    }
+  },
+  {
+    "id": "sent_basis_022",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Mag ik het aankoopbonnetje van u hebben?",
+    "translations": {
+      "ar": "هل يمكنني الحصول على إيصال الشراء منك؟",
+      "ti": "ናይ ዕዳጋ ረሲት ክረክብ ይኽእልዶ፧",
+      "om": "Nagahee bittaa naaf kennituu?",
+      "en": "May I have the purchase receipt from you?"
+    }
+  },
+  {
+    "id": "sent_basis_023",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Zijn deze eieren biologisch geproduceerd?",
+    "translations": {
+      "ar": "هل تم إنتاج هذا البيض عضوياً؟",
+      "ti": "እዚ እንቋቝሖ ብተፈጥሮኣዊ መገዲ ዝተዳለወ ድዩ፧",
+      "om": "Buuphaaleen kunniin karaa uumamaatiin omishamanii?",
+      "en": "Are these eggs organically produced?"
+    }
+  },
+  {
+    "id": "sent_basis_024",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Heeft u ook suikervrije jam op voorraad?",
+    "translations": {
+      "ar": "هل يتوفر لديكم مربى خالٍ من السكر؟",
+      "ti": "ሽኮር ዘይብሉ ማርመላታ ኣብ መኽዘን ኣለኩምዶ፧",
+      "om": "Marmalaata sukkaara hin qabne qabduu?",
+      "en": "Do you also have sugar-free jam in stock?"
+    }
+  },
+  {
+    "id": "sent_basis_025",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "De kassa aan de rechterkant is nu geopend.",
+    "translations": {
+      "ar": "صندوق الدفع على الجانب الأيمن مفتوح الآن.",
+      "ti": "ኣብ የማናይ ወገን ዘሎ ካሳ ሕጂ ክፉት እዩ።",
+      "om": "Bakki kaffaltii mirgaa amma banamaadha.",
+      "en": "The register on the right side is now open."
+    }
+  },
+  {
+    "id": "sent_basis_026",
     "level": "basis",
     "topic": "Huisarts",
-    "dutch": "Ik heb al twee dagen last van hevige kiespijn.",
+    "dutch": "Ik wil graag een afspraak maken met de dokter.",
     "translations": {
-      "ar": "أعاني من ألم شديد في الأسنان منذ يومين.",
-      "ti": "ካብ ዝሓምም ክልተ መዓልቲ ስነይ ብርቱዕ ይቐንዘኒ ኣሎ።",
-      "om": "Guyyoota lamaaf ilkaan na dhukkubaa jira.",
-      "en": "I have been suffering from severe toothache for two days."
+      "ar": "أود حجز موعد مع الطبيب.",
+      "ti": "ምስ ሓኪም ቆጸራ ክሕዝ ደልየ ኣለኹ።",
+      "om": "Dooqtoora wajjin beellama qabachuu barbaada.",
+      "en": "I would like to make an appointment with the doctor."
     }
   },
   {
-    "id": "sent_basis_20",
+    "id": "sent_basis_027",
     "level": "basis",
     "topic": "Huisarts",
-    "dutch": "Kan de dokter mij een recept voor paracetamol voorschrijven?",
+    "dutch": "Mijn keel doet al drie dagen erg veel pijn.",
     "translations": {
-      "ar": "هل يمكن للطبيب أن يكتب لي وصفة طبية للباراسيتامول؟",
-      "ti": "ሓኪም ናይ ፓራሴታሞል መረዳእታ ክጽሕፈለይ ይኽእልዶ፧",
-      "om": "Dooqtoorri qoricha paraasetaamoolii naaf ajajuu danda'aa?",
-      "en": "Can the doctor prescribe me a prescription for paracetamol?"
+      "ar": "حلقي يؤلمني كثيراً منذ ثلاثة أيام.",
+      "ti": "ጎረረይ ካብ ዝቐንዘኒ ሰለስተ መዓልቲ ኮይኑ ኣሎ።",
+      "om": "Qoonqoon koo guyyoota sadiif baay'ee na dhukkubeera.",
+      "en": "My throat has been hurting a lot for three days."
     }
   },
   {
-    "id": "sent_basis_21",
+    "id": "sent_basis_028",
     "level": "basis",
     "topic": "Huisarts",
-    "dutch": "Ik heb pijn in mijn buik en ik moet overgeven.",
+    "dutch": "Mijn kindje heeft hoge koorts en hoest veel.",
     "translations": {
-      "ar": "عندي ألم في بطني وأشعر بالغثيان والرغبة في التقيؤ.",
-      "ti": "ከብደይ ይቐንዘኒ ኣሎ፡ ከምኡውን የቋሽሸኒ ኣሎ።",
-      "om": "Garaan na dhukkuba akkasumas na haqqisa.",
-      "en": "I have pain in my stomach and I need to vomit."
+      "ar": "طفلي يعاني من حمى شديدة ويسعل كثيراً.",
+      "ti": "ቆልዓይ ብርቱዕ ረስኒ ኣለዎ፡ ኣዝዩ ድማ ይስዕል ኣሎ።",
+      "om": "Mucaan koo ho'a qaamaa qaba akkasumas baay'ee qufa'a.",
+      "en": "My child has a high fever and is coughing a lot."
     }
   },
   {
-    "id": "sent_basis_22",
+    "id": "sent_basis_029",
     "level": "basis",
     "topic": "Huisarts",
-    "dutch": "Mijn dochtertje heeft rode vlekjes op haar huid.",
+    "dutch": "Heeft u een pijnstiller tegen rugpijn?",
     "translations": {
-      "ar": "ابنتي الصغيرة لديها بقع حمراء على بشرتها.",
-      "ti": "ጓለይ ኣብ ቆርበታ ቀያሕቲ ነጠብጣብ ወጺእዋ ኣሎ።",
-      "om": "Intalli koo gogaa ishee irratti mallattoo diimaa qabdi.",
-      "en": "My little daughter has red spots on her skin."
+      "ar": "هل لديك مسكن لآلام الظهر؟",
+      "ti": "ንሕማም ሕቖ ዝኸውን መዐገሲ ቃንዛ ኣለኩምዶ፧",
+      "om": "Qoricha waraansa dugdaa qabduu?",
+      "en": "Do you have a painkiller for back pain?"
     }
   },
   {
-    "id": "sent_basis_23",
+    "id": "sent_basis_030",
     "level": "basis",
     "topic": "Huisarts",
-    "dutch": "Mag ik een afspraak maken voor morgenochtend?",
+    "dutch": "Ik voel me erg duizelig en slap.",
     "translations": {
-      "ar": "هل يمكنني حجز موعد لصباح الغد؟",
-      "ti": "ንጽባሕ ንግሆ ቆጸራ ክሕዝ ይኽእልዶ፧",
-      "om": "Boru ganamaaf beellama qabachuu nan danda'aa?",
-      "en": "May I make an appointment for tomorrow morning?"
+      "ar": "أشعر بدوار شديد وضعف عام.",
+      "ti": "ብርቱዕ ርእሲ ምዕዋልን ድኻምን ይስምዓኒ ኣሎ።",
+      "om": "Mataan na maree dadhabbiin natti dhaga'ama.",
+      "en": "I feel very dizzy and weak."
     }
   },
   {
-    "id": "sent_basis_24",
+    "id": "sent_basis_031",
     "level": "basis",
     "topic": "Huisarts",
-    "dutch": "Ik voel me al een week erg duizelig en moe.",
+    "dutch": "Waar is de dichtstbijzijnde apotheek in de wijk?",
     "translations": {
-      "ar": "أشعر بدوار شديد وإرهاق منذ أسبوع.",
-      "ti": "ሓደ ሰሙን ምሉእ ይደኽመንን ይገላበጠንን ኣሎ።",
-      "om": "Torban tokkoof mataan na naaneera akkasumas dadhabeera.",
-      "en": "I have been feeling very dizzy and tired for a week."
+      "ar": "أين توجد أقرب صيدلية في الحي؟",
+      "ti": "ኣብዚ ከባቢ እታ ዝቐረበት ፋርማሲ ኣበይ ኣላ፧",
+      "om": "Naannoo kanatti faarmaasiin dhiyoo eessa jira?",
+      "en": "Where is the nearest pharmacy in the neighborhood?"
     }
   },
   {
-    "id": "sent_basis_25",
+    "id": "sent_basis_032",
     "level": "basis",
     "topic": "Huisarts",
-    "dutch": "Neem dit medicijn driemaal daags na de maaltijd in.",
+    "dutch": "Moet ik dit medicijn na de maaltijd innemen?",
     "translations": {
-      "ar": "تناول هذا الدواء ثلاث مرات يومياً بعد الوجبات.",
-      "ti": "እዚ መድሃኒት ድሕሪ መግቢ ኣብ መዓልቲ ሰለስተ ግዜ ውሰዶ።",
-      "om": "Qoricha kana guyyaatti marroo sadii erga nyaattanii booda fudhadhaa.",
-      "en": "Take this medicine three times daily after meals."
+      "ar": "هل يجب أن أتناول هذا الدواء بعد وجبة الطعام؟",
+      "ti": "እዚ መድሃኒት ድሕሪ መግቢ ድየ ክወስዶ ዘሎኒ፧",
+      "om": "Qoricha kana erga nyaattanii booda fudhachuu qabduu?",
+      "en": "Should I take this medicine after the meal?"
     }
   },
   {
-    "id": "sent_basis_26",
+    "id": "sent_basis_033",
+    "level": "basis",
+    "topic": "Huisarts",
+    "dutch": "Mijn dochter heeft een klein schaafwondje op haar knie.",
+    "translations": {
+      "ar": "ابنتي لديها خدش صغير على ركبتها.",
+      "ti": "ጓለይ ኣብ ብርካ ንእሽቶ ምልጣጥ ኣለዋ።",
+      "om": "Intalli koo jilba ishee irratti madaa xiqqoo qabdi.",
+      "en": "My daughter has a small scrape on her knee."
+    }
+  },
+  {
+    "id": "sent_basis_034",
+    "level": "basis",
+    "topic": "Huisarts",
+    "dutch": "Kan de assistente mijn bloeddruk even meten?",
+    "translations": {
+      "ar": "هل يمكن للمساعدة قياس ضغط دمي لدقيقة؟",
+      "ti": "እታ ሓጋዚት ሓኪም ናይ ደም ጸቕጠይ ክትዕቅኖ ትኽእልዶ፧",
+      "om": "Gargaartuun dhiibbaa dhiiga koo safaruu dandeessii?",
+      "en": "Can the medical assistant check my blood pressure?"
+    }
+  },
+  {
+    "id": "sent_basis_035",
+    "level": "basis",
+    "topic": "Huisarts",
+    "dutch": "Ik heb al een week last van oorpijn.",
+    "translations": {
+      "ar": "أعاني من ألم في الأذن منذ أسبوع.",
+      "ti": "እዝነይ ካብ ዝቐንዘነኒ ሓደ ሰሙን ኮይኑ ኣሎ።",
+      "om": "Torban tokkoof gurri na dhukkubaa jira.",
+      "en": "I have been suffering from earache for a week."
+    }
+  },
+  {
+    "id": "sent_basis_036",
     "level": "basis",
     "topic": "Vervoer",
-    "dutch": "Moet ik bij deze halte uitstappen voor het ziekenhuis?",
+    "dutch": "Rijdt deze stadsbus rechtstreeks naar het centraal station?",
     "translations": {
-      "ar": "هل يجب أن أنزل في هذا الموقف للذهاب إلى المستشفى؟",
-      "ti": "ናብ ሆስፒታል ንምኻድ ኣብዛ መደበር ድየ ክወርድ ዘሎኒ፧",
-      "om": "Gara hospitaalaatti deemuf buufata kanatti bu'uu qabaa?",
-      "en": "Should I get off at this stop for the hospital?"
+      "ar": "هل تذهب حافلة المدينة هذه مباشرة إلى المحطة المركزية؟",
+      "ti": "እዚ ናይ ከተማ ኣውቶቡስ ብቐጥታ ናብ ማእከላይ መደበር ይኸይድ ድዩ፧",
+      "om": "Baasiin kun kallattiin gara buufata guddaatti ni deemaa?",
+      "en": "Does this city bus go directly to the central station?"
     }
   },
   {
-    "id": "sent_basis_27",
+    "id": "sent_basis_037",
     "level": "basis",
     "topic": "Vervoer",
-    "dutch": "Hoeveel haltes is het nog tot het Centraal Station?",
+    "dutch": "Hoe laat vertrekt de volgende sprinter naar Utrecht?",
     "translations": {
-      "ar": "كم محطة متبقية حتى المحطة المركزية؟",
-      "ti": "ክሳብ ሴንትራል ስተሽን ክንደይ መደበር ተሪፉ ኣሎ፧",
-      "om": "Gara buufata guddaatti buufataalee meeqatu hafe?",
-      "en": "How many stops is it until the Central Station?"
+      "ar": "في أي وقت يغادر قطار السبرينتر التالي إلى أوترخت؟",
+      "ti": "ዝቕጽል ባቡር ናብ ዩትረክት ሰዓት ክንደይ ይነቅል፧",
+      "om": "Baaburri itti aanu gara Utrecht sa'aatii meeqatti ka'a?",
+      "en": "What time does the next local train to Utrecht depart?"
     }
   },
   {
-    "id": "sent_basis_28",
+    "id": "sent_basis_038",
     "level": "basis",
     "topic": "Vervoer",
-    "dutch": "Mag ik mijn fiets meenemen in de trein?",
+    "dutch": "Vergeet niet uit te checken bij de paal.",
     "translations": {
-      "ar": "هل يسمح لي بأخذ دراجتي الهوائية معي في القطار؟",
-      "ti": "ብሽክለታይ ናብ ባቡር ከእትዋ ይፍቀድዶ፧",
-      "om": "Biskileetii koo gara baaburaatti geessuu nan danda'aa?",
-      "en": "May I take my bicycle on the train?"
+      "ar": "لا تنس تسجيل الخروج عند العمود الإلكتروني.",
+      "ti": "ኣብቲ ዓንዲ ምውጻእካ ምምልካት ኣይትረስዕ።",
+      "om": "Utubaa irratti ba'uu keessan galmeessuu hin dagatinaa.",
+      "en": "Do not forget to check out at the card reader post."
     }
   },
   {
-    "id": "sent_basis_29",
+    "id": "sent_basis_039",
     "level": "basis",
     "topic": "Vervoer",
-    "dutch": "Er rijden vandaag geen bussen door een staking.",
+    "dutch": "Ik moet overstappen op tramlijn negen.",
     "translations": {
-      "ar": "لا توجد حافلات تعمل اليوم بسبب إضراب السائقين.",
-      "ti": "ሎሚ ብምኽንያት ኣድማ ኣውቶቡሳት ኣይሰርሓን እየን።",
-      "om": "Hiriira mormiitiin kan ka'e har'a baasiin hin hojjetu.",
-      "en": "No buses are running today due to a strike."
+      "ar": "يجب أن أغير وسيلة النقل إلى خط الترام رقم تسعة.",
+      "ti": "ናብ ናይ ትራም መስመር ትሽዓተ ክሰጋገር ኣሎኒ።",
+      "om": "Tiraamii sarara sagal irratti jijjiiruu qaba.",
+      "en": "I need to transfer to tram line nine."
     }
   },
   {
-    "id": "sent_basis_30",
+    "id": "sent_basis_040",
     "level": "basis",
     "topic": "Vervoer",
-    "dutch": "Vergeet niet in en uit te checken met uw OV-chipkaart.",
+    "dutch": "Mag ik mijn opvouwbare kinderwagen meenemen?",
     "translations": {
-      "ar": "لا تنس تسجيل الدخول والخروج ببطاقة المواصلات الخاصة بك.",
-      "ti": "ብካርድ መጓዓዝያኻ ምእታውካን ምውጻእካን ምምልካት ኣይትረስዕ።",
-      "om": "Kaardii geejjibaatiin seenuu fi ba'uu keessan galmeessuu hin dagatinaa.",
-      "en": "Do not forget to check in and out with your transit card."
+      "ar": "هل يمكنني إحضار عربة الأطفال القابلة للطي معي؟",
+      "ti": "ተዓጻፊ ዓረብያ ቆልዓ ምሳይ ከእቱ ይፍቀድዶ፧",
+      "om": "Gaarii daa'immanii dachaa'u qabadhee seenuu nan danda'aa?",
+      "en": "May I bring my foldable stroller with me?"
     }
   },
   {
-    "id": "sent_basis_31",
+    "id": "sent_basis_041",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Een retourtje naar Den Haag, alstublieft.",
+    "translations": {
+      "ar": "تذكرة ذهاب وإياب إلى لاهاي، من فضلك.",
+      "ti": "ናብ ደን ሃግ ናይ ምኻድን ምምላስን ትኬት በጃኹም።",
+      "om": "Tikkeetii Den Haag deemee deebi'uu maaloo.",
+      "en": "A round-trip ticket to The Hague, please."
+    }
+  },
+  {
+    "id": "sent_basis_042",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Deze zitplaats is speciaal voor ouderen gereserveerd.",
+    "translations": {
+      "ar": "هذا المقعد مخصص لكبار السن بشكل خاص.",
+      "ti": "እዚ መንበር ብፍላይ ንዓበይቲ ሰባት ዝተሓዝአ እዩ።",
+      "om": "Teessumni kun maanguddootaaf kan qophaa'eedha.",
+      "en": "This seat is specially reserved for the elderly."
+    }
+  },
+  {
+    "id": "sent_basis_043",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Ik pak vanochtend de fiets omdat het droog is.",
+    "translations": {
+      "ar": "سأستقل الدراجة هذا الصباح لأن الجو جاف وبلا مطر.",
+      "ti": "ሎሚ ንግሆ ዝናብ ስለዘየለ ብብሽክለታይ ክኸይድ እየ።",
+      "om": "Ganama kana bokkaan waan hin jirreef biskileetiidhaan deema.",
+      "en": "I am taking the bike this morning because it is dry."
+    }
+  },
+  {
+    "id": "sent_basis_044",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Mijn fietsband is helaas zacht, heeft u een fietspomp?",
+    "translations": {
+      "ar": "للأسف إطار دراجتي فارغ، هل لديك منفاخ دراجة؟",
+      "ti": "ጎማ ብሽክለታይ ንፋስ ጎዲልዎ ኣሎ፡ ናይ ብሽክለታ ፓምፕ ኣለኩምዶ፧",
+      "om": "Tayeeriin biskileetii koo qilleensa dhabeera, pampii qabduu?",
+      "en": "My bicycle tire is unfortunately soft, do you have a bicycle pump?"
+    }
+  },
+  {
+    "id": "sent_basis_045",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "De buschauffeur stopt netjes voor het zebrapad.",
+    "translations": {
+      "ar": "يتوقف سائق الحافلة بأمان قبل ممر المشاة.",
+      "ti": "እቲ መራሕ ኣውቶቡስ ኣብ መሳገሪ እግረኛታት ደው ኢሉ ኣሎ።",
+      "om": "Konkolaachisaan baasii sarara nama miilaa dura dhaabbata.",
+      "en": "The bus driver stops neatly in front of the zebra crossing."
+    }
+  },
+  {
+    "id": "sent_basis_046",
     "level": "basis",
     "topic": "Wonen",
-    "dutch": "Mijn sleutel past niet in het slot van de voordeur.",
+    "dutch": "Wij wonen in een gezellig appartement met balkon.",
     "translations": {
-      "ar": "مفتاحي لا يدخل في قفل الباب الأمامي.",
-      "ti": "መፍትሔይ ኣብቲ ናይ ማዕጾ መዕጸዊ ኣይኣቱን ኣሎ።",
-      "om": "Furtuun koo kuflii balbala duraa keessa hin galu.",
-      "en": "My key does not fit into the lock of the front door."
+      "ar": "نحن نعيش في شقة مريحة وجميلة مع شرفة.",
+      "ti": "ኣብ ጽቡቕ ናይ ባልኮን ዘለዎ ኣፓርተማ ንነብር ኣለና።",
+      "om": "Appaartaamaa miidhagaa balkoonii qabu keessa jiraanna.",
+      "en": "We live in a cozy apartment with a balcony."
     }
   },
   {
-    "id": "sent_basis_32",
+    "id": "sent_basis_047",
     "level": "basis",
     "topic": "Wonen",
-    "dutch": "De lift is kapot, we moeten de trap nemen.",
+    "dutch": "De huissleutel ligt op het kleine tafeltje.",
     "translations": {
-      "ar": "المصعد معطل، يجب أن نستخدم الدرج.",
-      "ti": "እቲ ሊፍት ተበላሺዩ ኣሎ፡ መደያይቦ ክንጥቀም ኣሎና።",
-      "om": "Wiirtuun ol baasu badeera, sardoo qabachuu qabna.",
-      "en": "The elevator is broken, we have to take the stairs."
+      "ar": "مفتاح المنزل موجود على الطاولة الصغيرة.",
+      "ti": "መፍትሕ ገዛ ኣብታ ንእሽቶ ጠረጴዛ ኣሎ።",
+      "om": "Furtuun manaa minjaala xiqqoo irra jira.",
+      "en": "The house key is on the small table."
     }
   },
   {
-    "id": "sent_basis_33",
+    "id": "sent_basis_048",
     "level": "basis",
     "topic": "Wonen",
-    "dutch": "Waar kan ik het oud papier en glas weggooien?",
+    "dutch": "Het oud papier wordt donderdag opgehaald.",
     "translations": {
-      "ar": "أين يمكنني التخلص من الورق القديم والزجاج؟",
-      "ti": "ኣረጊት ወረቐትን ጥርሙዛትን ኣበይ ክድርብዮ ይኽእል፧",
-      "om": "Waraqaa fi qaruuraa eessatti gatuu danda'a?",
-      "en": "Where can I throw away waste paper and glass?"
+      "ar": "سيتم جمع الورق القديم المعاد تدويره يوم الخميس.",
+      "ti": "ኣረጊት ወረቐት ሓሙስ ክእከብ እዩ።",
+      "om": "Waraqaan moofaan Kamisa walitti qabama.",
+      "en": "Recycled paper will be collected on Thursday."
     }
   },
   {
-    "id": "sent_basis_34",
+    "id": "sent_basis_049",
     "level": "basis",
     "topic": "Wonen",
-    "dutch": "De buren maken vanavond veel lawaai.",
+    "dutch": "Zet de verwarming wat lager voor het slapen.",
     "translations": {
-      "ar": "الجيران يصدرون الكثير من الضجيج الليلة.",
-      "ti": "ጎረባብቲ ሎሚ ምሸት ኣዝዮም ይጫወሑ ኣለዉ።",
-      "om": "Ollaan galgala kana sagalee guddaa dhageessisaa jiru.",
-      "en": "The neighbors are making a lot of noise tonight."
+      "ar": "اخفض التدفئة قليلاً قبل الذهاب إلى النوم.",
+      "ti": "ቅድሚ ምድቃስካ ነቲ ናይ ሙቐት መቆጻጸሪ ቁሩብ ኣጉድሎ።",
+      "om": "Osoo hin rafin dura hoo'isa manaa xiqqeessi.",
+      "en": "Turn down the heating a bit before going to sleep."
     }
   },
   {
-    "id": "sent_basis_35",
+    "id": "sent_basis_050",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "Mag ik het grote raam in de woonkamer openzetten?",
+    "translations": {
+      "ar": "هل يمكنني فتح النافذة الكبيرة في غرفة المعيشة؟",
+      "ti": "ኣብ ሳሎን ዘሎ ዓቢ መስኮት ክኸፍቶ ይኽእልዶ፧",
+      "om": "Foddaa guddaa kutaa keessaa banuu nan danda'aa?",
+      "en": "May I open the large window in the living room?"
+    }
+  },
+  {
+    "id": "sent_basis_051",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "De was hangt te drogen aan het wasrek.",
+    "translations": {
+      "ar": "الغسيل معلق ليجف على منشر الغسيل.",
+      "ti": "እቲ ዝተሓጽበ ክዳውንቲ ኣብ መደርደሪ ተሰቒሉ ይነቅጽ ኣሎ።",
+      "om": "Uffanni dhiqame akka goguuf fannifameera.",
+      "en": "The laundry is hanging to dry on the drying rack."
+    }
+  },
+  {
+    "id": "sent_basis_052",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "Er staat een pakketbezorger voor de flat.",
+    "translations": {
+      "ar": "هناك عامل توصيل طرود يقف أمام مبنى الشقق.",
+      "ti": "ናይ ፓኬት ኣከፋፋሊ ኣብ ቅድሚ እቲ ህንጻ ደው ኢሉ ኣሎ።",
+      "om": "Nama paakeejii geessu gamoo dura dhaabbata.",
+      "en": "A delivery courier is standing in front of the apartment building."
+    }
+  },
+  {
+    "id": "sent_basis_053",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "We koken samen een traditionele maaltijd vanavond.",
+    "translations": {
+      "ar": "سنطبخ وجبة تقليدية أصيلة معاً هذه الليلة.",
+      "ti": "ሎሚ ምሸት ባህላዊ መግቢ ሓቢርና ከነብስል ኢና።",
+      "om": "Galgala kana nyaata aadaa waliin bilcheessina.",
+      "en": "We are cooking a traditional meal together tonight."
+    }
+  },
+  {
+    "id": "sent_basis_054",
     "level": "basis",
     "topic": "School",
-    "dutch": "Mijn zoon zit in groep drie van de basisschool.",
+    "dutch": "Mijn zoon leest elke dag een verhaaltje voor.",
     "translations": {
-      "ar": "ابني في الصف الثالث من المدرسة الابتدائية.",
-      "ti": "ወደይ ኣብ መባእታ ቤት ትምህርቲ ኣብ ሳልሳይ ክፍሊ ኣሎ።",
-      "om": "Ilmi koo mana barumsaa sadarkaa tokkoffaatti kutaa sadii barata.",
-      "en": "My son is in grade three of primary school."
+      "ar": "ابني يقرأ قصة بصوت عالٍ كل يوم.",
+      "ti": "ወደይ ኩሉ መዓልቲ ሓጻር ዛንታ የንብብ።",
+      "om": "Ilmi koo guyyaa hunda seenaa dubbisa.",
+      "en": "My son reads a story out loud every day."
     }
   },
   {
-    "id": "sent_basis_36",
+    "id": "sent_basis_055",
     "level": "basis",
     "topic": "School",
-    "dutch": "De school begint elke ochtend om half negen.",
+    "dutch": "Neem morgen je gymkleding en sportschoenen mee.",
     "translations": {
-      "ar": "تبدأ المدرسة كل صباح في الساعة الثامنة والنصف.",
-      "ti": "ቤት ትምህርቲ ኩሉ ግዜ ንግሆ ሰዓት 8:30 ይጅምር።",
-      "om": "Manni barumsaa ganama sa'aatii 8:30tti jalqaba.",
-      "en": "School starts every morning at half past eight."
+      "ar": "أحضر ملابسك الرياضية وحذاءك الرياضي غداً.",
+      "ti": "ጽባሕ ናይ ስፖርት ክዳንካን ጫማኻን ሒዝካ ምጻእ።",
+      "om": "Boru uffataafi kophee ispoortii kee qabadhuu kottu.",
+      "en": "Bring your gym clothes and sports shoes tomorrow."
     }
   },
   {
-    "id": "sent_basis_37",
+    "id": "sent_basis_056",
     "level": "basis",
-    "topic": "School",
-    "dutch": "Heeft uw dochter een gymtas en gymschoenen bij zich?",
+    "topic": "Weer",
+    "dutch": "Het waait hard, maar de zon breekt door.",
     "translations": {
-      "ar": "هل ابنتك تحمل معها حقيبة الرياضة وحذاء الرياضة؟",
-      "ti": "ጓልካ ናይ ስፖርት ቦርሳን ናይ ስፖርት ጫማን ሒዛ ኣላዶ፧",
-      "om": "Intalli keessan saamunaa fi kophée ispoortii qabdii?",
-      "en": "Does your daughter have her gym bag and sneakers with her?"
+      "ar": "الرياح تهب بقوة، لكن أشعة الشمس بدأت تشرق.",
+      "ti": "ንፋስ ብርቱዕ ኣሎ፡ ጸሓይ ግን ትበርቕ ኣላ።",
+      "om": "Qilleensi cimaan bubbisa, garuu biiftuun baati.",
+      "en": "The wind is blowing hard, but the sun is breaking through."
     }
   },
   {
-    "id": "sent_basis_38",
+    "id": "sent_basis_057",
     "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "Ik kom mijn nieuwe verblijfsvergunning ophalen.",
+    "topic": "Weer",
+    "dutch": "In de herfst vallen de gekleurde bladeren van de bomen.",
     "translations": {
-      "ar": "لقد جئت لاستلام تصريح إقامتي الجديد.",
-      "ti": "ሓድሽ መንበሪ ፍቓደይ ክወስድ መጺአ ኣለኹ።",
-      "om": "Hayyama jireenyaa koo haaraa fudhachuufan dhufe.",
-      "en": "I have come to pick up my new residence permit."
+      "ar": "في فصل الخريف تتساقط أوراق الأشجار الملونة.",
+      "ti": "ኣብ ቀውዒ ሕብራዊ ኣቑጽልቲ ካብ ኣእዋም ይረግፍ።",
+      "om": "Birraa keessa baallaan muka irraa harca'a.",
+      "en": "In autumn the colorful leaves fall from the trees."
     }
   },
   {
-    "id": "sent_basis_39",
+    "id": "sent_basis_058",
     "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "Heeft u een afspraak gemaakt via de website?",
+    "topic": "Kalender",
+    "dutch": "Volgende week vieren we een officiële feestdag.",
     "translations": {
-      "ar": "هل حجزت موعداً عبر الموقع الإلكتروني؟",
-      "ti": "ብመንገዲ መርበብ ሓበሬታ ቆጸራ ሒዝኩምዶ፧",
-      "om": "Weebsaayitiidhaan beellama qabattaniittuu?",
-      "en": "Did you make an appointment via the website?"
+      "ar": "الأسبوع المقبل سنحتفل بيوم عطلة رسمية.",
+      "ti": "ዝመጽእ ሰሙን ወግዓዊ ናይ በዓል መዓልቲ ከነኽብር ኢና።",
+      "om": "Torban dhufu ayyaana mootummaa kabajna.",
+      "en": "Next week we celebrate an official public holiday."
     }
   },
   {
-    "id": "sent_basis_40",
+    "id": "sent_basis_059",
     "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "U moet een geldig identiteitsbewijs meenemen.",
+    "topic": "Kalender",
+    "dutch": "Zaterdag is een fijne dag voor familie en sport.",
     "translations": {
-      "ar": "يجب عليك إحضار إثبات هوية ساري المفعول.",
-      "ti": "ሕጋዊ መንነት መረጋገጺ ሒዝካ ክትመጽእ ኣሎካ።",
-      "om": "Waraqaa eenyummaa seera qabeessa fiduu qabdu.",
-      "en": "You must bring a valid identity document."
+      "ar": "يوم السبت يوم رائع ومناسب للعائلة والرياضة.",
+      "ti": "ቀዳም ንስድራቤትን ንስፖርትን ጽቡቕ መዓልቲ እዩ።",
+      "om": "Sanbanni maatiifi ispoortiif guyyaa gaariidha.",
+      "en": "Saturday is a great day for family and sports."
     }
   },
   {
-    "id": "sent_basis_41",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Hallo, fijn om u weer te zien! (2)",
-    "translations": {
-      "ar": "مرحباً، يسعدني رؤيتك مرة أخرى!",
-      "ti": "ሰላም፡ ዳግማይ ብምርኣየይ ሓጎስ ይስምዓኒ!",
-      "om": "Akkam, ammas isin arguun koo baay'ee na gammachiise!",
-      "en": "Hello, nice to see you again!"
-    }
-  },
-  {
-    "id": "sent_basis_42",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedemorgen, hoe gaat het met u? (2)",
-    "translations": {
-      "ar": "صباح الخير، كيف حالك؟",
-      "ti": "ከመይ ሓዲርኩም፡ ከመይ ኣለኹም፧",
-      "om": "Akkam bultan, akkam jirtu?",
-      "en": "Good morning, how are you?"
-    }
-  },
-  {
-    "id": "sent_basis_43",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedemiddag, kan ik u ergens mee helpen? (2)",
-    "translations": {
-      "ar": "مساء الخير، هل يمكنني مساعدتك في شيء ما؟",
-      "ti": "ደሓን ቀትሪ፡ ኣብ ገለ ነገር ክሕግዘኩምዶ፧",
-      "om": "Akkam ooltan, waan tokkoon isin gargaaruu danda'aa?",
-      "en": "Good afternoon, can I help you with anything?"
-    }
-  },
-  {
-    "id": "sent_basis_44",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedenavond, heeft u een tafeltje voor twee personen? (2)",
-    "translations": {
-      "ar": "مساء الخير، هل لديكم طاولة لشخصين؟",
-      "ti": "ደሓን ምሸት፡ ናይ ክልተ ሰብ ጠረጴዛ ኣለኩምዶ፧",
-      "om": "Akkam dhiitan, gabatee nama lamaaf ta'u qabduu?",
-      "en": "Good evening, do you have a table for two people?"
-    }
-  },
-  {
-    "id": "sent_basis_45",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Fijne dag verder en tot ziens! (2)",
-    "translations": {
-      "ar": "أتمنى لك يوماً سعيداً وإلى اللقاء!",
-      "ti": "ጽቡቕ መዓልቲ ይግበረልኩም፡ ደሓን ኩኑ!",
-      "om": "Guyyaa gaarii qabaadhaa, walgarra!",
-      "en": "Have a nice day and goodbye!"
-    }
-  },
-  {
-    "id": "sent_basis_46",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Ik leer Nederlands omdat ik hier wil werken en wonen. (2)",
-    "translations": {
-      "ar": "أنا أتعلم اللغة الهولندية لأنني أريد العمل والعيش هنا.",
-      "ti": "ኣብዚ ክሰርሕን ክነብርን ስለ ዝደሊ ኔዘርላንድስኛ ይምሃር ኣለኹ።",
-      "om": "Asitti hojjechuu fi jiraachuu waanun barbaaduuf Afaan Neezerlaandi barachaa jira.",
-      "en": "I am learning Dutch because I want to work and live here."
-    }
-  },
-  {
-    "id": "sent_basis_47",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Wat is uw voornaam en achternaam? (2)",
-    "translations": {
-      "ar": "ما هو اسمك الأول واسم عائلتك؟",
-      "ti": "ስምካን ስም ኣቦኻን መን ይበሃል፧",
-      "om": "Maqaan kee fi maqaan abbaa kee eenyu?",
-      "en": "What is your first name and last name?"
-    }
-  },
-  {
-    "id": "sent_basis_48",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Ik woon nu één jaar met mijn familie in Nederland. (2)",
-    "translations": {
-      "ar": "أنا أعيش الآن مع عائلتي في هولندا منذ عام واحد.",
-      "ti": "ምስ ስድራቤተይ ኣብ ኔዘርላንድስ ካብ እንነብር ሓደ ዓመት ኮይኑና።",
-      "om": "Ani maatii koo wajjin Neezerlaandi keessa ergan jiraachuu jalqabee waggaa tokko ta'eera.",
-      "en": "I have been living in the Netherlands with my family for one year now."
-    }
-  },
-  {
-    "id": "sent_basis_49",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Kunt u dat alstublieft nog een keer herhalen? (2)",
-    "translations": {
-      "ar": "هل يمكنك تكرار ذلك من فضلك مرة أخرى؟",
-      "ti": "ብኽብረትኩም ነዚ ክትደግሙለይ ትኽእሉዶ፧",
-      "om": "Mee irra deebitanii natti himuu dandeessuu?",
-      "en": "Could you please repeat that once more?"
-    }
-  },
-  {
-    "id": "sent_basis_50",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Kunt u een beetje langzamer praten? (2)",
-    "translations": {
-      "ar": "هل يمكنك التحدث ببطء أكثر قليلاً؟",
-      "ti": "ቁሩብ ቀስ ኢልኩም ክትዛረቡ ትኽእሉዶ፧",
-      "om": "Mee suuta xiqqoo dubbachuu dandeessuu?",
-      "en": "Could you speak a little slower, please?"
-    }
-  },
-  {
-    "id": "sent_basis_51",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Mag ik een halfje bruin brood en vier krentenbollen? (2)",
-    "translations": {
-      "ar": "هل يمكنني الحصول على نصف رغيف خبز أسمر وأربع لفائف زبيب؟",
-      "ti": "ፍርቂ ቡናዊ ባኒን ኣርባዕተ ናይ ዘቢብ ኬክን ክረክብ ይኽእልዶ፧",
-      "om": "Daabboo magaala walakkaa fi daabboo zabiibii afur nan argadhaa?",
-      "en": "May I have half a brown loaf and four currant buns?"
-    }
-  },
-  {
-    "id": "sent_basis_52",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Zijn de bananen en appels vandaag in de aanbieding? (2)",
-    "translations": {
-      "ar": "هل الموز والتفاح في العرض المخفض اليوم؟",
-      "ti": "ሎሚ ባናናን ቱፋሕን ቅናሽ ኣለዎምዶ፧",
-      "om": "Muuzee fi appiliin har'a gatii hir'ifamaa qabuu?",
-      "en": "Are bananas and apples on special offer today?"
-    }
-  },
-  {
-    "id": "sent_basis_53",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Kunt u mij het wisselgeld teruggeven, alstublieft? (2)",
-    "translations": {
-      "ar": "هل يمكنك إعطائي باقي النقود من فضلك؟",
-      "ti": "ብኽብረትኩም እቲ ዝተረፈ ገንዘበይ ክትመልሱለይ ትኽእሉዶ፧",
-      "om": "Mee maallaqa hafe deebiftanii naaf kennuu dandeessuu?",
-      "en": "Could you please give me the change back?"
-    }
-  },
-  {
-    "id": "sent_basis_54",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Ik heb helaas geen muntje voor het winkelwagentje. (2)",
-    "translations": {
-      "ar": "للأسف ليس معي قطعة نقود معدنية لعربة التسوق.",
-      "ti": "ንዓረብያ ዕዳጋ ዝኸውን ሳንቲም የብለይን።",
-      "om": "Gaarii gabaatiif saantima hin qabu.",
-      "en": "Unfortunately I do not have a coin for the shopping trolley."
-    }
-  },
-  {
-    "id": "sent_basis_55",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Waar staan de eieren en de flessen melk? (2)",
-    "translations": {
-      "ar": "أين يوجد البيض وزجاجات الحليب؟",
-      "ti": "እንቋቝሖን ናይ ጸባ ጥርሙዛትን ኣበይ ኣለዉ፧",
-      "om": "Buuphaalee fi qaruuraan aannanii eessa jiru?",
-      "en": "Where are the eggs and bottles of milk?"
-    }
-  },
-  {
-    "id": "sent_basis_56",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Mag ik hier pinnen met mijn bankpas? (2)",
-    "translations": {
-      "ar": "هل يمكنني الدفع هنا ببطاقتي المصرفية؟",
-      "ti": "ኣብዚ ብካርድ ክኸፍል ይኽእልዶ፧",
-      "om": "Asitti kaardii baankiitiin kaffaluu nan danda'aa?",
-      "en": "Can I pay by debit card here?"
-    }
-  },
-  {
-    "id": "sent_basis_57",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Heeft u een plastic tasje voor mij? (2)",
-    "translations": {
-      "ar": "هل لديك كيس بلاستيكي لي؟",
-      "ti": "ፌስታል ኣለኩምዶ፧",
-      "om": "Koorojoo bilaastikaa naaf qabduu?",
-      "en": "Do you have a plastic bag for me?"
-    }
-  },
-  {
-    "id": "sent_basis_58",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Dit product is over de datum. (2)",
-    "translations": {
-      "ar": "هذا المنتج منتهي الصلاحية.",
-      "ti": "ናይዚ ፍርያት ግዜኡ ሓሊፉ እዩ።",
-      "om": "Omishni kun yeroon isaa darbeera.",
-      "en": "This product is past its expiration date."
-    }
-  },
-  {
-    "id": "sent_basis_59",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik heb al twee dagen last van hevige kiespijn. (2)",
-    "translations": {
-      "ar": "أعاني من ألم شديد في الأسنان منذ يومين.",
-      "ti": "ካብ ዝሓምም ክልተ መዓልቲ ስነይ ብርቱዕ ይቐንዘኒ ኣሎ።",
-      "om": "Guyyoota lamaaf ilkaan na dhukkubaa jira.",
-      "en": "I have been suffering from severe toothache for two days."
-    }
-  },
-  {
-    "id": "sent_basis_60",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Kan de dokter mij een recept voor paracetamol voorschrijven? (2)",
-    "translations": {
-      "ar": "هل يمكن للطبيب أن يكتب لي وصفة طبية للباراسيتامول؟",
-      "ti": "ሓኪም ናይ ፓራሴታሞል መረዳእታ ክጽሕፈለይ ይኽእልዶ፧",
-      "om": "Dooqtoorri qoricha paraasetaamoolii naaf ajajuu danda'aa?",
-      "en": "Can the doctor prescribe me a prescription for paracetamol?"
-    }
-  },
-  {
-    "id": "sent_basis_61",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik heb pijn in mijn buik en ik moet overgeven. (2)",
-    "translations": {
-      "ar": "عندي ألم في بطني وأشعر بالغثيان والرغبة في التقيؤ.",
-      "ti": "ከብደይ ይቐንዘኒ ኣሎ፡ ከምኡውን የቋሽሸኒ ኣሎ።",
-      "om": "Garaan na dhukkuba akkasumas na haqqisa.",
-      "en": "I have pain in my stomach and I need to vomit."
-    }
-  },
-  {
-    "id": "sent_basis_62",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Mijn dochtertje heeft rode vlekjes op haar huid. (2)",
-    "translations": {
-      "ar": "ابنتي الصغيرة لديها بقع حمراء على بشرتها.",
-      "ti": "ጓለይ ኣብ ቆርበታ ቀያሕቲ ነጠብጣብ ወጺእዋ ኣሎ።",
-      "om": "Intalli koo gogaa ishee irratti mallattoo diimaa qabdi.",
-      "en": "My little daughter has red spots on her skin."
-    }
-  },
-  {
-    "id": "sent_basis_63",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Mag ik een afspraak maken voor morgenochtend? (2)",
-    "translations": {
-      "ar": "هل يمكنني حجز موعد لصباح الغد؟",
-      "ti": "ንጽባሕ ንግሆ ቆጸራ ክሕዝ ይኽእልዶ፧",
-      "om": "Boru ganamaaf beellama qabachuu nan danda'aa?",
-      "en": "May I make an appointment for tomorrow morning?"
-    }
-  },
-  {
-    "id": "sent_basis_64",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik voel me al een week erg duizelig en moe. (2)",
-    "translations": {
-      "ar": "أشعر بدوار شديد وإرهاق منذ أسبوع.",
-      "ti": "ሓደ ሰሙን ምሉእ ይደኽመንን ይገላበጠንን ኣሎ።",
-      "om": "Torban tokkoof mataan na naaneera akkasumas dadhabeera.",
-      "en": "I have been feeling very dizzy and tired for a week."
-    }
-  },
-  {
-    "id": "sent_basis_65",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Neem dit medicijn driemaal daags na de maaltijd in. (2)",
-    "translations": {
-      "ar": "تناول هذا الدواء ثلاث مرات يومياً بعد الوجبات.",
-      "ti": "እዚ መድሃኒት ድሕሪ መግቢ ኣብ መዓልቲ ሰለስተ ግዜ ውሰዶ።",
-      "om": "Qoricha kana guyyaatti marroo sadii erga nyaattanii booda fudhadhaa.",
-      "en": "Take this medicine three times daily after meals."
-    }
-  },
-  {
-    "id": "sent_basis_66",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Moet ik bij deze halte uitstappen voor het ziekenhuis? (2)",
-    "translations": {
-      "ar": "هل يجب أن أنزل في هذا الموقف للذهاب إلى المستشفى؟",
-      "ti": "ናብ ሆስፒታል ንምኻድ ኣብዛ መደበር ድየ ክወርድ ዘሎኒ፧",
-      "om": "Gara hospitaalaatti deemuf buufata kanatti bu'uu qabaa?",
-      "en": "Should I get off at this stop for the hospital?"
-    }
-  },
-  {
-    "id": "sent_basis_67",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Hoeveel haltes is het nog tot het Centraal Station? (2)",
-    "translations": {
-      "ar": "كم محطة متبقية حتى المحطة المركزية؟",
-      "ti": "ክሳብ ሴንትራል ስተሽን ክንደይ መደበር ተሪፉ ኣሎ፧",
-      "om": "Gara buufata guddaatti buufataalee meeqatu hafe?",
-      "en": "How many stops is it until the Central Station?"
-    }
-  },
-  {
-    "id": "sent_basis_68",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Mag ik mijn fiets meenemen in de trein? (2)",
-    "translations": {
-      "ar": "هل يسمح لي بأخذ دراجتي الهوائية معي في القطار؟",
-      "ti": "ብሽክለታይ ናብ ባቡር ከእትዋ ይፍቀድዶ፧",
-      "om": "Biskileetii koo gara baaburaatti geessuu nan danda'aa?",
-      "en": "May I take my bicycle on the train?"
-    }
-  },
-  {
-    "id": "sent_basis_69",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Er rijden vandaag geen bussen door een staking. (2)",
-    "translations": {
-      "ar": "لا توجد حافلات تعمل اليوم بسبب إضراب السائقين.",
-      "ti": "ሎሚ ብምኽንያት ኣድማ ኣውቶቡሳት ኣይሰርሓን እየን።",
-      "om": "Hiriira mormiitiin kan ka'e har'a baasiin hin hojjetu.",
-      "en": "No buses are running today due to a strike."
-    }
-  },
-  {
-    "id": "sent_basis_70",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Vergeet niet in en uit te checken met uw OV-chipkaart. (2)",
-    "translations": {
-      "ar": "لا تنس تسجيل الدخول والخروج ببطاقة المواصلات الخاصة بك.",
-      "ti": "ብካርድ መጓዓዝያኻ ምእታውካን ምውጻእካን ምምልካት ኣይትረስዕ።",
-      "om": "Kaardii geejjibaatiin seenuu fi ba'uu keessan galmeessuu hin dagatinaa.",
-      "en": "Do not forget to check in and out with your transit card."
-    }
-  },
-  {
-    "id": "sent_basis_71",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "Mijn sleutel past niet in het slot van de voordeur. (2)",
-    "translations": {
-      "ar": "مفتاحي لا يدخل في قفل الباب الأمامي.",
-      "ti": "መፍትሔይ ኣብቲ ናይ ማዕጾ መዕጸዊ ኣይኣቱን ኣሎ።",
-      "om": "Furtuun koo kuflii balbala duraa keessa hin galu.",
-      "en": "My key does not fit into the lock of the front door."
-    }
-  },
-  {
-    "id": "sent_basis_72",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "De lift is kapot, we moeten de trap nemen. (2)",
-    "translations": {
-      "ar": "المصعد معطل، يجب أن نستخدم الدرج.",
-      "ti": "እቲ ሊፍት ተበላሺዩ ኣሎ፡ መደያይቦ ክንጥቀም ኣሎና።",
-      "om": "Wiirtuun ol baasu badeera, sardoo qabachuu qabna.",
-      "en": "The elevator is broken, we have to take the stairs."
-    }
-  },
-  {
-    "id": "sent_basis_73",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "Waar kan ik het oud papier en glas weggooien? (2)",
-    "translations": {
-      "ar": "أين يمكنني التخلص من الورق القديم والزجاج؟",
-      "ti": "ኣረጊት ወረቐትን ጥርሙዛትን ኣበይ ክድርብዮ ይኽእል፧",
-      "om": "Waraqaa fi qaruuraa eessatti gatuu danda'a?",
-      "en": "Where can I throw away waste paper and glass?"
-    }
-  },
-  {
-    "id": "sent_basis_74",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "De buren maken vanavond veel lawaai. (2)",
-    "translations": {
-      "ar": "الجيران يصدرون الكثير من الضجيج الليلة.",
-      "ti": "ጎረባብቲ ሎሚ ምሸት ኣዝዮም ይጫወሑ ኣለዉ።",
-      "om": "Ollaan galgala kana sagalee guddaa dhageessisaa jiru.",
-      "en": "The neighbors are making a lot of noise tonight."
-    }
-  },
-  {
-    "id": "sent_basis_75",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "Mijn zoon zit in groep drie van de basisschool. (2)",
-    "translations": {
-      "ar": "ابني في الصف الثالث من المدرسة الابتدائية.",
-      "ti": "ወደይ ኣብ መባእታ ቤት ትምህርቲ ኣብ ሳልሳይ ክፍሊ ኣሎ።",
-      "om": "Ilmi koo mana barumsaa sadarkaa tokkoffaatti kutaa sadii barata.",
-      "en": "My son is in grade three of primary school."
-    }
-  },
-  {
-    "id": "sent_basis_76",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "De school begint elke ochtend om half negen. (2)",
-    "translations": {
-      "ar": "تبدأ المدرسة كل صباح في الساعة الثامنة والنصف.",
-      "ti": "ቤት ትምህርቲ ኩሉ ግዜ ንግሆ ሰዓት 8:30 ይጅምር።",
-      "om": "Manni barumsaa ganama sa'aatii 8:30tti jalqaba.",
-      "en": "School starts every morning at half past eight."
-    }
-  },
-  {
-    "id": "sent_basis_77",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "Heeft uw dochter een gymtas en gymschoenen bij zich? (2)",
-    "translations": {
-      "ar": "هل ابنتك تحمل معها حقيبة الرياضة وحذاء الرياضة؟",
-      "ti": "ጓልካ ናይ ስፖርት ቦርሳን ናይ ስፖርት ጫማን ሒዛ ኣላዶ፧",
-      "om": "Intalli keessan saamunaa fi kophée ispoortii qabdii?",
-      "en": "Does your daughter have her gym bag and sneakers with her?"
-    }
-  },
-  {
-    "id": "sent_basis_78",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "Ik kom mijn nieuwe verblijfsvergunning ophalen. (2)",
-    "translations": {
-      "ar": "لقد جئت لاستلام تصريح إقامتي الجديد.",
-      "ti": "ሓድሽ መንበሪ ፍቓደይ ክወስድ መጺአ ኣለኹ።",
-      "om": "Hayyama jireenyaa koo haaraa fudhachuufan dhufe.",
-      "en": "I have come to pick up my new residence permit."
-    }
-  },
-  {
-    "id": "sent_basis_79",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "Heeft u een afspraak gemaakt via de website? (2)",
-    "translations": {
-      "ar": "هل حجزت موعداً عبر الموقع الإلكتروني؟",
-      "ti": "ብመንገዲ መርበብ ሓበሬታ ቆጸራ ሒዝኩምዶ፧",
-      "om": "Weebsaayitiidhaan beellama qabattaniittuu?",
-      "en": "Did you make an appointment via the website?"
-    }
-  },
-  {
-    "id": "sent_basis_80",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "U moet een geldig identiteitsbewijs meenemen. (2)",
-    "translations": {
-      "ar": "يجب عليك إحضار إثبات هوية ساري المفعول.",
-      "ti": "ሕጋዊ መንነት መረጋገጺ ሒዝካ ክትመጽእ ኣሎካ።",
-      "om": "Waraqaa eenyummaa seera qabeessa fiduu qabdu.",
-      "en": "You must bring a valid identity document."
-    }
-  },
-  {
-    "id": "sent_basis_81",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Hallo, fijn om u weer te zien! (3)",
-    "translations": {
-      "ar": "مرحباً، يسعدني رؤيتك مرة أخرى!",
-      "ti": "ሰላም፡ ዳግማይ ብምርኣየይ ሓጎስ ይስምዓኒ!",
-      "om": "Akkam, ammas isin arguun koo baay'ee na gammachiise!",
-      "en": "Hello, nice to see you again!"
-    }
-  },
-  {
-    "id": "sent_basis_82",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedemorgen, hoe gaat het met u? (3)",
-    "translations": {
-      "ar": "صباح الخير، كيف حالك؟",
-      "ti": "ከመይ ሓዲርኩም፡ ከመይ ኣለኹም፧",
-      "om": "Akkam bultan, akkam jirtu?",
-      "en": "Good morning, how are you?"
-    }
-  },
-  {
-    "id": "sent_basis_83",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedemiddag, kan ik u ergens mee helpen? (3)",
-    "translations": {
-      "ar": "مساء الخير، هل يمكنني مساعدتك في شيء ما؟",
-      "ti": "ደሓን ቀትሪ፡ ኣብ ገለ ነገር ክሕግዘኩምዶ፧",
-      "om": "Akkam ooltan, waan tokkoon isin gargaaruu danda'aa?",
-      "en": "Good afternoon, can I help you with anything?"
-    }
-  },
-  {
-    "id": "sent_basis_84",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedenavond, heeft u een tafeltje voor twee personen? (3)",
-    "translations": {
-      "ar": "مساء الخير، هل لديكم طاولة لشخصين؟",
-      "ti": "ደሓን ምሸት፡ ናይ ክልተ ሰብ ጠረጴዛ ኣለኩምዶ፧",
-      "om": "Akkam dhiitan, gabatee nama lamaaf ta'u qabduu?",
-      "en": "Good evening, do you have a table for two people?"
-    }
-  },
-  {
-    "id": "sent_basis_85",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Fijne dag verder en tot ziens! (3)",
-    "translations": {
-      "ar": "أتمنى لك يوماً سعيداً وإلى اللقاء!",
-      "ti": "ጽቡቕ መዓልቲ ይግበረልኩም፡ ደሓን ኩኑ!",
-      "om": "Guyyaa gaarii qabaadhaa, walgarra!",
-      "en": "Have a nice day and goodbye!"
-    }
-  },
-  {
-    "id": "sent_basis_86",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Ik leer Nederlands omdat ik hier wil werken en wonen. (3)",
-    "translations": {
-      "ar": "أنا أتعلم اللغة الهولندية لأنني أريد العمل والعيش هنا.",
-      "ti": "ኣብዚ ክሰርሕን ክነብርን ስለ ዝደሊ ኔዘርላንድስኛ ይምሃር ኣለኹ።",
-      "om": "Asitti hojjechuu fi jiraachuu waanun barbaaduuf Afaan Neezerlaandi barachaa jira.",
-      "en": "I am learning Dutch because I want to work and live here."
-    }
-  },
-  {
-    "id": "sent_basis_87",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Wat is uw voornaam en achternaam? (3)",
-    "translations": {
-      "ar": "ما هو اسمك الأول واسم عائلتك؟",
-      "ti": "ስምካን ስም ኣቦኻን መን ይበሃል፧",
-      "om": "Maqaan kee fi maqaan abbaa kee eenyu?",
-      "en": "What is your first name and last name?"
-    }
-  },
-  {
-    "id": "sent_basis_88",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Ik woon nu één jaar met mijn familie in Nederland. (3)",
-    "translations": {
-      "ar": "أنا أعيش الآن مع عائلتي في هولندا منذ عام واحد.",
-      "ti": "ምስ ስድራቤተይ ኣብ ኔዘርላንድስ ካብ እንነብር ሓደ ዓመት ኮይኑና።",
-      "om": "Ani maatii koo wajjin Neezerlaandi keessa ergan jiraachuu jalqabee waggaa tokko ta'eera.",
-      "en": "I have been living in the Netherlands with my family for one year now."
-    }
-  },
-  {
-    "id": "sent_basis_89",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Kunt u dat alstublieft nog een keer herhalen? (3)",
-    "translations": {
-      "ar": "هل يمكنك تكرار ذلك من فضلك مرة أخرى؟",
-      "ti": "ብኽብረትኩም ነዚ ክትደግሙለይ ትኽእሉዶ፧",
-      "om": "Mee irra deebitanii natti himuu dandeessuu?",
-      "en": "Could you please repeat that once more?"
-    }
-  },
-  {
-    "id": "sent_basis_90",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Kunt u een beetje langzamer praten? (3)",
-    "translations": {
-      "ar": "هل يمكنك التحدث ببطء أكثر قليلاً؟",
-      "ti": "ቁሩብ ቀስ ኢልኩም ክትዛረቡ ትኽእሉዶ፧",
-      "om": "Mee suuta xiqqoo dubbachuu dandeessuu?",
-      "en": "Could you speak a little slower, please?"
-    }
-  },
-  {
-    "id": "sent_basis_91",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Mag ik een halfje bruin brood en vier krentenbollen? (3)",
-    "translations": {
-      "ar": "هل يمكنني الحصول على نصف رغيف خبز أسمر وأربع لفائف زبيب؟",
-      "ti": "ፍርቂ ቡናዊ ባኒን ኣርባዕተ ናይ ዘቢብ ኬክን ክረክብ ይኽእልዶ፧",
-      "om": "Daabboo magaala walakkaa fi daabboo zabiibii afur nan argadhaa?",
-      "en": "May I have half a brown loaf and four currant buns?"
-    }
-  },
-  {
-    "id": "sent_basis_92",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Zijn de bananen en appels vandaag in de aanbieding? (3)",
-    "translations": {
-      "ar": "هل الموز والتفاح في العرض المخفض اليوم؟",
-      "ti": "ሎሚ ባናናን ቱፋሕን ቅናሽ ኣለዎምዶ፧",
-      "om": "Muuzee fi appiliin har'a gatii hir'ifamaa qabuu?",
-      "en": "Are bananas and apples on special offer today?"
-    }
-  },
-  {
-    "id": "sent_basis_93",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Kunt u mij het wisselgeld teruggeven, alstublieft? (3)",
-    "translations": {
-      "ar": "هل يمكنك إعطائي باقي النقود من فضلك؟",
-      "ti": "ብኽብረትኩም እቲ ዝተረፈ ገንዘበይ ክትመልሱለይ ትኽእሉዶ፧",
-      "om": "Mee maallaqa hafe deebiftanii naaf kennuu dandeessuu?",
-      "en": "Could you please give me the change back?"
-    }
-  },
-  {
-    "id": "sent_basis_94",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Ik heb helaas geen muntje voor het winkelwagentje. (3)",
-    "translations": {
-      "ar": "للأسف ليس معي قطعة نقود معدنية لعربة التسوق.",
-      "ti": "ንዓረብያ ዕዳጋ ዝኸውን ሳንቲም የብለይን።",
-      "om": "Gaarii gabaatiif saantima hin qabu.",
-      "en": "Unfortunately I do not have a coin for the shopping trolley."
-    }
-  },
-  {
-    "id": "sent_basis_95",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Waar staan de eieren en de flessen melk? (3)",
-    "translations": {
-      "ar": "أين يوجد البيض وزجاجات الحليب؟",
-      "ti": "እንቋቝሖን ናይ ጸባ ጥርሙዛትን ኣበይ ኣለዉ፧",
-      "om": "Buuphaalee fi qaruuraan aannanii eessa jiru?",
-      "en": "Where are the eggs and bottles of milk?"
-    }
-  },
-  {
-    "id": "sent_basis_96",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Mag ik hier pinnen met mijn bankpas? (3)",
-    "translations": {
-      "ar": "هل يمكنني الدفع هنا ببطاقتي المصرفية؟",
-      "ti": "ኣብዚ ብካርድ ክኸፍል ይኽእልዶ፧",
-      "om": "Asitti kaardii baankiitiin kaffaluu nan danda'aa?",
-      "en": "Can I pay by debit card here?"
-    }
-  },
-  {
-    "id": "sent_basis_97",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Heeft u een plastic tasje voor mij? (3)",
-    "translations": {
-      "ar": "هل لديك كيس بلاستيكي لي؟",
-      "ti": "ፌስታል ኣለኩምዶ፧",
-      "om": "Koorojoo bilaastikaa naaf qabduu?",
-      "en": "Do you have a plastic bag for me?"
-    }
-  },
-  {
-    "id": "sent_basis_98",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Dit product is over de datum. (3)",
-    "translations": {
-      "ar": "هذا المنتج منتهي الصلاحية.",
-      "ti": "ናይዚ ፍርያት ግዜኡ ሓሊፉ እዩ።",
-      "om": "Omishni kun yeroon isaa darbeera.",
-      "en": "This product is past its expiration date."
-    }
-  },
-  {
-    "id": "sent_basis_99",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik heb al twee dagen last van hevige kiespijn. (3)",
-    "translations": {
-      "ar": "أعاني من ألم شديد في الأسنان منذ يومين.",
-      "ti": "ካብ ዝሓምም ክልተ መዓልቲ ስነይ ብርቱዕ ይቐንዘኒ ኣሎ።",
-      "om": "Guyyoota lamaaf ilkaan na dhukkubaa jira.",
-      "en": "I have been suffering from severe toothache for two days."
-    }
-  },
-  {
-    "id": "sent_basis_100",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Kan de dokter mij een recept voor paracetamol voorschrijven? (3)",
-    "translations": {
-      "ar": "هل يمكن للطبيب أن يكتب لي وصفة طبية للباراسيتامول؟",
-      "ti": "ሓኪም ናይ ፓራሴታሞል መረዳእታ ክጽሕፈለይ ይኽእልዶ፧",
-      "om": "Dooqtoorri qoricha paraasetaamoolii naaf ajajuu danda'aa?",
-      "en": "Can the doctor prescribe me a prescription for paracetamol?"
-    }
-  },
-  {
-    "id": "sent_basis_101",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik heb pijn in mijn buik en ik moet overgeven. (3)",
-    "translations": {
-      "ar": "عندي ألم في بطني وأشعر بالغثيان والرغبة في التقيؤ.",
-      "ti": "ከብደይ ይቐንዘኒ ኣሎ፡ ከምኡውን የቋሽሸኒ ኣሎ።",
-      "om": "Garaan na dhukkuba akkasumas na haqqisa.",
-      "en": "I have pain in my stomach and I need to vomit."
-    }
-  },
-  {
-    "id": "sent_basis_102",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Mijn dochtertje heeft rode vlekjes op haar huid. (3)",
-    "translations": {
-      "ar": "ابنتي الصغيرة لديها بقع حمراء على بشرتها.",
-      "ti": "ጓለይ ኣብ ቆርበታ ቀያሕቲ ነጠብጣብ ወጺእዋ ኣሎ።",
-      "om": "Intalli koo gogaa ishee irratti mallattoo diimaa qabdi.",
-      "en": "My little daughter has red spots on her skin."
-    }
-  },
-  {
-    "id": "sent_basis_103",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Mag ik een afspraak maken voor morgenochtend? (3)",
-    "translations": {
-      "ar": "هل يمكنني حجز موعد لصباح الغد؟",
-      "ti": "ንጽባሕ ንግሆ ቆጸራ ክሕዝ ይኽእልዶ፧",
-      "om": "Boru ganamaaf beellama qabachuu nan danda'aa?",
-      "en": "May I make an appointment for tomorrow morning?"
-    }
-  },
-  {
-    "id": "sent_basis_104",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik voel me al een week erg duizelig en moe. (3)",
-    "translations": {
-      "ar": "أشعر بدوار شديد وإرهاق منذ أسبوع.",
-      "ti": "ሓደ ሰሙን ምሉእ ይደኽመንን ይገላበጠንን ኣሎ።",
-      "om": "Torban tokkoof mataan na naaneera akkasumas dadhabeera.",
-      "en": "I have been feeling very dizzy and tired for a week."
-    }
-  },
-  {
-    "id": "sent_basis_105",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Neem dit medicijn driemaal daags na de maaltijd in. (3)",
-    "translations": {
-      "ar": "تناول هذا الدواء ثلاث مرات يومياً بعد الوجبات.",
-      "ti": "እዚ መድሃኒት ድሕሪ መግቢ ኣብ መዓልቲ ሰለስተ ግዜ ውሰዶ።",
-      "om": "Qoricha kana guyyaatti marroo sadii erga nyaattanii booda fudhadhaa.",
-      "en": "Take this medicine three times daily after meals."
-    }
-  },
-  {
-    "id": "sent_basis_106",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Moet ik bij deze halte uitstappen voor het ziekenhuis? (3)",
-    "translations": {
-      "ar": "هل يجب أن أنزل في هذا الموقف للذهاب إلى المستشفى؟",
-      "ti": "ናብ ሆስፒታል ንምኻድ ኣብዛ መደበር ድየ ክወርድ ዘሎኒ፧",
-      "om": "Gara hospitaalaatti deemuf buufata kanatti bu'uu qabaa?",
-      "en": "Should I get off at this stop for the hospital?"
-    }
-  },
-  {
-    "id": "sent_basis_107",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Hoeveel haltes is het nog tot het Centraal Station? (3)",
-    "translations": {
-      "ar": "كم محطة متبقية حتى المحطة المركزية؟",
-      "ti": "ክሳብ ሴንትራል ስተሽን ክንደይ መደበር ተሪፉ ኣሎ፧",
-      "om": "Gara buufata guddaatti buufataalee meeqatu hafe?",
-      "en": "How many stops is it until the Central Station?"
-    }
-  },
-  {
-    "id": "sent_basis_108",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Mag ik mijn fiets meenemen in de trein? (3)",
-    "translations": {
-      "ar": "هل يسمح لي بأخذ دراجتي الهوائية معي في القطار؟",
-      "ti": "ብሽክለታይ ናብ ባቡር ከእትዋ ይፍቀድዶ፧",
-      "om": "Biskileetii koo gara baaburaatti geessuu nan danda'aa?",
-      "en": "May I take my bicycle on the train?"
-    }
-  },
-  {
-    "id": "sent_basis_109",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Er rijden vandaag geen bussen door een staking. (3)",
-    "translations": {
-      "ar": "لا توجد حافلات تعمل اليوم بسبب إضراب السائقين.",
-      "ti": "ሎሚ ብምኽንያት ኣድማ ኣውቶቡሳት ኣይሰርሓን እየን።",
-      "om": "Hiriira mormiitiin kan ka'e har'a baasiin hin hojjetu.",
-      "en": "No buses are running today due to a strike."
-    }
-  },
-  {
-    "id": "sent_basis_110",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Vergeet niet in en uit te checken met uw OV-chipkaart. (3)",
-    "translations": {
-      "ar": "لا تنس تسجيل الدخول والخروج ببطاقة المواصلات الخاصة بك.",
-      "ti": "ብካርድ መጓዓዝያኻ ምእታውካን ምውጻእካን ምምልካት ኣይትረስዕ።",
-      "om": "Kaardii geejjibaatiin seenuu fi ba'uu keessan galmeessuu hin dagatinaa.",
-      "en": "Do not forget to check in and out with your transit card."
-    }
-  },
-  {
-    "id": "sent_basis_111",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "Mijn sleutel past niet in het slot van de voordeur. (3)",
-    "translations": {
-      "ar": "مفتاحي لا يدخل في قفل الباب الأمامي.",
-      "ti": "መፍትሔይ ኣብቲ ናይ ማዕጾ መዕጸዊ ኣይኣቱን ኣሎ።",
-      "om": "Furtuun koo kuflii balbala duraa keessa hin galu.",
-      "en": "My key does not fit into the lock of the front door."
-    }
-  },
-  {
-    "id": "sent_basis_112",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "De lift is kapot, we moeten de trap nemen. (3)",
-    "translations": {
-      "ar": "المصعد معطل، يجب أن نستخدم الدرج.",
-      "ti": "እቲ ሊፍት ተበላሺዩ ኣሎ፡ መደያይቦ ክንጥቀም ኣሎና።",
-      "om": "Wiirtuun ol baasu badeera, sardoo qabachuu qabna.",
-      "en": "The elevator is broken, we have to take the stairs."
-    }
-  },
-  {
-    "id": "sent_basis_113",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "Waar kan ik het oud papier en glas weggooien? (3)",
-    "translations": {
-      "ar": "أين يمكنني التخلص من الورق القديم والزجاج؟",
-      "ti": "ኣረጊት ወረቐትን ጥርሙዛትን ኣበይ ክድርብዮ ይኽእል፧",
-      "om": "Waraqaa fi qaruuraa eessatti gatuu danda'a?",
-      "en": "Where can I throw away waste paper and glass?"
-    }
-  },
-  {
-    "id": "sent_basis_114",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "De buren maken vanavond veel lawaai. (3)",
-    "translations": {
-      "ar": "الجيران يصدرون الكثير من الضجيج الليلة.",
-      "ti": "ጎረባብቲ ሎሚ ምሸት ኣዝዮም ይጫወሑ ኣለዉ።",
-      "om": "Ollaan galgala kana sagalee guddaa dhageessisaa jiru.",
-      "en": "The neighbors are making a lot of noise tonight."
-    }
-  },
-  {
-    "id": "sent_basis_115",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "Mijn zoon zit in groep drie van de basisschool. (3)",
-    "translations": {
-      "ar": "ابني في الصف الثالث من المدرسة الابتدائية.",
-      "ti": "ወደይ ኣብ መባእታ ቤት ትምህርቲ ኣብ ሳልሳይ ክፍሊ ኣሎ።",
-      "om": "Ilmi koo mana barumsaa sadarkaa tokkoffaatti kutaa sadii barata.",
-      "en": "My son is in grade three of primary school."
-    }
-  },
-  {
-    "id": "sent_basis_116",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "De school begint elke ochtend om half negen. (3)",
-    "translations": {
-      "ar": "تبدأ المدرسة كل صباح في الساعة الثامنة والنصف.",
-      "ti": "ቤት ትምህርቲ ኩሉ ግዜ ንግሆ ሰዓት 8:30 ይጅምር።",
-      "om": "Manni barumsaa ganama sa'aatii 8:30tti jalqaba.",
-      "en": "School starts every morning at half past eight."
-    }
-  },
-  {
-    "id": "sent_basis_117",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "Heeft uw dochter een gymtas en gymschoenen bij zich? (3)",
-    "translations": {
-      "ar": "هل ابنتك تحمل معها حقيبة الرياضة وحذاء الرياضة؟",
-      "ti": "ጓልካ ናይ ስፖርት ቦርሳን ናይ ስፖርት ጫማን ሒዛ ኣላዶ፧",
-      "om": "Intalli keessan saamunaa fi kophée ispoortii qabdii?",
-      "en": "Does your daughter have her gym bag and sneakers with her?"
-    }
-  },
-  {
-    "id": "sent_basis_118",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "Ik kom mijn nieuwe verblijfsvergunning ophalen. (3)",
-    "translations": {
-      "ar": "لقد جئت لاستلام تصريح إقامتي الجديد.",
-      "ti": "ሓድሽ መንበሪ ፍቓደይ ክወስድ መጺአ ኣለኹ።",
-      "om": "Hayyama jireenyaa koo haaraa fudhachuufan dhufe.",
-      "en": "I have come to pick up my new residence permit."
-    }
-  },
-  {
-    "id": "sent_basis_119",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "Heeft u een afspraak gemaakt via de website? (3)",
-    "translations": {
-      "ar": "هل حجزت موعداً عبر الموقع الإلكتروني؟",
-      "ti": "ብመንገዲ መርበብ ሓበሬታ ቆጸራ ሒዝኩምዶ፧",
-      "om": "Weebsaayitiidhaan beellama qabattaniittuu?",
-      "en": "Did you make an appointment via the website?"
-    }
-  },
-  {
-    "id": "sent_basis_120",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "U moet een geldig identiteitsbewijs meenemen. (3)",
-    "translations": {
-      "ar": "يجب عليك إحضار إثبات هوية ساري المفعول.",
-      "ti": "ሕጋዊ መንነት መረጋገጺ ሒዝካ ክትመጽእ ኣሎካ።",
-      "om": "Waraqaa eenyummaa seera qabeessa fiduu qabdu.",
-      "en": "You must bring a valid identity document."
-    }
-  },
-  {
-    "id": "sent_basis_121",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Hallo, fijn om u weer te zien! (4)",
-    "translations": {
-      "ar": "مرحباً، يسعدني رؤيتك مرة أخرى!",
-      "ti": "ሰላም፡ ዳግማይ ብምርኣየይ ሓጎስ ይስምዓኒ!",
-      "om": "Akkam, ammas isin arguun koo baay'ee na gammachiise!",
-      "en": "Hello, nice to see you again!"
-    }
-  },
-  {
-    "id": "sent_basis_122",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedemorgen, hoe gaat het met u? (4)",
-    "translations": {
-      "ar": "صباح الخير، كيف حالك؟",
-      "ti": "ከመይ ሓዲርኩም፡ ከመይ ኣለኹም፧",
-      "om": "Akkam bultan, akkam jirtu?",
-      "en": "Good morning, how are you?"
-    }
-  },
-  {
-    "id": "sent_basis_123",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedemiddag, kan ik u ergens mee helpen? (4)",
-    "translations": {
-      "ar": "مساء الخير، هل يمكنني مساعدتك في شيء ما؟",
-      "ti": "ደሓን ቀትሪ፡ ኣብ ገለ ነገር ክሕግዘኩምዶ፧",
-      "om": "Akkam ooltan, waan tokkoon isin gargaaruu danda'aa?",
-      "en": "Good afternoon, can I help you with anything?"
-    }
-  },
-  {
-    "id": "sent_basis_124",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Goedenavond, heeft u een tafeltje voor twee personen? (4)",
-    "translations": {
-      "ar": "مساء الخير، هل لديكم طاولة لشخصين؟",
-      "ti": "ደሓን ምሸት፡ ናይ ክልተ ሰብ ጠረጴዛ ኣለኩምዶ፧",
-      "om": "Akkam dhiitan, gabatee nama lamaaf ta'u qabduu?",
-      "en": "Good evening, do you have a table for two people?"
-    }
-  },
-  {
-    "id": "sent_basis_125",
-    "level": "basis",
-    "topic": "Begroeting",
-    "dutch": "Fijne dag verder en tot ziens! (4)",
-    "translations": {
-      "ar": "أتمنى لك يوماً سعيداً وإلى اللقاء!",
-      "ti": "ጽቡቕ መዓልቲ ይግበረልኩም፡ ደሓን ኩኑ!",
-      "om": "Guyyaa gaarii qabaadhaa, walgarra!",
-      "en": "Have a nice day and goodbye!"
-    }
-  },
-  {
-    "id": "sent_basis_126",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Ik leer Nederlands omdat ik hier wil werken en wonen. (4)",
-    "translations": {
-      "ar": "أنا أتعلم اللغة الهولندية لأنني أريد العمل والعيش هنا.",
-      "ti": "ኣብዚ ክሰርሕን ክነብርን ስለ ዝደሊ ኔዘርላንድስኛ ይምሃር ኣለኹ።",
-      "om": "Asitti hojjechuu fi jiraachuu waanun barbaaduuf Afaan Neezerlaandi barachaa jira.",
-      "en": "I am learning Dutch because I want to work and live here."
-    }
-  },
-  {
-    "id": "sent_basis_127",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Wat is uw voornaam en achternaam? (4)",
-    "translations": {
-      "ar": "ما هو اسمك الأول واسم عائلتك؟",
-      "ti": "ስምካን ስም ኣቦኻን መን ይበሃል፧",
-      "om": "Maqaan kee fi maqaan abbaa kee eenyu?",
-      "en": "What is your first name and last name?"
-    }
-  },
-  {
-    "id": "sent_basis_128",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Ik woon nu één jaar met mijn familie in Nederland. (4)",
-    "translations": {
-      "ar": "أنا أعيش الآن مع عائلتي في هولندا منذ عام واحد.",
-      "ti": "ምስ ስድራቤተይ ኣብ ኔዘርላንድስ ካብ እንነብር ሓደ ዓመት ኮይኑና።",
-      "om": "Ani maatii koo wajjin Neezerlaandi keessa ergan jiraachuu jalqabee waggaa tokko ta'eera.",
-      "en": "I have been living in the Netherlands with my family for one year now."
-    }
-  },
-  {
-    "id": "sent_basis_129",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Kunt u dat alstublieft nog een keer herhalen? (4)",
-    "translations": {
-      "ar": "هل يمكنك تكرار ذلك من فضلك مرة أخرى؟",
-      "ti": "ብኽብረትኩም ነዚ ክትደግሙለይ ትኽእሉዶ፧",
-      "om": "Mee irra deebitanii natti himuu dandeessuu?",
-      "en": "Could you please repeat that once more?"
-    }
-  },
-  {
-    "id": "sent_basis_130",
-    "level": "basis",
-    "topic": "Kennismaking",
-    "dutch": "Kunt u een beetje langzamer praten? (4)",
-    "translations": {
-      "ar": "هل يمكنك التحدث ببطء أكثر قليلاً؟",
-      "ti": "ቁሩብ ቀስ ኢልኩም ክትዛረቡ ትኽእሉዶ፧",
-      "om": "Mee suuta xiqqoo dubbachuu dandeessuu?",
-      "en": "Could you speak a little slower, please?"
-    }
-  },
-  {
-    "id": "sent_basis_131",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Mag ik een halfje bruin brood en vier krentenbollen? (4)",
-    "translations": {
-      "ar": "هل يمكنني الحصول على نصف رغيف خبز أسمر وأربع لفائف زبيب؟",
-      "ti": "ፍርቂ ቡናዊ ባኒን ኣርባዕተ ናይ ዘቢብ ኬክን ክረክብ ይኽእልዶ፧",
-      "om": "Daabboo magaala walakkaa fi daabboo zabiibii afur nan argadhaa?",
-      "en": "May I have half a brown loaf and four currant buns?"
-    }
-  },
-  {
-    "id": "sent_basis_132",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Zijn de bananen en appels vandaag in de aanbieding? (4)",
-    "translations": {
-      "ar": "هل الموز والتفاح في العرض المخفض اليوم؟",
-      "ti": "ሎሚ ባናናን ቱፋሕን ቅናሽ ኣለዎምዶ፧",
-      "om": "Muuzee fi appiliin har'a gatii hir'ifamaa qabuu?",
-      "en": "Are bananas and apples on special offer today?"
-    }
-  },
-  {
-    "id": "sent_basis_133",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Kunt u mij het wisselgeld teruggeven, alstublieft? (4)",
-    "translations": {
-      "ar": "هل يمكنك إعطائي باقي النقود من فضلك؟",
-      "ti": "ብኽብረትኩም እቲ ዝተረፈ ገንዘበይ ክትመልሱለይ ትኽእሉዶ፧",
-      "om": "Mee maallaqa hafe deebiftanii naaf kennuu dandeessuu?",
-      "en": "Could you please give me the change back?"
-    }
-  },
-  {
-    "id": "sent_basis_134",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Ik heb helaas geen muntje voor het winkelwagentje. (4)",
-    "translations": {
-      "ar": "للأسف ليس معي قطعة نقود معدنية لعربة التسوق.",
-      "ti": "ንዓረብያ ዕዳጋ ዝኸውን ሳንቲም የብለይን።",
-      "om": "Gaarii gabaatiif saantima hin qabu.",
-      "en": "Unfortunately I do not have a coin for the shopping trolley."
-    }
-  },
-  {
-    "id": "sent_basis_135",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Waar staan de eieren en de flessen melk? (4)",
-    "translations": {
-      "ar": "أين يوجد البيض وزجاجات الحليب؟",
-      "ti": "እንቋቝሖን ናይ ጸባ ጥርሙዛትን ኣበይ ኣለዉ፧",
-      "om": "Buuphaalee fi qaruuraan aannanii eessa jiru?",
-      "en": "Where are the eggs and bottles of milk?"
-    }
-  },
-  {
-    "id": "sent_basis_136",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Mag ik hier pinnen met mijn bankpas? (4)",
-    "translations": {
-      "ar": "هل يمكنني الدفع هنا ببطاقتي المصرفية؟",
-      "ti": "ኣብዚ ብካርድ ክኸፍል ይኽእልዶ፧",
-      "om": "Asitti kaardii baankiitiin kaffaluu nan danda'aa?",
-      "en": "Can I pay by debit card here?"
-    }
-  },
-  {
-    "id": "sent_basis_137",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Heeft u een plastic tasje voor mij? (4)",
-    "translations": {
-      "ar": "هل لديك كيس بلاستيكي لي؟",
-      "ti": "ፌስታል ኣለኩምዶ፧",
-      "om": "Koorojoo bilaastikaa naaf qabduu?",
-      "en": "Do you have a plastic bag for me?"
-    }
-  },
-  {
-    "id": "sent_basis_138",
-    "level": "basis",
-    "topic": "Boodschappen",
-    "dutch": "Dit product is over de datum. (4)",
-    "translations": {
-      "ar": "هذا المنتج منتهي الصلاحية.",
-      "ti": "ናይዚ ፍርያት ግዜኡ ሓሊፉ እዩ።",
-      "om": "Omishni kun yeroon isaa darbeera.",
-      "en": "This product is past its expiration date."
-    }
-  },
-  {
-    "id": "sent_basis_139",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik heb al twee dagen last van hevige kiespijn. (4)",
-    "translations": {
-      "ar": "أعاني من ألم شديد في الأسنان منذ يومين.",
-      "ti": "ካብ ዝሓምም ክልተ መዓልቲ ስነይ ብርቱዕ ይቐንዘኒ ኣሎ።",
-      "om": "Guyyoota lamaaf ilkaan na dhukkubaa jira.",
-      "en": "I have been suffering from severe toothache for two days."
-    }
-  },
-  {
-    "id": "sent_basis_140",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Kan de dokter mij een recept voor paracetamol voorschrijven? (4)",
-    "translations": {
-      "ar": "هل يمكن للطبيب أن يكتب لي وصفة طبية للباراسيتامول؟",
-      "ti": "ሓኪም ናይ ፓራሴታሞል መረዳእታ ክጽሕፈለይ ይኽእልዶ፧",
-      "om": "Dooqtoorri qoricha paraasetaamoolii naaf ajajuu danda'aa?",
-      "en": "Can the doctor prescribe me a prescription for paracetamol?"
-    }
-  },
-  {
-    "id": "sent_basis_141",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik heb pijn in mijn buik en ik moet overgeven. (4)",
-    "translations": {
-      "ar": "عندي ألم في بطني وأشعر بالغثيان والرغبة في التقيؤ.",
-      "ti": "ከብደይ ይቐንዘኒ ኣሎ፡ ከምኡውን የቋሽሸኒ ኣሎ።",
-      "om": "Garaan na dhukkuba akkasumas na haqqisa.",
-      "en": "I have pain in my stomach and I need to vomit."
-    }
-  },
-  {
-    "id": "sent_basis_142",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Mijn dochtertje heeft rode vlekjes op haar huid. (4)",
-    "translations": {
-      "ar": "ابنتي الصغيرة لديها بقع حمراء على بشرتها.",
-      "ti": "ጓለይ ኣብ ቆርበታ ቀያሕቲ ነጠብጣብ ወጺእዋ ኣሎ።",
-      "om": "Intalli koo gogaa ishee irratti mallattoo diimaa qabdi.",
-      "en": "My little daughter has red spots on her skin."
-    }
-  },
-  {
-    "id": "sent_basis_143",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Mag ik een afspraak maken voor morgenochtend? (4)",
-    "translations": {
-      "ar": "هل يمكنني حجز موعد لصباح الغد؟",
-      "ti": "ንጽባሕ ንግሆ ቆጸራ ክሕዝ ይኽእልዶ፧",
-      "om": "Boru ganamaaf beellama qabachuu nan danda'aa?",
-      "en": "May I make an appointment for tomorrow morning?"
-    }
-  },
-  {
-    "id": "sent_basis_144",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Ik voel me al een week erg duizelig en moe. (4)",
-    "translations": {
-      "ar": "أشعر بدوار شديد وإرهاق منذ أسبوع.",
-      "ti": "ሓደ ሰሙን ምሉእ ይደኽመንን ይገላበጠንን ኣሎ።",
-      "om": "Torban tokkoof mataan na naaneera akkasumas dadhabeera.",
-      "en": "I have been feeling very dizzy and tired for a week."
-    }
-  },
-  {
-    "id": "sent_basis_145",
-    "level": "basis",
-    "topic": "Huisarts",
-    "dutch": "Neem dit medicijn driemaal daags na de maaltijd in. (4)",
-    "translations": {
-      "ar": "تناول هذا الدواء ثلاث مرات يومياً بعد الوجبات.",
-      "ti": "እዚ መድሃኒት ድሕሪ መግቢ ኣብ መዓልቲ ሰለስተ ግዜ ውሰዶ።",
-      "om": "Qoricha kana guyyaatti marroo sadii erga nyaattanii booda fudhadhaa.",
-      "en": "Take this medicine three times daily after meals."
-    }
-  },
-  {
-    "id": "sent_basis_146",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Moet ik bij deze halte uitstappen voor het ziekenhuis? (4)",
-    "translations": {
-      "ar": "هل يجب أن أنزل في هذا الموقف للذهاب إلى المستشفى؟",
-      "ti": "ናብ ሆስፒታል ንምኻድ ኣብዛ መደበር ድየ ክወርድ ዘሎኒ፧",
-      "om": "Gara hospitaalaatti deemuf buufata kanatti bu'uu qabaa?",
-      "en": "Should I get off at this stop for the hospital?"
-    }
-  },
-  {
-    "id": "sent_basis_147",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Hoeveel haltes is het nog tot het Centraal Station? (4)",
-    "translations": {
-      "ar": "كم محطة متبقية حتى المحطة المركزية؟",
-      "ti": "ክሳብ ሴንትራል ስተሽን ክንደይ መደበር ተሪፉ ኣሎ፧",
-      "om": "Gara buufata guddaatti buufataalee meeqatu hafe?",
-      "en": "How many stops is it until the Central Station?"
-    }
-  },
-  {
-    "id": "sent_basis_148",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Mag ik mijn fiets meenemen in de trein? (4)",
-    "translations": {
-      "ar": "هل يسمح لي بأخذ دراجتي الهوائية معي في القطار؟",
-      "ti": "ብሽክለታይ ናብ ባቡር ከእትዋ ይፍቀድዶ፧",
-      "om": "Biskileetii koo gara baaburaatti geessuu nan danda'aa?",
-      "en": "May I take my bicycle on the train?"
-    }
-  },
-  {
-    "id": "sent_basis_149",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Er rijden vandaag geen bussen door een staking. (4)",
-    "translations": {
-      "ar": "لا توجد حافلات تعمل اليوم بسبب إضراب السائقين.",
-      "ti": "ሎሚ ብምኽንያት ኣድማ ኣውቶቡሳት ኣይሰርሓን እየን።",
-      "om": "Hiriira mormiitiin kan ka'e har'a baasiin hin hojjetu.",
-      "en": "No buses are running today due to a strike."
-    }
-  },
-  {
-    "id": "sent_basis_150",
-    "level": "basis",
-    "topic": "Vervoer",
-    "dutch": "Vergeet niet in en uit te checken met uw OV-chipkaart. (4)",
-    "translations": {
-      "ar": "لا تنس تسجيل الدخول والخروج ببطاقة المواصلات الخاصة بك.",
-      "ti": "ብካርድ መጓዓዝያኻ ምእታውካን ምውጻእካን ምምልካት ኣይትረስዕ።",
-      "om": "Kaardii geejjibaatiin seenuu fi ba'uu keessan galmeessuu hin dagatinaa.",
-      "en": "Do not forget to check in and out with your transit card."
-    }
-  },
-  {
-    "id": "sent_basis_151",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "Mijn sleutel past niet in het slot van de voordeur. (4)",
-    "translations": {
-      "ar": "مفتاحي لا يدخل في قفل الباب الأمامي.",
-      "ti": "መፍትሔይ ኣብቲ ናይ ማዕጾ መዕጸዊ ኣይኣቱን ኣሎ።",
-      "om": "Furtuun koo kuflii balbala duraa keessa hin galu.",
-      "en": "My key does not fit into the lock of the front door."
-    }
-  },
-  {
-    "id": "sent_basis_152",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "De lift is kapot, we moeten de trap nemen. (4)",
-    "translations": {
-      "ar": "المصعد معطل، يجب أن نستخدم الدرج.",
-      "ti": "እቲ ሊፍት ተበላሺዩ ኣሎ፡ መደያይቦ ክንጥቀም ኣሎና።",
-      "om": "Wiirtuun ol baasu badeera, sardoo qabachuu qabna.",
-      "en": "The elevator is broken, we have to take the stairs."
-    }
-  },
-  {
-    "id": "sent_basis_153",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "Waar kan ik het oud papier en glas weggooien? (4)",
-    "translations": {
-      "ar": "أين يمكنني التخلص من الورق القديم والزجاج؟",
-      "ti": "ኣረጊት ወረቐትን ጥርሙዛትን ኣበይ ክድርብዮ ይኽእል፧",
-      "om": "Waraqaa fi qaruuraa eessatti gatuu danda'a?",
-      "en": "Where can I throw away waste paper and glass?"
-    }
-  },
-  {
-    "id": "sent_basis_154",
-    "level": "basis",
-    "topic": "Wonen",
-    "dutch": "De buren maken vanavond veel lawaai. (4)",
-    "translations": {
-      "ar": "الجيران يصدرون الكثير من الضجيج الليلة.",
-      "ti": "ጎረባብቲ ሎሚ ምሸት ኣዝዮም ይጫወሑ ኣለዉ።",
-      "om": "Ollaan galgala kana sagalee guddaa dhageessisaa jiru.",
-      "en": "The neighbors are making a lot of noise tonight."
-    }
-  },
-  {
-    "id": "sent_basis_155",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "Mijn zoon zit in groep drie van de basisschool. (4)",
-    "translations": {
-      "ar": "ابني في الصف الثالث من المدرسة الابتدائية.",
-      "ti": "ወደይ ኣብ መባእታ ቤት ትምህርቲ ኣብ ሳልሳይ ክፍሊ ኣሎ።",
-      "om": "Ilmi koo mana barumsaa sadarkaa tokkoffaatti kutaa sadii barata.",
-      "en": "My son is in grade three of primary school."
-    }
-  },
-  {
-    "id": "sent_basis_156",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "De school begint elke ochtend om half negen. (4)",
-    "translations": {
-      "ar": "تبدأ المدرسة كل صباح في الساعة الثامنة والنصف.",
-      "ti": "ቤት ትምህርቲ ኩሉ ግዜ ንግሆ ሰዓት 8:30 ይጅምር።",
-      "om": "Manni barumsaa ganama sa'aatii 8:30tti jalqaba.",
-      "en": "School starts every morning at half past eight."
-    }
-  },
-  {
-    "id": "sent_basis_157",
-    "level": "basis",
-    "topic": "School",
-    "dutch": "Heeft uw dochter een gymtas en gymschoenen bij zich? (4)",
-    "translations": {
-      "ar": "هل ابنتك تحمل معها حقيبة الرياضة وحذاء الرياضة؟",
-      "ti": "ጓልካ ናይ ስፖርት ቦርሳን ናይ ስፖርት ጫማን ሒዛ ኣላዶ፧",
-      "om": "Intalli keessan saamunaa fi kophée ispoortii qabdii?",
-      "en": "Does your daughter have her gym bag and sneakers with her?"
-    }
-  },
-  {
-    "id": "sent_basis_158",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "Ik kom mijn nieuwe verblijfsvergunning ophalen. (4)",
-    "translations": {
-      "ar": "لقد جئت لاستلام تصريح إقامتي الجديد.",
-      "ti": "ሓድሽ መንበሪ ፍቓደይ ክወስድ መጺአ ኣለኹ።",
-      "om": "Hayyama jireenyaa koo haaraa fudhachuufan dhufe.",
-      "en": "I have come to pick up my new residence permit."
-    }
-  },
-  {
-    "id": "sent_basis_159",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "Heeft u een afspraak gemaakt via de website? (4)",
-    "translations": {
-      "ar": "هل حجزت موعداً عبر الموقع الإلكتروني؟",
-      "ti": "ብመንገዲ መርበብ ሓበሬታ ቆጸራ ሒዝኩምዶ፧",
-      "om": "Weebsaayitiidhaan beellama qabattaniittuu?",
-      "en": "Did you make an appointment via the website?"
-    }
-  },
-  {
-    "id": "sent_basis_160",
-    "level": "basis",
-    "topic": "Gemeente",
-    "dutch": "U moet een geldig identiteitsbewijs meenemen. (4)",
-    "translations": {
-      "ar": "يجب عليك إحضار إثبات هوية ساري المفعول.",
-      "ti": "ሕጋዊ መንነት መረጋገጺ ሒዝካ ክትመጽእ ኣሎካ።",
-      "om": "Waraqaa eenyummaa seera qabeessa fiduu qabdu.",
-      "en": "You must bring a valid identity document."
-    }
-  },
-  {
-    "id": "sent_gevorderd_161",
+    "id": "sent_gevorderd_001",
     "level": "gevorderd",
     "topic": "Werk",
     "dutch": "Ik heb mijn cv bijgewerkt en een sollicitatiebrief geschreven.",
@@ -1932,3715 +716,3835 @@ window.TAALVRIEND_SENTENCES = [
       "ar": "لقد قمت بتحديث سيرتي الذاتية وكتبت خطاب تقديم للوظيفة.",
       "ti": "ናይ ስራሕ ታሪኸይ ኣሐዲሰን ናይ ስራሕ መመልከቲ ደብዳበ ጽሒፈን ኣለኹ።",
       "om": "Seenaa jireenyaa koo haaromsee xalayaa iyyannoo hojii barreesseera.",
-      "en": "I updated my CV and wrote an application letter."
+      "en": "I updated my CV and wrote a job application letter."
     }
   },
   {
-    "id": "sent_gevorderd_162",
+    "id": "sent_gevorderd_002",
     "level": "gevorderd",
     "topic": "Werk",
-    "dutch": "Kunt u mij uitleggen welke arbeidsvoorwaarden hier gelden?",
+    "dutch": "Mijn leidinggevende vroeg of ik zaterdag kan overwerken.",
     "translations": {
-      "ar": "هل يمكنك أن تشرح لي شروط العمل المعمول بها هنا؟",
-      "ti": "ኣብዚ እንታይ ዓይነት ናይ ስራሕ ውዕል ከም ዘሎ ክትገልጹለይ ትኽእሉዶ፧",
-      "om": "Haala hojii asitti hojjetamu naaf ibsuu dandeessuu?",
-      "en": "Could you explain to me what employment terms apply here?"
+      "ar": "سألني مديري المباشر إذا كان بإمكاني العمل لساعات إضافية يوم السبت.",
+      "ti": "ሓላፊየይ ቀዳም ተወሳኺ ሰዓታት ክሰርሕ እንተኽእል ሓቲቱኒ።",
+      "om": "Geggeessaan koo Sanbata sa'aatii dabalataa hojjechuu danda'uuf na gaafate.",
+      "en": "My supervisor asked if I could work overtime on Saturday."
     }
   },
   {
-    "id": "sent_gevorderd_163",
+    "id": "sent_gevorderd_003",
     "level": "gevorderd",
     "topic": "Werk",
-    "dutch": "Ik heb volgende week dinsdag een belangrijk sollicitatiegesprek.",
+    "dutch": "Tijdens de koffiepauze praat ik met mijn Nederlandse collega's.",
     "translations": {
-      "ar": "لدي مقابلة عمل مهمة يوم الثلاثاء القادم.",
-      "ti": "ዝመጽእ ሰሉስ ኣገዳሲ ናይ ስራሕ ቃለ-መሕትት ኣሎኒ።",
-      "om": "Kibxata dhufu af-gaaffii hojii baay'ee barbaachisaa qaba.",
-      "en": "I have an important job interview next Tuesday."
+      "ar": "خلال استراحة القهوة أتحدث مع زملائي الهولنديين.",
+      "ti": "ኣብ ናይ ቡን ዕረፍቲ ምስ ደቀባት መሳርሕተይ ይዛረብ።",
+      "om": "Boqonnaa bunaa keessatti hiriyoota koo wajjin nan haasa'a.",
+      "en": "During the coffee break I chat with my Dutch colleagues."
     }
   },
   {
-    "id": "sent_gevorderd_164",
+    "id": "sent_gevorderd_004",
     "level": "gevorderd",
     "topic": "Werk",
-    "dutch": "De proeftijd van mijn nieuwe baan duurt één maand.",
+    "dutch": "Ik wil me graag aanmelden voor een cursus logistiek.",
     "translations": {
-      "ar": "فترة التجربة لوظيفتي الجديدة تستمر لمدة شهر واحد.",
-      "ti": "ናይቲ ሓድሽ ስርሐይ ናይ ፈተና ግዜ ሓደ ወርሒ እዩ።",
-      "om": "Qormaanni hojii koo haaraa ji'a tokkoof tura.",
-      "en": "The probationary period for my new job lasts one month."
+      "ar": "أود التسجيل في دورة تدريبية في مجال الخدمات اللوجستية.",
+      "ti": "ኣብ ናይ ሎጂስቲክስ ኮርስ ክምዝገብ ደልየ ኣለኹ።",
+      "om": "Leenjii loojistiksii irratti galmaa'uu barbaada.",
+      "en": "I would like to enroll in a logistics course."
     }
   },
   {
-    "id": "sent_gevorderd_165",
+    "id": "sent_gevorderd_005",
     "level": "gevorderd",
     "topic": "Werk",
-    "dutch": "Heeft dit bedrijf een collectieve arbeidsovereenkomst (cao)?",
+    "dutch": "Mijn contract is met zes maanden verlengd door de directie.",
     "translations": {
-      "ar": "هل لدى هذه الشركة اتفاقية عمل جماعية؟",
-      "ti": "እዚ ትካል ሓባራዊ ናይ ስራሕ ስምምዕ ኣለዎዶ፧",
-      "om": "Dhaabbanni kun waliigaltee hojjettootaa qabaa?",
-      "en": "Does this company have a collective labor agreement?"
+      "ar": "تم تمديد عقدي لمدة ستة أشهر إضافية من قبل الإدارة.",
+      "ti": "ናይ ስራሕ ውዕለይ ብምምሕዳር ንሽዱሽተ ወርሒ ተናዊሑ ኣሎ።",
+      "om": "Waliigalteen hojii koo ji'oota jahaaf naaf dheerateera.",
+      "en": "My contract has been extended by six months by management."
     }
   },
   {
-    "id": "sent_gevorderd_166",
+    "id": "sent_gevorderd_006",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Kunt u mij uitleggen hoe dit kassasysteem precies werkt?",
+    "translations": {
+      "ar": "هل يمكنك أن تشرح لي كيف يعمل نظام الدفع هذا بالتحديد؟",
+      "ti": "እዚ ናይ ክፍሊት ስርዓት ብኸመይ ከም ዝሰርሕ ብልክዕ ክትገልጹለይ ትኽእሉዶ፧",
+      "om": "Sirni kaffaltii kun akkamitti akka hojjetu naaf ibsuu dandeessuu?",
+      "en": "Could you explain to me how this cash register system works exactly?"
+    }
+  },
+  {
+    "id": "sent_gevorderd_007",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Ik meld me vandaag ziek omdat ik zware griep heb.",
+    "translations": {
+      "ar": "أبلغ عن مرضي اليوم لأنني مصاب بإنفلونزا شديدة وحمى.",
+      "ti": "ብርቱዕ ጉንፋዕ ስለዘለኒ ሎሚ ናይ ሕማም ፍቓድ እሓትት ኣለኹ።",
+      "om": "Utuu dhibeen cimaan na qabee har'a hojii hin dhufu.",
+      "en": "I am reporting sick today because I have a severe flu."
+    }
+  },
+  {
+    "id": "sent_gevorderd_008",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Iedereen draagt verplicht veiligheidsschoenen in het magazijn.",
+    "translations": {
+      "ar": "يرتدي الجميع أحذية الأمان بشكل إلزامي في المستودع.",
+      "ti": "ኣብ መኽዘን ኩሉ ሰብ ናይ ድሕንነት ጫማ ምኽዳን ግዴታ እዩ።",
+      "om": "Kuusaa keessatti hundi kophee nageenyaa uffachuun dirqama.",
+      "en": "Everyone is required to wear safety shoes in the warehouse."
+    }
+  },
+  {
+    "id": "sent_gevorderd_009",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Tijdens het functioneringsgesprek bespreken we mijn leerdoelen.",
+    "translations": {
+      "ar": "خلال مقابلة تقييم الأداء سنناقش أهدافي التعليمية والمهنية.",
+      "ti": "ኣብ ናይ ስራሕ ገምጋም ርክብ ብዛዕባ ናይ ትምህርቲ ሸቶታተይ ክንመያየጥ ኢና።",
+      "om": "Marii gamaaggama hojii irratti waa'ee galma koo mari'anna.",
+      "en": "During the performance review we discuss my learning objectives."
+    }
+  },
+  {
+    "id": "sent_gevorderd_010",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Ik heb een certificaat behaald voor veilig werken met de vorkheftruck.",
+    "translations": {
+      "ar": "حصلت على شهادة معتمدة للعمل بأمان على الرافعة الشوكية.",
+      "ti": "ብፎርክሊፍት ብደሓን ንምስራሕ ምስክር ወረቐት ረኺበ ኣለኹ።",
+      "om": "Waraqaa ragaa konkolaataa fe'umsaa oofuuf argadheera.",
+      "en": "I earned a certificate for operating the forklift safely."
+    }
+  },
+  {
+    "id": "sent_gevorderd_011",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Mijn collega legt mij de specifieke veiligheidsregels van de fabriek uit.",
+    "translations": {
+      "ar": "يشرح لي زميلي قواعد السلامة المهنية الدقيقة المتبعة في المصنع.",
+      "ti": "መሳርሕተይ ናይቲ ፋብሪካ ናይ ድሕንነት ደንብታት የረድኣኒ ኣሎ።",
+      "om": "Hiriyaan hojii koo seera nageenya warshaa naaf ibsa.",
+      "en": "My colleague explains the specific factory safety rules to me."
+    }
+  },
+  {
+    "id": "sent_gevorderd_012",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Het bedrijf biedt doorgroeimogelijkheden voor gemotiveerde medewerkers.",
+    "translations": {
+      "ar": "توفر الشركة فرصاً حقيقية للتطور المهني للموظفين الطموحين.",
+      "ti": "እቲ ትካል ንንጡፋት ሰራሕተኛታት ናይ ምዕባይ ዕድላት ይህብ እዩ።",
+      "om": "Dhaabbanni kun hojjettoota dandeettii qabaniif carraa guddinaa kenna.",
+      "en": "The company offers growth opportunities for motivated employees."
+    }
+  },
+  {
+    "id": "sent_gevorderd_013",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Ik moet mijn gewerkte uren vóór maandag digitaal accorderen.",
+    "translations": {
+      "ar": "يجب علي اعتماد وتأكيد ساعاتي المنجزة إلكترونياً قبل الاثنين.",
+      "ti": "ዝሰራሕክዎም ሰዓታት ቅድሚ ሰኑይ ብዲጂታል ከጽድቖም ኣሎኒ።",
+      "om": "Sa'aatii hojjetame Wiixata dura toora irratti mirkaneessuu qaba.",
+      "en": "I must digitally approve my worked hours before Monday."
+    }
+  },
+  {
+    "id": "sent_gevorderd_014",
     "level": "gevorderd",
     "topic": "Financiën",
-    "dutch": "Ik wil graag een bankrekening openen voor mijn salaris.",
+    "dutch": "Hoe vraag ik huurtoeslag aan via de website van de Belastingdienst?",
     "translations": {
-      "ar": "أود فتح حساب مصرفي لإيداع راتبي.",
-      "ti": "ንደሞዘይ ዝኸውን ናይ ባንክ ሕሳብ ክኸፍት ደልየ ኣለኹ።",
-      "om": "Miindaa kootiif herreega baankii banachuu barbaada.",
-      "en": "I would like to open a bank account for my salary."
+      "ar": "كيف أتقدم بطلب للحصول على بدل إيجار عبر موقع الضرائب؟",
+      "ti": "ናይ ገዛ ክራይ ደገፍ ካብ መርበብ ሓበሬታ ግብሪ ብኸመይ ክሓትት ይኽእል፧",
+      "om": "Weebsaayitii mootummaa irraa gargaarsa kireeffannaa akkamittan gaafadha?",
+      "en": "How do I apply for rent allowance via the Tax Authority website?"
     }
   },
   {
-    "id": "sent_gevorderd_167",
+    "id": "sent_gevorderd_015",
     "level": "gevorderd",
     "topic": "Financiën",
-    "dutch": "Hoe kan ik huurtoeslag en zorgtoeslag aanvragen bij de Belastingdienst?",
+    "dutch": "De maandelijkse huur wordt automatisch via incasso afgeschreven.",
     "translations": {
-      "ar": "كيف يمكنني التقدم بطلب للحصول على بدل إيجار وبدل رعاية صحية من مصلحة الضرائب؟",
-      "ti": "ናይ ገዛ ክራይ ደገፍን ናይ ጥዕና ደገፍን ብኸመይ ክሓትት ይኽእል፧",
-      "om": "Gargaarsa kireeffannaafi fayyaa akkamitti gaafachuu danda'a?",
-      "en": "How can I apply for rent allowance and healthcare allowance from the Tax Authority?"
+      "ar": "يتم خصم الإيجار الشهري تلقائياً عبر نظام الخصم المباشر.",
+      "ti": "እቲ ወርሓዊ ናይ ገዛ ክራይ ብቐጥታ ብኢንካሶ ካብ ባንክ ይቑረጽ።",
+      "om": "Kireeffannaan ji'aa ofumaan herreega koo irraa hir'ifama.",
+      "en": "The monthly rent is automatically debited via direct debit."
     }
   },
   {
-    "id": "sent_gevorderd_168",
+    "id": "sent_gevorderd_016",
     "level": "gevorderd",
     "topic": "Financiën",
-    "dutch": "De jaarafrekening voor energie was hoger dan verwacht.",
+    "dutch": "Ik wil graag een aparte spaarrekening voor mijn gezin openen.",
     "translations": {
-      "ar": "كانت فاتورة الطاقة السنوية أعلى من المتوقع.",
-      "ti": "ናይ ዓመት ናይ ኤሌክትሪክ ሕሳብ ካብቲ ዝተጸበኽዎ በሊጹ።",
-      "om": "Herreegni humnaa kan waggaa isa tilmaamame caaleera.",
-      "en": "The annual energy statement was higher than expected."
+      "ar": "أود فتح حساب توفير منفصل لعائلتي لتوفير النفقات.",
+      "ti": "ንደቀይ ዝኸውን ናይ ምዕቋብ ሕሳብ ባንክ ብፍሉይ ክኸፍት ደልየ ኣለኹ።",
+      "om": "Maatii kootiif herreega qusannaa banuu barbaada.",
+      "en": "I would like to open a separate savings account for my family."
     }
   },
   {
-    "id": "sent_gevorderd_169",
+    "id": "sent_gevorderd_017",
     "level": "gevorderd",
     "topic": "Financiën",
-    "dutch": "Vergeet niet om maandelijks uw zorgpremie op tijd te betalen.",
+    "dutch": "De jaarafrekening voor energie viel gunstiger uit dan vorig jaar.",
     "translations": {
-      "ar": "لا تنس دفع قسط التأمين الصحي شهرياً في الوقت المحدد.",
-      "ti": "ናይ ጥዕና መድሕን ክፍሊትኩም ኣብ ወርሒ ብግዜኡ ምኽፋል ኣይትረስዑ።",
-      "om": "Kaffaltii inshuraansii fayyaa keessanii ji'aan kaffaluu hin dagatinaa.",
-      "en": "Do not forget to pay your health insurance premium on time each month."
+      "ar": "كان الحساب السنوي للطاقة أكثر إيجابية وتوفيراً مقارنة بالعام الماضي.",
+      "ti": "ናይ ዓመት ናይ ኤሌክትሪክን ጋዝን ሕሳብ ካብ ናይ ዓሚ ዝሓሸ ኮይኑ ወጺኡ።",
+      "om": "Herreegni humnaa kan waggaa isa bara darbee caalaa gaariidha.",
+      "en": "The annual energy statement turned out better than last year."
     }
   },
   {
-    "id": "sent_gevorderd_170",
+    "id": "sent_gevorderd_018",
     "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Voor het inburgeringsexamen moet ik slagen voor spreken en luisteren.",
+    "topic": "Financiën",
+    "dutch": "Bewaar alle aankoopbewijzen en facturen zorgvuldig voor de administratie.",
     "translations": {
-      "ar": "لاجتياز امتحان الاندماج يجب أن أنجح في التحدث والاستماع.",
-      "ti": "ንፈተና ምውህሃድ ናይ ምዝራብን ምስማዕን ፈተናታት ክሓልፍ ኣሎኒ።",
-      "om": "Qormaata Neezerlaand darbuuf qormaata dubbachuu fi dhaggeeffachuu darbuu qaba.",
-      "en": "For the civic integration exam I must pass speaking and listening."
+      "ar": "احتفظ بجميع إيصالات الشراء والفواتير بعناية لأغراض السجلات والمحاسبة.",
+      "ti": "ኩሉ ናይ ዕዳጋ ረሲታትን ፋክቱራታትን ንምሕደራ ብጥንቃቐ ኣቀምጦ።",
+      "om": "Nagahee bittaa fi faakturaa hunda of eeggannoodhaan olkaa'aa.",
+      "en": "Keep all proof of purchase and invoices carefully for records."
     }
   },
   {
-    "id": "sent_gevorderd_171",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "We hebben vandaag in de klas geleerd over de Nederlandse grondwet.",
-    "translations": {
-      "ar": "لقد تعلمنا اليوم في الفصل الدراسي عن الدستور الهولندي.",
-      "ti": "ሎሚ ኣብ ክፍሊ ብዛዕባ ቅዋም ኔዘርላንድስ ተማሂርና።",
-      "om": "Har'a kutaa keessatti waa'ee heera mootummaa Neezerlaandi baranne.",
-      "en": "Today in class we learned about the Dutch constitution."
-    }
-  },
-  {
-    "id": "sent_gevorderd_172",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Vrijwilligerswerk doen helpt heel goed om de taal te oefenen.",
-    "translations": {
-      "ar": "العمل التطوعي يساعد كثيراً في ممارسة اللغة.",
-      "ti": "ወለንታዊ ስራሕ ምስራሕ ንቋንቋ ንምልምማድ ኣዝዩ ይሕግዝ።",
-      "om": "Hojii tola ooltummaa hojjechuun afaan shaakaluuf baay'ee gargaara.",
-      "en": "Doing volunteer work helps a lot with practicing the language."
-    }
-  },
-  {
-    "id": "sent_gevorderd_173",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "De fysiotherapeut gaf mij oefeningen voor mijn onderrug.",
-    "translations": {
-      "ar": "أعطاني المعالج الطبيعي تمارين لأسفل ظهري.",
-      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንሕቖይ ዝኸውን ልምምድ ሂቡኒ።",
-      "om": "Ogeessi fiiziyooteraapii qoricha sochii qaamaa dugda gadiitiif naaf kenne.",
-      "en": "The physiotherapist gave me exercises for my lower back."
-    }
-  },
-  {
-    "id": "sent_gevorderd_174",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Ik heb een doorverwijzing van de huisarts nodig voor het ziekenhuis.",
-    "translations": {
-      "ar": "أحتاج إلى إحالة طبية من طبيب الأسرة للذهاب إلى المستشفى.",
-      "ti": "ናብ ሆስፒታል ንምኻድ ናይ ሓኪም ስድራቤት መወከሲ ወረቐት የድልየኒ።",
-      "om": "Gara hospitaalaatti deemuf xalayaa dooqtooraa na barbaachisa.",
-      "en": "I need a referral letter from the GP for the hospital."
-    }
-  },
-  {
-    "id": "sent_gevorderd_175",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Is deze tandartsbehandeling gedekt door mijn aanvullende verzekering?",
-    "translations": {
-      "ar": "هل علاج الأسنان هذا مغطى بتأميني الإضافي؟",
-      "ti": "እዚ ናይ ስኒ ሕክምና ብተወሳኺ መድሕነይ ዝተሸፈነ ድዩ፧",
-      "om": "Yaalli ilkaanii kun inshuraansii dabalataatiin kaffalamaa?",
-      "en": "Is this dental treatment covered by my supplementary insurance?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_176",
+    "id": "sent_gevorderd_019",
     "level": "gevorderd",
     "topic": "Wonen",
-    "dutch": "Ik wil graag een reparatieverzoek indienen bij de woningcorporatie.",
+    "dutch": "De verhuurder heeft aangekondigd dat de lift volgende week wordt gekeurd.",
     "translations": {
-      "ar": "أود تقديم طلب إصلاح لدى مؤسسة الإسكان.",
-      "ti": "ናብ ማሕበር ኣባይቲ ናይ ምዕራይ ሕቶ ከቕርብ ደልየ ኣለኹ።",
-      "om": "Dhaabbata manootiif iyyannoo suphaa galchuu barbaada.",
-      "en": "I would like to submit a repair request to the housing corporation."
+      "ar": "أعلن مالك العقار أنه سيتم فحص المصعد وتفتيشه الأسبوع المقبل.",
+      "ti": "እቲ ኣካራዪ ዝመጽእ ሰሙን እቲ ሊፍት ክምርመር ምዃኑ ኣፍሊጡ ኣሎ።",
+      "om": "Abbaan manaa torban dhufu liiftiin akka qoratamu beeksiseera.",
+      "en": "The landlord announced that the elevator will be inspected next week."
     }
   },
   {
-    "id": "sent_gevorderd_177",
+    "id": "sent_gevorderd_020",
     "level": "gevorderd",
     "topic": "Wonen",
-    "dutch": "Mijn huurcontract loopt voor onbepaalde tijd.",
+    "dutch": "Er is een kleine lekkage ontstaan onder de wastafel in de badkamer.",
     "translations": {
-      "ar": "عقد إيجاري ساري المفعول لأجل غير مسمى.",
-      "ti": "ናይ ገዛ ውዕለይ ንዘይተወሰነ ግዜ ዝጸንሕ እዩ።",
-      "om": "Waliigalteen kireeffannaa koo yeroo hin murtoofneef kan turuudha.",
-      "en": "My rental contract runs for an indefinite period."
+      "ar": "حدث تسرب بسيط للمياه أسفل حوض الحمام.",
+      "ti": "ኣብ ትሕቲ እቲ ኣብ ሽቓቕ ዘሎ መተሓጸቢ ንእሽቶ ምፍሳስ ማይ ኣጋጢሙ።",
+      "om": "Mana fincaanii keessatti dhangala'aan bishaanii xiqqoon uumameera.",
+      "en": "A small leak has occurred under the bathroom sink."
     }
   },
   {
-    "id": "sent_gevorderd_178",
+    "id": "sent_gevorderd_021",
     "level": "gevorderd",
     "topic": "Wonen",
-    "dutch": "Wilt u er rekening mee houden dat de buren kleine kinderen hebben?",
+    "dutch": "U bent zelf verantwoordelijk voor het schoonhouden van uw galerij.",
     "translations": {
-      "ar": "هل يمكنك مراعاة أن لدى الجيران أطفالاً صغاراً؟",
-      "ti": "ጎረባብቲ ናእሽቱ ቆልዑ ከምዘለዉዎም ኣብ ግምት ከተእትዉዶ፧",
-      "om": "Ollaan ijoollee xixinnoo akka qaban yaada keessa galchituu?",
-      "en": "Could you please keep in mind that the neighbors have small children?"
+      "ar": "أنت مسؤول شخصياً عن الحفاظ على نظافة الرواق أمام شقتك.",
+      "ti": "ነቲ ኣብ ቅድሚ ገዛኻ ዘሎ መተሓላለፊ ናይ ምጽራይ ሓላፍነት ናትካ እዩ።",
+      "om": "Balbala mana keetii qulqulleessuuf itti gaafatamummaa qabda.",
+      "en": "You are personally responsible for keeping your corridor clean."
     }
   },
   {
-    "id": "sent_gevorderd_179",
+    "id": "sent_gevorderd_022",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "De fysiotherapeut heeft mij effectieve oefeningen voor mijn nek gegeven.",
+    "translations": {
+      "ar": "أعطاني المعالج الطبيعي تمارين علاجية فعالة لآلام الرقبة.",
+      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንኽሳደይ ዝኸውን ውጽኢታዊ ልምምድ ሂቡኒ።",
+      "om": "Ogeessi fiiziyooteraapii sochii mormaatiif natti agarsiiseera.",
+      "en": "The physiotherapist gave me effective exercises for my neck."
+    }
+  },
+  {
+    "id": "sent_gevorderd_023",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "Ik heb een officiële verwijsbrief van mijn huisarts voor de cardioloog.",
+    "translations": {
+      "ar": "لدي إحالة طبية رسمية من طبيب الأسرة لمراجعة طبيب القلب.",
+      "ti": "ናብ ናይ ልቢ ሓኪም ንምኻድ ናይ ሓኪም ስድራቤት ወግዓዊ መወከሲ ወረቐት ኣሎኒ።",
+      "om": "Dooqtoora onnee bira deemuf xalayaa eeyyamaa qaba.",
+      "en": "I have an official referral letter from my GP for the cardiologist."
+    }
+  },
+  {
+    "id": "sent_gevorderd_024",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "De tandarts adviseert om twee keer per dag elektrisch te poetsen.",
+    "translations": {
+      "ar": "ينصح طبيب الأسنان بتنظيف الأسنان بفرشاة كهربائية مرتين يومياً.",
+      "ti": "ሓኪም ስኒ ኣብ መዓልቲ ክልተ ግዜ ብኤሌክትሪክ ብሩሽ ስኒ ክትስቅር ይመክር።",
+      "om": "Dooqtoorri ilkaanii guyyaatti marroo lama qulqulleessuu gorsa.",
+      "en": "The dentist advises brushing with an electric toothbrush twice daily."
+    }
+  },
+  {
+    "id": "sent_gevorderd_025",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "Ik heb een afspraak bij Burgerzaken om mijn verblijfsdocument te vernieuwen.",
+    "translations": {
+      "ar": "لدي موعد في دائرة الأحوال المدنية لتجديد وثيقة إقامتي الرسمية.",
+      "ti": "ናይ መንበሪ ፍቓደይ ሰነድ ንምሕዳስ ኣብ ምምሕዳር ከተማ ቆጸራ ኣሎኒ።",
+      "om": "Waraqaa jireenyaa haaromsuuf waajjira bulchiinsaatti beellama qaba.",
+      "en": "I have an appointment at Civil Affairs to renew my residence permit."
+    }
+  },
+  {
+    "id": "sent_gevorderd_026",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "U kunt via uw DigiD eenvoudig een uittreksel uit de BRP aanvragen.",
+    "translations": {
+      "ar": "يمكنك بسهولة طلب مستخرج من سجل النفوس BRP باستخدام DigiD.",
+      "ti": "ብመንገዲ DigiD ካብ መዝገብ ህዝቢ (BRP) ቅዳሕ ብቐሊሉ ክትሓቱ ትኽእሉ ኢኹም።",
+      "om": "DigiD fayyadamuun waraqaa ragaa BRP salphaatti gaafachuu dandeessu.",
+      "en": "You can easily request an extract from the BRP using your DigiD."
+    }
+  },
+  {
+    "id": "sent_gevorderd_027",
+    "level": "gevorderd",
+    "topic": "School",
+    "dutch": "Morgen organiseren we een ouderavond over het gebruik van computers in de klas.",
+    "translations": {
+      "ar": "ننظم غداً اجتماعاً لأولياء الأمور حول استخدام أجهزة الكمبيوتر في التعليم.",
+      "ti": "ጽባሕ ኣብ ክፍሊ ብዛዕባ ኣጠቓቕማ ኮምፒተር ናይ ወለዲ ምሸት ከነካይድ ኢና።",
+      "om": "Boru waa'ee koompiitaraa mana barumsaa irratti walga'ii warraa qabna.",
+      "en": "Tomorrow we are organizing a parents evening about computer use in the classroom."
+    }
+  },
+  {
+    "id": "sent_gevorderd_028",
+    "level": "gevorderd",
+    "topic": "School",
+    "dutch": "De leerkracht benadrukt hoe belangrijk het is om thuis Nederlands te lezen.",
+    "translations": {
+      "ar": "يؤكد المعلم على مدى أهمية القراءة باللغة الهولندية في المنزل يومياً.",
+      "ti": "መምህር ኣብ ገዛ ኔዘርላንድስኛ ምንባብ ክንደይ ኣገዳሲ ምዃኑ የብርህ።",
+      "om": "Barsiisaan mana keessatti afaan Daachi dubbisuun barbaachisaa ta'uu ibsa.",
+      "en": "The teacher emphasizes how important it is to read Dutch at home."
+    }
+  },
+  {
+    "id": "sent_moeilijk_001",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "U kunt binnen zes weken na dagtekening van dit besluit een bezwaarschrift indienen.",
+    "translations": {
+      "ar": "يمكنك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
+      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ከተቕርቡ ትኽእሉ ኢኹም።",
+      "om": "Murtiin kun kennamee torbanoota jaha keessatti iyyannoo mormii dhiyeessuu dandeessu.",
+      "en": "You can lodge a notice of objection within six weeks of the date of this decision."
+    }
+  },
+  {
+    "id": "sent_moeilijk_002",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Het bezwaarschrift dient ondertekend te zijn en de gronden van het bezwaar te bevatten.",
+    "translations": {
+      "ar": "يجب أن يكون خطاب الاعتراض موقعاً ويحتوي على أسباب الاعتراض بالتفصيل.",
+      "ti": "ናይ ተቓውሞ ደብዳበ ዝተፈረመን ናይ ተቓውሞኻ ምኽንያታት ዝሓዘን ክኸውን ኣለዎ።",
+      "om": "Xalayaan mormii mallattaa'ee sababa mormii of keessaa qabaachuu qaba.",
+      "en": "The notice of objection must be signed and state the grounds of the objection."
+    }
+  },
+  {
+    "id": "sent_moeilijk_003",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Het bestuursorgaan beslist binnen twaalf weken na ontvangst van het bezwaarschrift.",
+    "translations": {
+      "ar": "تبت الهيئة الإدارية في الأمر خلال اثني عشر أسبوعاً من استلام خطاب الاعتراض.",
+      "ti": "እቲ ምምሕዳራዊ ኣካል ኣብ ውሽጢ ዓሰርተ ክልተ ሰሙን ውሳነ ይህብ።",
+      "om": "Qaamni bulchiinsaa torbanoota kudha lama keessatti murtii kenna.",
+      "en": "The administrative authority will decide within twelve weeks of receiving the objection."
+    }
+  },
+  {
+    "id": "sent_moeilijk_004",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "U heeft recht op vergoeding van de redelijkerwijs gemaakte proceskosten.",
+    "translations": {
+      "ar": "يحق لك الحصول على تعويض مالي عن تكاليف الدعوى القضائية التي تكبدتها بحسن نية.",
+      "ti": "ነቲ ብምኽንያታዊ መገዲ ዘውጻእካዮ ናይ ፍርዲ ቤት ወጻኢታት ናይ ምኽሳስ መሰል ኣሎካ።",
+      "om": "Baasii seeraa qabatamaa baasteef beenyaa argachuuf mirga qabda.",
+      "en": "You are entitled to compensation for reasonably incurred legal costs."
+    }
+  },
+  {
+    "id": "sent_moeilijk_005",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Een belanghebbende kan rechtstreeks beroep instellen bij de bevoegde rechtbank.",
+    "translations": {
+      "ar": "يجوز لكل صاحب مصلحة مباشرة الطعن والاستئناف أمام المحكمة الابتدائية المختصة.",
+      "ti": "ዝምልከቶ ኣካል ብቐጥታ ናብ ዝምልከቶ ፍርዲ ቤት ይግባይ ናይ ምባል መሰል ኣለዎ።",
+      "om": "Namni dhimmi ilaallatu kallattiin gara mana murtiitti iyyachuu danda'a.",
+      "en": "An interested party may lodge an appeal directly with the competent district court."
+    }
+  },
+  {
+    "id": "sent_moeilijk_006",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "De voorzieningenrechter kan een voorlopige voorziening treffen ter voorkoming van onevenredig nadeel.",
+    "translations": {
+      "ar": "يجوز لقاضي الأمور المستعجلة اتخاذ تدبير وقائي مؤقت لمنع وقوع ضرر لا يمكن تداركه.",
+      "ti": "ዳኛ ንዘይተመጣጠነ ጉድኣት ንምክልኻል ግዝያዊ ናይ ዕረፍቲ መፍትሒ ክህብ ይኽእል እዩ።",
+      "om": "Abbaan murtii miidhaa hin malle ittisuuf murtee yeroo kennuu danda'a.",
+      "en": "The preliminary relief judge may grant an injunction to prevent disproportionate harm."
+    }
+  },
+  {
+    "id": "sent_moeilijk_007",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Het bestuursorgaan dient de nodige kennis omtrent de relevante feiten zorgvuldig te vergaren.",
+    "translations": {
+      "ar": "يجب على الهيئة الإدارية استقصاء وجمع كافة الوقائع والبيانات ذات الصلة بالموضوع بعناية.",
+      "ti": "እቲ ምምሕዳራዊ ኣካል ቅድሚ ውሳነ ምሃቡ ኣገደስቲ ሓቅታት ብጥንቃቐ ክእክብ ግዴታ ኣለዎ።",
+      "om": "Qaamni bulchiinsaa odeeffannoo fi dhugaa jiru hunda walitti qabuu qaba.",
+      "en": "The administrative authority must carefully gather the necessary knowledge regarding relevant facts."
+    }
+  },
+  {
+    "id": "sent_moeilijk_008",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "De motivering van een beschikking moet deugdelijk, consistent en begrijpelijk zijn.",
+    "translations": {
+      "ar": "يجب أن يكون التعليل القانوني للقرار الصادر متماسكاً ومنطقياً ومفهوماً للجميع.",
+      "ti": "ናይቲ ወግዓዊ ውሳነ ምኽንያት ቅቡልን ንጹርን ተረዳእን ክኸውን ኣለዎ።",
+      "om": "Sababni murtii seera qabeessaa fi kan ifa ta'e ta'uu qaba.",
+      "en": "The reasoning for an administrative order must be sound, consistent, and comprehensible."
+    }
+  },
+  {
+    "id": "sent_moeilijk_009",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "De werknemer heeft recht op wettelijke doorbetaling van loon tijdens ziekte.",
+    "translations": {
+      "ar": "يحق للموظف الاستمرار في تقاضي الأجر بموجب القانون أثناء فترة المرض المعتمدة.",
+      "ti": "እቲ ሰራሕተኛ ብሕጊ መሰረት ኣብ ግዜ ሕማም ደሞዙ ናይ ምርካብ መሰል ኣለዎ።",
+      "om": "Hojjetaan yeroo dhukkubaa seeraan miindaa argachuuf mirga qaba.",
+      "en": "The employee is legally entitled to continued payment of wages during sickness."
+    }
+  },
+  {
+    "id": "sent_moeilijk_010",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Beide partijen nemen een wettelijke opzegtermijn van één kalendermaand in acht.",
+    "translations": {
+      "ar": "يلتزم الطرفان بفترة إشعار قانونية مدتها شهر تقويمي كامل قبل الإنهاء.",
+      "ti": "ክልቲኦም ወገናት ናይ ሓደ ወርሒ ሕጋዊ ናይ ምቁራጽ መጠንቀቕታ ግዜ የኽብሩ።",
+      "om": "Lamaan isaaniiyyuu yeroo beeksisa ji'a tokkoo kabajuu qabu.",
+      "en": "Both parties observe a statutory notice period of one calendar month."
+    }
+  },
+  {
+    "id": "sent_moeilijk_011",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een formele vaststellingsovereenkomst gesloten.",
+    "translations": {
+      "ar": "عند إنهاء العقد بالتراضي التام بين الطرفين يتم صياغة اتفاقية تسوية نهائية ملزمة.",
+      "ti": "ናይ ስራሕ ውዕል ብክልቲኣዊ ስምምዕ ክቋረጽ ከሎ ናይ መዛዘሚ ውዕል ወረቐት ይግበር።",
+      "om": "Waliigalteen hojii walii galteedhaan yoo xumurame sanadni waliigaltee ni mallattaa'a.",
+      "en": "When terminating by mutual consent, a formal settlement agreement is concluded."
+    }
+  },
+  {
+    "id": "sent_moeilijk_012",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "De collectieve arbeidsovereenkomst (cao) bevat bindende afspraken over salaris en toeslagen.",
+    "translations": {
+      "ar": "تحتوي اتفاقية العمل الجماعية على بنود ملزمة قانونياً بشأن هيكل الرواتب والبدلات الإضافية.",
+      "ti": "እቲ ሓባራዊ ናይ ስራሕ ስምምዕ (cao) ብዛዕባ ደሞዝን ተወሳኺ ክፍሊትን ቀያዲ ውሳነታት ዝሓዘ እዩ።",
+      "om": "Waliigalteen hojjettootaa gamtaa waa'ee mindaa fi dabalataa irratti murtii dirqisiisaa qaba.",
+      "en": "The collective labor agreement contains binding agreements on salary and surcharges."
+    }
+  },
+  {
+    "id": "sent_moeilijk_013",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Een proeftijdbeding is slechts rechtsgeldig indien dit uitdrukkelijk schriftelijk is overeengekomen.",
+    "translations": {
+      "ar": "يكون شرط فترة التجربة باطلاً ما لم يتم النص عليه والاتفاق عليه كتابياً وبوضوح.",
+      "ti": "ናይ ፈተና ግዜ ውዕል ብጽሑፍ ብንጹር እንተዘይተገይሩ ሕጋዊ ዋጋ የብሉን።",
+      "om": "Waliigalteen yeroo qormaataa yoo barreeffamaan ta'e qofa seera qabaata.",
+      "en": "A probationary period clause is legally valid only if explicitly agreed upon in writing."
+    }
+  },
+  {
+    "id": "sent_moeilijk_014",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "De werkgever is verplicht te zorgen voor een gezonde en veilige werkomgeving volgens de Arbowet.",
+    "translations": {
+      "ar": "يلتزم صاحب العمل بتوفير بيئة عمل آمنة وصحية وفقاً لقانون ظروف العمل.",
+      "ti": "ኣስራሒ ብመሰረት ሕጊ ስራሕ ንሰራሕተኛታት ጥዑይን ውሑስን ናይ ስራሕ ቦታ ናይ ምፍጣር ግዴታ ኣለዎ።",
+      "om": "Hojjachiisaan naannoo hojii nagaafi fayya qabeessa ta'e mijeessuuf dirqama qaba.",
+      "en": "The employer is obligated to ensure a healthy and safe work environment under the Working Conditions Act."
+    }
+  },
+  {
+    "id": "sent_moeilijk_015",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Bij collectief ontslag wegens reorganisatie dient de werkgever tijdig een sociaal plan op te stellen.",
+    "translations": {
+      "ar": "في حالات التسريح الجماعي بسبب إعادة الهيكلة يجب على صاحب العمل إعداد خطة اجتماعية مسبقاً.",
+      "ti": "ብሰንኪ ዳግመ-ውደባ ሓባራዊ ስንብት ክግበር ከሎ፡ ኣስራሒ ማሕበራዊ ትልሚ ከዳልው ኣለዎ።",
+      "om": "Hojii irraa ari'uuf karoora hawaasummaa qopheessuun barbaachisaadha.",
+      "en": "In case of collective dismissal due to reorganization, the employer must draft a social plan in good time."
+    }
+  },
+  {
+    "id": "sent_moeilijk_016",
+    "level": "moeilijk",
+    "topic": "Belasting",
+    "dutch": "Het toetsingsinkomen vormt het officiële uitgangspunt voor de berekening van uw toeslagen.",
+    "translations": {
+      "ar": "يشكل الدخل الخاضع للمراجعة الأساس الرسمي والوحيد لاحتساب كافة البدلات الاجتماعية.",
+      "ti": "እቲ ዝተፈተሸ ኣታዊ ነቲ ናይ መወዳእታ ናይ ደገፍ ሕሳብኩም ወግዓዊ መሰረት ይኸውን።",
+      "om": "Galii qoratame bu'uura shallaggii gargaarsaa isa dhumaa ta'a.",
+      "en": "The assessable income forms the official basis for calculating your allowances."
+    }
+  },
+  {
+    "id": "sent_moeilijk_017",
+    "level": "moeilijk",
+    "topic": "Belasting",
+    "dutch": "U bent wettelijk verplicht om substantiële wijzigingen in uw inkomen tijdig door te geven.",
+    "translations": {
+      "ar": "أنت ملزم قانوناً بإخطار مصلحة الضرائب بأي تغييرات جوهرية في دخلك في الوقت المناسب.",
+      "ti": "ኣብ ኣታዊኻ ንዝመጽእ ዓቢ ለውጢ ብግዜኡ ናይ ምሕባር ሕጋዊ ግዴታ ኣሎካ።",
+      "om": "Jijjiirama galii kee keessatti ta'e yeroon beeksisuun seeraan dirqama.",
+      "en": "You are legally obligated to report substantial changes in your income in a timely manner."
+    }
+  },
+  {
+    "id": "sent_moeilijk_018",
+    "level": "moeilijk",
+    "topic": "Belasting",
+    "dutch": "Te veel ontvangen voorschotten op de zorgtoeslag moeten worden terugbetaald aan de fiscus.",
+    "translations": {
+      "ar": "يجب إعادة أي دفعات مسبقة زائدة تم استلامها عن بدل الرعاية الصحية إلى السلطات الضريبية.",
+      "ti": "ተወሳኺ ዝተቐበልካዮ ናይ ጥዕና ደገፍ ገንዘብ ናብ ቤት ጽሕፈት ግብሪ ክምለስ ኣለዎ።",
+      "om": "Gargaarsi fayyaa dabalataan fudhatame mootummaaf deebi'uu qaba.",
+      "en": "Excess advance payments of healthcare allowance must be repaid to the tax authority."
+    }
+  },
+  {
+    "id": "sent_moeilijk_019",
+    "level": "moeilijk",
+    "topic": "Huisvesting",
+    "dutch": "Als appartementseigenaar bent u van rechtswege lid van de Vereniging van Eigenaars (VvE).",
+    "translations": {
+      "ar": "بصفتك مالكاً للشقة فأنت عضو بموجب القانون في جمعية الملاك المشتركين للعقار.",
+      "ti": "ከም ናይ ኣፓርተማ ዋና መጠን፡ ብሕጊ ኣባል ናይቲ ናይ ዋናታት ማሕበር (VvE) ኢኻ።",
+      "om": "Abbaa appaartaamaa waan taateef miseensa waldaa abbootii qabeenyaati.",
+      "en": "As an apartment owner you are by operation of law a member of the Association of Owners (VvE)."
+    }
+  },
+  {
+    "id": "sent_moeilijk_020",
+    "level": "moeilijk",
+    "topic": "Huisvesting",
+    "dutch": "De maandelijkse servicekosten dekken de opstalverzekering en het meerjarenonderhoudsplan.",
+    "translations": {
+      "ar": "تغطي رسوم الخدمات الشهرية التأمين على المبنى وخطة الصيانة الشاملة طويلة الأجل.",
+      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ናይ ህንጻ መድሕንን ነዊሕ ናይ ጽገና መደብን ይሽፍን።",
+      "om": "Kaffaltiin tajaajilaa inshuraansii gamoo fi karoora suphaa yeroo dheeraa uwwisa.",
+      "en": "The monthly service charges cover building insurance and the multi-year maintenance plan."
+    }
+  },
+  {
+    "id": "sent_moeilijk_021",
+    "level": "moeilijk",
+    "topic": "Huisvesting",
+    "dutch": "De huurovereenkomst kan slechts op limitatief in de wet genoemde gronden worden ontbonden.",
+    "translations": {
+      "ar": "لا يجوز إنهاء عقد الإيجار وفسخه إلا بناءً على أسباب حصرية ومحددة بوضوح في القانون المدني.",
+      "ti": "ናይ ክራይ ውዕል ብሕጊ ብንጹር ብዝተደንገጉ ውሱናት ምኽንያታት ጥራይ ክቋረጽ ይኽእል እዩ።",
+      "om": "Waliigalteen kireeffannaa sababa seeraa qofaatiin addaan cituu danda'a.",
+      "en": "The lease agreement may only be dissolved on grounds strictly limited by law."
+    }
+  },
+  {
+    "id": "sent_moeilijk_022",
+    "level": "moeilijk",
+    "topic": "Gezondheid",
+    "dutch": "De behandelend specialist heeft de plicht om u volledig te informeren over mogelijke risico's.",
+    "translations": {
+      "ar": "يلتزم الطبيب الأخصائي المعالج بإعلامك بكافة المخاطر والخيارات البديلة المتاحة.",
+      "ti": "እቲ ዝሕክመካ ዘሎ ስፔሻሊስት ብዛዕባ ናይቲ ሕክምና ሓደጋታት ምሉእ ሓበሬታ ናይ ምሃብ ግዴታ ኣለዎ።",
+      "om": "Dooqtoorri ogeessa ta'e waa'ee miidhaa dhufuu danda'u guutummaatti ibsuuf dirqama qaba.",
+      "en": "The treating specialist has the duty to fully inform you about potential risks."
+    }
+  },
+  {
+    "id": "sent_moeilijk_023",
+    "level": "moeilijk",
+    "topic": "Gezondheid",
+    "dutch": "Het medisch beroepsgeheim waarborgt de strikte geheimhouding van uw medisch dossier.",
+    "translations": {
+      "ar": "يضمن السر المهني الطبي كتمان وسرية جميع بيانات ملفك الطبي من الاطلاع غير المصرح به.",
+      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ናትካ ናይ ሕክምና መዝገብ ምስጢራዊ ኮይኑ ክዕቀብ የረጋግጽ።",
+      "om": "Iccitiin ogummaa yaalaa galmee fayyaa kee hundumaa eega.",
+      "en": "Medical professional confidentiality safeguards the strict secrecy of your medical record."
+    }
+  },
+  {
+    "id": "sent_moeilijk_024",
+    "level": "moeilijk",
+    "topic": "Maatschappij",
+    "dutch": "Democratische besluitvorming vereist een open maatschappelijk debat en respect voor minderheden.",
+    "translations": {
+      "ar": "يتطلب اتخاذ القرارات الديمقراطية حواراً مجتمعياً مفتوحاً واحتراماً راسخاً لحقوق الأقليات.",
+      "ti": "ዲሞክራስያዊ ናይ ውሳነ ኣወሳስዳ ግሉጽ ዘተን ንውሑዳን ምክብባርን ይሓትት።",
+      "om": "Murtee dimookiraatawaan marii hawaasaa banaafi mirga xiqqaachuu kabajuu gaafata.",
+      "en": "Democratic decision-making requires open public debate and respect for minorities."
+    }
+  },
+  {
+    "id": "sent_moeilijk_025",
+    "level": "moeilijk",
+    "topic": "Maatschappij",
+    "dutch": "Vrijheid van meningsuiting en persvrijheid zijn onmisbare pijlers van de Nederlandse democratie.",
+    "translations": {
+      "ar": "حرية التعبير وحرية الصحافة ركيزتان أساسيتان لا غنى عنهما في الديمقراطية الهولندية.",
+      "ti": "ናይ ሓሳብካ ናይ ምግላጽ ናጽነትን ናይ ጋዜጠኝነት ናጽነትን መሰረታት ናይ ኔዘርላንድስ ዲሞክራሲ እዮም።",
+      "om": "Mirgi yaada ofii ibsachuu fi bilisummaan miidiyaa bu'uura dimookiraasiiti.",
+      "en": "Freedom of speech and freedom of the press are indispensable pillars of Dutch democracy."
+    }
+  },
+  {
+    "id": "sent_basis_060",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Mag ik twee kilo aardappels en een doosje eieren?",
+    "translations": {
+      "ar": "هل يمكنني الحصول على كيلوغرامين من البطاطس وعلبة بيض؟",
+      "ti": "ክልተ ኪሎ ድንሽ ምስ ሓደ ካርቶን እንቋቝሖ ክረክብ ይኽእልዶ፧",
+      "om": "Dinnicha kiiloo lamaafi saanduqa buuphaa argachuu nan danda'aa?",
+      "en": "May I have two kilos of potatoes and a carton of eggs?"
+    }
+  },
+  {
+    "id": "sent_basis_061",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Waar vind ik de olijfolie en zonnebloemolie?",
+    "translations": {
+      "ar": "أين أجد زيت الزيتون وزيت دوار الشمس؟",
+      "ti": "ናይ ኣውልዕ ዘይትን ናይ ጸሓይ ዕንባባ ዘይትን ኣበይ ክረክብ ይኽእል፧",
+      "om": "Zayita ejersaafi zayita suufii eessatti argadha?",
+      "en": "Where can I find olive oil and sunflower oil?"
+    }
+  },
+  {
+    "id": "sent_basis_062",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Hoeveel kost deze krop verse sla?",
+    "translations": {
+      "ar": "كم يكلف رأس الخس الطازج هذا؟",
+      "ti": "እዚ ሓድሽ ሰላጣ ክንደይ ዋጋ ኣለዎ፧",
+      "om": "Salaxaan haaraan kun gatiin isaa meeqa?",
+      "en": "How much does this head of fresh lettuce cost?"
+    }
+  },
+  {
+    "id": "sent_basis_063",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Heeft u ook volkoren pasta in het schap?",
+    "translations": {
+      "ar": "هل لديكم أيضاً معكرونة القمح الكامل على الرف؟",
+      "ti": "ናይ ስርናይ ፓስታ ኣብ መደርደሪ ኣለኩምዶ፧",
+      "om": "Paastaa qamadii guutuu qabduu?",
+      "en": "Do you also have whole wheat pasta on the shelf?"
+    }
+  },
+  {
+    "id": "sent_basis_064",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "De yoghurt en kaas staan in het koelvak.",
+    "translations": {
+      "ar": "الزبادي والجبن موجودان في قسم التبريد.",
+      "ti": "እቲ ዮጉርትን ፎርማጆን ኣብ መዝሓሊ ኣሎ።",
+      "om": "Itittuun fi ayibni kutaa qabbaneessaa keessa jiru.",
+      "en": "The yogurt and cheese are in the refrigerated section."
+    }
+  },
+  {
+    "id": "sent_basis_065",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Ik zoek bruine bonen en rode linzen.",
+    "translations": {
+      "ar": "أنا أبحث عن فاصوليا بنية وعدس أحمر.",
+      "ti": "ቡናዊ ባልዶንጓን ቀይሕ ብርስንን እደሊ ኣለኹ።",
+      "om": "Baaqelaa magaalaafi misira diimaa barbaada.",
+      "en": "I am looking for brown beans and red lentils."
+    }
+  },
+  {
+    "id": "sent_basis_066",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Mag ik betalen met kleingeld bij deze kassa?",
+    "translations": {
+      "ar": "هل يمكنني الدفع بالنقود المعدنية الصغيرة عند هذا الصندوق؟",
+      "ti": "ኣብዛ ካሳ ብሳንቲም ክኸፍል ይፍቀድዶ፧",
+      "om": "Bakka kaffaltii kanatti saantimaan kaffaluu nan danda'aa?",
+      "en": "May I pay with coins at this register?"
+    }
+  },
+  {
+    "id": "sent_basis_067",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Heeft u nog verse croissants vanochtend?",
+    "translations": {
+      "ar": "هل لا يزال لديكم كرواسون طازج هذا الصباح؟",
+      "ti": "ሎሚ ንግሆ ሓድሽ ክሩዋሶን ኣለኩምዶ፧",
+      "om": "Ganama kana daabboo mi'aawaa qabduu?",
+      "en": "Do you still have fresh croissants this morning?"
+    }
+  },
+  {
+    "id": "sent_basis_068",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "De rijst en suiker staan in gang vier.",
+    "translations": {
+      "ar": "الأرز والسكر موجودان في الممر رقم أربعة.",
+      "ti": "ሩዝን ሽኮርን ኣብ ሳልሳይ መስመር ኣለዉ።",
+      "om": "Ruuzaafi sukkaarri sarara afur keessa jiru.",
+      "en": "The rice and sugar are in aisle four."
+    }
+  },
+  {
+    "id": "sent_basis_069",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Wilt u pinnen of contant betalen?",
+    "translations": {
+      "ar": "هل تريد الدفع بالبطاقة المصرفية أم نقداً؟",
+      "ti": "ብካርድ ዲኹም ወይስ ብጥረ ገንዘብ ክትከፍሉ ትደልዩ፧",
+      "om": "Kaardiidhaan moo maallaqa harkaan kaffaluu barbaaddu?",
+      "en": "Would you like to pay with card or cash?"
+    }
+  },
+  {
+    "id": "sent_basis_070",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Stopt deze bus ook bij het stadhuis?",
+    "translations": {
+      "ar": "هل تتوقف هذه الحافلة عند مبنى البلدية أيضاً؟",
+      "ti": "እዚ ኣውቶቡስ ኣብ ማዘጋጃ ቤት ደው ይብል ድዩ፧",
+      "om": "Baasiin kun mana qopheessaa biratti ni dhaabbataa?",
+      "en": "Does this bus also stop at city hall?"
+    }
+  },
+  {
+    "id": "sent_basis_071",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Hoeveel haltes is het nog tot het ziekenhuis?",
+    "translations": {
+      "ar": "كم محطة متبقية حتى نصل إلى المستشفى؟",
+      "ti": "ክሳብ ሆስፒታል ክንደይ መደበር ተሪፉ ኣሎ፧",
+      "om": "Gara hospitaalaatti buufata meeqatu hafe?",
+      "en": "How many stops is it until the hospital?"
+    }
+  },
+  {
+    "id": "sent_basis_072",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Mijn ov-chipkaart heeft te weinig saldo.",
+    "translations": {
+      "ar": "رصيد بطاقة المواصلات العامة الخاصة بي غير كافٍ.",
+      "ti": "ናይ መጓዓዝያ ካርደይ እኹል ገንዘብ የብሉን።",
+      "om": "Kaardiin geejjibaa koo maallaqa ga'aa hin qabu.",
+      "en": "My transit card has insufficient balance."
+    }
+  },
+  {
+    "id": "sent_basis_073",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "De metro rijdt elke tien minuten.",
+    "translations": {
+      "ar": "المترو يعمل ويغادر كل عشر دقائق بانتظام.",
+      "ti": "ሜትሮ ኣብ ነፍሲ ወከፍ ዓሰርተ ደቒቕ ይንቀሳቐስ።",
+      "om": "Metroon daqiiqaa kudhan hunda keessatti ni deema.",
+      "en": "The metro runs every ten minutes."
+    }
+  },
+  {
+    "id": "sent_basis_074",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "U moet overstappen op het volgende station.",
+    "translations": {
+      "ar": "يجب عليك تبديل وسيلة النقل في المحطة التالية.",
+      "ti": "ኣብታ ትቕጽል መደበር ባቡር ክትቅይሩ ኣለኩም።",
+      "om": "Buufata itti aanu irratti jijjiiruu qabdu.",
+      "en": "You need to transfer at the next station."
+    }
+  },
+  {
+    "id": "sent_basis_075",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Mag mijn hond gratis mee in de trein?",
+    "translations": {
+      "ar": "هل يمكن لكلبي الركوب مجاناً في القطار؟",
+      "ti": "ከልበይ ኣብ ባቡር ብነጻ ክኣቱ ይፍቀድዶ፧",
+      "om": "Sareen koo bilisaan baabura seenuu danda'aa?",
+      "en": "May my dog ride for free on the train?"
+    }
+  },
+  {
+    "id": "sent_basis_076",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "De deuren sluiten automatisch voor vertrek.",
+    "translations": {
+      "ar": "الأبواب تغلق تلقائياً قبل تحرك وانطلاق القطار.",
+      "ti": "ማዕጾታት ባቡር ቅድሚ ምብጋሱ ብቐጥታ ይዕጾ።",
+      "om": "Balballi osoo hin ka'in dura ofumaan cufama.",
+      "en": "The doors close automatically before departure."
+    }
+  },
+  {
+    "id": "sent_basis_077",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Pardon, waar is de uitgang naar het centrum?",
+    "translations": {
+      "ar": "معذرة، أين المخرج المؤدي إلى وسط المدينة؟",
+      "ti": "ይቕሬታ፡ ናብ ማእከል ከተማ ዘውጽእ መውጺኢ ኣበይ ኣሎ፧",
+      "om": "Dhiifama, ba'umsa gara wiirtuu magaalaatti geessu eessa jira?",
+      "en": "Excuse me, where is the exit to the city center?"
+    }
+  },
+  {
+    "id": "sent_basis_078",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "De keuken heeft een gasfornuis en een oven.",
+    "translations": {
+      "ar": "يحتوي المطبخ على موقد غاز وفرن للطهي.",
+      "ti": "እቲ ክሽነ ናይ ጋዝ እቶንን ፎርኖን ኣለዎ።",
+      "om": "Kushinaan kibriitiifi oovenii qaba.",
+      "en": "The kitchen has a gas stove and an oven."
+    }
+  },
+  {
+    "id": "sent_basis_079",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "Zet de schoenen alsjeblieft op de deurmat.",
+    "translations": {
+      "ar": "يرجى وضع الأحذية على ممسحة الباب في المدخل.",
+      "ti": "በጃኹም ጫማኹም ኣብቲ መርገጺ ማዕጾ ኣቀምጥዎ።",
+      "om": "Maaloo kophée keessan karra dura kaa'aa.",
+      "en": "Please put the shoes on the doormat."
+    }
+  },
+  {
+    "id": "sent_basis_080",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "In de slaapkamer staat een kledingkast en een bed.",
+    "translations": {
+      "ar": "يوجد في غرفة النوم خزانة ملابس وسرير مريح.",
+      "ti": "ኣብ መደቀሲ ክፍሊ ናይ ክዳን ሳንዱቕን ዓራትን ኣሎ።",
+      "om": "Kutaa ciisichaa keessa saanduqa uffataafi siree jira.",
+      "en": "In the bedroom is a wardrobe and a bed."
+    }
+  },
+  {
+    "id": "sent_basis_081",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "De brievenbus zit in de voordeur.",
+    "translations": {
+      "ar": "صندوق البريد مدمج وموجود في الباب الأمامي.",
+      "ti": "ናይ ፖስታ ሳንዱቕ ኣብ ማዕጾ ገዛ ኣሎ።",
+      "om": "Saanduqni poostaa balbala duraa irratti jira.",
+      "en": "The mailbox is in the front door."
+    }
+  },
+  {
+    "id": "sent_basis_082",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "We stofzuigen de woonkamer elke zaterdag.",
+    "translations": {
+      "ar": "نقوم بتنظيف غرفة المعيشة بالمكنسة الكهربائية كل سبت.",
+      "ti": "ኩሉ ቀዳም ነቲ ሳሎን ብቫክዩም ነጽርዮ።",
+      "om": "Sanbata hunda kutaa keessaa vaakiyuumii goona.",
+      "en": "We vacuum the living room every Saturday."
+    }
+  },
+  {
+    "id": "sent_basis_083",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "Het warme water in de douche doet het niet.",
+    "translations": {
+      "ar": "الماء الساخن في الدش لا يعمل حالياً.",
+      "ti": "ኣብ መተሓጸቢ ዘሎ ውዑይ ማይ ኣይሰርሕን ዘሎ።",
+      "om": "Bishaan oo'aan dhiqannaa keessaa hin hojjetu.",
+      "en": "The hot water in the shower is not working."
+    }
+  },
+  {
+    "id": "sent_basis_084",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "Heeft u een extra stoel voor het bezoek?",
+    "translations": {
+      "ar": "هل لديك كرسي إضافي للضيوف والزوار؟",
+      "ti": "ንኣጋይሽ ዝኸውን ተወሳኺ መንበር ኣለኩምዶ፧",
+      "om": "Keessummootaaf barcuma dabalataa qabduu?",
+      "en": "Do you have an extra chair for visitors?"
+    }
+  },
+  {
+    "id": "sent_basis_085",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "De kinderen leren vandaag nieuwe Nederlandse woorden.",
+    "translations": {
+      "ar": "يتعلم الأطفال كلمات هولندية جديدة ومفيدة اليوم.",
+      "ti": "ቆልዑ ሎሚ ሓደሽቲ ናይ ኔዘርላንድስኛ ቃላት ይምሃሩ ኣለዉ።",
+      "om": "Ijoolleen har'a jechoota Daachi haaraa baratu.",
+      "en": "The children are learning new Dutch words today."
+    }
+  },
+  {
+    "id": "sent_basis_086",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "We hebben elke dinsdag taalles in het wijkcentrum.",
+    "translations": {
+      "ar": "لدينا درس لغة كل ثلاثاء في مركز الحي المجتمعي.",
+      "ti": "ኩሉ ሰሉስ ኣብ ማእከል ከባቢ ናይ ቋንቋ ትምህርቲ ኣሎና።",
+      "om": "Kibxata hunda wiirtuu naannootti barumsa afaanii qabna.",
+      "en": "We have language class every Tuesday at the community center."
+    }
+  },
+  {
+    "id": "sent_basis_087",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "Kunt u dit woord voor mij opschrijven?",
+    "translations": {
+      "ar": "هل يمكنك كتابة هذه الكلمة لي على الورق؟",
+      "ti": "እዛ ቃል ኣብ ወረቐት ክትጽሕፉለይ ትኽእሉዶ፧",
+      "om": "Jacha kana waraqaa irratti naaf barreessuu dandeessuu?",
+      "en": "Could you write down this word for me?"
+    }
+  },
+  {
+    "id": "sent_basis_088",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "Mijn zoon tekent graag dieren met kleurpotloden.",
+    "translations": {
+      "ar": "يحب ابني رسم الحيوانات الجميلة بأقلام التلوين.",
+      "ti": "ወደይ ብሕብራዊ እርሳስ እንስሳታት ምሳል ባህ ይብሎ።",
+      "om": "Ilmi koo qalama bifaatiin bineensota fakkii kaasuu jaallata.",
+      "en": "My son likes to draw animals with colored pencils."
+    }
+  },
+  {
+    "id": "sent_basis_089",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "De leraar leest een spannend verhaaltje voor.",
+    "translations": {
+      "ar": "يقرأ المعلم قصة شيقة ومثيرة للأطفال بصوت واضح.",
+      "ti": "መምህር ደስ ዝብል ዛንታ የንብበልና ኣሎ።",
+      "om": "Barsiisaan seenaa baay'ee namatti tolu dubbisa.",
+      "en": "The teacher is reading an exciting story out loud."
+    }
+  },
+  {
+    "id": "sent_basis_090",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Ik heb een afspraak bij de tandarts om tien uur.",
+    "translations": {
+      "ar": "لدي موعد مع طبيب الأسنان في الساعة العاشرة تماماً.",
+      "ti": "ሰዓት ዓሰርተ ኣብ ሓኪም ስኒ ቆጸራ ኣሎኒ።",
+      "om": "Sa'aatii afur irratti dooqtoora ilkaanii wajjin beellama qaba.",
+      "en": "I have an appointment at the dentist at ten o'clock."
+    }
+  },
+  {
+    "id": "sent_basis_091",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Neem twee tabletten in met een glas water.",
+    "translations": {
+      "ar": "تناول قرصين دوائيين مع كوب كامل من الماء.",
+      "ti": "ክልተ ከኒና ምስ ጽዋእ ማይ ውሰድ።",
+      "om": "Killee lama bishaan xoofoo tokkoon fudhadhu.",
+      "en": "Take two tablets with a glass of water."
+    }
+  },
+  {
+    "id": "sent_basis_092",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Mijn knie doet pijn bij het traplopen.",
+    "translations": {
+      "ar": "ركبتي تؤلمني بشدة عند صعود ونزول الدرج.",
+      "ti": "መደያይቦ ክድይብ ከለኹ ብርከይ ይቐንዘኒ።",
+      "om": "Yeroo sardoo ba'u jilbi koo na dhukkuba.",
+      "en": "My knee hurts when walking up the stairs."
+    }
+  },
+  {
+    "id": "sent_basis_093",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "De dokter schrijft een zalf voor tegen de jeuk.",
+    "translations": {
+      "ar": "يصف الطبيب مرهماً فعالاً للتخفيف من الحكة والتهيج.",
+      "ti": "ሓኪም ንማሕከኽ ዝኸውን ቅባት ጽሒፉለይ ኣሎ።",
+      "om": "Dooqtoorri madaa quufsuuf qoricha dibamu ajajeera.",
+      "en": "The doctor prescribes an ointment against itching."
+    }
+  },
+  {
+    "id": "sent_basis_094",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Ik voel me gelukkig weer een stuk beter vandaag.",
+    "translations": {
+      "ar": "لحسن الحظ أشعر بتحسن كبير وملحوظ اليوم.",
+      "ti": "ደስ ብዝብል ኩነታት ሎሚ ኣዝዩ ተመሓይሹኒ ኣሎ።",
+      "om": "Gammachuudhaan har'a baay'ee naaf wayyaa'eera.",
+      "en": "Fortunately I feel much better today."
+    }
+  },
+  {
+    "id": "sent_gevorderd_029",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "We bespreken het werkrooster voor de komende feestdagen.",
+    "translations": {
+      "ar": "نحن نناقش جدول مناوبات العمل للعطلات الرسمية القادمة.",
+      "ti": "ንዝመጽእ ናይ በዓል መዓልታት ዝኸውን ናይ ስራሕ ሰሌዳ ንመያየጥ ኣለና።",
+      "om": "Sagantaa hojii guyyoota ayyaanaaf mari'achaa jirra.",
+      "en": "We are discussing the work schedule for the upcoming holidays."
+    }
+  },
+  {
+    "id": "sent_gevorderd_030",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Iedere werknemer heeft recht op een veilige werkplek.",
+    "translations": {
+      "ar": "يحق لكل موظف وعامل التمتع ببيئة عمل صحية وآمنة.",
+      "ti": "ነፍሲ ወከፍ ሰራሕተኛ ውሑስ ናይ ስራሕ ቦታ ናይ ምርካብ መሰል ኣለዎ።",
+      "om": "Hojjetaan hundi bakka hojii nagaa qabaachuuf mirga qaba.",
+      "en": "Every employee is entitled to a safe workplace."
+    }
+  },
+  {
+    "id": "sent_gevorderd_031",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Kunt u mij laten zien waar de EHBO-doos hangt?",
+    "translations": {
+      "ar": "هل يمكنك أن تريني مكان تعليق صندوق الإسعافات الأولية؟",
+      "ti": "እቲ ናይ ቀዳማይ ረድኤት ሳንዱቕ ኣበይ ከም ዘሎ ከተርእዩኒ ትኽእሉዶ፧",
+      "om": "Saanduqni yaala duraa eessa akka fannifame na agarsiisuu dandeessuu?",
+      "en": "Could you show me where the first aid kit is located?"
+    }
+  },
+  {
+    "id": "sent_gevorderd_032",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Ik heb een vraag over de inhouding van loonheffing op mijn salarisstrook.",
+    "translations": {
+      "ar": "لدي استفسار بشأن خصم ضريبة الرواتب في قسيمة الراتب.",
+      "ti": "ኣብ ናይ ደሞዝ ወረቐተይ ዘሎ ናይ ግብሪ ምቑራጽ ሕቶ ኣሎኒ።",
+      "om": "Waraqaa miindaa koo irratti hir'ifama gibiraa gaaffii qaba.",
+      "en": "I have a question about the payroll tax deduction on my payslip."
+    }
+  },
+  {
+    "id": "sent_gevorderd_033",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Mijn collega en ik verdelen de taken eerlijk over de ochtend.",
+    "translations": {
+      "ar": "أنا وزميلي نوزع ونقسم المهام بعدالة وإنصاف خلال فترة الصباح.",
+      "ti": "ኣነን መሳርሕተይን ንናይ ንግሆ ስራሕ ማዕረ ንመቓቐሎ ኣለና።",
+      "om": "Hiriyaan koo fi ani hojii ganamaa walqixa qooddanna.",
+      "en": "My colleague and I divide the tasks fairly over the morning."
+    }
+  },
+  {
+    "id": "sent_gevorderd_034",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Voor deze functie is een Verklaring Omtrent het Gedrag (VOG) vereist.",
+    "translations": {
+      "ar": "تتطلب هذه الوظيفة تقديم شهادة حسن سيرة وسلوك رسمية (VOG).",
+      "ti": "ነዚ ስራሕ ናይ ባህሪ ጽቡቕ ምስክር ወረቐት (VOG) የድሊ እዩ።",
+      "om": "Hojii kanaaf waraqaan amala gaarii (VOG) barbaachisaadha.",
+      "en": "A Certificate of Good Conduct (VOG) is required for this position."
+    }
+  },
+  {
+    "id": "sent_gevorderd_035",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "We hebben morgen een teamoverleg over de nieuwe klantwensen.",
+    "translations": {
+      "ar": "لدينا غداً اجتماع لفريق العمل لمناقشة متطلبات ورغبات العملاء الجدد.",
+      "ti": "ጽባሕ ምስ ጉጅለ ብዛዕባ ናይ ሓደሽቲ ዓማዊል ድሌታት ኣኼባ ኣሎና።",
+      "om": "Boru fedhii maamiltootaa haaraa irratti walga'ii garee qabna.",
+      "en": "Tomorrow we have a team meeting about new customer requirements."
+    }
+  },
+  {
+    "id": "sent_gevorderd_036",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "U moet uw verhuizing binnen vijf dagen doorgeven aan de gemeente.",
+    "translations": {
+      "ar": "يجب عليك إبلاغ البلدية بانتقالك وتغيير سكنك خلال خمسة أيام.",
+      "ti": "ኣብ ውሽጢ ሓሙሽተ መዓልቲ ናይ ገዛ ምቕያርካ ንማዘጋጃ ቤት ክትሕብር ኣሎካ።",
+      "om": "Guyyoota shan keessatti jijjiirama mana keessanii beeksisuu qabdu.",
+      "en": "You must report your change of address to the municipality within five days."
+    }
+  },
+  {
+    "id": "sent_gevorderd_037",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "Voor het aanvragen van een identiteitskaart heeft u een recente pasfoto nodig.",
+    "translations": {
+      "ar": "لتقديم طلب بطاقة الهوية تحتاج إلى صورة شخصية ملونة حديثة ومطابقة.",
+      "ti": "ናይ መንነት ካርድ ንምሕታት ሓድሽ ናይ ፓስፖርት ፎቶ የድልየኩም እዩ።",
+      "om": "Waraqaa eenyummaa gaafachuuf suuraa dhiyoo barbaaddu.",
+      "en": "To apply for an ID card you need a recent passport photo."
+    }
+  },
+  {
+    "id": "sent_gevorderd_038",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "U kunt via de gemeentelijke website digitaal een afspraak inplannen.",
+    "translations": {
+      "ar": "يمكنك حجز موعد رسمياً عبر موقع البلدية الإلكتروني بسهولة.",
+      "ti": "ብመንገዲ መርበብ ሓበሬታ ማዘጋጃ ቤት ብዲጂታል ቆጸራ ክትሕዙ ትኽእሉ ኢኹም።",
+      "om": "Weebsaayitii bulchiinsaa irraa tooraan beellama qabachuu dandeessu.",
+      "en": "You can schedule an appointment digitally via the municipal website."
+    }
+  },
+  {
+    "id": "sent_gevorderd_039",
+    "level": "gevorderd",
+    "topic": "Financiën",
+    "dutch": "Zorg dat u maandelijks voldoende saldo heeft voor automatische incasso's.",
+    "translations": {
+      "ar": "تأكد من توفر رصيد كافٍ في حسابك البنكي شهرياً للخصم المباشر التلقائي.",
+      "ti": "ንቀጻሊ ክፍሊታት ዝኸውን ወርሓዊ እኹል ገንዘብ ኣብ ባንክኻ ከምዘሎ ኣረጋግጽ።",
+      "om": "Kaffaltii ofumaan hir'ifamuuf herreega keessan irratti maallaqa ga'aa qabaadhaa.",
+      "en": "Ensure you have sufficient balance each month for direct debits."
+    }
+  },
+  {
+    "id": "sent_gevorderd_040",
+    "level": "gevorderd",
+    "topic": "Financiën",
+    "dutch": "U kunt zorgtoeslag ontvangen als uw inkomen onder de grens blijft.",
+    "translations": {
+      "ar": "يمكنك استحقاق بدل الرعاية الصحية إذا ظل دخلك السنوي دون الحد الأقصى.",
+      "ti": "ኣታዊኻ ካብቲ ዝተወሰነ መጠን ትሕት ምስ ዝብል ናይ ጥዕና ደገፍ ክትረክብ ትኽእል ኢኻ።",
+      "om": "Galiin keessan daangaa gadi yoo ta'e gargaarsa fayyaa argachuu dandeessu.",
+      "en": "You can receive healthcare allowance if your income stays below the threshold."
+    }
+  },
+  {
+    "id": "sent_gevorderd_041",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "De verhuurder is verantwoordelijk voor het onderhoud van de cv-ketel.",
+    "translations": {
+      "ar": "مالك العقار مسؤول عن الصيانة الدورية الإلزامية لغلاية التدفئة المركزية.",
+      "ti": "እቲ ኣካራዪ ነቲ ማእከላይ መሞቒ ናይ ምክንኻን ሓላፍነት ኣለዎ።",
+      "om": "Abbaan manaa meeshaa ho'isa manaatiif itti gaafatamummaa qaba.",
+      "en": "The landlord is responsible for maintaining the central heating boiler."
+    }
+  },
+  {
+    "id": "sent_gevorderd_042",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "Bij ernstige geluidsoverlast kunt u eerst vriendelijk met de buren praten.",
+    "translations": {
+      "ar": "في حال الإزعاج الصوتي الشديد يمكنك أولاً التحدث بلطف وتفاهم مع الجيران.",
+      "ti": "ብርቱዕ ናይ ድምጺ ረብሻ እንተጋጢሙ ቅድም ቀዳድም ምስ ጎረባብቲ ብህድኣት ተዘራረብ።",
+      "om": "Sagaleen yoo jeeqe jalqaba ollaa keessan wajjin gaarummaan mari'adhaa.",
+      "en": "In case of severe noise nuisance you can first talk politely with the neighbors."
+    }
+  },
+  {
+    "id": "sent_gevorderd_043",
+    "level": "gevorderd",
+    "topic": "Gezondheid",
+    "dutch": "De fysiotherapeut raadt aan om regelmatig strekoefeningen te doen.",
+    "translations": {
+      "ar": "ينصح أخصائي العلاج الطبيعي بأداء تمارين الإطالة والتمدد بانتظام لتحسين المرونة.",
+      "ti": "ሓኪም ኣካላዊ ምውስዋስ ወትሩ ናይ ምስሓብ ምልምማዳት ክትገብር ይመክር።",
+      "om": "Ogeessi fiiziyooteraapii yeroo hunda sochii qaamaa gochuu gorsa.",
+      "en": "The physiotherapist recommends doing regular stretching exercises."
+    }
+  },
+  {
+    "id": "sent_gevorderd_044",
+    "level": "gevorderd",
+    "topic": "Gezondheid",
+    "dutch": "Blijf thuis en rust goed uit zolang u nog hoge koorts heeft.",
+    "translations": {
+      "ar": "ابقَ في المنزل وخذ قسطاً كافياً من الراحة طالما أنك لا تزال تعاني من الحمى.",
+      "ti": "ረስኒ ክሳብ ዘለካ ኣብ ገዛ ጽናሕ እሞ ጽቡቕ ጌርካ ዕረፍቲ ግበር።",
+      "om": "Hamma ho'i qaamaa jiruutti mana ta'ii boqodhu.",
+      "en": "Stay home and rest well as long as you still have a high fever."
+    }
+  },
+  {
+    "id": "sent_gevorderd_045",
+    "level": "gevorderd",
+    "topic": "School",
+    "dutch": "Tijdens het tienminutengesprek bespreken we de vorderingen van uw dochter.",
+    "translations": {
+      "ar": "خلال اجتماع العشر دقائق سنناقش بالتفصيل التقدم الدراسي الممتاز لابنتك.",
+      "ti": "ኣብ ናይ ዓሰርተ ደቒቕ ርክብ ብዛዕባ ናይ ጓልኩም ናይ ትምህርቲ ዕቤት ክንመያየጥ ኢና።",
+      "om": "Marii daqiiqaa kudhanii irratti guddina intala keessanii mari'anna.",
+      "en": "During the ten-minute meeting we discuss your daughter's progress."
+    }
+  },
+  {
+    "id": "sent_gevorderd_046",
+    "level": "gevorderd",
+    "topic": "School",
+    "dutch": "Alle basisschoolleerlingen krijgen gratis een warme lunch aangeboden op school.",
+    "translations": {
+      "ar": "يحصل جميع طلاب المدارس الابتدائية على وجبة غداء ساخنة مجانية في المدرسة.",
+      "ti": "ኩሎም ናይ መባእታ ተመሃሮ ኣብ ቤት ትምህርቲ ብነጻ ውዑይ ምሳሕ ይረኽቡ።",
+      "om": "Barattoonni sadarkaa tokkoffaa hundi mana barumsaatti laaqana oo'aa bilisaan argatu.",
+      "en": "All elementary school pupils are offered a free hot lunch at school."
+    }
+  },
+  {
+    "id": "sent_gevorderd_047",
+    "level": "gevorderd",
+    "topic": "Samenleving",
+    "dutch": "Inburgeringsexamens toetsen luisteren, spreken, lezen en schrijven.",
+    "translations": {
+      "ar": "تختبر امتحانات الاندماج مهارات الاستماع والمحادثة والقراءة والكتابة بالهولندية.",
+      "ti": "ፈተናታት ምውህሃድ ንምስማዕ፡ ምዝራብ፡ ምንባብን ምጽሓፍን ይምርምሩ።",
+      "om": "Qormaanni seensa biyyaa dhaggeeffachuu, dubbachuu, dubbisuufi barreessuu qora.",
+      "en": "Civic integration exams test listening, speaking, reading, and writing."
+    }
+  },
+  {
+    "id": "sent_moeilijk_026",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Een bezwaarschrift schorst de werking van het bestreden besluit niet automatisch op.",
+    "translations": {
+      "ar": "لا يؤدي تقديم الاعتراض تلقائياً إلى وقف تنفيذ القرار الإداري المطعون فيه.",
+      "ti": "ናይ ተቓውሞ ምቕራብ ነቲ ውሳነ ብቐጥታ ደው ኣየብሎን እዩ።",
+      "om": "Iyyannoo mormii dhiyeessuun murticha ofumaan hin dhaabu.",
+      "en": "An objection does not automatically suspend the operation of the contested decision."
+    }
+  },
+  {
+    "id": "sent_moeilijk_027",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Het bestuursorgaan is verplicht de indiener van het bezwaarschrift vooraf te horen.",
+    "translations": {
+      "ar": "يلتزم الجهاز الإداري بالاستماع رسمياً إلى مقدم الاعتراض قبل إصدار القرار النهائي.",
+      "ti": "እቲ ምምሕዳራዊ ኣካል ነቲ ተቓውሞ ዘቕረበ ሰብ ቅድሚ ውሳነ ምሃቡ ክሰምዖ ግዴታ ኣለዎ።",
+      "om": "Qaamni bulchiinsaa osoo murtii hin kennin dura nama iyyate dhaggeeffachuuf dirqama qaba.",
+      "en": "The administrative authority is obligated to hear the appellant prior to deciding."
+    }
+  },
+  {
+    "id": "sent_moeilijk_028",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Tegen de uitspraak van de rechtbank kan hoger beroep worden ingesteld bij de Raad van State.",
+    "translations": {
+      "ar": "يجوز استئناف حكم المحكمة الابتدائية أمام مجلس الدولة كمرجع قضائي أخير.",
+      "ti": "ኣብ ልዕሊ ናይ ፍርዲ ቤት ውሳነ ናብ ላዕላይ ቤት ምኽሪ (Raad van State) ይግባይ ምባል ይከኣል እዩ።",
+      "om": "Murtii mana murtii irratti gara Mana Maree Biyyaatti iyyachuun ni danda'ama.",
+      "en": "An appeal against the district court judgment may be lodged with the Council of State."
+    }
+  },
+  {
+    "id": "sent_moeilijk_029",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Het evenredigheidsbeginsel waarborgt dat de nadelige gevolgen van een besluit niet onevenredig zijn.",
+    "translations": {
+      "ar": "يضمن مبدأ التناسب القانوني ألا تتجاوز الآثار السلبية للقرار الهدف العام المرجو منه.",
+      "ti": "ናይ ተመጣጣንነት ሕጊ ናይ ሓደ ውሳነ ጉድኣት ካብቲ ዕላማ ንላዕሊ ከይከውን ይሕሉ እዩ።",
+      "om": "Seerri madaalawaa miidhaan murtii tokkoo akka hin caalle eega.",
+      "en": "The principle of proportionality ensures that adverse consequences of a decision are not disproportionate."
+    }
+  },
+  {
+    "id": "sent_moeilijk_030",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Bij ontslag op staande voet dient sprake te zijn van een dringende wettelijke reden.",
+    "translations": {
+      "ar": "في حالات الفصل الفوري الفجائي يجب أن يتوفر سبب قانوني عاجل وجسيم ومثبت.",
+      "ti": "ብቕጽበት ስራሕ ክቋረጽ ከሎ ኣዝዩ ህጹጽን ሕጋውን ምኽንያት ክህሉ ኣለዎ።",
+      "om": "Hojii irraa battalumatti ari'uuf sababni cimaan seeraa jiraachuu qaba.",
+      "en": "In case of summary dismissal, an urgent statutory reason must be present."
+    }
+  },
+  {
+    "id": "sent_moeilijk_031",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "De transitievergoeding compenseert de werknemer voor het verlies van de arbeidsplaats.",
+    "translations": {
+      "ar": "يهدف تعويض الانتقال القانوني إلى تعويض الموظف مالياً عن فقدان مصدر عمله.",
+      "ti": "ናይ ስራሕ ምስግጋር ክፍሊት ንሰራሕተኛ ነቲ ዝሰኣኖ ስራሕ ካሳ ንምሃብ ዝዓለመ እዩ።",
+      "om": "Kaffaltiin ce'umsaa hojjetaa hojii dhabeef beenyaa kenna.",
+      "en": "The transition compensation reimburses the employee for the loss of their employment."
+    }
+  },
+  {
+    "id": "sent_moeilijk_032",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Een concurrentiebeding is uitsluitend geldig bij een arbeidsovereenkomst voor onbepaalde tijd.",
+    "translations": {
+      "ar": "يكون شرط عدم المنافسة المهنية ملزماً فقط في عقود العمل الدائمة غير محددة المدة.",
+      "ti": "ናይ ተወዳዳርነት ደንቢ ኣብ ናይ ቀጻሊ ናይ ስራሕ ውዕል ጥራይ እዩ ሕጋዊ ዝኸውን።",
+      "om": "Waliigalteen dorgommii dhowwu waliigaltee yeroo hin murtoofneef qofa seera qaba.",
+      "en": "A non-compete clause is exclusively valid in an employment contract for an indefinite period."
+    }
+  },
+  {
+    "id": "sent_moeilijk_033",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "De ondernemingsraad heeft instemmingsrecht ten aanzien van regelingen inzake het arbeidsomstandighedenbeleid.",
+    "translations": {
+      "ar": "يتمتع مجلس العاملين بالمنشأة بحق الموافقة المسبقة والإلزامية بشأن سياسات وظروف العمل والسلامة.",
+      "ti": "ናይ ሰራሕተኛታት ባይቶ ብዛዕባ ናይ ስራሕ ኩነታት ዝምልከት ውሳነታት ናይ ምጽዳቕ መሰል ኣለዎ።",
+      "om": "Manni maree hojjettootaa seera haala hojii irratti mirga mirkaneessuu qaba.",
+      "en": "The works council has the right of consent regarding health and safety policy regulations."
+    }
+  },
+  {
+    "id": "sent_moeilijk_034",
+    "level": "moeilijk",
+    "topic": "Belasting",
+    "dutch": "Bij schending van de inlichtingenplicht kan de inspecteur een navorderingsaanslag met boete opleggen.",
+    "translations": {
+      "ar": "عند الإخلال بواجب الإفصاح الضريبي يحق للمفتش إصدار تقييم ضريبي إضافي مع غرامة مالية صارمة.",
+      "ti": "ሓበሬታ ናይ ምሃብ ግዴታ ምስ ዝጥሓስ፡ እቲ ናይ ግብሪ ተቖጻጻሪ ተወሳኺ ናይ ግብሪ ክፍሊትን መቕጻዕትን ክውስን ይኽእል እዩ።",
+      "om": "Dirqama odeeffannoo kennuu yoo cabsan qorataan gibira dabalataa adabbii wajjin murteessuu danda'a.",
+      "en": "In case of breach of the duty to provide information, the inspector may impose an additional tax assessment with fine."
+    }
+  },
+  {
+    "id": "sent_moeilijk_035",
+    "level": "moeilijk",
+    "topic": "Belasting",
+    "dutch": "Kwijtschelding van gemeentelijke belastingen kan worden verleend bij een aantoonbaar minimuminkomen.",
+    "translations": {
+      "ar": "يجوز الإعفاء من الضرائب البلدية المحلية للمقيمين الذين يثبتون رسمياً محدودية دخلهم المالي.",
+      "ti": "ውሑድ ኣታዊ ንዘለዎም ሰባት ካብ ናይ ማዘጋጃ ቤት ግብሪ ነጻ ናይ ምዃን መሰል ክወሃብ ይኽእል እዩ።",
+      "om": "Galiin gadi aanaa ta'uun yoo mirkanaa'e gibira magaalaa dhiifama gochuun ni danda'ama.",
+      "en": "Waiver of municipal taxes may be granted in case of a demonstrable minimum income."
+    }
+  },
+  {
+    "id": "sent_moeilijk_036",
+    "level": "moeilijk",
+    "topic": "Gezondheid",
+    "dutch": "Patiënten hebben op grond van de WGBO te allen tijde recht op inzage in hun eigen medisch dossier.",
+    "translations": {
+      "ar": "يحق للمرضى بموجب القانون الاطلاع الكامل والمباشر على ملفهم وسجلهم الطبي في أي وقت.",
+      "ti": "ሕሙማን ብመሰረት ሕጊ WGBO ኩሉ ግዜ ነቲ ናይ ብሕቶም ናይ ሕክምና መዝገብ ናይ ምርኣይ መሰል ኣለዎም።",
+      "om": "Dhukkubsattoonni seeraan galmee fayyaa isaanii ilaaluuf mirga qabu.",
+      "en": "Patients have the right under the WGBO to inspect their own medical records at all times."
+    }
+  },
+  {
+    "id": "sent_moeilijk_037",
+    "level": "moeilijk",
+    "topic": "Gezondheid",
+    "dutch": "De wet verplicht zorgaanbieders tot het systematisch melden en analyseren van medische incidenten.",
+    "translations": {
+      "ar": "يلزم القانون مؤسسات الرعاية الصحية بالإبلاغ المنهجي والدقيق عن أي حوادث أو أخطاء طبية محتملة.",
+      "ti": "ሕጊ ንናይ ጥዕና ትካላት ንዘጋጥሙ ናይ ሕክምና ጌጋታት ብስርዓት ናይ ምሕባርን ናይ ምምርማርን ግዴታ የንብረሎም።",
+      "om": "Seerri tajaajila fayyaa balleessaa yaalaa gabaasuuf dirqisiisa.",
+      "en": "The law obliges healthcare providers to systematically report and analyze medical incidents."
+    }
+  },
+  {
+    "id": "sent_moeilijk_038",
+    "level": "moeilijk",
+    "topic": "Maatschappij",
+    "dutch": "Het gelijkheidsbeginsel verbiedt discriminatie op grond van godsdienst, levensovertuiging of herkomst.",
+    "translations": {
+      "ar": "يحظر مبدأ المساواة الدستوري أي تمييز قائم على الدين أو المعتقد الفكري أو العرق أو الأصل القومي.",
+      "ti": "ናይ ማዕርነት ሕጊ ብምኽንያት ሃይማኖት፡ እምነት ወይ ዘርኢ ዝግበር ኣድልዎ ብጥብቂ ይኽልክል እዩ።",
+      "om": "Seerri walqixxummaa amantaa, ilaalcha ykn dhalootaan looguu dhowwa.",
+      "en": "The principle of equality prohibits discrimination on grounds of religion, belief, or origin."
+    }
+  },
+  {
+    "id": "sent_moeilijk_039",
+    "level": "moeilijk",
+    "topic": "Maatschappij",
+    "dutch": "Recht op privacy beschermt burgers tegen ongeoorloofde verwerking van hun persoonlijke gegevens.",
+    "translations": {
+      "ar": "يحمي الحق الدستوري في الخصوصية المواطنين من أي معالجة غير مشروعة لبياناتهم الشخصية الحساسة.",
+      "ti": "ናይ ውልቀ ምስጢር መሰል ንዜጋታት ካብ ዘይሕጋዊ ናይ ሓበሬታ ምጥቃም ይሕልዎም።",
+      "om": "Mirgi iccitii dhuunfaa namoota odeeffannoo isaanii seeraan ala fayyadamuu irraa eega.",
+      "en": "The right to privacy protects citizens against unauthorized processing of their personal data."
+    }
+  },
+  {
+    "id": "sent_basis_095",
+    "level": "basis",
+    "topic": "Kleding & Winkelen",
+    "dutch": "Mag ik deze zwarte schoenen in maat veertig passen?",
+    "translations": {
+      "ar": "هل يمكنني تجربة هذا الحذاء الأسود بمقاس أربعين؟",
+      "ti": "እዚ ጸሊም ጫማ ዓቐን ኣርብዓ ክዕቅኖ ይኽእልዶ፧",
+      "om": "Kophee gurraacha gosa afurtamaa safaruu nan danda'aa?",
+      "en": "May I try on these black shoes in size forty?"
+    }
+  },
+  {
+    "id": "sent_basis_096",
+    "level": "basis",
+    "topic": "Kleding & Winkelen",
+    "dutch": "Waar kan ik een warme wollen sjaal vinden?",
+    "translations": {
+      "ar": "أين يمكنني أن أجد وشاحاً صوفياً دافئاً؟",
+      "ti": "ሙቑቕ ናይ ጸምሪ ሻርፕ ኣበይ ክረክብ ይኽእል፧",
+      "om": "Shaashii uffata oo'aa eessatti argachuu danda'a?",
+      "en": "Where can I find a warm woolen scarf?"
+    }
+  },
+  {
+    "id": "sent_basis_097",
+    "level": "basis",
+    "topic": "Kleding & Winkelen",
+    "dutch": "Deze blauwe spijkerbroek zit erg comfortabel.",
+    "translations": {
+      "ar": "هذا البنطال الجينز الأزرق مريح للغاية عند ارتدائه.",
+      "ti": "እዚ ሰማያዊ ጂንስ ስረ ኣዝዩ ምቹእ እዩ።",
+      "om": "Surreen jiinsii cuquliisni kun baay'ee namatti tola.",
+      "en": "These blue jeans are very comfortable."
+    }
+  },
+  {
+    "id": "sent_basis_098",
+    "level": "basis",
+    "topic": "Eten & Keuken",
+    "dutch": "We snijden de uien en bakken het vlees in de pan.",
+    "translations": {
+      "ar": "نحن نقطع البصل ونقلي اللحم في المقلاة.",
+      "ti": "ሽጉርቲ ንቖርጽ እሞ ስጋ ኣብ መጥበሲ ንጠብስ ኣለና።",
+      "om": "Qullubbii kutnee foon distii keessatti waapna.",
+      "en": "We chop the onions and fry the meat in the pan."
+    }
+  },
+  {
+    "id": "sent_basis_099",
+    "level": "basis",
+    "topic": "Eten & Keuken",
+    "dutch": "Zet de borden en vorken maar op tafel.",
+    "translations": {
+      "ar": "ضع الصحون والشوك على طاولة الطعام من فضلك.",
+      "ti": "ነቲ ሳህናትን ፋርከታታትን ኣብ ጠረጴዛ ኣቀምጦ።",
+      "om": "Saaniifi shukkaa minjaala irra kaa'i.",
+      "en": "Please put the plates and forks on the table."
+    }
+  },
+  {
+    "id": "sent_basis_100",
+    "level": "basis",
+    "topic": "Eten & Keuken",
+    "dutch": "Mag ik een lepel suiker in mijn koffie?",
+    "translations": {
+      "ar": "هل يمكنني وضع ملعقة سكر في فنجان قهوتي؟",
+      "ti": "ኣብ ቡነይ ሓንቲ ማንካ ሽኮር ክገብር ይኽእልዶ፧",
+      "om": "Buna koo keessa fal'aana sukkaaraa tokko gochuu nan danda'aa?",
+      "en": "May I have a spoonful of sugar in my coffee?"
+    }
+  },
+  {
+    "id": "sent_basis_101",
+    "level": "basis",
+    "topic": "Vervoer & Fiets",
+    "dutch": "Mijn fiets heeft goede remmen en een luide bel.",
+    "translations": {
+      "ar": "دراجتي بها فرامل ممتازة وجرس واضح الصوت.",
+      "ti": "ብሽክለታይ ጽቡቕ ፍሬኖን ዓቢ ደወልን ኣለዋ።",
+      "om": "Biskileetiin koo firiinii gaariifi bilbila sagalee guddaa qaba.",
+      "en": "My bicycle has good brakes and a loud bell."
+    }
+  },
+  {
+    "id": "sent_basis_102",
+    "level": "basis",
+    "topic": "Vervoer & Fiets",
+    "dutch": "We fietsen samen veilig op het fietspad.",
+    "translations": {
+      "ar": "نحن نركب الدراجات بأمان معاً في مسار الدراجات المخصص.",
+      "ti": "ኣብ ናይ ብሽክለታ መገዲ ብደሓን ሓቢርና ንዝወር ኣለና።",
+      "om": "Daandii biskileetii irra nagaan waliin deemna.",
+      "en": "We cycle safely together on the bike path."
+    }
+  },
+  {
+    "id": "sent_basis_103",
+    "level": "basis",
+    "topic": "Vervoer & Stad",
+    "dutch": "Het postkantoor is direct naast de supermarkt.",
+    "translations": {
+      "ar": "مكتب البريد يقع مباشرة بجوار السوبرماركت الكبير.",
+      "ti": "ቤት ጽሕፈት ፖስታ ልክዕ ኣብ ጥቓ እቲ ሱፐርማርኬት ኣሎ።",
+      "om": "Waajjirri poostaa suupparmaarkikeetii cinaa jira.",
+      "en": "The post office is right next to the supermarket."
+    }
+  },
+  {
+    "id": "sent_basis_104",
+    "level": "basis",
+    "topic": "Vervoer & Stad",
+    "dutch": "Sla bij het stoplicht rechtsaf naar de bibliotheek.",
+    "translations": {
+      "ar": "انعطف يميناً عند إشارة المرور باتجاه المكتبة العامة.",
+      "ti": "ኣብ መብራህቲ ትራፊክ ናብ የማን ተጠዊኻ ናብ ቤተ-መጻሕፍቲ ኺድ።",
+      "om": "Ibsaa tiraafikaa biratti gara mirgaatti gori.",
+      "en": "Turn right at the traffic light toward the library."
+    }
+  },
+  {
+    "id": "sent_basis_105",
+    "level": "basis",
+    "topic": "Vrije Tijd & Sport",
+    "dutch": "Mijn kinderen zwemmen elke zaterdagochtend in het zwembad.",
+    "translations": {
+      "ar": "يسبح أطفالي كل صباح يوم سبت في المسبح البلدي.",
+      "ti": "ደቀይ ኩሉ ቀዳም ንግሆ ኣብ መሐበሲ ይሕምብሱ።",
+      "om": "Ijoolleen koo Sanbata ganama hunda bishaan keessatti daaku.",
+      "en": "My children swim every Saturday morning in the pool."
+    }
+  },
+  {
+    "id": "sent_basis_106",
+    "level": "basis",
+    "topic": "Vrije Tijd & Sport",
+    "dutch": "We wandelen graag in het grote groene bos.",
+    "translations": {
+      "ar": "نحن نحب المشي والتنزه في الغابة الخضراء الواسعة.",
+      "ti": "ኣብቲ ዓቢ ቀጠልያ ጫካ ምምልላስ ባህ ይብለና።",
+      "om": "Bosona magariisa guddaa keessa deemuu jaallanna.",
+      "en": "We like walking in the large green forest."
+    }
+  },
+  {
+    "id": "sent_basis_107",
+    "level": "basis",
+    "topic": "Vrije Tijd & Sport",
+    "dutch": "Zaterdagmiddag kijken we naar een voetbalwedstrijd.",
+    "translations": {
+      "ar": "بعد ظهر يوم السبت نشاهد مباراة كرة قدم ممتعة.",
+      "ti": "ቀዳም ድሕሪ ቐትሪ ናይ ኩዕሶ እግሪ ጸወታ ንርኢ።",
+      "om": "Sanbata waaree booda tapha kubbaa miilaa ilaalla.",
+      "en": "On Saturday afternoon we watch a football match."
+    }
+  },
+  {
+    "id": "sent_basis_108",
+    "level": "basis",
+    "topic": "Thuis & Familie",
+    "dutch": "Mijn opa en oma wonen in een rustig dorpje.",
+    "translations": {
+      "ar": "يعيش جدي وجدتي في قرية ريفية هادئة وجميلة.",
+      "ti": "ኣቦሓጎይን ዓባየይን ኣብ ሓንቲ ህድእ ዝበለት ገጠር ይነብሩ።",
+      "om": "Akkaakoofi akkoon koo ganda callisaa keessa jiraatu.",
+      "en": "My grandfather and grandmother live in a quiet village."
+    }
+  },
+  {
+    "id": "sent_basis_109",
+    "level": "basis",
+    "topic": "Thuis & Familie",
+    "dutch": "We vieren vanavond feest met de hele familie.",
+    "translations": {
+      "ar": "نحن نحتفل الليلة مع العائلة الكريمة بأكملها.",
+      "ti": "ሎሚ ምሸት ምስ ምሉእ ስድራቤትና በዓል ነኽብር ኣለና።",
+      "om": "Galgala kana maatii guutuu wajjin ayyaana kabajna.",
+      "en": "We are celebrating tonight with the whole family."
+    }
+  },
+  {
+    "id": "sent_basis_110",
+    "level": "basis",
+    "topic": "Gezondheid & Nood",
+    "dutch": "Bel in een ernstige noodsituatie altijd direct één-één-twee.",
+    "translations": {
+      "ar": "اتصل دائماً برقم الطوارئ 112 فوراً في الحالات الحرجة.",
+      "ti": "ኣብ ከቢድ ናይ ህጹጽ ኩነታት ወትሩ ብቐጥታ ናብ 112 ደውል።",
+      "om": "Balaan yoo uumame battalumatti 112 bilbili.",
+      "en": "In a serious emergency always call one-one-two directly."
+    }
+  },
+  {
+    "id": "sent_basis_111",
+    "level": "basis",
+    "topic": "Gezondheid & Zorg",
+    "dutch": "De assistente geeft mij een afsprakenkaartje mee.",
+    "translations": {
+      "ar": "أعطتني المساعدة الطبية بطاقة ورقية بموعدي القادم.",
+      "ti": "እታ ሓጋዚት ሓኪም ናይ ቆጸራ ካርድ ሂባትኒ።",
+      "om": "Gargaartuun kaardii beellamaa naaf kennite.",
+      "en": "The assistant gives me an appointment card."
+    }
+  },
+  {
+    "id": "sent_basis_112",
+    "level": "basis",
+    "topic": "Gezondheid & Zorg",
+    "dutch": "Ik moet van de huisarts veel water drinken en rusten.",
+    "translations": {
+      "ar": "طلب مني طبيب الأسرة شرب الكثير من الماء والراحة التامة.",
+      "ti": "ሓኪም ብዙሕ ማይ ክሰትን ክዓርፍን ነጊሩኒ።",
+      "om": "Dooqtoorri bishaan baay'ee dhuguufi boqochuu na ajaje.",
+      "en": "The GP told me to drink plenty of water and rest."
+    }
+  },
+  {
+    "id": "sent_gevorderd_048",
+    "level": "gevorderd",
+    "topic": "Werk & Contract",
+    "dutch": "In mijn arbeidscontract staat dat ik zesendertig uur per week werk.",
+    "translations": {
+      "ar": "ينص عقد عملي الرسمي على أنني أعمل ست وثلاثين ساعة أسبوعياً.",
+      "ti": "ኣብ ናይ ስራሕ ውዕለይ ኣብ ሰሙን ሰላሳን ሽዱሽተን ሰዓት ከም ዝሰርሕ ተገሊጹ ኣሎ።",
+      "om": "Waliigalteen hojii koo torbanitti sa'aatii soddomii jaha akka hojjedhu ibsa.",
+      "en": "My employment contract states that I work thirty-six hours a week."
+    }
+  },
+  {
+    "id": "sent_gevorderd_049",
+    "level": "gevorderd",
+    "topic": "Werk & Contract",
+    "dutch": "Mijn werkgever vergoedt de maandelijkse reiskosten voor de trein.",
+    "translations": {
+      "ar": "يقوم صاحب العمل بتعويض تكاليف السفر الشهرية للقطار بالكامل.",
+      "ti": "ኣስራሒየይ ነቲ ወርሓዊ ናይ ባቡር መጓዓዝያ ወጻኢታት ይሽፍኖ እዩ።",
+      "om": "Hojjachiisaan koo baasii geejjiba baaburaa ji'aa naaf deebisa.",
+      "en": "My employer reimburses the monthly travel expenses for the train."
+    }
+  },
+  {
+    "id": "sent_gevorderd_050",
+    "level": "gevorderd",
+    "topic": "Werk & Overleg",
+    "dutch": "We hebben tijdens de werkoverdracht alle openstaande taken doorgenomen.",
+    "translations": {
+      "ar": "راجعنا جميع المهام المتبقية بدقة خلال جلسة تسليم وتسلم العمل.",
+      "ti": "ኣብ ናይ ስራሕ ምትሕልላፍ ኩሉ ዝተረፈ ዕማማት ገምጊምናዮ።",
+      "om": "Yeroo dabarsa hojiitti hojiiwwan hafan hunda ilaalleerra.",
+      "en": "During the handover we reviewed all outstanding tasks."
+    }
+  },
+  {
+    "id": "sent_gevorderd_051",
+    "level": "gevorderd",
+    "topic": "Werk & Opleiding",
+    "dutch": "Ik volg een avondopleiding om mijn diploma logistiek teamleider te halen.",
+    "translations": {
+      "ar": "أتابع دراسة مسائية للحصول على دبلوم قيادة فريق الخدمات اللوجستية.",
+      "ti": "ናይ ምሸት ትምህርቲ ብምክትታል ናይ ሎጂስቲክስ ሓላፊ ዲፕሎማ ክወስድ እደሊ።",
+      "om": "Waraqaa ragaa geggeessummaa loojistiksii argachuuf barnoota galgalaa hordofa.",
+      "en": "I am taking an evening course to earn my logistics team leader diploma."
+    }
+  },
+  {
+    "id": "sent_gevorderd_052",
+    "level": "gevorderd",
+    "topic": "Wonen & Energie",
+    "dutch": "Het isoleren van de ramen helpt aanzienlijk om stookkosten te besparen.",
+    "translations": {
+      "ar": "يساعد عزل زجاج النوافذ بشكل كبير في تقليل فواتير التدفئة الشتوية.",
+      "ti": "ነቲ መስኮታት ምዕሻግ ነቲ ናይ ሙቐት ወጻኢታት ንምንካይ ኣዝዩ ይሕግዝ።",
+      "om": "Foddaa sirreessuun baasii ho'isa manaa hir'isuuf baay'ee gargaara.",
+      "en": "Insulating the windows helps significantly to save on heating costs."
+    }
+  },
+  {
+    "id": "sent_gevorderd_053",
+    "level": "gevorderd",
+    "topic": "Wonen & Buren",
+    "dutch": "We hebben met de buren afgesproken om het portiek beurtelings te poetsen.",
+    "translations": {
+      "ar": "اتفقنا مع الجيران بالتراضي على تنظيف مدخل البناية بالتناوب الأسبوعي.",
+      "ti": "ምስ ጎረባብቲ ነቲ ናይ ኣፓርተማ መእተዊ ብተራ ከነጽርዮ ተሰማሚዕና ኣለና።",
+      "om": "Kutaa seensaa gamoo dabareedhaan qulqulleessuuf ollaa wajjin walii galle.",
+      "en": "We agreed with the neighbors to clean the stairwell by turns."
+    }
+  },
+  {
+    "id": "sent_gevorderd_054",
+    "level": "gevorderd",
+    "topic": "Financiën & Bank",
+    "dutch": "U kunt betalingen veilig bevestigen met de bank-app op uw telefoon.",
+    "translations": {
+      "ar": "يمكنك تأكيد عمليات الدفع المالي بأمان تام باستخدام تطبيق البنك المصرفي.",
+      "ti": "ብመንገዲ ናይ ባንክ ኣፕሊኬሽን ኣብ ሞባይልካ ክፍሊታት ብደሓን ከተረጋግጽ ትኽእል ኢኻ።",
+      "om": "Appilikeeshinii baankiitiin bilbila keessan irratti kaffaltii mirkaneessuu dandeessu.",
+      "en": "You can securely confirm payments using the mobile banking app on your phone."
+    }
+  },
+  {
+    "id": "sent_gevorderd_055",
+    "level": "gevorderd",
+    "topic": "Financiën & Belasting",
+    "dutch": "Houd er rekening mee dat u uw toeslagen moet aanpassen als uw loon stijgt.",
+    "translations": {
+      "ar": "تذكر دائماً أنه يجب تعديل بدلاتك الحكومية فور زيادة راتبك الشهري.",
+      "ti": "ደሞዝካ ክውስኽ ከሎ ነቲ ናይ ደገፍ መጠን ከተዐርዮ ከምዘለካ ኣብ ግምት ኣእቱ።",
+      "om": "Miindaan keessan yoo dabale gargaarsa keessan sirreessuu akka qabdan yaadadhaa.",
+      "en": "Keep in mind that you must adjust your allowances if your wages increase."
+    }
+  },
+  {
+    "id": "sent_gevorderd_056",
+    "level": "gevorderd",
+    "topic": "Zorg & Verzekering",
+    "dutch": "Het verplichte eigen risico in de zorgverzekering bedraagt driehonderdvijfentachtig euro.",
+    "translations": {
+      "ar": "تبلغ قيمة التحمل الذاتي الإلزامي في التأمين الصحي 385 يورو سنوياً.",
+      "ti": "እቲ ግዴታዊ ናይ ውልቀ ተሓታትነት ክፍሊት ናይ ጥዕና መድሕን 385 ዩሮ እዩ።",
+      "om": "Kaffaltiin itti gaafatamummaa inshuraansii fayyaa yuuroo 385 dha.",
+      "en": "The mandatory deductible in health insurance is three hundred eighty-five euros."
+    }
+  },
+  {
+    "id": "sent_gevorderd_057",
+    "level": "gevorderd",
+    "topic": "Zorg & Verzekering",
+    "dutch": "Controleer vooraf of uw zorgverlener een contract heeft met uw verzekeraar.",
+    "translations": {
+      "ar": "تحقق مسبقاً مما إذا كان مقدم الرعاية الطبية لديه اتفاق مع شركة تأمينك.",
+      "ti": "እቲ ሕክምና ዝህበካ ትካል ምስ ናትካ መድሕን ውዕል ከምዘለዎ ኣቐዲምካ ኣረጋግጽ።",
+      "om": "Ogeessi fayyaa inshuraansii keessan waliin waliigaltee qabaachuu isaa duraan sakatta'aa.",
+      "en": "Check in advance whether your healthcare provider has a contract with your insurer."
+    }
+  },
+  {
+    "id": "sent_gevorderd_058",
+    "level": "gevorderd",
+    "topic": "Onderwijs & School",
+    "dutch": "Op de middelbare school kiezen leerlingen een passend profiel voor hun toekomst.",
+    "translations": {
+      "ar": "يختار الطلاب في المرحلة الثانوية مساراً دراسياً مناسباً لطموحاتهم ومستقبلهم.",
+      "ti": "ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ተመሃሮ ንመጻኢኦም ዝኸውን ናይ ትምህርቲ መገዲ ይመርጹ።",
+      "om": "Mana barumsaa sadarkaa lammaffaatti barattoonni kallattii barnootaa filatu.",
+      "en": "In secondary school, students choose a suitable study profile for their future."
+    }
+  },
+  {
+    "id": "sent_gevorderd_059",
+    "level": "gevorderd",
+    "topic": "Samenleving & Participatie",
+    "dutch": "Vrijwilligers in het buurthuis helpen nieuwkomers met het lezen van moeilijke brieven.",
+    "translations": {
+      "ar": "يساعد المتطوعون في المركز المجتمعي القادمين الجدد في قراءة وفهم الرسائل الرسمية.",
+      "ti": "ኣብ ማእከል ከባቢ ዘለዉ ወለንተኛታት ንሓደሽቲ ነበርቲ ከበድቲ ደብዳበታት ንምንባብ ይሕግዝዎም።",
+      "om": "Tola ooltonni mana hawaasaa keessatti xalayaalee ulfaatoo dubbisuuf gargaaru.",
+      "en": "Volunteers at the community center help newcomers read difficult official letters."
+    }
+  },
+  {
+    "id": "sent_moeilijk_040",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht & Rechtszekerheid",
+    "dutch": "Het vertrouwensbeginsel beschermt burgers tegen gewekte legitieme verwachtingen door overheidsorganen.",
+    "translations": {
+      "ar": "يحمي مبدأ حماية الثقة المشروعة المواطنين إزاء الوعود والتطمينات الرسمية الصادرة عن السلطات.",
+      "ti": "ናይ ምትእምማን ሕጊ ንዜጋታት ካብቲ ብመንግስታዊ ኣካላት ዝተፈጥረ ቅቡል ትጽቢታት ይሕልዎም።",
+      "om": "Seerri amanamummaa abdii mootummaan kenne irraa lammiilee eega.",
+      "en": "The principle of legitimate expectations protects citizens against legitimate expectations raised by public authorities."
+    }
+  },
+  {
+    "id": "sent_moeilijk_041",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht & Rechtszekerheid",
+    "dutch": "Indien het bezwaar gegrond wordt verklaard, herroept het orgaan het bestreden besluit.",
+    "translations": {
+      "ar": "إذا تقرر قبول الاعتراض شكلاً وموضوعاً، تلغي الهيئة الإدارية القرار المطعون فيه بالكامل.",
+      "ti": "እቲ ተቓውሞ ቅቡል ኮይኑ ምስ ዝርከብ፡ እቲ ኣካል ነቲ ውሳነ ይስርዞ።",
+      "om": "Mormiin fudhatama yoo argate qaamni bulchiinsaa murticha ni haqaa.",
+      "en": "If the objection is declared well-founded, the administrative body revokes the contested decision."
+    }
+  },
+  {
+    "id": "sent_moeilijk_042",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht & Rechtszekerheid",
+    "dutch": "De termijn voor het instellen van administratief beroep vangt aan op de dag na bekendmaking.",
+    "translations": {
+      "ar": "تبدأ المهلة القانونية لتقديم الاستئناف الإداري الرسمي من اليوم التالي لإعلان القرار.",
+      "ti": "ናይ ምምሕዳራዊ ይግባይ ምቕራብ ግዜ ካብታ ውሳነ ዝተገልጸላ ዝቐጸለት መዓልቲ ይጅምር።",
+      "om": "Yeroon iyyannoo bulchiinsaa guyyaa beeksisaa hordofee jalqaba.",
+      "en": "The deadline for lodging an administrative appeal commences on the day following notification."
+    }
+  },
+  {
+    "id": "sent_moeilijk_043",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht & Ontslag",
+    "dutch": "Bij een reorganisatie dient het afspiegelingsbeginsel strikt te worden toegepast per leeftijdsgroep.",
+    "translations": {
+      "ar": "في حالات إعادة الهيكلة يجب تطبيق مبدأ التناسب التمثيلي الصارم حسب الفئات العمرية للموظفين.",
+      "ti": "ኣብ ዳግመ-ውደባ ስራሕ፡ ናይ ዕድመ ጉጅለታት ማዕርነት ብጥብቂ ክትግበር ኣለዎ።",
+      "om": "Haaromsa hojii keessatti seerri sadarkaa umrii sirriitti hojiirra ooluu qaba.",
+      "en": "During a reorganization, the principle of reflection must be strictly applied per age category."
+    }
+  },
+  {
+    "id": "sent_moeilijk_044",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht & Ontslag",
+    "dutch": "De kantonrechter kan de arbeidsovereenkomst ontbinden wegens een verstoorde arbeidsverhouding.",
+    "translations": {
+      "ar": "يجوز لقاضي محكمة الصلح فسخ عقد العمل رسمياً بسبب تدهور علاقة العمل بين الطرفين.",
+      "ti": "ዳኛ ብሰንኪ ዝተበላሸወ ናይ ስራሕ ርክብ ነቲ ናይ ስራሕ ውዕል ክስርዞ ይኽእል እዩ።",
+      "om": "Abbaan murtii sababa walitti dhufeenyi hojii badeef waliigaltee haquu danda'a.",
+      "en": "The subdistrict court judge may dissolve the employment contract due to a disrupted employment relationship."
+    }
+  },
+  {
+    "id": "sent_moeilijk_045",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht & Ontslag",
+    "dutch": "De wettelijke bedenktermijn bij een vaststellingsovereenkomst bedraagt veertien dagen na ondertekening.",
+    "translations": {
+      "ar": "تبلغ المهلة القانونية للعدول عن اتفاقية التسوية الرضائية أربعة عشر يوماً من تاريخ توقيعها.",
+      "ti": "ኣብ ናይ መዛዘሚ ስምምዕ ካብ ዝተፈርመሉ ዕለት ጀሚሩ ናይ ምሕሳብ ግዜ ዓሰርተ ኣርባዕተ መዓልቲ እዩ።",
+      "om": "Waliigaltee booda guyyoota kudha afur keessatti yaada jijjiirrachuuf mirga qabdu.",
+      "en": "The statutory reflection period for a settlement agreement is fourteen days after signing."
+    }
+  },
+  {
+    "id": "sent_moeilijk_046",
+    "level": "moeilijk",
+    "topic": "Belasting & Vermogen",
+    "dutch": "Fiscale partners kunnen gezamenlijke aftrekposten in hun aangifte onderling verdelen.",
+    "translations": {
+      "ar": "يجوز للشركاء الخاضعين للضريبة معاً تقاسم وتوزيع بنود الخصم الضريبي المشتركة في إقرارهم.",
+      "ti": "ሓባራዊ ናይ ግብሪ ከፈልቲ ኣብ መግለጺኦም ናይ ግብሪ ምጉዳል ክመቓቐልዎ ይኽእሉ እዮም።",
+      "om": "Abbootiin warraa kaffaltii gibiraa waloo qooddachuu danda'u.",
+      "en": "Tax partners may allocate joint deductions between themselves in their tax return."
+    }
+  },
+  {
+    "id": "sent_moeilijk_047",
+    "level": "moeilijk",
+    "topic": "Belasting & Vermogen",
+    "dutch": "Het heffingsvrij vermogen stelt een deel van uw spaargeld vrij van vermogensrendementsheffing.",
+    "translations": {
+      "ar": "يعفي حد الأصول المعفاة من الضريبة جزءاً محدداً من مدخراتك من ضريبة عائد رأس المال.",
+      "ti": "ካብ ግብሪ ናጻ ዝኾነ መጠን ንገለ ክፋል ናይ ምዕቋብ ገንዘብካ ካብ ክፍሊት ግብሪ ናጻ ይገብሮ።",
+      "om": "Qabeenyi gibira irraa bilisa ta'e maallaqa qusannaa keessan muraasa eega.",
+      "en": "The tax-free allowance exempts part of your savings from capital yield tax."
+    }
+  },
+  {
+    "id": "sent_moeilijk_048",
+    "level": "moeilijk",
+    "topic": "Huisvesting & VvE",
+    "dutch": "Het huishoudelijk reglement van de VvE bevat voorschriften over het gebruik van gemeenschappelijke ruimten.",
+    "translations": {
+      "ar": "تحتوي اللائحة الداخلية لجمعية الملاك على قواعد صارمة لاستخدام المرافق المشتركة في المبنى.",
+      "ti": "ናይቲ ናይ ዋናታት ማሕበር ደንቢ ብዛዕባ ኣጠቓቕማ ሓባራዊ ቦታታት መምርሒታት ዝሓዘ እዩ።",
+      "om": "Seerri keessaa waldaa abbootii qabeenyaa bakka waloo fayyadamuu irratti qajeelfama kenna.",
+      "en": "The internal regulations of the VvE contain rules concerning the use of common areas."
+    }
+  },
+  {
+    "id": "sent_moeilijk_049",
+    "level": "moeilijk",
+    "topic": "Huisvesting & VvE",
+    "dutch": "Besluiten tot buitengewoon onderhoud vereisen een gekwalificeerde meerderheid in de ledenvergadering.",
+    "translations": {
+      "ar": "تتطلب قرارات الصيانة الاستثنائية الكبرى موافقة أغلبية موصوفة في الجمعية العمومية للملاك.",
+      "ti": "ንፍሉይ ጽገና ዝምልከቱ ውሳነታት ኣብ ናይ ኣባላት ኣኼባ ናይ ድምጺ ብልጫ ይሓትቱ።",
+      "om": "Murteen suphaa addaa walga'ii miseensotaa irratti sagalee caalmaa gaafata.",
+      "en": "Decisions regarding extraordinary maintenance require a qualified majority in the general meeting."
+    }
+  },
+  {
+    "id": "sent_moeilijk_050",
+    "level": "moeilijk",
+    "topic": "Zorg & Wilsverklaring",
+    "dutch": "Een schriftelijke wilsverklaring legt medische wensen vast voor het geval van wilsonbekwaamheid.",
+    "translations": {
+      "ar": "توثق وصية العلاج الخطية المسبقة رغبات المريض الطبية في حال فقدانه للأهلية القانونية.",
+      "ti": "ናይ ጽሑፍ ፍቓድ ወረቐት ውሳነ ናይ ምሃብ ዓቕሚ ኣብ ዝስኣነሉ ግዜ ዘገልግል ናይ ሕክምና ድሌታት ይሕዝ።",
+      "om": "Waraqaan fedhii yaalaa murtee kennuu yoo dadhaban tajaajila barbaadan ibsa.",
+      "en": "An advance healthcare directive records medical wishes in the event of mental incompetence."
+    }
+  },
+  {
+    "id": "sent_moeilijk_051",
+    "level": "moeilijk",
+    "topic": "Maatschappij & Grondrechten",
+    "dutch": "Het legaliteitsbeginsel schrijft voor dat overheidshandelen altijd moet berusten op een wettelijke grondslag.",
+    "translations": {
+      "ar": "يقتضي مبدأ المشروعية الدستوري أن تستند جميع تصرفات السلطة التنفيذية إلى أساس قانوني صريح.",
+      "ti": "ናይ ሕጋውነት መትከል መንግስታዊ ተግባራት ኩሉ ግዜ ኣብ ሕጋዊ መሰረት ክምርኮስ ከምዘለዎ የገድድ።",
+      "om": "Seerri seera qabeessummaa hojiin mootummaa hundi bu'uura seeraa akka qabaatu dirqisiisa.",
+      "en": "The principle of legality mandates that government actions must always be rooted in a statutory basis."
+    }
+  },
+  {
+    "id": "sent_basis_113",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Ik smeer roomboter en aardbeienjam op mijn beschuit.",
+    "translations": {
+      "ar": "أدهن الزبدة ومربى الفراولة على البسكويت الهش.",
+      "ti": "ኣብቲ ቅጫይ ጠስምን ናይ ፍረታት ማርመላታን እለኽዮ።",
+      "om": "Dhadhaafi marmalaata dhoobee nyaadha.",
+      "en": "I spread butter and strawberry jam on my rusk."
+    }
+  },
+  {
+    "id": "sent_basis_114",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "We drinken samen een warme chocolademelk.",
+    "translations": {
+      "ar": "نشرب معاً كوباً من الحليب الساخن بالشوكولاتة.",
+      "ti": "ሓቢርና ውዑይ ናይ ቾኮላት ጸባ ንሰቲ ኣለና።",
+      "om": "Waliin aannan chookoleetii oo'aa dhugna.",
+      "en": "We drink a hot chocolate milk together."
+    }
+  },
+  {
+    "id": "sent_basis_115",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "In de soep zitten wortels, prei en gehaktballetjes.",
+    "translations": {
+      "ar": "يحتوي الحساء على الجزر والكراث وكرات اللحم اللذيذة.",
+      "ti": "እቲ መረቕ ካሮት፡ ካሮትን ናይ ስጋ ኲዕሶታትን ኣለዎ።",
+      "om": "Shorbaa keessa kaarotii fi foon marameetu jira.",
+      "en": "In the soup are carrots, leeks, and meatballs."
+    }
+  },
+  {
+    "id": "sent_basis_116",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Mijn dochter lust geen gekookte bloemkool.",
+    "translations": {
+      "ar": "ابنتي لا تحب أكل القرنبيط المسلوق.",
+      "ti": "ጓለይ ዝተፈልሐ ቆስጣ ኣይትፈቱን እያ።",
+      "om": "Intalli koo raafuu bilchaate hin jaallattu.",
+      "en": "My daughter does not like boiled cauliflower."
+    }
+  },
+  {
+    "id": "sent_basis_117",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Het fruit ligt in een grote schaal op het aanrecht.",
+    "translations": {
+      "ar": "الفواكه موضوعة في وعاء كبير على طاولة المطبخ.",
+      "ti": "እቲ ፍረታት ኣብ ክሽነ ኣብ ዓቢ ሳህን ተቐሚጡ ኣሎ።",
+      "om": "Muduraan saanii guddaa irra kushinaa keessa jira.",
+      "en": "The fruit is in a large bowl on the kitchen counter."
+    }
+  },
+  {
+    "id": "sent_basis_118",
+    "level": "basis",
+    "topic": "Winkelen",
+    "dutch": "Deze trui kost slechts vijftien euro in de uitverkoop.",
+    "translations": {
+      "ar": "هذه السترة تكلف خمسة عشر يورو فقط في التخفيضات.",
+      "ti": "እዚ ሹራብ ኣብ ቅናሽ ዓሰርተ ሓሙሽተ ዩሮ ጥራይ እዩ።",
+      "om": "Kootiin kun gabaa hir'ifamaa keessatti yuuroo kudha shan qofa.",
+      "en": "This sweater costs only fifteen euros on sale."
+    }
+  },
+  {
+    "id": "sent_basis_119",
+    "level": "basis",
+    "topic": "Winkelen",
+    "dutch": "Ik zoek een zachte handdoek voor in de badkamer.",
+    "translations": {
+      "ar": "أنا أبحث عن منشفة قطنية ناعمة للحمام.",
+      "ti": "ንመተሓጸቢ ሽቓቕ ዝኸውን ልስሉስ ፍታ እደሊ ኣለኹ።",
+      "om": "Mantaa lallaafaa kutaa dhiqannaaf barbaada.",
+      "en": "I am looking for a soft towel for the bathroom."
+    }
+  },
+  {
+    "id": "sent_basis_120",
+    "level": "basis",
+    "topic": "Winkelen",
+    "dutch": "Kunt u mij vertellen waar de paskamer is?",
+    "translations": {
+      "ar": "هل يمكنك إخباري بمكان غرفة قياس الملابس؟",
+      "ti": "ክዳን መዕቀኒ ክፍሊ ኣበይ ከም ዘሎ ክትነግሩኒ ትኽእሉዶ፧",
+      "om": "Kutaan uffata itti safaran eessa akka jiru natti himtuu?",
+      "en": "Could you tell me where the fitting room is?"
+    }
+  },
+  {
+    "id": "sent_basis_121",
+    "level": "basis",
+    "topic": "Winkelen",
+    "dutch": "We kopen een nieuwe lamp voor de kinderkamer.",
+    "translations": {
+      "ar": "نحن نشتري مصباحاً جديداً لغرفة الأطفال الجميلة.",
+      "ti": "ንክፍሊ ቆልዑ ሓድሽ መብራህቲ ንገዝእ ኣለና።",
+      "om": "Kutaa ijoolleetiif ibsaa haaraa binna.",
+      "en": "We are buying a new lamp for the children's room."
+    }
+  },
+  {
+    "id": "sent_basis_122",
+    "level": "basis",
+    "topic": "Winkelen",
+    "dutch": "Ik heb een cadeautje gekocht voor mijn buurvrouw.",
+    "translations": {
+      "ar": "اشتريت هدية لطيفة لجارتي بمناسبة عيدها.",
+      "ti": "ንጎረቤተይ ንእሽቶ ህያብ ገዚአላ ኣለኹ።",
+      "om": "Ollaa kootiif kennaa xiqqoo biteera.",
+      "en": "I bought a little gift for my neighbor."
+    }
+  },
+  {
+    "id": "sent_basis_123",
+    "level": "basis",
+    "topic": "Huis & Tuin",
+    "dutch": "De bloemen in onze tuin beginnen mooi te bloeien.",
+    "translations": {
+      "ar": "بدأت الزهور في حديقتنا تتفتح بشكل رائع وجميل.",
+      "ti": "ኣብ ጀርዲንና ዘለዉ ዕንባባታት ጽቡቕ ገይሮም ይዕምብቡ ኣለዉ።",
+      "om": "Abaaboon naannoo mana keenyaa baay'ee miidhagee ba'a.",
+      "en": "The flowers in our garden are beginning to bloom nicely."
+    }
+  },
+  {
+    "id": "sent_basis_124",
+    "level": "basis",
+    "topic": "Huis & Tuin",
+    "dutch": "Ik veeg het terras met een bezem schoon.",
+    "translations": {
+      "ar": "أنا أكنس الشرفة الخارجية بالمكنسة وأنظفها جيداً.",
+      "ti": "ነቲ ደገ ብመኮስተር ገይረ የጽርዮ ኣለኹ።",
+      "om": "Harataadhaan qulqulleessaa jira.",
+      "en": "I am sweeping the terrace clean with a broom."
+    }
+  },
+  {
+    "id": "sent_basis_125",
+    "level": "basis",
+    "topic": "Huis & Tuin",
+    "dutch": "We planten tomaten en kruiden in houten bakken.",
+    "translations": {
+      "ar": "نزرع الطماطم والأعشاب العطرية في صناديق خشبية.",
+      "ti": "ኣብ ናይ ዕጨይቲ ሳጹናት ኮሚደረን ቀመማትን ንተክል ኣለና።",
+      "om": "Saanduqa mukaatti timaatimaafi qoricha nyaataa dhaabna.",
+      "en": "We plant tomatoes and herbs in wooden planter boxes."
+    }
+  },
+  {
+    "id": "sent_basis_126",
+    "level": "basis",
+    "topic": "Huis & Tuin",
+    "dutch": "Vergeet niet de planten water te geven als het warm is.",
+    "translations": {
+      "ar": "لا تنس سقي النباتات بالماء عندما يكون الجو دافئاً.",
+      "ti": "ሙቐት ክኸውን ከሎ ነቶም ኣትክልቲ ማይ ምስታይ ኣይትረስዕ።",
+      "om": "Yeroo hoo'u biqiltootaaf bishaan kennuu hin dagatin.",
+      "en": "Do not forget to water the plants when it is warm."
+    }
+  },
+  {
+    "id": "sent_basis_127",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "De stoptrein stopt op elk klein tussengelegen station.",
+    "translations": {
+      "ar": "يتوقف القطار المحلي البطيء في كل محطة صغيرة على طول المسار.",
+      "ti": "እቲ ባቡር ኣብ ነፍሲ ወከፍ ንእሽቶ መደበር ደው ይብል እዩ።",
+      "om": "Baaburri buufataalee xixiqqoo hunda irratti dhaabbata.",
+      "en": "The local train stops at every small intermediate station."
+    }
+  },
+  {
+    "id": "sent_basis_128",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Kijk goed uit naar het fietspad bij het oversteken van de weg.",
+    "translations": {
+      "ar": "انتبه جيداً لمسار الدراجات عند عبور الطريق الرئيسي.",
+      "ti": "መንገዲ ክትሰግር ከለኻ ንናይ ብሽክለታ መገዲ ብጥንቃቐ ተዓዘብ።",
+      "om": "Karaa yeroo ceetu daandii biskileetiitiif of eeggadhu.",
+      "en": "Watch out for the bicycle path when crossing the road."
+    }
+  },
+  {
+    "id": "sent_basis_129",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Mijn zoon heeft zijn fietshelm op zijn hoofd gezet.",
+    "translations": {
+      "ar": "وضع ابني خوذة الدراجة الواقية على رأسه بأمان.",
+      "ti": "ወደይ ናይ ድሕንነት ቆቢዕ ብሽክለታ ኣብ ርእሱ ገይሩ ኣሎ።",
+      "om": "Ilmi koo koofiyyaa nageenya biskileetii mataa irra kaawwate.",
+      "en": "My son put his bicycle helmet on his head."
+    }
+  },
+  {
+    "id": "sent_basis_130",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "De pont vaart elke tien minuten naar de overkant.",
+    "translations": {
+      "ar": "تتحرك العبارة كل عشر دقائق لنقل الركاب إلى الضفة المقابلة.",
+      "ti": "እታ ጃልባ ኣብ ነፍሲ ወከፍ ዓሰርተ ደቒቕ ሰባት ተመላልስ።",
+      "om": "Bidiruun daqiiqaa kudhan hunda keessatti ceesisa.",
+      "en": "The ferry sails to the other side every ten minutes."
+    }
+  },
+  {
+    "id": "sent_basis_131",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Poets je tanden 's ochtends en 's avonds voor het slapen.",
+    "translations": {
+      "ar": "نظف أسنانك بالفرشاة والمعجون في الصباح وقبل النوم.",
+      "ti": "ስንኻ ንግሆን ምሸት ቅድሚ ምድቃስካን ብብሩሽ ተሓጸቦ።",
+      "om": "Ganamaafi galgala osoo hin rafin dura ilkaan kee qulqulleessi.",
+      "en": "Brush your teeth in the morning and evening before sleeping."
+    }
+  },
+  {
+    "id": "sent_basis_132",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Ik voel me gelukkig weer fit na een week rust.",
+    "translations": {
+      "ar": "لحسن الحظ أشعر بالنشاط والصحة مجدداً بعد أسبوع من الراحة.",
+      "ti": "ድሕሪ ናይ ሓደ ሰሙን ዕረፍቲ ሕጂ ድሓን ኮይኑ ይስምዓኒ ኣሎ።",
+      "om": "Boqonnaa torban tokkoo booda fayyaan koo naaf deebi'eera.",
+      "en": "Fortunately I feel fit again after a week of rest."
+    }
+  },
+  {
+    "id": "sent_basis_133",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Drink een kop warme kamillethee met honing voor je keel.",
+    "translations": {
+      "ar": "اشرب كوباً دافئاً من شاي البابونج مع العسل لتهدئة حلقك.",
+      "ti": "ንጎረረኻ ዝኸውን ውዑይ ናይ ካሞሚል ሻሂ ምስ መዓር ስተ።",
+      "om": "Qoonqoo keetiif shayii oo'aa damma wajjin dhugi.",
+      "en": "Drink a cup of warm chamomile tea with honey for your throat."
+    }
+  },
+  {
+    "id": "sent_basis_134",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "Mijn dochter leent elke twee weken prentenboeken uit de bibliotheek.",
+    "translations": {
+      "ar": "تستعير ابنتي كتب الصور الممتعة من المكتبة كل أسبوعين.",
+      "ti": "ጓለይ ኣብ ክልተ ሰሙን ካብ ቤተ-መጻሕፍቲ ናይ ስእሊ መጻሕፍቲ ትልቃሕ።",
+      "om": "Intalli koo torban lama hunda mana kitaabaa irraa kitaaba liqeeffatti.",
+      "en": "My daughter borrows picture books from the library every two weeks."
+    }
+  },
+  {
+    "id": "sent_basis_135",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "De gymles vindt plaats in de grote sportzaal naast de school.",
+    "translations": {
+      "ar": "يقام درس الرياضة في الصالة الرياضية الكبيرة بجوار المدرسة.",
+      "ti": "ናይ ስፖርት ትምህርቲ ኣብ ጥቓ ቤት ትምህርቲ ኣብ ዘሎ ዓቢ ኣዳራሽ ይካየድ።",
+      "om": "Barnoonni ispoortii galma guddaa mana barumsaa cinaatti ta'a.",
+      "en": "Physical education takes place in the large sports hall next to the school."
+    }
+  },
+  {
+    "id": "sent_gevorderd_060",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "In het magazijn sorteren we de binnengekomen goederen op postcode.",
+    "translations": {
+      "ar": "نقوم في المستودع بفرز البضائع الواردة حسب الرمز البريدي للعملاء.",
+      "ti": "ኣብ መኽዘን ነቶም ዝመጹ ኣቑሑት ብናይ ፖስታ ኮድ ንመቓቕሎም ኣለና።",
+      "om": "Kuusaa keessatti meeshaalee dhufan koodii poostaatiin qoodna.",
+      "en": "In the warehouse we sort incoming goods by postal code."
+    }
+  },
+  {
+    "id": "sent_gevorderd_061",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "De veiligheidshelm en veiligheidsbril zijn verplicht op de bouwplaats.",
+    "translations": {
+      "ar": "ارتداء خوذة ونظارات الأمان إلزامي تماماً في موقع البناء والتشييد.",
+      "ti": "ኣብ ናይ ህንጻ ስራሕ ቦታ ናይ ድሕንነት ቆቢዕን መነጸርን ምግባር ግዴታ እዩ።",
+      "om": "Bakka ijaarsaa irratti koofiyyaa fi daawwitii nageenyaa uffachuun dirqama.",
+      "en": "Hard hats and safety goggles are mandatory on the construction site."
+    }
+  },
+  {
+    "id": "sent_gevorderd_062",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Tijdens de lunchpauze eten we samen met de collega's in de kantine.",
+    "translations": {
+      "ar": "نتناول طعام الغداء مع الزملاء في كافتيريا الشركة أثناء الاستراحة.",
+      "ti": "ኣብ ናይ ምሳሕ ዕረፍቲ ምስ መሳርሕትና ኣብ ካንቲን ንበልዕ።",
+      "om": "Yeroo boqonnaa kaafteeriyaa keessatti hiriyaa hojii wajjin nyaanna.",
+      "en": "During lunch break we eat together with colleagues in the cafeteria."
+    }
+  },
+  {
+    "id": "sent_gevorderd_063",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Ik heb een certificaat behaald voor het veilig bedienen van de reachtruck.",
+    "translations": {
+      "ar": "حصلت على شهادة معتمدة لتشغيل رافعة الشاحنات بأمان واحترافية.",
+      "ti": "ናይ ረችትራክ ማሽን ብደሓን ንምዝዋር ምስክር ወረቐት ረኺበ ኣለኹ።",
+      "om": "Konkolaataa fe'umsaa oofuuf waraqaa ragaa fudhadheera.",
+      "en": "I obtained a certificate for safely operating the reach truck."
+    }
+  },
+  {
+    "id": "sent_gevorderd_064",
+    "level": "gevorderd",
+    "topic": "Financiën",
+    "dutch": "U kunt via internetbankieren eenvoudig geld overmaken naar een ander rekeningnummer.",
+    "translations": {
+      "ar": "يمكنك تحويل الأموال بسهولة إلى حساب بنكي آخر عبر تطبيق الإنترنت.",
+      "ti": "ብመንገዲ ናይ ኢንተርኔት ባንክ ናብ ካልእ ሕሳብ ቁጽሪ ብቐሊሉ ገንዘብ ከተመሓላልፍ ትኽእል ኢኻ።",
+      "om": "Interneetii baankiitiin salphaatti maallaqa dabarsuu dandeessu.",
+      "en": "You can easily transfer money to another account number via online banking."
+    }
+  },
+  {
+    "id": "sent_gevorderd_065",
+    "level": "gevorderd",
+    "topic": "Financiën",
+    "dutch": "De gemeente biedt bijzondere bijstand voor onverwachte noodzakelijke kosten.",
+    "translations": {
+      "ar": "تقدم البلدية مساعدة اجتماعية خاصة لتغطية النفقات الضرورية غير المتوقعة.",
+      "ti": "ማዘጋጃ ቤት ንዘይተጸበኻዮም ኣገደስቲ ወጻኢታት ፍሉይ ገንዘባዊ ደገፍ ይህብ እዩ።",
+      "om": "Bulchiinsi magaalaa baasii tasaatiif gargaarsa addaa kenna.",
+      "en": "The municipality provides special assistance for unexpected essential costs."
+    }
+  },
+  {
+    "id": "sent_gevorderd_066",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "De woningbouwvereniging voert periodiek inspecties uit aan rookgasafvoeren.",
+    "translations": {
+      "ar": "تجري مؤسسة الإسكان تفتيشاً وفحصاً دورياً لمداخن العادم وسلامة الغاز.",
+      "ti": "ማሕበር ኣባይቲ ንናይ ትኪ መውጺኢ ሻምቧታት ብቐጻሊ ትምርምሮ እያ።",
+      "om": "Waldaan manneenii ujummoo aaraa yeroo yeroon sakatta'a.",
+      "en": "The housing association periodically carries out inspections on flue gas drains."
+    }
+  },
+  {
+    "id": "sent_gevorderd_067",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "Zorg dat de galerij en de vluchtwegen altijd vrij blijven van obstakels.",
+    "translations": {
+      "ar": "احرص على خلو ممرات الهروب والمداخل دائماً من أي عوائق أو أغراض شخصية.",
+      "ti": "እቲ መተሓላለፍን ናይ ህጹጽ መውጺኢ መገድታትን ወትሩ ካብ ዕንቅፋት ነጻ ክኸውን ኣለዎ።",
+      "om": "Karaaleen ba'umsaa yeroo hunda qulqulluu ta'uu qabu.",
+      "en": "Make sure the corridor and escape routes always remain free of obstacles."
+    }
+  },
+  {
+    "id": "sent_gevorderd_068",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "U moet bij verhuizing binnen dezelfde gemeente uw adreswijziging digitaal doorgeven.",
+    "translations": {
+      "ar": "يجب عليك إبلاغ البلدية رقمياً بتغيير عنوانك حتى لو كان في نفس المدينة.",
+      "ti": "ኣብ ውሽጢ ሓንቲ ማዘጋጃ ቤት ክትቀያየር ከለኻ ነቲ ናይ ኣድራሻ ለውጢ ብዲጂታል ኣፍልጥ።",
+      "om": "Magaalaa tokko keessatti yoo jijjiirtanis teessoo haaraa tooraan beeksisaa.",
+      "en": "When moving within the same municipality, you must report your address change digitally."
+    }
+  },
+  {
+    "id": "sent_gevorderd_069",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "De huisartsenpost is uitsluitend bedoeld voor spoedeisende klachten in de avond en het weekend.",
+    "translations": {
+      "ar": "عيادة الطوارئ المسائية مخصصة فقط للحالات الصحية الحرجة والطارئة بعد الدوام.",
+      "ti": "ናይ ምሸት ሓኪም ስድራቤት ንህጹጽ ናይ ሕማም ጉዳያት ጥራይ ዝውዕል እዩ።",
+      "om": "Kiliinikiin galgalaa dhukkuboota tasaatiif qofa kan oolu dha.",
+      "en": "The out-of-hours GP service is exclusively intended for urgent complaints in evenings and weekends."
+    }
+  },
+  {
+    "id": "sent_gevorderd_070",
+    "level": "gevorderd",
+    "topic": "School",
+    "dutch": "Ouders kunnen via het online schoolportaal de absentie van hun kind doorgeven.",
+    "translations": {
+      "ar": "يمكن للوالدين إبلاغ المدرسة بغياب طفلهم بسهولة عبر البوابة الإلكترونية للمدرسة.",
+      "ti": "ወለዲ ብመንገዲ ናይቲ ቤት ትምህርቲ ኢንተርኔት ፖርታል ናይ ውላዶም ምብኳር ክሕብሩ ይኽእሉ እዮም።",
+      "om": "Warri intarneetii mana barumsaatiin hafuu mucaa isaanii beeksisuu danda'u.",
+      "en": "Parents can report their child's absence through the online school portal."
+    }
+  },
+  {
+    "id": "sent_moeilijk_052",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Een verzoek om handhaving dient te voldoen aan de formele wettelijke vereisten van de Algemene wet bestuursrecht.",
+    "translations": {
+      "ar": "يجب أن يستوفي طلب إنفاذ القانون المتطلبات الإجرائية الصارمة المنصوص عليها في القانون الإداري.",
+      "ti": "ናይ ሕጊ ተፈጻምነት ሕቶ ምስቲ ናይ ምምሕዳር ሕጊ ቅጥዕታት ዝሰማማዕ ክኸውን ኣለዎ።",
+      "om": "Iyyannoon seera raawwachiisuu seera bulchiinsaa wajjin wal simuu qaba.",
+      "en": "An enforcement request must comply with the formal statutory requirements of the General Administrative Law Act."
+    }
+  },
+  {
+    "id": "sent_moeilijk_053",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Indiening van een beroepschrift per e-mail is slechts toegestaan indien het bestuursorgaan die weg expliciet heeft geopend.",
+    "translations": {
+      "ar": "لا يجوز تقديم الاستئناف عبر البريد الإلكتروني إلا إذا فتحت الهيئة الإدارية هذا المسار صراحة.",
+      "ti": "ብኢመይል ይግባይ ምቕራብ ዝፍቀድ እቲ ምምሕዳራዊ ኣካል ነዚ መገዲ ብንጹር እንተፈቒድዎ ጥራይ እዩ።",
+      "om": "Iyyannoo imeyiliidhaan dhiyeessuun kan danda'amu qaamni bulchiinsaa yoo eeyyame qofa.",
+      "en": "Submitting an appeal by email is permitted only if the administrative body has explicitly opened that channel."
+    }
+  },
+  {
+    "id": "sent_moeilijk_054",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "De werkgever dient een deugdelijk re-integratiedossier op te bouwen gedurende de periode van arbeidsongeschiktheid.",
+    "translations": {
+      "ar": "يلزم صاحب العمل بإنشاء وتوثيق ملف إعادة إدماج مهني متكامل ومحكم طوال فترة عجز الموظف.",
+      "ti": "ኣስራሒ ኣብ ግዜ ናይ ስራሕ ስንክልና ግቡእ ናይ ዳግመ-ምስግጋር መዝገብ ክሕዝ ግዴታ ኣለዎ።",
+      "om": "Hojjachiisaan yeroo dhukkubaa hojjetichaa galmee sirrii qopheessuuf dirqama qaba.",
+      "en": "The employer must compile a sound reintegration file during the period of incapacity for work."
+    }
+  },
+  {
+    "id": "sent_moeilijk_055",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Bij het berekenen van de transitievergoeding tellen eerdere dienstjaren bij dezelfde werkgever onverkort mee.",
+    "translations": {
+      "ar": "تحسب سنوات الخدمة السابقة لدى نفس صاحب العمل بالكامل عند تقدير تعويض الانتقال القانوني.",
+      "ti": "ናይ ምስግጋር ካሳ ክሕሰብ ከሎ ኣብቲ ኣስራሒ ዝተሰርሑ ናይ ቀደም ዓመታት ምሉእ ብምሉእ ይቑጸሩ።",
+      "om": "Kaffaltii ce'umsaa shallaguuf waggoonni duraa hojjataman guutummaatti lakkaa'amu.",
+      "en": "When calculating the transition payment, prior years of service with the same employer count in full."
+    }
+  },
+  {
+    "id": "sent_moeilijk_056",
+    "level": "moeilijk",
+    "topic": "Belasting",
+    "dutch": "Bij het vaststellen van de definitieve aanslag inkomstenbelasting kunnen eerdere voorlopige aanslagen worden verrekend.",
+    "translations": {
+      "ar": "تتم تسوية وخصم التقييمات الضريبية المؤقتة السابقة عند إصدار الإشعار النهائي لضريبة الدخل السنوية.",
+      "ti": "ናይ መወዳእታ ናይ እቶት ግብሪ ክፍሊት ክውሰን ከሎ፡ እቶም ናይ ቀደም ግዝያዊ ክፍሊታት ይተዓራረቑ እዮም።",
+      "om": "Murtii gibiraa isa dhumaa irratti kaffaltiin duraan kaffalame ni herreegama.",
+      "en": "When establishing the final income tax assessment, prior provisional assessments can be settled."
+    }
+  },
+  {
+    "id": "sent_moeilijk_057",
+    "level": "moeilijk",
+    "topic": "Huisvesting",
+    "dutch": "De verhuurder mag de toegang tot het gehuurde niet zonder uitdrukkelijke voorafgaande toestemming van de huurder betreden.",
+    "translations": {
+      "ar": "يحظر على مالك العقار دخول الشقة المستأجرة دون موافقة خطية صريحة ومسبقة من المستأجر.",
+      "ti": "ኣካራዪ ብዘይ ናይቲ ተኻራዪ ንጹር ፍቓድ ናብቲ ዝተኻረዮ ገዛ ክኣቱ ኣይፍቀደሉን እዩ።",
+      "om": "Abbaan manaa eeyyama kireeffataa malee mana kireeffame seenuu hin danda'u.",
+      "en": "The landlord may not enter the rented premises without the tenant's express prior consent."
+    }
+  },
+  {
+    "id": "sent_moeilijk_058",
+    "level": "moeilijk",
+    "topic": "Gezondheid",
+    "dutch": "Zorgverleners zijn gehouden aan de wettelijke bewaarplicht van medische dossiers voor ten minste twintig jaar.",
+    "translations": {
+      "ar": "يلزم القانون مؤسسات الرعاية الصحية بالاحتفاظ بالملفات الطبية للمرضى لمدة لا تقل عن عشرين عاماً.",
+      "ti": "ናይ ጥዕና ትካላት ንናይ ሕሙማን መዝገባት እንተወሓደ ንዕስራ ዓመት ናይ ምዕቃብ ሕጋዊ ግዴታ ኣለዎም።",
+      "om": "Tajaajilli fayyaa galmee yaalaa waggoota digdamaaf olkaa'uuf dirqama qaba.",
+      "en": "Healthcare providers are bound by the statutory duty to preserve medical records for at least twenty years."
+    }
+  },
+  {
+    "id": "sent_moeilijk_059",
+    "level": "moeilijk",
+    "topic": "Maatschappij",
+    "dutch": "Het Europees Verdrag voor de Rechten van de Mens biedt burgers directe bescherming tegen willekeur van de overheid.",
+    "translations": {
+      "ar": "توفر الاتفاقية الأوروبية لحقوق الإنسان حماية قانونية مباشرة للمواطنين ضد أي تعسف حكومي محتمل.",
+      "ti": "ናይ ኤውሮጳ ናይ ሰብኣዊ መሰላት ውዕል ንዜጋታት ካብ ናይ መንግስቲ ዘይሕጋዊ ጭቆና ቀጥታዊ ዕቝባ ይህብ።",
+      "om": "Waliigalteen mirga namoomaa Awurooppaa lammiilee miidhaa mootummaa irraa eega.",
+      "en": "The European Convention on Human Rights provides citizens with direct protection against arbitrary government action."
+    }
+  },
+  {
+    "id": "sent_basis_136",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "De sleutel van de berging hangt aan het haakje in de gang.",
+    "translations": {
+      "ar": "مفتاح غرفة التخزين معلق على الخطاف في الممر.",
+      "ti": "መፍትሕ መኽዘን ኣብቲ ኣብ መተሓላለፊ ዘሎ መንጠልጠሊ ተሰቒሉ ኣሎ።",
+      "om": "Furtuun kuusaa karra manaa irratti fannifameera.",
+      "en": "The key to the storage room hangs on the hook in the hallway."
+    }
+  },
+  {
+    "id": "sent_basis_137",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "We maken samen een lekker ontbijt op zondagochtend.",
+    "translations": {
+      "ar": "نحن نحضر معاً وجبة إفطار لذيذة صباح يوم الأحد.",
+      "ti": "ሰንበት ንግሆ ሓቢርና ጥዑም ቁርሲ ንሰርሕ ኣለና።",
+      "om": "Dilbata ganama ciree mi'aawaa waliin qopheessina.",
+      "en": "We make a delicious breakfast together on Sunday morning."
+    }
+  },
+  {
+    "id": "sent_basis_138",
+    "level": "basis",
+    "topic": "Winkelen",
+    "dutch": "Vergeet niet om appelsap en bruiswater mee te nemen.",
+    "translations": {
+      "ar": "لا تنس أن تأخذ عصير التفاح والمياه الغازية معك.",
+      "ti": "ናይ ቱፋሕ ጽማቕን ጋዝ ዘለዎ ማይን ምውሳድ ኣይትረስዕ።",
+      "om": "Bishaan lallaafoo fi burtukaana fudhachuu hin dagatin.",
+      "en": "Do not forget to pick up apple juice and sparkling water."
+    }
+  },
+  {
+    "id": "sent_basis_139",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Het is verstandig om dagelijks vers fruit en groenten te eten.",
+    "translations": {
+      "ar": "من الحكمة والصحي تناول الفواكه والخضروات الطازجة يومياً.",
+      "ti": "ኩሉ መዓልቲ ሓድሽ ፍረታትን ኣሕምልትን ምብላዕ ጥበባዊ እዩ።",
+      "om": "Guyyaa hunda muduraafi fuduraa haaraa nyaachuun gaariidha.",
+      "en": "It is sensible to eat fresh fruit and vegetables daily."
+    }
+  },
+  {
+    "id": "sent_basis_140",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "De stoptrein naar Gouda vertrekt over precies vier minuten.",
+    "translations": {
+      "ar": "القطار المحلي إلى خاودا يغادر بعد أربع دقائق بالضبط.",
+      "ti": "እቲ ናብ ጎውዳ ዝኸይድ ባቡር ድሕሪ ኣርባዕተ ደቒቕ ይነቅል።",
+      "om": "Baaburri gara Gouda daqiiqaa afur booda ka'a.",
+      "en": "The local train to Gouda leaves in exactly four minutes."
+    }
+  },
+  {
+    "id": "sent_basis_141",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "Mijn dochter heeft haar gymspullen netjes in haar tas gedaan.",
+    "translations": {
+      "ar": "وضعت ابنتي أغراض الرياضة بنظام وترتيب في حقيبتها.",
+      "ti": "ጓለይ ናይ ስፖርት ኣቑሑታ ብስርዓት ኣብ ቦርሳኣ ኣእትያቶ ኣላ።",
+      "om": "Intalli koo meeshaa ispoortii koorojoo ishee keessa keesse.",
+      "en": "My daughter put her gym gear neatly in her bag."
+    }
+  },
+  {
+    "id": "sent_basis_142",
+    "level": "basis",
+    "topic": "Familie",
+    "dutch": "We gaan vanmiddag op bezoek bij onze oom en tante.",
+    "translations": {
+      "ar": "سنذهب بعد ظهر اليوم لزيارة عمنا وعمتنا في منزلهم.",
+      "ti": "ሎሚ ድሕሪ ቐትሪ ንሓወቦናን ንኣሞናን ክንበጽሖም ክንከይድ ኢና።",
+      "om": "Har'a waaree booda wasiilaafi adaadaa keenya daawwanna.",
+      "en": "We are visiting our uncle and aunt this afternoon."
+    }
+  },
+  {
+    "id": "sent_basis_143",
+    "level": "basis",
+    "topic": "Begroeting",
+    "dutch": "Hartelijk dank voor de gastvrijheid en tot ziens!",
+    "translations": {
+      "ar": "شكراً جزيلاً لك على حسن الضيافة وإلى اللقاء القريب!",
+      "ti": "ስለቲ ዝገበርኩምልና ምዉቕ ኣቀባብላ ኣዝየ የቐንየለይ፡ ደሓን ኩኑ!",
+      "om": "Keessummeessuu keessaniif baay'ee galatoomaa, walgarra!",
+      "en": "Thank you very much for the hospitality and goodbye!"
+    }
+  },
+  {
+    "id": "sent_gevorderd_071",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Tijdens de toolboxmeeting bespreken we veiligheid op de werkplek.",
+    "translations": {
+      "ar": "خلال اجتماع السلامة الدوري نناقش إجراءات الأمان في موقع العمل.",
+      "ti": "ኣብ ናይ ድሕንነት ኣኼባ ብዛዕባ ድሕንነት ስራሕ ንመያየጥ ኣለና።",
+      "om": "Walga'ii nageenyaa irratti nageenya bakka hojii mari'anna.",
+      "en": "During the toolbox meeting we discuss workplace safety."
+    }
+  },
+  {
+    "id": "sent_gevorderd_072",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Ik heb mijn leidinggevende gevraagd om een referentie voor mijn sollicitatie.",
+    "translations": {
+      "ar": "طلبت من مديري المباشر كتابة خطاب توصية رسمي لتقديمي للوظيفة.",
+      "ti": "ንሓላፊየይ ንናይ ስራሕ መመልከቲ ዝኸውን ናይ ምስክርነት ደብዳበ ሓቲተዮ ኣለኹ።",
+      "om": "Geggeessaa koo xalayaa ragaa hojii gaafadheera.",
+      "en": "I asked my manager for a reference for my job application."
+    }
+  },
+  {
+    "id": "sent_gevorderd_073",
+    "level": "gevorderd",
+    "topic": "Financiën",
+    "dutch": "U kunt huurtoeslag met terugwerkende kracht aanvragen tot één september.",
+    "translations": {
+      "ar": "يمكنك التقدم بطلب للحصول على بدل الإيجار بأثر رجعي حتى الأول من سبتمبر.",
+      "ti": "ናይ ገዛ ክራይ ደገፍ ክሳብ ሓደ መስከረም ናይ ዝሓለፈ ግዜ ክትሓትት ትኽእል ኢኻ።",
+      "om": "Kireeffannaa mana mootummaa Fulbaana tokko dura deebiftanii gaafachuu dandeessu.",
+      "en": "You can apply for rent allowance retroactively until the first of September."
+    }
+  },
+  {
+    "id": "sent_gevorderd_074",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "De huisarts verwees mij door naar een gespecialiseerde kniearts.",
+    "translations": {
+      "ar": "أحالني طبيب الأسرة مباشرة إلى طبيب عظام متخصص في علاج الركبة.",
+      "ti": "ሓኪም ስድራቤት ናብ ናይ ብርኪ ስፔሻሊስት ሓኪም መሪሑኒ ኣሎ።",
+      "om": "Dooqtoorri maatii gara ogeessa jilbaatti na erge.",
+      "en": "The GP referred me to a specialist knee doctor."
+    }
+  },
+  {
+    "id": "sent_gevorderd_075",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "De verhuurder moet zorgen voor een goed werkende mechanische ventilatie.",
+    "translations": {
+      "ar": "يلتزم مالك العقار بتوفير نظام تهوية ميكانيكي يعمل بكفاءة في الشقة.",
+      "ti": "እቲ ኣካራዪ ጽቡቕ ዝሰርሕ ናይ ኣየር መዘወሪ ናይ ምቕራብ ሓላፍነት ኣለዎ።",
+      "om": "Abbaan manaa meeshaa qilleensa naannessu sirreessuuf itti gaafatamummaa qaba.",
+      "en": "The landlord must ensure properly functioning mechanical ventilation."
+    }
+  },
+  {
+    "id": "sent_gevorderd_076",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "U kunt bij verlies van uw paspoort direct online een melding maken.",
+    "translations": {
+      "ar": "يمكنك في حال فقدان جواز سفرك تقديم بلاغ رسمي فوراً عبر الإنترنت.",
+      "ti": "ፓስፖርትካ እንተጠፊኡካ ብቐጥታ ኣብ ኢንተርኔት ሓበሬታ ክትህብ ትኽእል ኢኻ።",
+      "om": "Paaspoortiin yoo bade battalumatti toora irratti beeksisuu dandeessu.",
+      "en": "If you lose your passport, you can report it directly online."
+    }
+  },
+  {
+    "id": "sent_gevorderd_077",
+    "level": "gevorderd",
+    "topic": "School",
+    "dutch": "Tijdens de schoolvakanties organiseert de gemeente leuke sportactiviteiten.",
+    "translations": {
+      "ar": "تنظم البلدية أنشطة رياضية وترفيهية ممتعة للأطفال خلال العطلات المدرسية.",
+      "ti": "ኣብ ናይ ቤት ትምህርቲ ዕረፍቲ፡ ማዘጋጃ ቤት ደስ ዝብሉ ናይ ስፖርት ንጥፈታት ተዳልው።",
+      "om": "Baqonnaa mana barumsaatti mootummaan naannoo tapha ispoortii qopheessa.",
+      "en": "During school holidays the municipality organizes fun sports activities."
+    }
+  },
+  {
+    "id": "sent_moeilijk_060",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Een bezwaarschrift kan wegens kennelijke niet-ontvankelijkheid zonder horen worden afgewezen.",
+    "translations": {
+      "ar": "يجوز رفض الاعتراض دون جلسة استماع بسبب عدم القبول الشكلي الواضح والصريح.",
+      "ti": "ናይ ተቓውሞ ደብዳበ ቅቡልነት ብዘይምርካቡ ብዘይ ስምዒት ክውድቕ ይኽእል እዩ።",
+      "om": "Iyyannoon seeraan ala ta'uu isaatiin dhaggeeffannaa malee kuffifamuu danda'a.",
+      "en": "An objection may be rejected without a hearing due to manifest inadmissibility."
+    }
+  },
+  {
+    "id": "sent_moeilijk_061",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Het concurrentiebeding mag de werknemer niet onbillijk belemmeren in zijn arbeidsmarktpositie.",
+    "translations": {
+      "ar": "يحظر أن يمنع شرط عدم المنافسة الموظف بشكل غير عادل من إيجاد عمل ملائم.",
+      "ti": "ናይ ተወዳዳርነት ደንቢ ንሰራሕተኛ ኣብ ናይ ስራሕ ዕዳጋ ብዘይፍትሓዊ መገዲ ክዓግቶ የብሉን።",
+      "om": "Waliigalteen dorgommii dhowwu hojjetaa haala hin taaneen miidhuu hin qabu.",
+      "en": "The non-compete clause must not unfairly impede the employee in their labor market position."
+    }
+  },
+  {
+    "id": "sent_moeilijk_062",
+    "level": "moeilijk",
+    "topic": "Belasting",
+    "dutch": "Bij box drie wordt het werkelijke rendement vanaf toekomstige belastingjaren belast.",
+    "translations": {
+      "ar": "ستخضع العوائد الاستثمارية الحقيقية للضريبة في الصندوق الثالث اعتباراً من الأعوام القادمة.",
+      "ti": "ኣብ ቦክስ ሰለስተ ካብ ዝመጽእ ናይ ግብሪ ዓመታት ጀሚሩ እቲ ሓቀኛ መኽሰብ ግብሪ ክኽፈለሉ እዩ።",
+      "om": "Galii dhugaa qabeenya irraa argamu irratti gara fuulduraatti gibirri kaffalama.",
+      "en": "In box three, actual yields will be taxed starting in future tax years."
+    }
+  },
+  {
+    "id": "sent_moeilijk_063",
+    "level": "moeilijk",
+    "topic": "Huisvesting",
+    "dutch": "De verhuurder mag bij aanvang van de huur ten hoogste twee maanden kale huur als borgsom vragen.",
+    "translations": {
+      "ar": "لا يجوز للمؤجر عند بدء عقد الإيجار طلب أكثر من إيجار شهرين مجردين كوديعة تأمين.",
+      "ti": "ኣካራዪ ኣብ መጀመርታ ናይ ክራይ ውዕል ካብ ናይ ክልተ ወርሒ ክራይ ንላዕሊ ውሕስነት ክሓትት ኣይፍቀደሉን እዩ።",
+      "om": "Abbaan manaa kaffaltii qabsiisaa ji'a lamaa caalaa gaafachuu hin danda'u.",
+      "en": "The landlord may request a security deposit of at most two months basic rent at commencement of tenancy."
+    }
+  },
+  {
+    "id": "sent_moeilijk_064",
+    "level": "moeilijk",
+    "topic": "Maatschappij",
+    "dutch": "Het Handvest van de Grondrechten van de Europese Unie waarborgt menselijke waardigheid en vrijheid.",
+    "translations": {
+      "ar": "يضمن ميثاق الحقوق الأساسية للاتحاد الأوروبي صون الكرامة الإنسانية والحرية الفردية.",
+      "ti": "ናይ ኤውሮጳ ሕብረት ናይ መሰረታዊ መሰላት ቻርተር ናይ ሰብኣዊ ክብሪን ናጽነትን የረጋግጽ።",
+      "om": "Waliigalteen mirga bu'uuraa Awurooppaa ulfina namoomaafi bilisummaa eega.",
+      "en": "The Charter of Fundamental Rights of the European Union safeguards human dignity and freedom."
+    }
+  },
+  {
+    "id": "sent_basis_144",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Mag ik een glas koud water met ijsblokjes?",
+    "translations": {
+      "ar": "هل يمكنني الحصول على كوب ماء بارد مع مكعبات الثلج؟",
+      "ti": "ዝሑል ማይ ምስ በረድ ክረክብ እኽእልዶ፧",
+      "om": "Bishaan qabbanaawaa cabbii wajjin argachuu nan danda'aa?",
+      "en": "May I have a glass of cold water with ice cubes?"
+    }
+  },
+  {
+    "id": "sent_basis_145",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Wij eten vanavond pannenkoeken met stroop.",
+    "translations": {
+      "ar": "سنتناول الليلة الفطائر الهولندية مع العسل الأسود.",
+      "ti": "ምሸት ናይ ሆላንድ ፓንኬክ ምስ ሽሮፕ ንበልዕ።",
+      "om": "Har'a galgala paankeekii dhangala'aa wajjin nyaanna.",
+      "en": "We are eating pancakes with syrup tonight."
+    }
+  },
+  {
+    "id": "sent_basis_146",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "De rijst kookt in tien minuten gaar op het fornuis.",
+    "translations": {
+      "ar": "ينضج الأرز خلال عشر دقائق على الموقد.",
+      "ti": "እቲ ሩዝ ኣብ ውሽጢ ዓሰርተ ደቒቕ ኣብ እቶን ይበስል።",
+      "om": "Ruuziin daqiiqaa kudhan keessatti ibidda irratti bilchaata.",
+      "en": "The rice cooks tender on the stove in ten minutes."
+    }
+  },
+  {
+    "id": "sent_basis_147",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Wil je een beetje melk en suiker in je koffie?",
+    "translations": {
+      "ar": "هل تريد القليل من الحليب والسكر في قهوتك؟",
+      "ti": "ኣብ ቡንካ ቁሩብ ጸባን ሽኮርን ትደሊ ዲኻ፧",
+      "om": "Buna kee keessatti aannaniifi sukkaara ni barbaaddaa?",
+      "en": "Do you want some milk and sugar in your coffee?"
+    }
+  },
+  {
+    "id": "sent_basis_148",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Ik snijd de komkommer en de rode paprika in plakjes.",
+    "translations": {
+      "ar": "أنا أقطع الخيار والفلفل الحلو الأحمر إلى شرائح رقيقة.",
+      "ti": "ነቲ ኪያርን ቀይሕ በርበረን ብቀጠንቲ ቁራጻት እቆርጾ ኣለኹ።",
+      "om": "Qooccoofi qaraasuu diimaa ciccireera.",
+      "en": "I slice the cucumber and the red bell pepper into slices."
+    }
+  },
+  {
+    "id": "sent_basis_149",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "De bakker bakt elke ochtend vers bruinbrood.",
+    "translations": {
+      "ar": "يخبز الخباز خبز القمح الكامل الطازج كل صباح باكر.",
+      "ti": "እቲ ጋጋሪ ንግሆ ንግሆ ሓድሽ ቡናዊ ባኒ ይጋግር።",
+      "om": "Tolchaan daabboo ganama hunda daabboo haaraa tolcha.",
+      "en": "The baker bakes fresh whole wheat bread every morning."
+    }
+  },
+  {
+    "id": "sent_basis_150",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Zout en zwarte peper staan op het midden van de tafel.",
+    "translations": {
+      "ar": "الملح والفلفل الأسود موضوعان في وسط طاولة الطعام.",
+      "ti": "ጨውን ጸሊም በርበረን ኣብ ማእከል ጠረጴዛ ተቐሚጦም ኣለዉ።",
+      "om": "Soogiddaafi qaraasuun gurraachi gidduu maaddiitti jiru.",
+      "en": "Salt and black pepper are in the middle of the table."
+    }
+  },
+  {
+    "id": "sent_basis_151",
+    "level": "basis",
+    "topic": "Eten",
+    "dutch": "Deze appel smaakt lekker zoet en sappig.",
+    "translations": {
+      "ar": "هذه التفاحة لذيذة جداً وحلوة ومليئة بالعصير.",
+      "ti": "እዚ ቱፋሕ ጥዑምን ልስሉስን መጺጹን እዩ።",
+      "om": "Hojjaan kun baay'ee mi'aawaa fi mi'eessituu qaba.",
+      "en": "This apple tastes delightfully sweet and juicy."
+    }
+  },
+  {
+    "id": "sent_basis_152",
+    "level": "basis",
+    "topic": "Familie",
+    "dutch": "Mijn jongste broer woont en studeert in Utrecht.",
+    "translations": {
+      "ar": "أخي الأصغر يعيش ويدرس حالياً في مدينة أوترخت.",
+      "ti": "እቲ ዝነኣሰ ሓወይ ኣብ ዩትረክት ይነብርን ይምሃርን ኣሎ።",
+      "om": "Obboleessi koo inni quxusuun magaalaa Utrecht keessa barata.",
+      "en": "My youngest brother lives and studies in Utrecht."
+    }
+  },
+  {
+    "id": "sent_basis_153",
+    "level": "basis",
+    "topic": "Familie",
+    "dutch": "Mijn grootmoeder viert vandaag haar tachtigste verjaardag.",
+    "translations": {
+      "ar": "تحتفل جدتي اليوم بعيد ميلادها الثمانين وسط العائلة.",
+      "ti": "ዓባየይ ሎሚ መበል ሰማንያ ዓመት ልደታ ተኽብር ኣላ።",
+      "om": "Akkoon koo har'a waggaa saddeettamaffaa dhaloota ishee kabajji.",
+      "en": "My grandmother is celebrating her eightieth birthday today."
+    }
+  },
+  {
+    "id": "sent_basis_154",
+    "level": "basis",
+    "topic": "Familie",
+    "dutch": "De baby slaapt al twee uur rustig in de wieg.",
+    "translations": {
+      "ar": "الرضيع نائم بهدوء في سريره الصغير منذ ساعتين.",
+      "ti": "እቲ ህጻን ኣብ ዓራት ቆልዑ ንኽልተ ሰዓት ብሰላም ይድቅስ ኣሎ።",
+      "om": "Daa'imni sa'aatii lamaaf siree isaa keessatti nagaan rafaa jira.",
+      "en": "The baby has been sleeping peacefully in the crib for two hours."
+    }
+  },
+  {
+    "id": "sent_basis_155",
+    "level": "basis",
+    "topic": "Familie",
+    "dutch": "Mijn oom en tante komen zaterdag gezellig op bezoek.",
+    "translations": {
+      "ar": "سيأتي عمي وعمتي لزيارتنا بكل سرور يوم السبت.",
+      "ti": "ሓወቦይን ኣሞይን ቀዳም ንምብጻሕ ክመጹና እዮም።",
+      "om": "Wasiilli kootiifi adaadaan koo Sanbata nu gaafachuuf dhufu.",
+      "en": "My uncle and aunt are visiting pleasantly on Saturday."
+    }
+  },
+  {
+    "id": "sent_basis_156",
+    "level": "basis",
+    "topic": "Familie",
+    "dutch": "We kijken vanavond met het hele gezin naar het nieuws.",
+    "translations": {
+      "ar": "نشاهد الأخبار الليلة مع جميع أفراد العائلة معاً.",
+      "ti": "ምሸት ምስ ብምሉኦም ኣባላት ስድራቤት ዜና ንዕዘብ።",
+      "om": "Galgala maatii guutuu wajjin oduu ilaalla.",
+      "en": "Tonight we watch the news together with the whole family."
+    }
+  },
+  {
+    "id": "sent_basis_157",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "Ik doe het gordijn dicht als het buiten donker wordt.",
+    "translations": {
+      "ar": "أغلق الستارة عندما يحل الظلام في الخارج.",
+      "ti": "ደገ ጸልማት ክኸውን ከሎ ነቲ መጋረጃ እዓጽዎ።",
+      "om": "Yeroo alaan dukkanaa'u golgaa balbala cufa.",
+      "en": "I close the curtain when it gets dark outside."
+    }
+  },
+  {
+    "id": "sent_basis_158",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "De afwasmachine is klaar en moet worden leeggeruimd.",
+    "translations": {
+      "ar": "غسالة الصحون انتهت ويجب تفريغ الأطباق النظيفة منها.",
+      "ti": "እታ መሐጸቢት ሳሕኒ ወዲኣ እያ፡ ኣቑሑት ክወጸላ ኣለዎ።",
+      "om": "Mishiinni mi'a dhiqu hojii xumureera, duukaa baasuun barbaachisaa dha.",
+      "en": "The dishwasher is finished and needs to be emptied."
+    }
+  },
+  {
+    "id": "sent_basis_159",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "Leg de schone handdoeken op de bovenste plank in de kast.",
+    "translations": {
+      "ar": "ضع المناشف النظيفة على الرف العلوي في الخزانة.",
+      "ti": "ነቶም ጽሩያት ፍታታት ኣብቲ ላዕላይ ሸልፍ ናይቲ ኣልማሪ ኣንብሮም።",
+      "om": "Mantaa qulqulluu saanduqa uffataa keessa gubbaa kaa'aa.",
+      "en": "Put the clean towels on the top shelf in the closet."
+    }
+  },
+  {
+    "id": "sent_basis_160",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "De deurbel gaat, er staat iemand voor de ingang.",
+    "translations": {
+      "ar": "جرس الباب يرن، هناك شخص واقف أمام المدخل الرئيسي.",
+      "ti": "ደወል በሪ ይድውል ኣሎ፡ ኣብ ኣፍደገ ሰብ ኣሎ።",
+      "om": "Bilbilli balbalaa ni iyyisiisa, namatu balbala dura dhaabbata.",
+      "en": "The doorbell rings, someone is standing at the entrance."
+    }
+  },
+  {
+    "id": "sent_basis_161",
+    "level": "basis",
+    "topic": "Wonen",
+    "dutch": "Ik zet de verwarming een beetje hoger omdat het koud is.",
+    "translations": {
+      "ar": "سأرفع التدفئة قليلاً لأن الجو بارد داخل الغرفة.",
+      "ti": "ቁሪ ስለ ዝኾነ ነቲ መሞቒ ቁሩብ ንላዕሊ እውስኾ ኣለኹ።",
+      "om": "Qabbana waan ta'eef ho'iftuu xiqqoo ol nan guddisa.",
+      "en": "I turn the heating up a little because it is cold."
+    }
+  },
+  {
+    "id": "sent_basis_162",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "De buschauffeur stempelt of scant onze vervoerbewijzen.",
+    "translations": {
+      "ar": "يقوم سائق الحافلة بفحص تذاكر الركاب الإلكترونية عند الصعود.",
+      "ti": "እቲ ዘዋሪ ኣውቶቡስ ነቲ ናይ መጓዓዝያ ትኬትና ይምርምሮ።",
+      "om": "Konkolaachisaan baasii tikkeettii keenya sakatta'a.",
+      "en": "The bus driver stamps or scans our transit tickets."
+    }
+  },
+  {
+    "id": "sent_basis_163",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Er staat een lange file van tien kilometer op de snelweg.",
+    "translations": {
+      "ar": "يوجد ازدحام مروري بطول عشرة كيلومترات على الطريق السريع.",
+      "ti": "ኣብ ዓቢ መገዲ ናይ ዓሰርተ ኪሎሜተር ናይ ማካይን ሰልፊ ኣሎ።",
+      "om": "Daandii ariifataa irratti hiriirri konkolaataa kiilomeetira 10 dheeratu jira.",
+      "en": "There is a long traffic jam of ten kilometers on the highway."
+    }
+  },
+  {
+    "id": "sent_basis_164",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Ik pomp de banden van mijn fiets op voor vertrek.",
+    "translations": {
+      "ar": "أقوم بضخ الهواء في إطارات دراجتي الهوائية قبل الانطلاق.",
+      "ti": "ቅድሚ ምብጋሰይ ንናይ ብሽክለታይ ጎማታት ንፋስ እመልኣሎም።",
+      "om": "Osoo hin ka'in dura gommaa biskileetii koo qilleensa itti guuta.",
+      "en": "I pump up the tires of my bicycle before departure."
+    }
+  },
+  {
+    "id": "sent_basis_165",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "Vergeet niet uit te checken met je OV-chipkaart.",
+    "translations": {
+      "ar": "لا تنس تسجيل الخروج ببطاقة المواصلات العامة عند الوصول.",
+      "ti": "ብናይ ህዝባዊ መጓዓዝያ ካርድኻ ቸክ-ኣውት ምግባር ከይትረስዕ።",
+      "om": "Kaardii geejjiba ummataatiin ba'uu kee hin dagatin.",
+      "en": "Do not forget to check out with your public transport card."
+    }
+  },
+  {
+    "id": "sent_basis_166",
+    "level": "basis",
+    "topic": "Vervoer",
+    "dutch": "De metro rijdt elke vier minuten naar het centrum.",
+    "translations": {
+      "ar": "يتحرك قطار الأنفاق كل أربع دقائق باتجاه وسط المدينة.",
+      "ti": "እቲ ሜትሮ ኣብ ነፍሲ ወከፍ ኣርባዕተ ደቒቕ ናብ ማእከል ከተማ ይጓዓዝ።",
+      "om": "Baaburri lafa jalaa daqiiqaa afur hundaatti gara giddu gala magaalaatti deema.",
+      "en": "The metro runs to the city center every four minutes."
+    }
+  },
+  {
+    "id": "sent_basis_167",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Ik heb een afspraak bij de tandarts om kwart over drie.",
+    "translations": {
+      "ar": "لدي موعد مع طبيب الأسنان في الساعة الثالثة والربع عصراً.",
+      "ti": "ምስ ናይ ስኒ ሓኪም ሰዓት ሰለስተን ርብዕን ቀጠሮ ኣሎኒ።",
+      "om": "Dhaabbata yaala ilkaaniitti sa'aatii sadiifi kurmaana irratti beellama qaba.",
+      "en": "I have an appointment at the dentist at a quarter past three."
+    }
+  },
+  {
+    "id": "sent_basis_168",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Neem twee tabletten paracetamol in met een glas water.",
+    "translations": {
+      "ar": "تناول قرصين من الباراسيتامول مع كوب كامل من الماء.",
+      "ti": "ክልተ ከኒና ፓራሲታሞል ምስ ሓደ ብኬሪ ማይ ውሰድ።",
+      "om": "Qoricha paaraasiitaamoolii kiniinii lama bishaan wajjin liqimsaa.",
+      "en": "Take two paracetamol tablets with a glass of water."
+    }
+  },
+  {
+    "id": "sent_basis_169",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Ik ben verkouden en heb veel last van keelpijn.",
+    "translations": {
+      "ar": "أنا مصاب بالزكام وأعاني من ألم مستمر في الحلق.",
+      "ti": "ጉንፋን ሒዙኒ ኣሎ፡ ጎረረይ እውን ይቐርጸኒ ኣሎ።",
+      "om": "Qufaan na qabeera, qoonqoon koos baay'ee na dhukkuba.",
+      "en": "I have a cold and suffer a lot from a sore throat."
+    }
+  },
+  {
+    "id": "sent_basis_170",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "De dokter luistert met een stethoscoop naar mijn longen.",
+    "translations": {
+      "ar": "يستمع الطبيب إلى صوت رئتي باستخدام السماعة الطبية.",
+      "ti": "እቲ ሓኪም ብመስማዕቲ ኣቢሉ ንናይ ሳምቡአይ ድምጺ ይሰምዖ ኣሎ።",
+      "om": "Dooktorri meeshaa dhaggeeffannaatiin somba koo dhaggeeffata.",
+      "en": "The doctor listens to my lungs with a stethoscope."
+    }
+  },
+  {
+    "id": "sent_basis_171",
+    "level": "basis",
+    "topic": "Gezondheid",
+    "dutch": "Wandel elke dag dertig minuten voor een goede conditie.",
+    "translations": {
+      "ar": "امشِ يومياً لمدة ثلاثين دقيقة للحفاظ على صحة ولياقة بدنية جيدة.",
+      "ti": "ንጥዑይ ጥዕና ኣብ መዓልቲ ሰላሳ ደቒቕ ተመላለስ።",
+      "om": "Fayyaa gaariif guyyaa hunda daqiiqaa soddoma deemaa.",
+      "en": "Walk thirty minutes every day for good fitness."
+    }
+  },
+  {
+    "id": "sent_basis_172",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "De leerlingen schrijven hun antwoorden in hun werkboek.",
+    "translations": {
+      "ar": "يكتب الطلاب إجاباتهم بعناية في كراسة التمارين المدرسية.",
+      "ti": "እቶም ተምሃሮ መልሶም ኣብ ናይ ስራሕ መጽሓፎም ይጽሕፍዎ ኣለዉ።",
+      "om": "Barattoonni deebii isaanii kitaaba hojii keessatti barreessu.",
+      "en": "The pupils write their answers in their workbook."
+    }
+  },
+  {
+    "id": "sent_basis_173",
+    "level": "basis",
+    "topic": "School",
+    "dutch": "De leraar legt de Nederlandse grammatica stap voor stap uit.",
+    "translations": {
+      "ar": "يشرح المعلم قواعد اللغة الهولندية خطوة بخطوة للجميع.",
+      "ti": "እቲ መምህር ነቲ ናይ ኔዘርላንድስ ሰዋስው በብደረጃ የብርሆ ኣሎ።",
+      "om": "Barsiisaan seera afaan Daachi suuta suutaan ibsa.",
+      "en": "The teacher explains the Dutch grammar step by step."
+    }
+  },
+  {
+    "id": "sent_basis_174",
+    "level": "basis",
+    "topic": "Werk",
+    "dutch": "Mijn collega stuurt mij een digitaal verslag via e-mail.",
+    "translations": {
+      "ar": "أرسل لي زميلي تقريراً رقمياً مفصلاً عبر البريد الإلكتروني.",
+      "ti": "መሳርሕተይ ብኢመይል ናይ ጽሑፍ ጸብጻብ ሰዲዱለይ ኣሎ።",
+      "om": "Hiriyaan hojii koo gabaasa imeyiliin naaf ergeera.",
+      "en": "My colleague sends me a digital report via email."
+    }
+  },
+  {
+    "id": "sent_basis_175",
+    "level": "basis",
+    "topic": "Werk",
+    "dutch": "We beginnen elke ochtend om half negen met een overleg.",
+    "translations": {
+      "ar": "نبدأ العمل كل صباح في الثامنة والنصف باجتماع تخطيطي.",
+      "ti": "ንግሆ ኩሉ ግዜ ሰዓት ሸሞንተን ፈረቓን ብናይ ስራሕ ኣኼባ ንጅምር።",
+      "om": "Ganama sa'aatii lamaafi walakkaa walgahii hojiitiin jalqabna.",
+      "en": "We start every morning at half past eight with a consultation meeting."
+    }
+  },
+  {
+    "id": "sent_basis_176",
+    "level": "basis",
+    "topic": "Werk",
+    "dutch": "Ik zet mijn handtekening onder het tijdelijke arbeidscontract.",
+    "translations": {
+      "ar": "أضع توقيعي على عقد العمل المؤقت المبرم مع المؤسسة.",
+      "ti": "ኣብቲ ናይ ግዝያዊ ስራሕ ውዕል ፌርማይ ኣንብረሉ ኣለኹ።",
+      "om": "Waliigaltee hojii yeroo irratti mallattoo koo nan kaa'a.",
+      "en": "I put my signature at the bottom of the temporary employment contract."
+    }
+  },
+  {
+    "id": "sent_gevorderd_078",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "U moet een geldig legitimatiebewijs meenemen naar de balieafspraak.",
+    "translations": {
+      "ar": "يجب عليك إحضار وثيقة إثبات شخصية سارية إلى موعدك في مكتب الاستقبال.",
+      "ti": "ናብ ናይ ማዘጋጃ ቤት ቀጠሮኻ ሕጋዊ መንነት መረጋገጺ ወረቐት ክትማላእ ኣለካ።",
+      "om": "Beellama bulchiinsaaf waraqaa eenyummaa seera qabeessa qabattanii dhiyaadhaa.",
+      "en": "You must bring a valid identity document to the counter appointment."
+    }
+  },
+  {
+    "id": "sent_gevorderd_079",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "Voor het aanvragen van een paspoort moeten recente pasfoto's worden ingeleverd.",
+    "translations": {
+      "ar": "لتقديم طلب جواز السفر يجب تسليم صور شخصية حديثة ومطابقة للمعايير.",
+      "ti": "ፓስፖርት ንምሕታት ቀረባ እዋን ዝተላዕለ ፓስፖርት ስእልታት ክተረክብ ኣለካ።",
+      "om": "Paaspoortii gaafachuuf suuraa dhiyoo fudhatame dhiyeessuun barbaachisaa dha.",
+      "en": "Recent passport photos must be submitted when applying for a passport."
+    }
+  },
+  {
+    "id": "sent_gevorderd_080",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "De gemeente stuurt binnen vier weken een officiële schriftelijke beslissing.",
+    "translations": {
+      "ar": "سترسل البلدية قراراً رسمياً مكتوباً في غضون أربعة أسابيع من تاريخ الطلب.",
+      "ti": "ማዘጋጃ ቤት ኣብ ውሽጢ ኣርባዕተ ሰሙን ወግዓዊ ናይ ጽሑፍ ውሳነ ክሰድድ እዩ።",
+      "om": "Bulchiinsi magaalaa torban afur keessatti murtii barreeffamaa erga.",
+      "en": "The municipality sends an official written decision within four weeks."
+    }
+  },
+  {
+    "id": "sent_gevorderd_081",
+    "level": "gevorderd",
+    "topic": "Gemeente",
+    "dutch": "U kunt grofvuil gratis laten ophalen na online aanmelding.",
+    "translations": {
+      "ar": "يمكنك حجز موعد مجاني لجمع النفايات كبيرة الحجم عبر موقع البلدية.",
+      "ti": "ዓበይቲ ጐሓፍ ብኢንተርኔት ድሕሪ ምምዝጋብ ብነጻ ከም ዝውሰድ ክትገብር ትኽእል ኢኻ።",
+      "om": "Kosiilee gurguddoo tooraan galmeessitanii tolaan akka fudhatamu gochuu dandeessu.",
+      "en": "You can have bulky waste collected for free after registering online."
+    }
+  },
+  {
+    "id": "sent_gevorderd_082",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "Het is verstandig om regelmatig de ramen te openen om vocht te voorkomen.",
+    "translations": {
+      "ar": "من الحكمة فتح النوافذ بانتظام لتهوية المنزل ومنع تراكم الرطوبة.",
+      "ti": "ጠሊ ከይፍጠር ወትሩ መስኮት ከፊትካ ንፋስ ምእታው ጥበባዊ እዩ።",
+      "om": "Jiidha hambisuuf yeroo yeroon foddaa banuun gaarii dha.",
+      "en": "It is wise to open the windows regularly to prevent moisture build-up."
+    }
+  },
+  {
+    "id": "sent_gevorderd_083",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "De jaarlijkse eindafrekening voor gas en elektriciteit volgt in januari.",
+    "translations": {
+      "ar": "ستصدر الفاتورة السنوية النهائية للغاز والكهرباء في شهر يناير القادم.",
+      "ti": "ናይ ጋዝን መብራህትን ዓመታዊ ናይ ክፍሊት ጸብጻብ ኣብ ወርሒ ጥሪ ክመጽእ እዩ።",
+      "om": "Herregni xumuraa waggaa kan gaasii fi elektiriikii Amajjii keessa dhufa.",
+      "en": "The annual settlement for gas and electricity follows in January."
+    }
+  },
+  {
+    "id": "sent_gevorderd_084",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "Huurders kunnen huurtoeslag aanvragen als hun inkomen onder de grens ligt.",
+    "translations": {
+      "ar": "يمكن للمستأجرين التقديم على إعانة الإيجار إذا كان دخلهم تحت الحد المسموح.",
+      "ti": "እቶቶም ትሑት ዝኾነ ተኻረይቲ ናይ ክራይ ደገፍ ገንዘብ ክሓቱ ይኽእሉ እዮም።",
+      "om": "Kireeffattoonni galii xiqqaa qaban gargaarsa kiree manaa gaafachuu danda'u.",
+      "en": "Tenants can apply for rent benefit if their income is below the threshold."
+    }
+  },
+  {
+    "id": "sent_gevorderd_085",
+    "level": "gevorderd",
+    "topic": "Wonen",
+    "dutch": "Bij lekkage dient u direct de beheerder of verhuurder telefonisch te waarschuwen.",
+    "translations": {
+      "ar": "في حالة حدوث تسرب للمياه يجب إخطار المشرف أو المالك فوراً عبر الهاتف.",
+      "ti": "ማይ ምፍሳስ ምስ ዘጋጥም ነቲ ኣካራዪ ብስልኪ ብቕልጡፍ ከተፍልጦ ይግባእ።",
+      "om": "Bishaan yoo dhangala'e yeruma sana abbaa manaa bilbilaan beeksisaa.",
+      "en": "In case of leakage you should immediately notify the property manager by phone."
+    }
+  },
+  {
+    "id": "sent_gevorderd_086",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Werknemers hebben in Nederland recht op minimaal vier weken betaalde vakantie per jaar.",
+    "translations": {
+      "ar": "يحق للموظفين في هولندا الحصول على إجازة مدفوعة الأجر لمدة أربعة أسابيع سنوياً.",
+      "ti": "ሰራሕተኛታት ኣብ ኔዘርላንድስ ኣብ ዓመት እንተወሓደ ናይ ኣርባዕተ ሰሙን ክፍሊት ዘለዎ ዕረፍቲ መሰል ኣለዎም።",
+      "om": "Hojjattoonni waggaatti yoo xiqqaate boqonnaa torban afurii kan kaffaltii qabu argachuuf mirga qabu.",
+      "en": "Employees in the Netherlands are entitled to at least four weeks of paid leave per year."
+    }
+  },
+  {
+    "id": "sent_gevorderd_087",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Tijdens de proeftijd kunnen zowel werknemer als werkgever de overeenkomst direct opzeggen.",
+    "translations": {
+      "ar": "خلال فترة التجربة يحق لكل من الموظف وصاحب العمل إنهاء العقد فوراً دون إنذار.",
+      "ti": "ኣብ ናይ ፈተነ እዋን ሰራሕተኛን ኣስራሕን ነቲ ውዕል ብቕጽበት ከቋርጽዎ መሰል ኣለዎም።",
+      "om": "Yeroo qormaataa keessatti gama lachuunuu waliigaltee battalatti addaan kutuu danda'u.",
+      "en": "During the probation period, both employee and employer can terminate the agreement immediately."
+    }
+  },
+  {
+    "id": "sent_gevorderd_088",
+    "level": "gevorderd",
+    "topic": "Werk",
+    "dutch": "Het UWV ondersteunt werkzoekenden bij het vinden van een passende baan of omscholing.",
+    "translations": {
+      "ar": "تساعد وكالة التأمين على العمل الباحثين عن عمل في العثور على وظيفة مناسبة أو إعادة التدريب.",
+      "ti": "ትካል ዩደብሊውቪ ንደለይቲ ስራሕ ዝሰማማዕ ስራሕ ንኽረኽቡ ወይ ሞያ ንኽቐይሩ ይሕግዞም እዩ።",
+      "om": "UWV namoota hojii barbaadan hojii mijataa ykn leenjii haaraa akka argatan deeggara.",
+      "en": "The UWV supports job seekers in finding suitable employment or retraining."
+    }
+  },
+  {
+    "id": "sent_gevorderd_089",
+    "level": "gevorderd",
+    "topic": "School",
+    "dutch": "Kinderen van vijf tot zestien jaar vallen in Nederland onder de leerplichtwet.",
+    "translations": {
+      "ar": "يخضع الأطفال من سن خمس إلى ست عشرة سنة في هولندا لقانون التعليم الإلزامي الصارم.",
+      "ti": "ካብ ሓሙሽተ ክሳብ ዓሰርተ ሽዱሽተ ዓመት ዝዕድሚኦም ቆልዑ ኣብ ኔዘርላንድስ ግዴታ ትምህርቲ ኣለዎም።",
+      "om": "Ijoolleen waggaa shan hanga kudha jahaa seera barumsa dirqamaa jala jiru.",
+      "en": "Children aged five to sixteen in the Netherlands are subject to compulsory schooling laws."
+    }
+  },
+  {
+    "id": "sent_gevorderd_090",
+    "level": "gevorderd",
+    "topic": "School",
+    "dutch": "Tijdens het tienminutengesprek bespreken de ouders de schoolresultaten met de docent.",
+    "translations": {
+      "ar": "خلال اجتماع العشر دقائق يناقش الوالدان مع المعلم مستوى ونتائج الطفل الدراسية.",
+      "ti": "ኣብቲ ናይ ዓሰርተ ደቒቕ ርክብ ወለዲ ምስ መምህር ብዛዕባ ናይ ትምህርቲ ውጽኢት ይዘራረቡ።",
+      "om": "Walgahii daqiiqaa kudhanii irratti warri bu'aa barnootaa barsiisaa wajjin mari'atu.",
+      "en": "During the ten-minute meeting, parents discuss school performance with the teacher."
+    }
+  },
+  {
+    "id": "sent_gevorderd_091",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "De basiszorgverzekering dekt de meeste kosten van de huisarts en ziekenhuisopname.",
+    "translations": {
+      "ar": "يغطي التأمين الصحي الأساسي معظم تكاليف زيارة طبيب العائلة ودخول المستشفيات.",
+      "ti": "እቲ መሰረታዊ ናይ ጥዕና መድሕን መብዛሕትኡ ናይ ሓኪም ስድራቤትን ሆስፒታልን ወጻኢታት ይሸፍን።",
+      "om": "Inshuraansiin fayyaa bu'uuraa baasii doktooraafi hospitaalaa baay'ee uwwisa.",
+      "en": "Basic health insurance covers most costs of the GP and hospital admission."
+    }
+  },
+  {
+    "id": "sent_gevorderd_092",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "Voor specialistische zorg in het ziekenhuis heeft u een officiële verwijsbrief nodig.",
+    "translations": {
+      "ar": "تحتاج إلى خطاب تحويل رسمي من طبيب الأسرة لمراجعة أخصائي في المستشفى.",
+      "ti": "ኣብ ሆስፒታል ንፍሉይ ናይ ስፔሻሊስት ሕክምና ወግዓዊ ናይ መተሓላለፊ ደብዳበ የድልየካ እዩ።",
+      "om": "Hospitaala keessatti yaala ogeessa addaa argachuuf waraqaa dabarsaa barbaaddu.",
+      "en": "For specialist care in the hospital, you need an official referral letter."
+    }
+  },
+  {
+    "id": "sent_gevorderd_093",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "U betaalt jaarlijks een eigen risico voordat bepaalde medische kosten worden vergoed.",
+    "translations": {
+      "ar": "يدفع المؤمن عليه مبلغ التحمل الإجباري سنوياً قبل تعويض بعض التكاليف الطبية.",
+      "ti": "ገሊኦም ናይ ሕክምና ወጻኢታት ቅድሚ ምምላሶም ዓመታዊ ናይ ገዛእ ርእስኻ ግዴታ ትኸፍል ኢኻ።",
+      "om": "Baasiin yaalaa tokko tokko kaffalamuun dura baasii ofii waggaa kaffaluu qabdu.",
+      "en": "You pay an annual deductible before certain medical expenses are reimbursed."
+    }
+  },
+  {
+    "id": "sent_gevorderd_094",
+    "level": "gevorderd",
+    "topic": "Zorg",
+    "dutch": "De apotheek stuurt een sms wanneer uw medicijnen klaarliggen bij het afhaalpunt.",
+    "translations": {
+      "ar": "ترسل الصيدلية رسالة نصية قصيرة عندما تكون أدويتك جاهزة للاستلام من النافذة.",
+      "ti": "መድሃኒትካ ኣብ ናይ ምውሳድ ቦታ ድሉው ምስ ኰነ እቲ ቤት-መድሃኒት ናይ ሓጺር ጽሑፍ መልእኽቲ ይሰድድ።",
+      "om": "Mana qorichaa irraa qorichi keessan qophii ta'uu isaa ergaan bilbilaa ni dhufa.",
+      "en": "The pharmacy sends an SMS when your medicines are ready at the pick-up counter."
+    }
+  },
+  {
+    "id": "sent_moeilijk_065",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Een bezwaarschrift moet binnen een wettelijke termijn van zes weken worden ingediend.",
+    "translations": {
+      "ar": "يجب تقديم لائحة الاعتراض الإداري خلال مهلة قانونية لا تتجاوز ستة أسابيع كاملة.",
+      "ti": "ናይ ተቓውሞ ጥርዓን ኣብ ውሽጢ ሕጋዊ ናይ ሽዱሽተ ሰሙን ግዜ ክቐርብ ኣለዎ።",
+      "om": "Waraqaan mormii yeroo seeraan murtaa'e torban jaha keessatti dhiyaachuu qaba.",
+      "en": "A notice of objection must be submitted within a statutory period of six weeks."
+    }
+  },
+  {
+    "id": "sent_moeilijk_066",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Het bestuursorgaan is verplicht de indiener te horen alvorens op het bezwaar te beslissen.",
+    "translations": {
+      "ar": "تلتزم الجهة الإدارية بالاستماع إلى صاحب الاعتراض حضورياً قبل اتخاذ قرار نهائي في الطلب.",
+      "ti": "እቲ ምምሕዳራዊ ትካል ነቲ ጥርዓን ዘቕረበ ሰብ ቅድሚ ምውሳኑ ቃሉ ክሰምዕ ግዴታ ኣለዎ።",
+      "om": "Qaamni bulchiinsaa murtii kennuun dura nama iyyate sana dhaggeeffachuuf dirqama qaba.",
+      "en": "The administrative body is obligated to hear the applicant before deciding on the objection."
+    }
+  },
+  {
+    "id": "sent_moeilijk_067",
+    "level": "moeilijk",
+    "topic": "Bestuursrecht",
+    "dutch": "Indien de wettelijke beslistermijn wordt overschreden, kan de burger een dwangsom vorderen.",
+    "translations": {
+      "ar": "إذا تأخرت الإدارة في اتخاذ القرار وتجاوزت المدة القانونية، يمكن للمواطن المطالبة بغرامة تأخير مالية.",
+      "ti": "እቲ ሕጋዊ ናይ ምውሳን ግዜ እንተሓሊፉ፡ እቲ ዜጋ ናይ ምድንጓይ ካሳ ገንዘብ ክሓትት ይኽእል እዩ።",
+      "om": "Yeroon murtii seeraa yoo darbe, lammiin kaffaltii adabbii guyyaa gaafachuu danda'a.",
+      "en": "If the statutory decision period is exceeded, the citizen may claim penalty payments."
+    }
+  },
+  {
+    "id": "sent_moeilijk_068",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Werknemers zijn beschermd tegen willekeurig ontslag via het preventieve ontslagstelsel.",
+    "translations": {
+      "ar": "يحظى الموظفون بالحماية القانونية ضد الفصل التعسفي بفضل نظام التصريح المسبق لإنهاء الخدمة.",
+      "ti": "ሰራሕተኛታት ብናይ ቅድመ-ምቁራጽ ፍቓድ ስርዓት ኣቢሎም ካብ ዘይፍትሓዊ ምብራር ውሑሳት እዮም።",
+      "om": "Hojjattoonni sirna eeyyama dursatiin hojii irraa ari'amuu seeraan alaa irraa eegamaniiru.",
+      "en": "Employees are protected against arbitrary dismissal through the preventive dismissal system."
+    }
+  },
+  {
+    "id": "sent_moeilijk_069",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Een nulurencontract biedt flexibiliteit, maar brengt ook financiële onzekerheid met zich mee.",
+    "translations": {
+      "ar": "يوفر عقد العمل بنظام الساعات الصفرية مرونة للمنشأة، لكنه يتسبب في عدم استقرار مالي للعامل.",
+      "ti": "ውዕል ናይ ባዶ ሰዓታት ተዓጻጻፍነት ይህብ፡ ግን ድማ ናይ ገንዘብ ዘይርጉእነት የስዕብ።",
+      "om": "Waliigalteen sa'aatii zeroo baay'ee jijjiiramaa dha, garuu maallaqaan amansiisaa miti.",
+      "en": "A zero-hour contract offers flexibility, but also brings financial uncertainty with it."
+    }
+  },
+  {
+    "id": "sent_moeilijk_070",
+    "level": "moeilijk",
+    "topic": "Arbeidsrecht",
+    "dutch": "Tijdens ziekte is de werkgever verplicht het loon gedurende maximaal twee jaar door te betalen.",
+    "translations": {
+      "ar": "يلتزم صاحب العمل بمواصلة دفع نسبة من راتب الموظف المريض لمدة تصل إلى عامين كحد أقصى.",
+      "ti": "ኣብ ግዜ ሕማም እቲ ኣስራሒ ንሰራሕተኛ ክሳብ ክልተ ዓመት ደሞዙ ናይ ምኽፋል ግዴታ ኣለዎ።",
+      "om": "Yeroo dhukkubaa hojjachiisaan hanga waggaa lamaatti mindaa kaffaluuf dirqama qaba.",
+      "en": "During illness, the employer is obligated to continue paying wages for up to two years."
+    }
+  },
+  {
+    "id": "sent_moeilijk_071",
+    "level": "moeilijk",
+    "topic": "Huisvesting",
+    "dutch": "Woningcorporaties wijzen sociale huurwoningen toe op basis van inschrijfduur en urgentie.",
+    "translations": {
+      "ar": "تقوم جمعيات الإسكان بتوزيع المساكن الاجتماعية المدعومة بناءً على فترة التسجيل وأولويات الاستحقاق.",
+      "ti": "ማሕበራት ኣባይቲ ነተን ማሕበራዊ ኣባይቲ ብናይ ምዝገባ ንውሓትን ህጹጽነትን መሰረት ይዕድላ።",
+      "om": "Waldaan manneenii manneen kiree hawaasummaa yeroo galmee fi ariitii irratti hundaa'uun kenna.",
+      "en": "Housing associations allocate social housing based on registration period and urgency."
+    }
+  },
+  {
+    "id": "sent_moeilijk_072",
+    "level": "moeilijk",
+    "topic": "Huisvesting",
+    "dutch": "Bij ernstige geluidsoverlast kunnen buurtbewoners een melding doen bij de wijkagent.",
+    "translations": {
+      "ar": "في حالات الضجيج السكني الحاد والمزعج، يمكن للجيران إبلاغ ضابط شرطة الحي الميداني رسمياً.",
+      "ti": "ከቢድ ናይ ድምጺ ረብሻ ምስ ዝህሉ ነበርቲ ከባቢ ናብ ናይቲ ከባቢ ፖሊስ ክሕብሩ ይኽእሉ እዮም።",
+      "om": "Iyyi garmalee yoo jiraate ollaan poolisii naannootti beeksisuu danda'u.",
+      "en": "In case of severe noise disturbance, local residents can file a report with the neighborhood police."
+    }
+  },
+  {
+    "id": "sent_moeilijk_073",
+    "level": "moeilijk",
+    "topic": "Financiën",
+    "dutch": "Het toeslagenstelsel helpt burgers met lage inkomens de kosten van zorg en huur te dragen.",
+    "translations": {
+      "ar": "يساعد نظام البدلات الحكومية أصحاب الدخل المحدود في تغطية نفقات التأمين الصحي والإيجار.",
+      "ti": "ናይ ሓገዝ ገንዘብ ስርዓት ንትሑት እቶት ዘለዎም ዜጋታት ናይ ክራይን ጥዕናን ወጻኢታት ንኽሸፍኑ ይሕግዝ።",
+      "om": "Sirni deeggarsa maallaqaa lammiilee galii xiqqaa qaban baasii inshuraansii fi kiree manaa deeggara.",
+      "en": "The allowances system helps low-income citizens cover the costs of healthcare and rent."
+    }
+  },
+  {
+    "id": "sent_moeilijk_074",
+    "level": "moeilijk",
+    "topic": "Belasting",
+    "dutch": "Zelfstandigen zonder personeel moeten elk kwartaal btw-aangifte doen bij de Belastingdienst.",
+    "translations": {
+      "ar": "يلتزم أصحاب المهن الحرة غير الموظفين لعمال بتقديم إقرار ضريبة القيمة المضافة كل ربع سنة.",
+      "ti": "ብሕቶም ዝሰርሑ ናጻ ሰራሕተኛታት ኣብ ነፍሲ ወከፍ ሰለስተ ወርሒ ናይ ቫት ግብሪ ጸብጻብ ከቕርቡ ኣለዎም።",
+      "om": "Hojjettoonni dhuunfaa ji'oota sadii hundaatti taaksii dabalata gatii beeksisuu qabu.",
+      "en": "Self-employed professionals without staff must submit a VAT declaration to the Tax Authority every quarter."
+    }
+  },
+  {
+    "id": "sent_moeilijk_075",
+    "level": "moeilijk",
+    "topic": "Maatschappij",
+    "dutch": "Democratische besluitvorming vereist een open dialoog tussen burgers en gekozen volksvertegenwoordigers.",
+    "translations": {
+      "ar": "يتطلب صنع القرار الديمقراطي حواراً بناءً وشفافاً بين المواطنين وممثليهم المنتخبين في البرلمان.",
+      "ti": "ዲሞክራስያዊ ውሳነ ምሕላፍ ኣብ መንጎ ዜጋታትን ዝተመርጹ ወከልቲ ህዝብን ቅሉዕ ዘተ የድልዮ።",
+      "om": "Murtii dimookiraatawaan lammiilee fi bakka bu'oota filataman gidduutti marii bilisaa barbaada.",
+      "en": "Democratic decision-making requires open dialogue between citizens and elected representatives."
+    }
+  },
+  {
+    "id": "sent_basis_177",
+    "level": "basis",
+    "topic": "Weer",
+    "dutch": "Het regent vandaag erg hard, neem je paraplu mee.",
+    "translations": {
+      "ar": "المطر يهطل بغزارة اليوم، خذ مظلتك معك عند الخروج.",
+      "ti": "ሎሚ ኃያል ዝናብ ይዘንብ ኣሎ፡ ጽላልካ ምሳኻ ውሰድ።",
+      "om": "Har'a bokkaan baay'ee rooba, gaachana bokkaa qabadhu.",
+      "en": "It is raining very hard today, take your umbrella with you."
+    }
+  },
+  {
+    "id": "sent_basis_178",
+    "level": "basis",
+    "topic": "Weer",
+    "dutch": "In de herfst vallen de gele bladeren van de bomen.",
+    "translations": {
+      "ar": "في فصل الخريف تتساقط أوراق الأشجار الصفراء على الأرض.",
+      "ti": "ኣብ ቀውዒ እቶም ብጫ ኣቑጽልቲ ካብ ኣእዋም ይረግፉ።",
+      "om": "Baqqee keessa baallaan keelloo mukarraa harca'a.",
+      "en": "In autumn the yellow leaves fall from the trees."
+    }
+  },
+  {
+    "id": "sent_basis_179",
+    "level": "basis",
+    "topic": "Weer",
+    "dutch": "De zon schijnt warm aan de blauwe hemel.",
+    "translations": {
+      "ar": "تشرق الشمس الدافئة في السماء الزرقاء الصافية اليوم.",
+      "ti": "እታ ምውቕቲ ጸሓይ ኣብቲ ሰማያዊ ሰማይ ተብርቕ ኣላ።",
+      "om": "Aduun ho'ituun samii cuquliisaa keessaa baati.",
+      "en": "The sun is shining warm in the blue sky."
+    }
+  },
+  {
+    "id": "sent_basis_180",
+    "level": "basis",
+    "topic": "Weer",
+    "dutch": "Het waait flink, doe je dikke winterjas aan.",
+    "translations": {
+      "ar": "الرياح تهب بقوة، ارتدِ معطفك الشتوي الثقيل للدفء.",
+      "ti": "ኃያል ንፋስ ይነፍስ ኣሎ፡ እቲ ረጒድ ናይ ክረምቲ ጃኬትካ ልበሶ።",
+      "om": "Qilleensi cimaan jira, kootii gannaa furdaa uffadhu.",
+      "en": "It is blowing quite hard, put on your thick winter coat."
+    }
+  },
+  {
+    "id": "sent_basis_181",
+    "level": "basis",
+    "topic": "Sport",
+    "dutch": "Elke woensdagmiddag voetbalt mijn zoon bij de lokale club.",
+    "translations": {
+      "ar": "يلعب ابني كرة القدم في النادي المحلي كل بعد ظهر أربعاء.",
+      "ti": "ወደይ ኣብ ነፍሲ ወከፍ ረቡዕ ድሕሪ ቀትሪ ኣብ ከባቢኡ ዘሎ ክለብ ኩዕሶ እግሪ ይጻወት።",
+      "om": "Ilmi koo Roobii hunda galgala kilaba naannootti kubbaa miilaa taphata.",
+      "en": "Every Wednesday afternoon my son plays soccer at the local club."
+    }
+  },
+  {
+    "id": "sent_basis_182",
+    "level": "basis",
+    "topic": "Sport",
+    "dutch": "Ik ga vanavond een uur zwemmen in het overdekte zwembad.",
+    "translations": {
+      "ar": "سأذهب الليلة للسباحة لمدة ساعة في المسبح الداخلي المغلق.",
+      "ti": "ምሸት ኣብቲ ውሽጢ ዘሎ ናይ ምሕንባስ ቦታ ንሓደ ሰዓት ክሕንብስ እየ።",
+      "om": "Galgala sa'aatii tokkoof mana dhiqannaa keessatti nan daaka.",
+      "en": "I am going swimming for an hour in the indoor pool tonight."
+    }
+  },
+  {
+    "id": "sent_basis_183",
+    "level": "basis",
+    "topic": "Vrije tijd",
+    "dutch": "In het weekend wandelen we graag ontspannen door het bos.",
+    "translations": {
+      "ar": "نحب المشي والاسترخاء عبر مسارات الغابة الهادئة في عطلة نهاية الأسبوع.",
+      "ti": "ኣብ ቀዳመ-ሰንበት ብደስታ ኣብ ውሽጢ ጫካ ንዘዋወር።",
+      "om": "Dhuma torbaniitti bosona keessa bashannanuuf deemuu jaallanna.",
+      "en": "On the weekend we like to take a relaxing walk through the forest."
+    }
+  },
+  {
+    "id": "sent_basis_184",
+    "level": "basis",
+    "topic": "Vrije tijd",
+    "dutch": "Mijn dochter leest graag spannende boeken voor het slapengaan.",
+    "translations": {
+      "ar": "تحب ابنتي قراءة الكتب المشوقة والقصص قبل الذهاب إلى النوم.",
+      "ti": "ጓለይ ቅድሚ ምድቃሳ ባህ ዘብሉ መጻሕፍቲ ምንባብ ትፈቱ።",
+      "om": "Intalli koo osoo hin rafin dura kitaaba asoosamaa dubbisuu jaallatti.",
+      "en": "My daughter likes reading exciting books before going to bed."
+    }
+  },
+  {
+    "id": "sent_basis_185",
+    "level": "basis",
+    "topic": "Dieren",
+    "dutch": "De hond blaft vrolijk als zijn baasje thuiskomt.",
+    "translations": {
+      "ar": "ينبح الكلب بمرح عندما يعود صاحبه إلى البيت.",
+      "ti": "እቲ ከልቢ ዋናኡ ናብ ገዛ ክምለስ ከሎ ብሓጎስ ይነብሕ።",
+      "om": "Sareen yeroo abbaan manatti galu gammachuun iyyiti.",
+      "en": "The dog barks happily when its owner comes home."
+    }
+  },
+  {
+    "id": "sent_basis_186",
+    "level": "basis",
+    "topic": "Dieren",
+    "dutch": "Er zwemmen eenden en zwanen in de brede stadsgracht.",
+    "translations": {
+      "ar": "تسبح البطوط وطيور البجع الأبيض في قناة المدينة المائية.",
+      "ti": "ኣብቲ ናይ ከተማ ቦይ ደርሆ-ማይን ጻዕዳ ደርሆ-ማይን ይሕንብሱ ኣለዉ።",
+      "om": "Daakiyyootaafi daakiyyoo adadiin ujummoo magaalaa keessa daaku.",
+      "en": "Ducks and swans are swimming in the wide city canal."
+    }
+  },
+  {
+    "id": "sent_basis_187",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Waar kan ik de verse halfvolle melk vinden?",
+    "translations": {
+      "ar": "أين يمكنني أن أجد الحليب الطازج قليل الدسم في المتجر؟",
+      "ti": "እቲ ፍርቂ-ስብሒ ዘለዎ ሓድሽ ጸባ ኣበይ ክረኽቦ እኽእል፧",
+      "om": "Aannan haaraa sanyiin isaa walakkaa eessatti argadha?",
+      "en": "Where can I find the fresh semi-skimmed milk?"
+    }
+  },
+  {
+    "id": "sent_basis_188",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Ik betaal mijn boodschappen met een contactloze pinpas.",
+    "translations": {
+      "ar": "أدفع ثمن مشترياتي باستخدام بطاقة الصراف اللاتلامسية السريعة.",
+      "ti": "ነቲ ዝገዛእክዎ ኣቑሑ ብዘይትንኪ ናይ ባንክ ካርድ እኸፍሎ።",
+      "om": "Gabaa koo kaardii baankiitiin nan kaffala.",
+      "en": "I pay for my groceries with a contactless debit card."
+    }
+  },
+  {
+    "id": "sent_basis_189",
+    "level": "basis",
+    "topic": "Boodschappen",
+    "dutch": "Vergeet niet een stevige boodschappentas mee te nemen.",
+    "translations": {
+      "ar": "لا تنس أخذ حقيبة تسوق قماشية قوية معك إلى السوبرماركت.",
+      "ti": "ጽኑዕ ናይ ዕዳጋ ቦርሳ ምሳኻ ምውሳድ ከይትረስዕ።",
+      "om": "Boorsaa gabaa cimaa qabachuu hin dagatin.",
+      "en": "Do not forget to take a sturdy shopping bag with you."
+    }
+  },
+  {
+    "id": "sent_basis_190",
+    "level": "basis",
+    "topic": "Huis",
+    "dutch": "De sleutels van de voordeur liggen op het tafeltje in de gang.",
+    "translations": {
+      "ar": "مفاتيح الباب الأمامي موضوعة على الطاولة الصغيرة في الممر.",
+      "ti": "መፋትሕ ናይቲ ቀንዲ በሪ ኣብቲ ኣብ ኮሪደር ዘሎ ጠረጴዛ ተቐሚጦም ኣለዉ።",
+      "om": "Furtuun balbala duraa teessoo xiqqoo daandii seensaa irra jiru.",
+      "en": "The keys to the front door are on the small table in the hallway."
+    }
+  },
+  {
+    "id": "sent_basis_191",
+    "level": "basis",
+    "topic": "Huis",
+    "dutch": "Ik was de donkere kleding op veertig graden in de machine.",
+    "translations": {
+      "ar": "أغسل الملابس الداكنة على درجة حرارة أربعين في الغسالة.",
+      "ti": "ነቶም ጸለምቲ ክዳውንቲ ኣብ መሐጸቢት ማሽን ብኣርብዓ ዲግሪ እሓጽቦም።",
+      "om": "Uffata gurraacha digrii afurtamatti mishiinaan dhiqa.",
+      "en": "I wash dark clothes at forty degrees in the washing machine."
+    }
+  },
+  {
+    "id": "sent_gevorderd_095",
+    "level": "gevorderd",
+    "topic": "Afval",
+    "dutch": "In deze gemeente scheiden we papier, gft-afval, plastic en restafval nauwkeurig.",
+    "translations": {
+      "ar": "نقوم في هذه البلدية بفرز الورق وبقايا الطعام والبلاستيك والنفايات المتبقية بدقة.",
+      "ti": "ኣብዛ ማዘጋጃ ቤት ወረቐት፡ ናይ መግቢ ትርፊ፡ ፕላስቲክን ጐሓፍን ብጥንቃቐ ንፈልዮም ኢና።",
+      "om": "Magaalaa kana keessatti waraqaa, kosiifi pilaastikii addaan baasna.",
+      "en": "In this municipality we separate paper, organic waste, plastic, and residual waste carefully."
+    }
+  },
+  {
+    "id": "sent_gevorderd_096",
+    "level": "gevorderd",
+    "topic": "Afval",
+    "dutch": "De groene rolemmer voor groente- en tuinafval wordt om de twee weken geleegd.",
+    "translations": {
+      "ar": "يتم تفريغ الحاوية الخضراء المخصصة لبقايا الخضار ونفايات الحدائق كل أسبوعين.",
+      "ti": "እቲ ናይ ኣሕምልትን ጀርዲንን ቀጠልያ ናይ ጐሓፍ ባዞ ኣብ ክልተ ሰሙን ይሕጸብን ይባረቕን።",
+      "om": "Baldiin magariisi kosii biqiltootaa torban lama hunda dhangalaafama.",
+      "en": "The green wheelie bin for vegetable and garden waste is emptied every two weeks."
+    }
+  },
+  {
+    "id": "sent_gevorderd_097",
+    "level": "gevorderd",
+    "topic": "Bibliotheek",
+    "dutch": "Bij de openbare bibliotheek kun je boeken lenen, rustig studeren en internetten.",
+    "translations": {
+      "ar": "يمكنك في المكتبة العامة استعارة الكتب والدراسة في هدوء واستخدام الإنترنت مجاناً.",
+      "ti": "ኣብ ህዝባዊ ቤተ-መጻሕፍቲ መጻሕፍቲ ክትልቃሕ፡ ብህድኣት ክተጽንዕን ኢንተርኔት ክትጥቀምን ትኽእል ኢኻ።",
+      "om": "Mana kitaabaa ummataa keessatti kitaaba liqeeffachuu fi qayyabachuun ni danda'ama.",
+      "en": "At the public library you can borrow books, study quietly, and access the internet."
+    }
+  },
+  {
+    "id": "sent_gevorderd_098",
+    "level": "gevorderd",
+    "topic": "Vrijwilligerswerk",
+    "dutch": "Veel nieuwkomers doen vrijwilligerswerk om hun Nederlands sneller te verbeteren.",
+    "translations": {
+      "ar": "يقوم العديد من القادمين الجدد بعمل تطوعي لتحسين لغتهم الهولندية بشكل أسرع وأفضل.",
+      "ti": "ብዙሓት ሓደሽቲ መጻእቲ ቋንቋ ሆላንድ ብቕልጡፍ ንምምሕያሽ ወለንታዊ ስራሕ ይሰርሑ።",
+      "om": "Namoonni haaraan afaan Daachi gabbifachuuf tola ooltummaa hojjatu.",
+      "en": "Many newcomers do volunteer work to improve their Dutch more quickly."
+    }
+  },
+  {
+    "id": "sent_gevorderd_099",
+    "level": "gevorderd",
+    "topic": "Vrijwilligerswerk",
+    "dutch": "Vrijwilligerswerk helpt je om een sociaal netwerk op te bouwen en werkervaring op te doen.",
+    "translations": {
+      "ar": "يساعد العمل التطوعي في بناء شبكة علاقات اجتماعية واكتساب خبرة مهنية قيمة في هولندا.",
+      "ti": "ወለንታዊ ስራሕ ማሕበራዊ ርክባት ንምፍጣርን ናይ ስራሕ ልምዲ ንምድላብን ይሕግዝ።",
+      "om": "Hojiin tola ooltummaa hiriyoota argachuufi muuxannoo hojii qabaachuuf gargaara.",
+      "en": "Volunteering helps you build a social network and gain work experience."
+    }
+  },
+  {
+    "id": "sent_gevorderd_100",
+    "level": "gevorderd",
+    "topic": "Verzekering",
+    "dutch": "Het is verstandig om een aansprakelijkheidsverzekering af te sluiten voor onvoorziene schade.",
+    "translations": {
+      "ar": "من الحكمة إبرام تأمين المسؤولية المدنية لتغطية أي أضرار غير مقصودة قد تلحق بالآخرين.",
+      "ti": "ዘይተሓሰበ ዕንወት ምስ ዘጋጥም ንምሽፋን ናይ ተሓታትነት መድሕን ምእታው ጥበባዊ እዩ።",
+      "om": "Miidhaa tasaaf inshuraansii itti gaafatamummaa galchuun gaarii dha.",
+      "en": "It is sensible to take out third-party liability insurance for unforeseen damages."
+    }
+  },
+  {
+    "id": "sent_gevorderd_101",
+    "level": "gevorderd",
+    "topic": "Bank",
+    "dutch": "De bank zal u nooit via sms of e-mail vragen om uw pincode of inloggegevens.",
+    "translations": {
+      "ar": "لن يطلب منك البنك أبداً عبر رسالة نصية أو بريد إلكتروني إرسال الرقم السري أو بياناتك.",
+      "ti": "እቲ ባንክ ብናይ ሓጺር ጽሑፍ ወይ ብኢመይል ናይ ሚስጢር ቁጽርኻ ወይ መእተዊኻ ፈጺሙ ኣይሓተካን እዩ።",
+      "om": "Baankiin koodii iccitii keessan imeyiliidhaan matumaa hin gaafatu.",
+      "en": "The bank will never ask for your PIN or login details via text message or email."
+    }
+  },
+  {
+    "id": "sent_gevorderd_102",
     "level": "gevorderd",
     "topic": "Onderwijs",
-    "dutch": "Aanstaande vrijdag is er een ouderavond op de middelbare school.",
+    "dutch": "Na de basisschool gaan leerlingen naar het voortgezet onderwijs, zoals vmbo, havo of vwo.",
     "translations": {
-      "ar": "يوم الجمعة القادم هناك اجتماع لأولياء الأمور في المدرسة الثانوية.",
-      "ti": "ዝመጽእ ዓርቢ ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ናይ ወለዲ ምሸት ኣሎ።",
-      "om": "Jimaata dhufu mana barumsaa sadarkaa lammaffaatti walga'ii warraa jira.",
-      "en": "Next Friday there is a parents evening at the high school."
+      "ar": "بعد المدرسة الابتدائية ينتقل الطلاب إلى التعليم الثانوي حسب مستواهم الأكاديمي والمهني.",
+      "ti": "ድሕሪ ቀዳማይ ብርኪ ትምህርቲ ተምሃሮ ናብ ካልኣይ ብርኪ ትምህርቲ ይቕጽሉ።",
+      "om": "Mana barumsaa sadarkaa duraa booda barattoonni gara sadarkaa lammaffaatti darbu.",
+      "en": "After primary school, pupils progress to secondary education, such as VMBO, HAVO, or VWO."
     }
   },
   {
-    "id": "sent_gevorderd_180",
+    "id": "sent_gevorderd_103",
     "level": "gevorderd",
     "topic": "Onderwijs",
-    "dutch": "Mijn dochter overweegt om een mbo-opleiding in de zorg te volgen.",
+    "dutch": "Ouders worden van harte uitgenodigd om mee te helpen bij schoolreisjes en sportdagen.",
     "translations": {
-      "ar": "ابنتي تفكر في متابعة دراسة مهنية متوسطة في مجال الرعاية الصحية.",
-      "ti": "ጓለይ ኣብ ናይ ጥዕና ክንክን ሞያዊ ትምህርቲ ክትከታተል ትሓስብ ኣላ።",
-      "om": "Intalli koo leenjii ogummaa eegumsa fayyaa hordofuu yaadaa jirti.",
-      "en": "My daughter is considering taking an intermediate vocational course in healthcare."
+      "ar": "تتم دعوة أولياء الأمور بحرارة للمساعدة في تنظيم الرحلات المدرسية والأنشطة الرياضية.",
+      "ti": "ወለዲ ኣብ ናይ ቤት ትምህርቲ ጉዕዞታትን ናይ ስፖርት መዓልታትን ንኽሕግዙ ብኽብሪ ይዕደሙ።",
+      "om": "Warri qophii imala barumsaafi guyyaa ispoortii irratti akka gargaaran afeeramu.",
+      "en": "Parents are cordially invited to assist with school trips and sports days."
     }
   },
   {
-    "id": "sent_gevorderd_181",
+    "id": "sent_gevorderd_104",
     "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb mijn cv bijgewerkt en een sollicitatiebrief geschreven. [2]",
+    "topic": "Cultuur",
+    "dutch": "Tijdens Koningsdag kleurt heel Nederland oranje en zijn er overal vrijmarkten.",
     "translations": {
-      "ar": "لقد قمت بتحديث سيرتي الذاتية وكتبت خطاب تقديم للوظيفة.",
-      "ti": "ናይ ስራሕ ታሪኸይ ኣሐዲሰን ናይ ስራሕ መመልከቲ ደብዳበ ጽሒፈን ኣለኹ።",
-      "om": "Seenaa jireenyaa koo haaromsee xalayaa iyyannoo hojii barreesseera.",
-      "en": "I updated my CV and wrote an application letter."
+      "ar": "خلال عيد الملك تتزين كل هولندا باللون البرتقالي وتقام الأسواق المفتوحة في الشوارع.",
+      "ti": "ኣብ መዓልቲ ንጉስ ብምሉኣ ኔዘርላንድስ ብኣራንሺ ሕብሪ ትደምቕ፡ ኣብ ኩሉ ድማ ናጻ ዕዳጋታት ይካየድ።",
+      "om": "Ayyaana Mootichaa irratti biyyi Neezerlaandis halluu burtukaanaa uffatti.",
+      "en": "During King's Day the whole of the Netherlands turns orange and free flea markets are everywhere."
     }
   },
   {
-    "id": "sent_gevorderd_182",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Kunt u mij uitleggen welke arbeidsvoorwaarden hier gelden? [2]",
-    "translations": {
-      "ar": "هل يمكنك أن تشرح لي شروط العمل المعمول بها هنا؟",
-      "ti": "ኣብዚ እንታይ ዓይነት ናይ ስራሕ ውዕል ከም ዘሎ ክትገልጹለይ ትኽእሉዶ፧",
-      "om": "Haala hojii asitti hojjetamu naaf ibsuu dandeessuu?",
-      "en": "Could you explain to me what employment terms apply here?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_183",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb volgende week dinsdag een belangrijk sollicitatiegesprek. [2]",
-    "translations": {
-      "ar": "لدي مقابلة عمل مهمة يوم الثلاثاء القادم.",
-      "ti": "ዝመጽእ ሰሉስ ኣገዳሲ ናይ ስራሕ ቃለ-መሕትት ኣሎኒ።",
-      "om": "Kibxata dhufu af-gaaffii hojii baay'ee barbaachisaa qaba.",
-      "en": "I have an important job interview next Tuesday."
-    }
-  },
-  {
-    "id": "sent_gevorderd_184",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "De proeftijd van mijn nieuwe baan duurt één maand. [2]",
-    "translations": {
-      "ar": "فترة التجربة لوظيفتي الجديدة تستمر لمدة شهر واحد.",
-      "ti": "ናይቲ ሓድሽ ስርሐይ ናይ ፈተና ግዜ ሓደ ወርሒ እዩ።",
-      "om": "Qormaanni hojii koo haaraa ji'a tokkoof tura.",
-      "en": "The probationary period for my new job lasts one month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_185",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Heeft dit bedrijf een collectieve arbeidsovereenkomst (cao)? [2]",
-    "translations": {
-      "ar": "هل لدى هذه الشركة اتفاقية عمل جماعية؟",
-      "ti": "እዚ ትካል ሓባራዊ ናይ ስራሕ ስምምዕ ኣለዎዶ፧",
-      "om": "Dhaabbanni kun waliigaltee hojjettootaa qabaa?",
-      "en": "Does this company have a collective labor agreement?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_186",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Ik wil graag een bankrekening openen voor mijn salaris. [2]",
-    "translations": {
-      "ar": "أود فتح حساب مصرفي لإيداع راتبي.",
-      "ti": "ንደሞዘይ ዝኸውን ናይ ባንክ ሕሳብ ክኸፍት ደልየ ኣለኹ።",
-      "om": "Miindaa kootiif herreega baankii banachuu barbaada.",
-      "en": "I would like to open a bank account for my salary."
-    }
-  },
-  {
-    "id": "sent_gevorderd_187",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Hoe kan ik huurtoeslag en zorgtoeslag aanvragen bij de Belastingdienst? [2]",
-    "translations": {
-      "ar": "كيف يمكنني التقدم بطلب للحصول على بدل إيجار وبدل رعاية صحية من مصلحة الضرائب؟",
-      "ti": "ናይ ገዛ ክራይ ደገፍን ናይ ጥዕና ደገፍን ብኸመይ ክሓትት ይኽእል፧",
-      "om": "Gargaarsa kireeffannaafi fayyaa akkamitti gaafachuu danda'a?",
-      "en": "How can I apply for rent allowance and healthcare allowance from the Tax Authority?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_188",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "De jaarafrekening voor energie was hoger dan verwacht. [2]",
-    "translations": {
-      "ar": "كانت فاتورة الطاقة السنوية أعلى من المتوقع.",
-      "ti": "ናይ ዓመት ናይ ኤሌክትሪክ ሕሳብ ካብቲ ዝተጸበኽዎ በሊጹ።",
-      "om": "Herreegni humnaa kan waggaa isa tilmaamame caaleera.",
-      "en": "The annual energy statement was higher than expected."
-    }
-  },
-  {
-    "id": "sent_gevorderd_189",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Vergeet niet om maandelijks uw zorgpremie op tijd te betalen. [2]",
-    "translations": {
-      "ar": "لا تنس دفع قسط التأمين الصحي شهرياً في الوقت المحدد.",
-      "ti": "ናይ ጥዕና መድሕን ክፍሊትኩም ኣብ ወርሒ ብግዜኡ ምኽፋል ኣይትረስዑ።",
-      "om": "Kaffaltii inshuraansii fayyaa keessanii ji'aan kaffaluu hin dagatinaa.",
-      "en": "Do not forget to pay your health insurance premium on time each month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_190",
-    "level": "gevorderd",
+    "id": "sent_moeilijk_076",
+    "level": "moeilijk",
     "topic": "Inburgering",
-    "dutch": "Voor het inburgeringsexamen moet ik slagen voor spreken en luisteren. [2]",
+    "dutch": "De Wet inburgering verplicht nieuwkomers om binnen drie jaar het inburgeringsexamen te behalen.",
     "translations": {
-      "ar": "لاجتياز امتحان الاندماج يجب أن أنجح في التحدث والاستماع.",
-      "ti": "ንፈተና ምውህሃድ ናይ ምዝራብን ምስማዕን ፈተናታት ክሓልፍ ኣሎኒ።",
-      "om": "Qormaata Neezerlaand darbuuf qormaata dubbachuu fi dhaggeeffachuu darbuu qaba.",
-      "en": "For the civic integration exam I must pass speaking and listening."
+      "ar": "يلزم قانون الاندماج القادمين الجدد باجتياز امتحانات الاندماج بنجاح خلال مهلة ثلاث سنوات.",
+      "ti": "ሕጊ ምውህሃድ ሓደሽቲ መጻእቲ ኣብ ውሽጢ ሰለስተ ዓመት ናይ ምውህሃድ ፈተና ንኽሓልፉ የገድዶም።",
+      "om": "Seerri seensa biyyaa namoonni haaraan waggaa sadii keessatti qormaata akka darban dirqisiisa.",
+      "en": "The Civic Integration Act obligates newcomers to pass the integration exam within three years."
     }
   },
   {
-    "id": "sent_gevorderd_191",
-    "level": "gevorderd",
+    "id": "sent_moeilijk_077",
+    "level": "moeilijk",
     "topic": "Inburgering",
-    "dutch": "We hebben vandaag in de klas geleerd over de Nederlandse grondwet. [2]",
+    "dutch": "Het participatieverklaringstraject is een verplicht onderdeel van de inburgering in Nederland.",
     "translations": {
-      "ar": "لقد تعلمنا اليوم في الفصل الدراسي عن الدستور الهولندي.",
-      "ti": "ሎሚ ኣብ ክፍሊ ብዛዕባ ቅዋም ኔዘርላንድስ ተማሂርና።",
-      "om": "Har'a kutaa keessatti waa'ee heera mootummaa Neezerlaandi baranne.",
-      "en": "Today in class we learned about the Dutch constitution."
+      "ar": "يعد مسار إعلان المشاركة المجتمعية جزءاً إلزامياً وأساسياً من مسار الاندماج المدني في هولندا.",
+      "ti": "ናይ ተሳትፎ መግለጺ መስርሕ ሓደ ካብቲ ግዴታዊ ክፋል ናይ ምውህሃድ መስርሕ እዩ።",
+      "om": "Ibsa hirmaannaa mallatteessuun qaama dirqamaa seensa biyyaa ti.",
+      "en": "The participation declaration trajectory is a mandatory component of civic integration in the Netherlands."
     }
   },
   {
-    "id": "sent_gevorderd_192",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Vrijwilligerswerk doen helpt heel goed om de taal te oefenen. [2]",
+    "id": "sent_moeilijk_078",
+    "level": "moeilijk",
+    "topic": "Rechtspraak",
+    "dutch": "Iedere burger heeft het grondwettelijke recht op een eerlijk proces voor een onafhankelijke rechter.",
     "translations": {
-      "ar": "العمل التطوعي يساعد كثيراً في ممارسة اللغة.",
-      "ti": "ወለንታዊ ስራሕ ምስራሕ ንቋንቋ ንምልምማድ ኣዝዩ ይሕግዝ።",
-      "om": "Hojii tola ooltummaa hojjechuun afaan shaakaluuf baay'ee gargaara.",
-      "en": "Doing volunteer work helps a lot with practicing the language."
+      "ar": "لكل مواطن حق دستوري أصيل في محاكمة عادلة وعلنية أمام قاضٍ مستقل ومحايد.",
+      "ti": "ነፍሲ ወከፍ ዜጋ ኣብ ቅድሚ ናጻ ዳኛ ፍትሓዊ ናይ ፍርዲ መስርሕ ናይ ምርካብ ቅዋማዊ መሰል ኣለዎ።",
+      "om": "Lammiin hundi fuuldura abbaa seeraa bilisaatti murtii haqa qabeessa argachuuf mirga heeraa qaba.",
+      "en": "Every citizen has the constitutional right to a fair trial before an independent judge."
     }
   },
   {
-    "id": "sent_gevorderd_193",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "De fysiotherapeut gaf mij oefeningen voor mijn onderrug. [2]",
+    "id": "sent_moeilijk_079",
+    "level": "moeilijk",
+    "topic": "Rechtspraak",
+    "dutch": "Wie de kosten van een advocaat niet zelf kan dragen, kan in aanmerking komen voor gesubsidieerde rechtsbijstand.",
     "translations": {
-      "ar": "أعطاني المعالج الطبيعي تمارين لأسفل ظهري.",
-      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንሕቖይ ዝኸውን ልምምድ ሂቡኒ።",
-      "om": "Ogeessi fiiziyooteraapii qoricha sochii qaamaa dugda gadiitiif naaf kenne.",
-      "en": "The physiotherapist gave me exercises for my lower back."
+      "ar": "من لا يستطيع تحمل أتعاب المحامي بنفسه يمكنه الاستفادة من المساعدة القانونية الحكومية المدعومة.",
+      "ti": "ናይ ጠበቓ ወጻኢታት ባዕሉ ክኸፍል ዘይክእል ሰብ፡ ናይ መንግስቲ ደገፍ ሕጋዊ ረድኤት ክረክብ ይኽእል እዩ።",
+      "om": "Namni baasii abukaatoo kaffaluu hin dandeenye deeggarsa seeraa mootummaa argachuu danda'a.",
+      "en": "Anyone who cannot afford lawyer fees may qualify for subsidized legal aid."
     }
   },
   {
-    "id": "sent_gevorderd_194",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Ik heb een doorverwijzing van de huisarts nodig voor het ziekenhuis. [2]",
+    "id": "sent_moeilijk_080",
+    "level": "moeilijk",
+    "topic": "Gezondheidszorg",
+    "dutch": "Patiënten hebben recht op inzage in hun eigen medisch dossier en kunnen om een afschrift verzoeken.",
     "translations": {
-      "ar": "أحتاج إلى إحالة طبية من طبيب الأسرة للذهاب إلى المستشفى.",
-      "ti": "ናብ ሆስፒታል ንምኻድ ናይ ሓኪም ስድራቤት መወከሲ ወረቐት የድልየኒ።",
-      "om": "Gara hospitaalaatti deemuf xalayaa dooqtooraa na barbaachisa.",
-      "en": "I need a referral letter from the GP for the hospital."
+      "ar": "يحق للمرضى الاطلاع الكامل على ملفاتهم الطبية الخاصة وطلب نسخة ورقية أو رقمية منها.",
+      "ti": "ሕሙማን ናይ ባዕሎም ናይ ሕክምና መዝገብ ናይ ምርኣይን ቅዳሕ ናይ ምሕታትን መሰል ኣለዎም።",
+      "om": "Dhukkubsattoonni galmee yaala isaanii ilaaluufi koppii gaafachuuf mirga qabu.",
+      "en": "Patients have the right to inspect their own medical records and may request a copy."
     }
   },
   {
-    "id": "sent_gevorderd_195",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Is deze tandartsbehandeling gedekt door mijn aanvullende verzekering? [2]",
+    "id": "sent_moeilijk_081",
+    "level": "moeilijk",
+    "topic": "Sociale Zekerheid",
+    "dutch": "De bijstandsuitkering geldt als het ultieme financiële vangnet voor wie geen andere inkomsten heeft.",
     "translations": {
-      "ar": "هل علاج الأسنان هذا مغطى بتأميني الإضافي؟",
-      "ti": "እዚ ናይ ስኒ ሕክምና ብተወሳኺ መድሕነይ ዝተሸፈነ ድዩ፧",
-      "om": "Yaalli ilkaanii kun inshuraansii dabalataatiin kaffalamaa?",
-      "en": "Is this dental treatment covered by my supplementary insurance?"
+      "ar": "تعتبر إعانة المساعدة الاجتماعية شبكة الأمان المالي الأخيرة لمن لا يملكون أي دخل أو مورد بديل.",
+      "ti": "ናይ ማሕበራዊ ረድኤት ክፍሊት ካልእ እቶት ንዘይብሎም ሰባት ከም ናይ መወዳእታ ናይ ገንዘብ መዕቆቢ ተባሂሉ ይቑጸር።",
+      "om": "Gargaarsi hawaasummaa namoota galii biraa hin qabneef eegumsa maallaqaa isa dhumaa ti.",
+      "en": "Social assistance benefits serve as the ultimate financial safety net for those without other income."
     }
   },
   {
-    "id": "sent_gevorderd_196",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Ik wil graag een reparatieverzoek indienen bij de woningcorporatie. [2]",
+    "id": "sent_moeilijk_082",
+    "level": "moeilijk",
+    "topic": "Arbeidsmarkt",
+    "dutch": "Gelijke behandeling op de arbeidsmarkt zonder onderscheid naar herkomst, religie of geslacht is wettelijk verankerd.",
     "translations": {
-      "ar": "أود تقديم طلب إصلاح لدى مؤسسة الإسكان.",
-      "ti": "ናብ ማሕበር ኣባይቲ ናይ ምዕራይ ሕቶ ከቕርብ ደልየ ኣለኹ።",
-      "om": "Dhaabbata manootiif iyyannoo suphaa galchuu barbaada.",
-      "en": "I would like to submit a repair request to the housing corporation."
+      "ar": "المعاملة المتساوية في سوق العمل دون تمييز على أساس الأصل أو الدين أو الجنس مكفولة قانوناً.",
+      "ti": "ኣብ ናይ ስራሕ ዕዳጋ ብዘይ ኣድልዎ ብመበቆል፡ ሃይማኖት ወይ ጾታ ማዕረ ኣተሓሕዛ ብሕጊ ዝተረጋገጸ እዩ።",
+      "om": "Bakka hojiitti garaagarummaa sabaa, amantiifi saalaan malee qixxummaan qacaramuun seeraan mirkanaa'eera.",
+      "en": "Equal treatment in the labor market regardless of origin, religion, or gender is enshrined in law."
     }
   },
   {
-    "id": "sent_gevorderd_197",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Mijn huurcontract loopt voor onbepaalde tijd. [2]",
+    "id": "sent_moeilijk_083",
+    "level": "moeilijk",
+    "topic": "Milieu",
+    "dutch": "Gemeenten stimuleren verduurzaming van woningen door middel van subsidies voor isolatie en warmtepompen.",
     "translations": {
-      "ar": "عقد إيجاري ساري المفعول لأجل غير مسمى.",
-      "ti": "ናይ ገዛ ውዕለይ ንዘይተወሰነ ግዜ ዝጸንሕ እዩ።",
-      "om": "Waliigalteen kireeffannaa koo yeroo hin murtoofneef kan turuudha.",
-      "en": "My rental contract runs for an indefinite period."
+      "ar": "تشجع البلديات تحسين كفاءة الطاقة في المنازل من خلال منح إعانات مالية للعزل ومضخات الحرارة.",
+      "ti": "ማዘጋጃ ቤታት ንናይ ምውዓይን ምውሳኽን ደገፍ ገንዘብ ብምሃብ ኣባይቲ ብቐጻልነት ንኽመሓየሹ ይድርኻ።",
+      "om": "Bulchiinsi magaalaa manneen haaromsuuf deeggarsa maallaqaa kenna.",
+      "en": "Municipalities encourage home sustainability through subsidies for insulation and heat pumps."
     }
   },
   {
-    "id": "sent_gevorderd_198",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Wilt u er rekening mee houden dat de buren kleine kinderen hebben? [2]",
-    "translations": {
-      "ar": "هل يمكنك مراعاة أن لدى الجيران أطفالاً صغاراً؟",
-      "ti": "ጎረባብቲ ናእሽቱ ቆልዑ ከምዘለዉዎም ኣብ ግምት ከተእትዉዶ፧",
-      "om": "Ollaan ijoollee xixinnoo akka qaban yaada keessa galchituu?",
-      "en": "Could you please keep in mind that the neighbors have small children?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_199",
-    "level": "gevorderd",
+    "id": "sent_moeilijk_084",
+    "level": "moeilijk",
     "topic": "Onderwijs",
-    "dutch": "Aanstaande vrijdag is er een ouderavond op de middelbare school. [2]",
-    "translations": {
-      "ar": "يوم الجمعة القادم هناك اجتماع لأولياء الأمور في المدرسة الثانوية.",
-      "ti": "ዝመጽእ ዓርቢ ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ናይ ወለዲ ምሸት ኣሎ።",
-      "om": "Jimaata dhufu mana barumsaa sadarkaa lammaffaatti walga'ii warraa jira.",
-      "en": "Next Friday there is a parents evening at the high school."
-    }
-  },
-  {
-    "id": "sent_gevorderd_200",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Mijn dochter overweegt om een mbo-opleiding in de zorg te volgen. [2]",
-    "translations": {
-      "ar": "ابنتي تفكر في متابعة دراسة مهنية متوسطة في مجال الرعاية الصحية.",
-      "ti": "ጓለይ ኣብ ናይ ጥዕና ክንክን ሞያዊ ትምህርቲ ክትከታተል ትሓስብ ኣላ።",
-      "om": "Intalli koo leenjii ogummaa eegumsa fayyaa hordofuu yaadaa jirti.",
-      "en": "My daughter is considering taking an intermediate vocational course in healthcare."
-    }
-  },
-  {
-    "id": "sent_gevorderd_201",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb mijn cv bijgewerkt en een sollicitatiebrief geschreven. [3]",
-    "translations": {
-      "ar": "لقد قمت بتحديث سيرتي الذاتية وكتبت خطاب تقديم للوظيفة.",
-      "ti": "ናይ ስራሕ ታሪኸይ ኣሐዲሰን ናይ ስራሕ መመልከቲ ደብዳበ ጽሒፈን ኣለኹ።",
-      "om": "Seenaa jireenyaa koo haaromsee xalayaa iyyannoo hojii barreesseera.",
-      "en": "I updated my CV and wrote an application letter."
-    }
-  },
-  {
-    "id": "sent_gevorderd_202",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Kunt u mij uitleggen welke arbeidsvoorwaarden hier gelden? [3]",
-    "translations": {
-      "ar": "هل يمكنك أن تشرح لي شروط العمل المعمول بها هنا؟",
-      "ti": "ኣብዚ እንታይ ዓይነት ናይ ስራሕ ውዕል ከም ዘሎ ክትገልጹለይ ትኽእሉዶ፧",
-      "om": "Haala hojii asitti hojjetamu naaf ibsuu dandeessuu?",
-      "en": "Could you explain to me what employment terms apply here?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_203",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb volgende week dinsdag een belangrijk sollicitatiegesprek. [3]",
-    "translations": {
-      "ar": "لدي مقابلة عمل مهمة يوم الثلاثاء القادم.",
-      "ti": "ዝመጽእ ሰሉስ ኣገዳሲ ናይ ስራሕ ቃለ-መሕትት ኣሎኒ።",
-      "om": "Kibxata dhufu af-gaaffii hojii baay'ee barbaachisaa qaba.",
-      "en": "I have an important job interview next Tuesday."
-    }
-  },
-  {
-    "id": "sent_gevorderd_204",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "De proeftijd van mijn nieuwe baan duurt één maand. [3]",
-    "translations": {
-      "ar": "فترة التجربة لوظيفتي الجديدة تستمر لمدة شهر واحد.",
-      "ti": "ናይቲ ሓድሽ ስርሐይ ናይ ፈተና ግዜ ሓደ ወርሒ እዩ።",
-      "om": "Qormaanni hojii koo haaraa ji'a tokkoof tura.",
-      "en": "The probationary period for my new job lasts one month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_205",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Heeft dit bedrijf een collectieve arbeidsovereenkomst (cao)? [3]",
-    "translations": {
-      "ar": "هل لدى هذه الشركة اتفاقية عمل جماعية؟",
-      "ti": "እዚ ትካል ሓባራዊ ናይ ስራሕ ስምምዕ ኣለዎዶ፧",
-      "om": "Dhaabbanni kun waliigaltee hojjettootaa qabaa?",
-      "en": "Does this company have a collective labor agreement?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_206",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Ik wil graag een bankrekening openen voor mijn salaris. [3]",
-    "translations": {
-      "ar": "أود فتح حساب مصرفي لإيداع راتبي.",
-      "ti": "ንደሞዘይ ዝኸውን ናይ ባንክ ሕሳብ ክኸፍት ደልየ ኣለኹ።",
-      "om": "Miindaa kootiif herreega baankii banachuu barbaada.",
-      "en": "I would like to open a bank account for my salary."
-    }
-  },
-  {
-    "id": "sent_gevorderd_207",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Hoe kan ik huurtoeslag en zorgtoeslag aanvragen bij de Belastingdienst? [3]",
-    "translations": {
-      "ar": "كيف يمكنني التقدم بطلب للحصول على بدل إيجار وبدل رعاية صحية من مصلحة الضرائب؟",
-      "ti": "ናይ ገዛ ክራይ ደገፍን ናይ ጥዕና ደገፍን ብኸመይ ክሓትት ይኽእል፧",
-      "om": "Gargaarsa kireeffannaafi fayyaa akkamitti gaafachuu danda'a?",
-      "en": "How can I apply for rent allowance and healthcare allowance from the Tax Authority?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_208",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "De jaarafrekening voor energie was hoger dan verwacht. [3]",
-    "translations": {
-      "ar": "كانت فاتورة الطاقة السنوية أعلى من المتوقع.",
-      "ti": "ናይ ዓመት ናይ ኤሌክትሪክ ሕሳብ ካብቲ ዝተጸበኽዎ በሊጹ።",
-      "om": "Herreegni humnaa kan waggaa isa tilmaamame caaleera.",
-      "en": "The annual energy statement was higher than expected."
-    }
-  },
-  {
-    "id": "sent_gevorderd_209",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Vergeet niet om maandelijks uw zorgpremie op tijd te betalen. [3]",
-    "translations": {
-      "ar": "لا تنس دفع قسط التأمين الصحي شهرياً في الوقت المحدد.",
-      "ti": "ናይ ጥዕና መድሕን ክፍሊትኩም ኣብ ወርሒ ብግዜኡ ምኽፋል ኣይትረስዑ።",
-      "om": "Kaffaltii inshuraansii fayyaa keessanii ji'aan kaffaluu hin dagatinaa.",
-      "en": "Do not forget to pay your health insurance premium on time each month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_210",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Voor het inburgeringsexamen moet ik slagen voor spreken en luisteren. [3]",
-    "translations": {
-      "ar": "لاجتياز امتحان الاندماج يجب أن أنجح في التحدث والاستماع.",
-      "ti": "ንፈተና ምውህሃድ ናይ ምዝራብን ምስማዕን ፈተናታት ክሓልፍ ኣሎኒ።",
-      "om": "Qormaata Neezerlaand darbuuf qormaata dubbachuu fi dhaggeeffachuu darbuu qaba.",
-      "en": "For the civic integration exam I must pass speaking and listening."
-    }
-  },
-  {
-    "id": "sent_gevorderd_211",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "We hebben vandaag in de klas geleerd over de Nederlandse grondwet. [3]",
-    "translations": {
-      "ar": "لقد تعلمنا اليوم في الفصل الدراسي عن الدستور الهولندي.",
-      "ti": "ሎሚ ኣብ ክፍሊ ብዛዕባ ቅዋም ኔዘርላንድስ ተማሂርና።",
-      "om": "Har'a kutaa keessatti waa'ee heera mootummaa Neezerlaandi baranne.",
-      "en": "Today in class we learned about the Dutch constitution."
-    }
-  },
-  {
-    "id": "sent_gevorderd_212",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Vrijwilligerswerk doen helpt heel goed om de taal te oefenen. [3]",
-    "translations": {
-      "ar": "العمل التطوعي يساعد كثيراً في ممارسة اللغة.",
-      "ti": "ወለንታዊ ስራሕ ምስራሕ ንቋንቋ ንምልምማድ ኣዝዩ ይሕግዝ።",
-      "om": "Hojii tola ooltummaa hojjechuun afaan shaakaluuf baay'ee gargaara.",
-      "en": "Doing volunteer work helps a lot with practicing the language."
-    }
-  },
-  {
-    "id": "sent_gevorderd_213",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "De fysiotherapeut gaf mij oefeningen voor mijn onderrug. [3]",
-    "translations": {
-      "ar": "أعطاني المعالج الطبيعي تمارين لأسفل ظهري.",
-      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንሕቖይ ዝኸውን ልምምድ ሂቡኒ።",
-      "om": "Ogeessi fiiziyooteraapii qoricha sochii qaamaa dugda gadiitiif naaf kenne.",
-      "en": "The physiotherapist gave me exercises for my lower back."
-    }
-  },
-  {
-    "id": "sent_gevorderd_214",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Ik heb een doorverwijzing van de huisarts nodig voor het ziekenhuis. [3]",
-    "translations": {
-      "ar": "أحتاج إلى إحالة طبية من طبيب الأسرة للذهاب إلى المستشفى.",
-      "ti": "ናብ ሆስፒታል ንምኻድ ናይ ሓኪም ስድራቤት መወከሲ ወረቐት የድልየኒ።",
-      "om": "Gara hospitaalaatti deemuf xalayaa dooqtooraa na barbaachisa.",
-      "en": "I need a referral letter from the GP for the hospital."
-    }
-  },
-  {
-    "id": "sent_gevorderd_215",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Is deze tandartsbehandeling gedekt door mijn aanvullende verzekering? [3]",
-    "translations": {
-      "ar": "هل علاج الأسنان هذا مغطى بتأميني الإضافي؟",
-      "ti": "እዚ ናይ ስኒ ሕክምና ብተወሳኺ መድሕነይ ዝተሸፈነ ድዩ፧",
-      "om": "Yaalli ilkaanii kun inshuraansii dabalataatiin kaffalamaa?",
-      "en": "Is this dental treatment covered by my supplementary insurance?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_216",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Ik wil graag een reparatieverzoek indienen bij de woningcorporatie. [3]",
-    "translations": {
-      "ar": "أود تقديم طلب إصلاح لدى مؤسسة الإسكان.",
-      "ti": "ናብ ማሕበር ኣባይቲ ናይ ምዕራይ ሕቶ ከቕርብ ደልየ ኣለኹ።",
-      "om": "Dhaabbata manootiif iyyannoo suphaa galchuu barbaada.",
-      "en": "I would like to submit a repair request to the housing corporation."
-    }
-  },
-  {
-    "id": "sent_gevorderd_217",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Mijn huurcontract loopt voor onbepaalde tijd. [3]",
-    "translations": {
-      "ar": "عقد إيجاري ساري المفعول لأجل غير مسمى.",
-      "ti": "ናይ ገዛ ውዕለይ ንዘይተወሰነ ግዜ ዝጸንሕ እዩ።",
-      "om": "Waliigalteen kireeffannaa koo yeroo hin murtoofneef kan turuudha.",
-      "en": "My rental contract runs for an indefinite period."
-    }
-  },
-  {
-    "id": "sent_gevorderd_218",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Wilt u er rekening mee houden dat de buren kleine kinderen hebben? [3]",
-    "translations": {
-      "ar": "هل يمكنك مراعاة أن لدى الجيران أطفالاً صغاراً؟",
-      "ti": "ጎረባብቲ ናእሽቱ ቆልዑ ከምዘለዉዎም ኣብ ግምት ከተእትዉዶ፧",
-      "om": "Ollaan ijoollee xixinnoo akka qaban yaada keessa galchituu?",
-      "en": "Could you please keep in mind that the neighbors have small children?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_219",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Aanstaande vrijdag is er een ouderavond op de middelbare school. [3]",
-    "translations": {
-      "ar": "يوم الجمعة القادم هناك اجتماع لأولياء الأمور في المدرسة الثانوية.",
-      "ti": "ዝመጽእ ዓርቢ ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ናይ ወለዲ ምሸት ኣሎ።",
-      "om": "Jimaata dhufu mana barumsaa sadarkaa lammaffaatti walga'ii warraa jira.",
-      "en": "Next Friday there is a parents evening at the high school."
-    }
-  },
-  {
-    "id": "sent_gevorderd_220",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Mijn dochter overweegt om een mbo-opleiding in de zorg te volgen. [3]",
-    "translations": {
-      "ar": "ابنتي تفكر في متابعة دراسة مهنية متوسطة في مجال الرعاية الصحية.",
-      "ti": "ጓለይ ኣብ ናይ ጥዕና ክንክን ሞያዊ ትምህርቲ ክትከታተል ትሓስብ ኣላ።",
-      "om": "Intalli koo leenjii ogummaa eegumsa fayyaa hordofuu yaadaa jirti.",
-      "en": "My daughter is considering taking an intermediate vocational course in healthcare."
-    }
-  },
-  {
-    "id": "sent_gevorderd_221",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb mijn cv bijgewerkt en een sollicitatiebrief geschreven. [4]",
-    "translations": {
-      "ar": "لقد قمت بتحديث سيرتي الذاتية وكتبت خطاب تقديم للوظيفة.",
-      "ti": "ናይ ስራሕ ታሪኸይ ኣሐዲሰን ናይ ስራሕ መመልከቲ ደብዳበ ጽሒፈን ኣለኹ።",
-      "om": "Seenaa jireenyaa koo haaromsee xalayaa iyyannoo hojii barreesseera.",
-      "en": "I updated my CV and wrote an application letter."
-    }
-  },
-  {
-    "id": "sent_gevorderd_222",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Kunt u mij uitleggen welke arbeidsvoorwaarden hier gelden? [4]",
-    "translations": {
-      "ar": "هل يمكنك أن تشرح لي شروط العمل المعمول بها هنا؟",
-      "ti": "ኣብዚ እንታይ ዓይነት ናይ ስራሕ ውዕል ከም ዘሎ ክትገልጹለይ ትኽእሉዶ፧",
-      "om": "Haala hojii asitti hojjetamu naaf ibsuu dandeessuu?",
-      "en": "Could you explain to me what employment terms apply here?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_223",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb volgende week dinsdag een belangrijk sollicitatiegesprek. [4]",
-    "translations": {
-      "ar": "لدي مقابلة عمل مهمة يوم الثلاثاء القادم.",
-      "ti": "ዝመጽእ ሰሉስ ኣገዳሲ ናይ ስራሕ ቃለ-መሕትት ኣሎኒ።",
-      "om": "Kibxata dhufu af-gaaffii hojii baay'ee barbaachisaa qaba.",
-      "en": "I have an important job interview next Tuesday."
-    }
-  },
-  {
-    "id": "sent_gevorderd_224",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "De proeftijd van mijn nieuwe baan duurt één maand. [4]",
-    "translations": {
-      "ar": "فترة التجربة لوظيفتي الجديدة تستمر لمدة شهر واحد.",
-      "ti": "ናይቲ ሓድሽ ስርሐይ ናይ ፈተና ግዜ ሓደ ወርሒ እዩ።",
-      "om": "Qormaanni hojii koo haaraa ji'a tokkoof tura.",
-      "en": "The probationary period for my new job lasts one month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_225",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Heeft dit bedrijf een collectieve arbeidsovereenkomst (cao)? [4]",
-    "translations": {
-      "ar": "هل لدى هذه الشركة اتفاقية عمل جماعية؟",
-      "ti": "እዚ ትካል ሓባራዊ ናይ ስራሕ ስምምዕ ኣለዎዶ፧",
-      "om": "Dhaabbanni kun waliigaltee hojjettootaa qabaa?",
-      "en": "Does this company have a collective labor agreement?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_226",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Ik wil graag een bankrekening openen voor mijn salaris. [4]",
-    "translations": {
-      "ar": "أود فتح حساب مصرفي لإيداع راتبي.",
-      "ti": "ንደሞዘይ ዝኸውን ናይ ባንክ ሕሳብ ክኸፍት ደልየ ኣለኹ።",
-      "om": "Miindaa kootiif herreega baankii banachuu barbaada.",
-      "en": "I would like to open a bank account for my salary."
-    }
-  },
-  {
-    "id": "sent_gevorderd_227",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Hoe kan ik huurtoeslag en zorgtoeslag aanvragen bij de Belastingdienst? [4]",
-    "translations": {
-      "ar": "كيف يمكنني التقدم بطلب للحصول على بدل إيجار وبدل رعاية صحية من مصلحة الضرائب؟",
-      "ti": "ናይ ገዛ ክራይ ደገፍን ናይ ጥዕና ደገፍን ብኸመይ ክሓትት ይኽእል፧",
-      "om": "Gargaarsa kireeffannaafi fayyaa akkamitti gaafachuu danda'a?",
-      "en": "How can I apply for rent allowance and healthcare allowance from the Tax Authority?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_228",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "De jaarafrekening voor energie was hoger dan verwacht. [4]",
-    "translations": {
-      "ar": "كانت فاتورة الطاقة السنوية أعلى من المتوقع.",
-      "ti": "ናይ ዓመት ናይ ኤሌክትሪክ ሕሳብ ካብቲ ዝተጸበኽዎ በሊጹ።",
-      "om": "Herreegni humnaa kan waggaa isa tilmaamame caaleera.",
-      "en": "The annual energy statement was higher than expected."
-    }
-  },
-  {
-    "id": "sent_gevorderd_229",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Vergeet niet om maandelijks uw zorgpremie op tijd te betalen. [4]",
-    "translations": {
-      "ar": "لا تنس دفع قسط التأمين الصحي شهرياً في الوقت المحدد.",
-      "ti": "ናይ ጥዕና መድሕን ክፍሊትኩም ኣብ ወርሒ ብግዜኡ ምኽፋል ኣይትረስዑ።",
-      "om": "Kaffaltii inshuraansii fayyaa keessanii ji'aan kaffaluu hin dagatinaa.",
-      "en": "Do not forget to pay your health insurance premium on time each month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_230",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Voor het inburgeringsexamen moet ik slagen voor spreken en luisteren. [4]",
-    "translations": {
-      "ar": "لاجتياز امتحان الاندماج يجب أن أنجح في التحدث والاستماع.",
-      "ti": "ንፈተና ምውህሃድ ናይ ምዝራብን ምስማዕን ፈተናታት ክሓልፍ ኣሎኒ።",
-      "om": "Qormaata Neezerlaand darbuuf qormaata dubbachuu fi dhaggeeffachuu darbuu qaba.",
-      "en": "For the civic integration exam I must pass speaking and listening."
-    }
-  },
-  {
-    "id": "sent_gevorderd_231",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "We hebben vandaag in de klas geleerd over de Nederlandse grondwet. [4]",
-    "translations": {
-      "ar": "لقد تعلمنا اليوم في الفصل الدراسي عن الدستور الهولندي.",
-      "ti": "ሎሚ ኣብ ክፍሊ ብዛዕባ ቅዋም ኔዘርላንድስ ተማሂርና።",
-      "om": "Har'a kutaa keessatti waa'ee heera mootummaa Neezerlaandi baranne.",
-      "en": "Today in class we learned about the Dutch constitution."
-    }
-  },
-  {
-    "id": "sent_gevorderd_232",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Vrijwilligerswerk doen helpt heel goed om de taal te oefenen. [4]",
-    "translations": {
-      "ar": "العمل التطوعي يساعد كثيراً في ممارسة اللغة.",
-      "ti": "ወለንታዊ ስራሕ ምስራሕ ንቋንቋ ንምልምማድ ኣዝዩ ይሕግዝ።",
-      "om": "Hojii tola ooltummaa hojjechuun afaan shaakaluuf baay'ee gargaara.",
-      "en": "Doing volunteer work helps a lot with practicing the language."
-    }
-  },
-  {
-    "id": "sent_gevorderd_233",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "De fysiotherapeut gaf mij oefeningen voor mijn onderrug. [4]",
-    "translations": {
-      "ar": "أعطاني المعالج الطبيعي تمارين لأسفل ظهري.",
-      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንሕቖይ ዝኸውን ልምምድ ሂቡኒ።",
-      "om": "Ogeessi fiiziyooteraapii qoricha sochii qaamaa dugda gadiitiif naaf kenne.",
-      "en": "The physiotherapist gave me exercises for my lower back."
-    }
-  },
-  {
-    "id": "sent_gevorderd_234",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Ik heb een doorverwijzing van de huisarts nodig voor het ziekenhuis. [4]",
-    "translations": {
-      "ar": "أحتاج إلى إحالة طبية من طبيب الأسرة للذهاب إلى المستشفى.",
-      "ti": "ናብ ሆስፒታል ንምኻድ ናይ ሓኪም ስድራቤት መወከሲ ወረቐት የድልየኒ።",
-      "om": "Gara hospitaalaatti deemuf xalayaa dooqtooraa na barbaachisa.",
-      "en": "I need a referral letter from the GP for the hospital."
-    }
-  },
-  {
-    "id": "sent_gevorderd_235",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Is deze tandartsbehandeling gedekt door mijn aanvullende verzekering? [4]",
-    "translations": {
-      "ar": "هل علاج الأسنان هذا مغطى بتأميني الإضافي؟",
-      "ti": "እዚ ናይ ስኒ ሕክምና ብተወሳኺ መድሕነይ ዝተሸፈነ ድዩ፧",
-      "om": "Yaalli ilkaanii kun inshuraansii dabalataatiin kaffalamaa?",
-      "en": "Is this dental treatment covered by my supplementary insurance?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_236",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Ik wil graag een reparatieverzoek indienen bij de woningcorporatie. [4]",
-    "translations": {
-      "ar": "أود تقديم طلب إصلاح لدى مؤسسة الإسكان.",
-      "ti": "ናብ ማሕበር ኣባይቲ ናይ ምዕራይ ሕቶ ከቕርብ ደልየ ኣለኹ።",
-      "om": "Dhaabbata manootiif iyyannoo suphaa galchuu barbaada.",
-      "en": "I would like to submit a repair request to the housing corporation."
-    }
-  },
-  {
-    "id": "sent_gevorderd_237",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Mijn huurcontract loopt voor onbepaalde tijd. [4]",
-    "translations": {
-      "ar": "عقد إيجاري ساري المفعول لأجل غير مسمى.",
-      "ti": "ናይ ገዛ ውዕለይ ንዘይተወሰነ ግዜ ዝጸንሕ እዩ።",
-      "om": "Waliigalteen kireeffannaa koo yeroo hin murtoofneef kan turuudha.",
-      "en": "My rental contract runs for an indefinite period."
-    }
-  },
-  {
-    "id": "sent_gevorderd_238",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Wilt u er rekening mee houden dat de buren kleine kinderen hebben? [4]",
-    "translations": {
-      "ar": "هل يمكنك مراعاة أن لدى الجيران أطفالاً صغاراً؟",
-      "ti": "ጎረባብቲ ናእሽቱ ቆልዑ ከምዘለዉዎም ኣብ ግምት ከተእትዉዶ፧",
-      "om": "Ollaan ijoollee xixinnoo akka qaban yaada keessa galchituu?",
-      "en": "Could you please keep in mind that the neighbors have small children?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_239",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Aanstaande vrijdag is er een ouderavond op de middelbare school. [4]",
-    "translations": {
-      "ar": "يوم الجمعة القادم هناك اجتماع لأولياء الأمور في المدرسة الثانوية.",
-      "ti": "ዝመጽእ ዓርቢ ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ናይ ወለዲ ምሸት ኣሎ።",
-      "om": "Jimaata dhufu mana barumsaa sadarkaa lammaffaatti walga'ii warraa jira.",
-      "en": "Next Friday there is a parents evening at the high school."
-    }
-  },
-  {
-    "id": "sent_gevorderd_240",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Mijn dochter overweegt om een mbo-opleiding in de zorg te volgen. [4]",
-    "translations": {
-      "ar": "ابنتي تفكر في متابعة دراسة مهنية متوسطة في مجال الرعاية الصحية.",
-      "ti": "ጓለይ ኣብ ናይ ጥዕና ክንክን ሞያዊ ትምህርቲ ክትከታተል ትሓስብ ኣላ።",
-      "om": "Intalli koo leenjii ogummaa eegumsa fayyaa hordofuu yaadaa jirti.",
-      "en": "My daughter is considering taking an intermediate vocational course in healthcare."
-    }
-  },
-  {
-    "id": "sent_gevorderd_241",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb mijn cv bijgewerkt en een sollicitatiebrief geschreven. [5]",
-    "translations": {
-      "ar": "لقد قمت بتحديث سيرتي الذاتية وكتبت خطاب تقديم للوظيفة.",
-      "ti": "ናይ ስራሕ ታሪኸይ ኣሐዲሰን ናይ ስራሕ መመልከቲ ደብዳበ ጽሒፈን ኣለኹ።",
-      "om": "Seenaa jireenyaa koo haaromsee xalayaa iyyannoo hojii barreesseera.",
-      "en": "I updated my CV and wrote an application letter."
-    }
-  },
-  {
-    "id": "sent_gevorderd_242",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Kunt u mij uitleggen welke arbeidsvoorwaarden hier gelden? [5]",
-    "translations": {
-      "ar": "هل يمكنك أن تشرح لي شروط العمل المعمول بها هنا؟",
-      "ti": "ኣብዚ እንታይ ዓይነት ናይ ስራሕ ውዕል ከም ዘሎ ክትገልጹለይ ትኽእሉዶ፧",
-      "om": "Haala hojii asitti hojjetamu naaf ibsuu dandeessuu?",
-      "en": "Could you explain to me what employment terms apply here?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_243",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb volgende week dinsdag een belangrijk sollicitatiegesprek. [5]",
-    "translations": {
-      "ar": "لدي مقابلة عمل مهمة يوم الثلاثاء القادم.",
-      "ti": "ዝመጽእ ሰሉስ ኣገዳሲ ናይ ስራሕ ቃለ-መሕትት ኣሎኒ።",
-      "om": "Kibxata dhufu af-gaaffii hojii baay'ee barbaachisaa qaba.",
-      "en": "I have an important job interview next Tuesday."
-    }
-  },
-  {
-    "id": "sent_gevorderd_244",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "De proeftijd van mijn nieuwe baan duurt één maand. [5]",
-    "translations": {
-      "ar": "فترة التجربة لوظيفتي الجديدة تستمر لمدة شهر واحد.",
-      "ti": "ናይቲ ሓድሽ ስርሐይ ናይ ፈተና ግዜ ሓደ ወርሒ እዩ።",
-      "om": "Qormaanni hojii koo haaraa ji'a tokkoof tura.",
-      "en": "The probationary period for my new job lasts one month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_245",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Heeft dit bedrijf een collectieve arbeidsovereenkomst (cao)? [5]",
-    "translations": {
-      "ar": "هل لدى هذه الشركة اتفاقية عمل جماعية؟",
-      "ti": "እዚ ትካል ሓባራዊ ናይ ስራሕ ስምምዕ ኣለዎዶ፧",
-      "om": "Dhaabbanni kun waliigaltee hojjettootaa qabaa?",
-      "en": "Does this company have a collective labor agreement?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_246",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Ik wil graag een bankrekening openen voor mijn salaris. [5]",
-    "translations": {
-      "ar": "أود فتح حساب مصرفي لإيداع راتبي.",
-      "ti": "ንደሞዘይ ዝኸውን ናይ ባንክ ሕሳብ ክኸፍት ደልየ ኣለኹ።",
-      "om": "Miindaa kootiif herreega baankii banachuu barbaada.",
-      "en": "I would like to open a bank account for my salary."
-    }
-  },
-  {
-    "id": "sent_gevorderd_247",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Hoe kan ik huurtoeslag en zorgtoeslag aanvragen bij de Belastingdienst? [5]",
-    "translations": {
-      "ar": "كيف يمكنني التقدم بطلب للحصول على بدل إيجار وبدل رعاية صحية من مصلحة الضرائب؟",
-      "ti": "ናይ ገዛ ክራይ ደገፍን ናይ ጥዕና ደገፍን ብኸመይ ክሓትት ይኽእል፧",
-      "om": "Gargaarsa kireeffannaafi fayyaa akkamitti gaafachuu danda'a?",
-      "en": "How can I apply for rent allowance and healthcare allowance from the Tax Authority?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_248",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "De jaarafrekening voor energie was hoger dan verwacht. [5]",
-    "translations": {
-      "ar": "كانت فاتورة الطاقة السنوية أعلى من المتوقع.",
-      "ti": "ናይ ዓመት ናይ ኤሌክትሪክ ሕሳብ ካብቲ ዝተጸበኽዎ በሊጹ።",
-      "om": "Herreegni humnaa kan waggaa isa tilmaamame caaleera.",
-      "en": "The annual energy statement was higher than expected."
-    }
-  },
-  {
-    "id": "sent_gevorderd_249",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Vergeet niet om maandelijks uw zorgpremie op tijd te betalen. [5]",
-    "translations": {
-      "ar": "لا تنس دفع قسط التأمين الصحي شهرياً في الوقت المحدد.",
-      "ti": "ናይ ጥዕና መድሕን ክፍሊትኩም ኣብ ወርሒ ብግዜኡ ምኽፋል ኣይትረስዑ።",
-      "om": "Kaffaltii inshuraansii fayyaa keessanii ji'aan kaffaluu hin dagatinaa.",
-      "en": "Do not forget to pay your health insurance premium on time each month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_250",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Voor het inburgeringsexamen moet ik slagen voor spreken en luisteren. [5]",
-    "translations": {
-      "ar": "لاجتياز امتحان الاندماج يجب أن أنجح في التحدث والاستماع.",
-      "ti": "ንፈተና ምውህሃድ ናይ ምዝራብን ምስማዕን ፈተናታት ክሓልፍ ኣሎኒ።",
-      "om": "Qormaata Neezerlaand darbuuf qormaata dubbachuu fi dhaggeeffachuu darbuu qaba.",
-      "en": "For the civic integration exam I must pass speaking and listening."
-    }
-  },
-  {
-    "id": "sent_gevorderd_251",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "We hebben vandaag in de klas geleerd over de Nederlandse grondwet. [5]",
-    "translations": {
-      "ar": "لقد تعلمنا اليوم في الفصل الدراسي عن الدستور الهولندي.",
-      "ti": "ሎሚ ኣብ ክፍሊ ብዛዕባ ቅዋም ኔዘርላንድስ ተማሂርና።",
-      "om": "Har'a kutaa keessatti waa'ee heera mootummaa Neezerlaandi baranne.",
-      "en": "Today in class we learned about the Dutch constitution."
-    }
-  },
-  {
-    "id": "sent_gevorderd_252",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Vrijwilligerswerk doen helpt heel goed om de taal te oefenen. [5]",
-    "translations": {
-      "ar": "العمل التطوعي يساعد كثيراً في ممارسة اللغة.",
-      "ti": "ወለንታዊ ስራሕ ምስራሕ ንቋንቋ ንምልምማድ ኣዝዩ ይሕግዝ።",
-      "om": "Hojii tola ooltummaa hojjechuun afaan shaakaluuf baay'ee gargaara.",
-      "en": "Doing volunteer work helps a lot with practicing the language."
-    }
-  },
-  {
-    "id": "sent_gevorderd_253",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "De fysiotherapeut gaf mij oefeningen voor mijn onderrug. [5]",
-    "translations": {
-      "ar": "أعطاني المعالج الطبيعي تمارين لأسفل ظهري.",
-      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንሕቖይ ዝኸውን ልምምድ ሂቡኒ።",
-      "om": "Ogeessi fiiziyooteraapii qoricha sochii qaamaa dugda gadiitiif naaf kenne.",
-      "en": "The physiotherapist gave me exercises for my lower back."
-    }
-  },
-  {
-    "id": "sent_gevorderd_254",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Ik heb een doorverwijzing van de huisarts nodig voor het ziekenhuis. [5]",
-    "translations": {
-      "ar": "أحتاج إلى إحالة طبية من طبيب الأسرة للذهاب إلى المستشفى.",
-      "ti": "ናብ ሆስፒታል ንምኻድ ናይ ሓኪም ስድራቤት መወከሲ ወረቐት የድልየኒ።",
-      "om": "Gara hospitaalaatti deemuf xalayaa dooqtooraa na barbaachisa.",
-      "en": "I need a referral letter from the GP for the hospital."
-    }
-  },
-  {
-    "id": "sent_gevorderd_255",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Is deze tandartsbehandeling gedekt door mijn aanvullende verzekering? [5]",
-    "translations": {
-      "ar": "هل علاج الأسنان هذا مغطى بتأميني الإضافي؟",
-      "ti": "እዚ ናይ ስኒ ሕክምና ብተወሳኺ መድሕነይ ዝተሸፈነ ድዩ፧",
-      "om": "Yaalli ilkaanii kun inshuraansii dabalataatiin kaffalamaa?",
-      "en": "Is this dental treatment covered by my supplementary insurance?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_256",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Ik wil graag een reparatieverzoek indienen bij de woningcorporatie. [5]",
-    "translations": {
-      "ar": "أود تقديم طلب إصلاح لدى مؤسسة الإسكان.",
-      "ti": "ናብ ማሕበር ኣባይቲ ናይ ምዕራይ ሕቶ ከቕርብ ደልየ ኣለኹ።",
-      "om": "Dhaabbata manootiif iyyannoo suphaa galchuu barbaada.",
-      "en": "I would like to submit a repair request to the housing corporation."
-    }
-  },
-  {
-    "id": "sent_gevorderd_257",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Mijn huurcontract loopt voor onbepaalde tijd. [5]",
-    "translations": {
-      "ar": "عقد إيجاري ساري المفعول لأجل غير مسمى.",
-      "ti": "ናይ ገዛ ውዕለይ ንዘይተወሰነ ግዜ ዝጸንሕ እዩ።",
-      "om": "Waliigalteen kireeffannaa koo yeroo hin murtoofneef kan turuudha.",
-      "en": "My rental contract runs for an indefinite period."
-    }
-  },
-  {
-    "id": "sent_gevorderd_258",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Wilt u er rekening mee houden dat de buren kleine kinderen hebben? [5]",
-    "translations": {
-      "ar": "هل يمكنك مراعاة أن لدى الجيران أطفالاً صغاراً؟",
-      "ti": "ጎረባብቲ ናእሽቱ ቆልዑ ከምዘለዉዎም ኣብ ግምት ከተእትዉዶ፧",
-      "om": "Ollaan ijoollee xixinnoo akka qaban yaada keessa galchituu?",
-      "en": "Could you please keep in mind that the neighbors have small children?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_259",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Aanstaande vrijdag is er een ouderavond op de middelbare school. [5]",
-    "translations": {
-      "ar": "يوم الجمعة القادم هناك اجتماع لأولياء الأمور في المدرسة الثانوية.",
-      "ti": "ዝመጽእ ዓርቢ ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ናይ ወለዲ ምሸት ኣሎ።",
-      "om": "Jimaata dhufu mana barumsaa sadarkaa lammaffaatti walga'ii warraa jira.",
-      "en": "Next Friday there is a parents evening at the high school."
-    }
-  },
-  {
-    "id": "sent_gevorderd_260",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Mijn dochter overweegt om een mbo-opleiding in de zorg te volgen. [5]",
-    "translations": {
-      "ar": "ابنتي تفكر في متابعة دراسة مهنية متوسطة في مجال الرعاية الصحية.",
-      "ti": "ጓለይ ኣብ ናይ ጥዕና ክንክን ሞያዊ ትምህርቲ ክትከታተል ትሓስብ ኣላ።",
-      "om": "Intalli koo leenjii ogummaa eegumsa fayyaa hordofuu yaadaa jirti.",
-      "en": "My daughter is considering taking an intermediate vocational course in healthcare."
-    }
-  },
-  {
-    "id": "sent_gevorderd_261",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb mijn cv bijgewerkt en een sollicitatiebrief geschreven. [6]",
-    "translations": {
-      "ar": "لقد قمت بتحديث سيرتي الذاتية وكتبت خطاب تقديم للوظيفة.",
-      "ti": "ናይ ስራሕ ታሪኸይ ኣሐዲሰን ናይ ስራሕ መመልከቲ ደብዳበ ጽሒፈን ኣለኹ።",
-      "om": "Seenaa jireenyaa koo haaromsee xalayaa iyyannoo hojii barreesseera.",
-      "en": "I updated my CV and wrote an application letter."
-    }
-  },
-  {
-    "id": "sent_gevorderd_262",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Kunt u mij uitleggen welke arbeidsvoorwaarden hier gelden? [6]",
-    "translations": {
-      "ar": "هل يمكنك أن تشرح لي شروط العمل المعمول بها هنا؟",
-      "ti": "ኣብዚ እንታይ ዓይነት ናይ ስራሕ ውዕል ከም ዘሎ ክትገልጹለይ ትኽእሉዶ፧",
-      "om": "Haala hojii asitti hojjetamu naaf ibsuu dandeessuu?",
-      "en": "Could you explain to me what employment terms apply here?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_263",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb volgende week dinsdag een belangrijk sollicitatiegesprek. [6]",
-    "translations": {
-      "ar": "لدي مقابلة عمل مهمة يوم الثلاثاء القادم.",
-      "ti": "ዝመጽእ ሰሉስ ኣገዳሲ ናይ ስራሕ ቃለ-መሕትት ኣሎኒ።",
-      "om": "Kibxata dhufu af-gaaffii hojii baay'ee barbaachisaa qaba.",
-      "en": "I have an important job interview next Tuesday."
-    }
-  },
-  {
-    "id": "sent_gevorderd_264",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "De proeftijd van mijn nieuwe baan duurt één maand. [6]",
-    "translations": {
-      "ar": "فترة التجربة لوظيفتي الجديدة تستمر لمدة شهر واحد.",
-      "ti": "ናይቲ ሓድሽ ስርሐይ ናይ ፈተና ግዜ ሓደ ወርሒ እዩ።",
-      "om": "Qormaanni hojii koo haaraa ji'a tokkoof tura.",
-      "en": "The probationary period for my new job lasts one month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_265",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Heeft dit bedrijf een collectieve arbeidsovereenkomst (cao)? [6]",
-    "translations": {
-      "ar": "هل لدى هذه الشركة اتفاقية عمل جماعية؟",
-      "ti": "እዚ ትካል ሓባራዊ ናይ ስራሕ ስምምዕ ኣለዎዶ፧",
-      "om": "Dhaabbanni kun waliigaltee hojjettootaa qabaa?",
-      "en": "Does this company have a collective labor agreement?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_266",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Ik wil graag een bankrekening openen voor mijn salaris. [6]",
-    "translations": {
-      "ar": "أود فتح حساب مصرفي لإيداع راتبي.",
-      "ti": "ንደሞዘይ ዝኸውን ናይ ባንክ ሕሳብ ክኸፍት ደልየ ኣለኹ።",
-      "om": "Miindaa kootiif herreega baankii banachuu barbaada.",
-      "en": "I would like to open a bank account for my salary."
-    }
-  },
-  {
-    "id": "sent_gevorderd_267",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Hoe kan ik huurtoeslag en zorgtoeslag aanvragen bij de Belastingdienst? [6]",
-    "translations": {
-      "ar": "كيف يمكنني التقدم بطلب للحصول على بدل إيجار وبدل رعاية صحية من مصلحة الضرائب؟",
-      "ti": "ናይ ገዛ ክራይ ደገፍን ናይ ጥዕና ደገፍን ብኸመይ ክሓትት ይኽእል፧",
-      "om": "Gargaarsa kireeffannaafi fayyaa akkamitti gaafachuu danda'a?",
-      "en": "How can I apply for rent allowance and healthcare allowance from the Tax Authority?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_268",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "De jaarafrekening voor energie was hoger dan verwacht. [6]",
-    "translations": {
-      "ar": "كانت فاتورة الطاقة السنوية أعلى من المتوقع.",
-      "ti": "ናይ ዓመት ናይ ኤሌክትሪክ ሕሳብ ካብቲ ዝተጸበኽዎ በሊጹ።",
-      "om": "Herreegni humnaa kan waggaa isa tilmaamame caaleera.",
-      "en": "The annual energy statement was higher than expected."
-    }
-  },
-  {
-    "id": "sent_gevorderd_269",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Vergeet niet om maandelijks uw zorgpremie op tijd te betalen. [6]",
-    "translations": {
-      "ar": "لا تنس دفع قسط التأمين الصحي شهرياً في الوقت المحدد.",
-      "ti": "ናይ ጥዕና መድሕን ክፍሊትኩም ኣብ ወርሒ ብግዜኡ ምኽፋል ኣይትረስዑ።",
-      "om": "Kaffaltii inshuraansii fayyaa keessanii ji'aan kaffaluu hin dagatinaa.",
-      "en": "Do not forget to pay your health insurance premium on time each month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_270",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Voor het inburgeringsexamen moet ik slagen voor spreken en luisteren. [6]",
-    "translations": {
-      "ar": "لاجتياز امتحان الاندماج يجب أن أنجح في التحدث والاستماع.",
-      "ti": "ንፈተና ምውህሃድ ናይ ምዝራብን ምስማዕን ፈተናታት ክሓልፍ ኣሎኒ።",
-      "om": "Qormaata Neezerlaand darbuuf qormaata dubbachuu fi dhaggeeffachuu darbuu qaba.",
-      "en": "For the civic integration exam I must pass speaking and listening."
-    }
-  },
-  {
-    "id": "sent_gevorderd_271",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "We hebben vandaag in de klas geleerd over de Nederlandse grondwet. [6]",
-    "translations": {
-      "ar": "لقد تعلمنا اليوم في الفصل الدراسي عن الدستور الهولندي.",
-      "ti": "ሎሚ ኣብ ክፍሊ ብዛዕባ ቅዋም ኔዘርላንድስ ተማሂርና።",
-      "om": "Har'a kutaa keessatti waa'ee heera mootummaa Neezerlaandi baranne.",
-      "en": "Today in class we learned about the Dutch constitution."
-    }
-  },
-  {
-    "id": "sent_gevorderd_272",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Vrijwilligerswerk doen helpt heel goed om de taal te oefenen. [6]",
-    "translations": {
-      "ar": "العمل التطوعي يساعد كثيراً في ممارسة اللغة.",
-      "ti": "ወለንታዊ ስራሕ ምስራሕ ንቋንቋ ንምልምማድ ኣዝዩ ይሕግዝ።",
-      "om": "Hojii tola ooltummaa hojjechuun afaan shaakaluuf baay'ee gargaara.",
-      "en": "Doing volunteer work helps a lot with practicing the language."
-    }
-  },
-  {
-    "id": "sent_gevorderd_273",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "De fysiotherapeut gaf mij oefeningen voor mijn onderrug. [6]",
-    "translations": {
-      "ar": "أعطاني المعالج الطبيعي تمارين لأسفل ظهري.",
-      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንሕቖይ ዝኸውን ልምምድ ሂቡኒ።",
-      "om": "Ogeessi fiiziyooteraapii qoricha sochii qaamaa dugda gadiitiif naaf kenne.",
-      "en": "The physiotherapist gave me exercises for my lower back."
-    }
-  },
-  {
-    "id": "sent_gevorderd_274",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Ik heb een doorverwijzing van de huisarts nodig voor het ziekenhuis. [6]",
-    "translations": {
-      "ar": "أحتاج إلى إحالة طبية من طبيب الأسرة للذهاب إلى المستشفى.",
-      "ti": "ናብ ሆስፒታል ንምኻድ ናይ ሓኪም ስድራቤት መወከሲ ወረቐት የድልየኒ።",
-      "om": "Gara hospitaalaatti deemuf xalayaa dooqtooraa na barbaachisa.",
-      "en": "I need a referral letter from the GP for the hospital."
-    }
-  },
-  {
-    "id": "sent_gevorderd_275",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Is deze tandartsbehandeling gedekt door mijn aanvullende verzekering? [6]",
-    "translations": {
-      "ar": "هل علاج الأسنان هذا مغطى بتأميني الإضافي؟",
-      "ti": "እዚ ናይ ስኒ ሕክምና ብተወሳኺ መድሕነይ ዝተሸፈነ ድዩ፧",
-      "om": "Yaalli ilkaanii kun inshuraansii dabalataatiin kaffalamaa?",
-      "en": "Is this dental treatment covered by my supplementary insurance?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_276",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Ik wil graag een reparatieverzoek indienen bij de woningcorporatie. [6]",
-    "translations": {
-      "ar": "أود تقديم طلب إصلاح لدى مؤسسة الإسكان.",
-      "ti": "ናብ ማሕበር ኣባይቲ ናይ ምዕራይ ሕቶ ከቕርብ ደልየ ኣለኹ።",
-      "om": "Dhaabbata manootiif iyyannoo suphaa galchuu barbaada.",
-      "en": "I would like to submit a repair request to the housing corporation."
-    }
-  },
-  {
-    "id": "sent_gevorderd_277",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Mijn huurcontract loopt voor onbepaalde tijd. [6]",
-    "translations": {
-      "ar": "عقد إيجاري ساري المفعول لأجل غير مسمى.",
-      "ti": "ናይ ገዛ ውዕለይ ንዘይተወሰነ ግዜ ዝጸንሕ እዩ።",
-      "om": "Waliigalteen kireeffannaa koo yeroo hin murtoofneef kan turuudha.",
-      "en": "My rental contract runs for an indefinite period."
-    }
-  },
-  {
-    "id": "sent_gevorderd_278",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Wilt u er rekening mee houden dat de buren kleine kinderen hebben? [6]",
-    "translations": {
-      "ar": "هل يمكنك مراعاة أن لدى الجيران أطفالاً صغاراً؟",
-      "ti": "ጎረባብቲ ናእሽቱ ቆልዑ ከምዘለዉዎም ኣብ ግምት ከተእትዉዶ፧",
-      "om": "Ollaan ijoollee xixinnoo akka qaban yaada keessa galchituu?",
-      "en": "Could you please keep in mind that the neighbors have small children?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_279",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Aanstaande vrijdag is er een ouderavond op de middelbare school. [6]",
-    "translations": {
-      "ar": "يوم الجمعة القادم هناك اجتماع لأولياء الأمور في المدرسة الثانوية.",
-      "ti": "ዝመጽእ ዓርቢ ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ናይ ወለዲ ምሸት ኣሎ።",
-      "om": "Jimaata dhufu mana barumsaa sadarkaa lammaffaatti walga'ii warraa jira.",
-      "en": "Next Friday there is a parents evening at the high school."
-    }
-  },
-  {
-    "id": "sent_gevorderd_280",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Mijn dochter overweegt om een mbo-opleiding in de zorg te volgen. [6]",
-    "translations": {
-      "ar": "ابنتي تفكر في متابعة دراسة مهنية متوسطة في مجال الرعاية الصحية.",
-      "ti": "ጓለይ ኣብ ናይ ጥዕና ክንክን ሞያዊ ትምህርቲ ክትከታተል ትሓስብ ኣላ።",
-      "om": "Intalli koo leenjii ogummaa eegumsa fayyaa hordofuu yaadaa jirti.",
-      "en": "My daughter is considering taking an intermediate vocational course in healthcare."
-    }
-  },
-  {
-    "id": "sent_gevorderd_281",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb mijn cv bijgewerkt en een sollicitatiebrief geschreven. [7]",
-    "translations": {
-      "ar": "لقد قمت بتحديث سيرتي الذاتية وكتبت خطاب تقديم للوظيفة.",
-      "ti": "ናይ ስራሕ ታሪኸይ ኣሐዲሰን ናይ ስራሕ መመልከቲ ደብዳበ ጽሒፈን ኣለኹ።",
-      "om": "Seenaa jireenyaa koo haaromsee xalayaa iyyannoo hojii barreesseera.",
-      "en": "I updated my CV and wrote an application letter."
-    }
-  },
-  {
-    "id": "sent_gevorderd_282",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Kunt u mij uitleggen welke arbeidsvoorwaarden hier gelden? [7]",
-    "translations": {
-      "ar": "هل يمكنك أن تشرح لي شروط العمل المعمول بها هنا؟",
-      "ti": "ኣብዚ እንታይ ዓይነት ናይ ስራሕ ውዕል ከም ዘሎ ክትገልጹለይ ትኽእሉዶ፧",
-      "om": "Haala hojii asitti hojjetamu naaf ibsuu dandeessuu?",
-      "en": "Could you explain to me what employment terms apply here?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_283",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb volgende week dinsdag een belangrijk sollicitatiegesprek. [7]",
-    "translations": {
-      "ar": "لدي مقابلة عمل مهمة يوم الثلاثاء القادم.",
-      "ti": "ዝመጽእ ሰሉስ ኣገዳሲ ናይ ስራሕ ቃለ-መሕትት ኣሎኒ።",
-      "om": "Kibxata dhufu af-gaaffii hojii baay'ee barbaachisaa qaba.",
-      "en": "I have an important job interview next Tuesday."
-    }
-  },
-  {
-    "id": "sent_gevorderd_284",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "De proeftijd van mijn nieuwe baan duurt één maand. [7]",
-    "translations": {
-      "ar": "فترة التجربة لوظيفتي الجديدة تستمر لمدة شهر واحد.",
-      "ti": "ናይቲ ሓድሽ ስርሐይ ናይ ፈተና ግዜ ሓደ ወርሒ እዩ።",
-      "om": "Qormaanni hojii koo haaraa ji'a tokkoof tura.",
-      "en": "The probationary period for my new job lasts one month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_285",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Heeft dit bedrijf een collectieve arbeidsovereenkomst (cao)? [7]",
-    "translations": {
-      "ar": "هل لدى هذه الشركة اتفاقية عمل جماعية؟",
-      "ti": "እዚ ትካል ሓባራዊ ናይ ስራሕ ስምምዕ ኣለዎዶ፧",
-      "om": "Dhaabbanni kun waliigaltee hojjettootaa qabaa?",
-      "en": "Does this company have a collective labor agreement?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_286",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Ik wil graag een bankrekening openen voor mijn salaris. [7]",
-    "translations": {
-      "ar": "أود فتح حساب مصرفي لإيداع راتبي.",
-      "ti": "ንደሞዘይ ዝኸውን ናይ ባንክ ሕሳብ ክኸፍት ደልየ ኣለኹ።",
-      "om": "Miindaa kootiif herreega baankii banachuu barbaada.",
-      "en": "I would like to open a bank account for my salary."
-    }
-  },
-  {
-    "id": "sent_gevorderd_287",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Hoe kan ik huurtoeslag en zorgtoeslag aanvragen bij de Belastingdienst? [7]",
-    "translations": {
-      "ar": "كيف يمكنني التقدم بطلب للحصول على بدل إيجار وبدل رعاية صحية من مصلحة الضرائب؟",
-      "ti": "ናይ ገዛ ክራይ ደገፍን ናይ ጥዕና ደገፍን ብኸመይ ክሓትት ይኽእል፧",
-      "om": "Gargaarsa kireeffannaafi fayyaa akkamitti gaafachuu danda'a?",
-      "en": "How can I apply for rent allowance and healthcare allowance from the Tax Authority?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_288",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "De jaarafrekening voor energie was hoger dan verwacht. [7]",
-    "translations": {
-      "ar": "كانت فاتورة الطاقة السنوية أعلى من المتوقع.",
-      "ti": "ናይ ዓመት ናይ ኤሌክትሪክ ሕሳብ ካብቲ ዝተጸበኽዎ በሊጹ።",
-      "om": "Herreegni humnaa kan waggaa isa tilmaamame caaleera.",
-      "en": "The annual energy statement was higher than expected."
-    }
-  },
-  {
-    "id": "sent_gevorderd_289",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Vergeet niet om maandelijks uw zorgpremie op tijd te betalen. [7]",
-    "translations": {
-      "ar": "لا تنس دفع قسط التأمين الصحي شهرياً في الوقت المحدد.",
-      "ti": "ናይ ጥዕና መድሕን ክፍሊትኩም ኣብ ወርሒ ብግዜኡ ምኽፋል ኣይትረስዑ።",
-      "om": "Kaffaltii inshuraansii fayyaa keessanii ji'aan kaffaluu hin dagatinaa.",
-      "en": "Do not forget to pay your health insurance premium on time each month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_290",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Voor het inburgeringsexamen moet ik slagen voor spreken en luisteren. [7]",
-    "translations": {
-      "ar": "لاجتياز امتحان الاندماج يجب أن أنجح في التحدث والاستماع.",
-      "ti": "ንፈተና ምውህሃድ ናይ ምዝራብን ምስማዕን ፈተናታት ክሓልፍ ኣሎኒ።",
-      "om": "Qormaata Neezerlaand darbuuf qormaata dubbachuu fi dhaggeeffachuu darbuu qaba.",
-      "en": "For the civic integration exam I must pass speaking and listening."
-    }
-  },
-  {
-    "id": "sent_gevorderd_291",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "We hebben vandaag in de klas geleerd over de Nederlandse grondwet. [7]",
-    "translations": {
-      "ar": "لقد تعلمنا اليوم في الفصل الدراسي عن الدستور الهولندي.",
-      "ti": "ሎሚ ኣብ ክፍሊ ብዛዕባ ቅዋም ኔዘርላንድስ ተማሂርና።",
-      "om": "Har'a kutaa keessatti waa'ee heera mootummaa Neezerlaandi baranne.",
-      "en": "Today in class we learned about the Dutch constitution."
-    }
-  },
-  {
-    "id": "sent_gevorderd_292",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Vrijwilligerswerk doen helpt heel goed om de taal te oefenen. [7]",
-    "translations": {
-      "ar": "العمل التطوعي يساعد كثيراً في ممارسة اللغة.",
-      "ti": "ወለንታዊ ስራሕ ምስራሕ ንቋንቋ ንምልምማድ ኣዝዩ ይሕግዝ።",
-      "om": "Hojii tola ooltummaa hojjechuun afaan shaakaluuf baay'ee gargaara.",
-      "en": "Doing volunteer work helps a lot with practicing the language."
-    }
-  },
-  {
-    "id": "sent_gevorderd_293",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "De fysiotherapeut gaf mij oefeningen voor mijn onderrug. [7]",
-    "translations": {
-      "ar": "أعطاني المعالج الطبيعي تمارين لأسفل ظهري.",
-      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንሕቖይ ዝኸውን ልምምድ ሂቡኒ።",
-      "om": "Ogeessi fiiziyooteraapii qoricha sochii qaamaa dugda gadiitiif naaf kenne.",
-      "en": "The physiotherapist gave me exercises for my lower back."
-    }
-  },
-  {
-    "id": "sent_gevorderd_294",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Ik heb een doorverwijzing van de huisarts nodig voor het ziekenhuis. [7]",
-    "translations": {
-      "ar": "أحتاج إلى إحالة طبية من طبيب الأسرة للذهاب إلى المستشفى.",
-      "ti": "ናብ ሆስፒታል ንምኻድ ናይ ሓኪም ስድራቤት መወከሲ ወረቐት የድልየኒ።",
-      "om": "Gara hospitaalaatti deemuf xalayaa dooqtooraa na barbaachisa.",
-      "en": "I need a referral letter from the GP for the hospital."
-    }
-  },
-  {
-    "id": "sent_gevorderd_295",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Is deze tandartsbehandeling gedekt door mijn aanvullende verzekering? [7]",
-    "translations": {
-      "ar": "هل علاج الأسنان هذا مغطى بتأميني الإضافي؟",
-      "ti": "እዚ ናይ ስኒ ሕክምና ብተወሳኺ መድሕነይ ዝተሸፈነ ድዩ፧",
-      "om": "Yaalli ilkaanii kun inshuraansii dabalataatiin kaffalamaa?",
-      "en": "Is this dental treatment covered by my supplementary insurance?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_296",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Ik wil graag een reparatieverzoek indienen bij de woningcorporatie. [7]",
-    "translations": {
-      "ar": "أود تقديم طلب إصلاح لدى مؤسسة الإسكان.",
-      "ti": "ናብ ማሕበር ኣባይቲ ናይ ምዕራይ ሕቶ ከቕርብ ደልየ ኣለኹ።",
-      "om": "Dhaabbata manootiif iyyannoo suphaa galchuu barbaada.",
-      "en": "I would like to submit a repair request to the housing corporation."
-    }
-  },
-  {
-    "id": "sent_gevorderd_297",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Mijn huurcontract loopt voor onbepaalde tijd. [7]",
-    "translations": {
-      "ar": "عقد إيجاري ساري المفعول لأجل غير مسمى.",
-      "ti": "ናይ ገዛ ውዕለይ ንዘይተወሰነ ግዜ ዝጸንሕ እዩ።",
-      "om": "Waliigalteen kireeffannaa koo yeroo hin murtoofneef kan turuudha.",
-      "en": "My rental contract runs for an indefinite period."
-    }
-  },
-  {
-    "id": "sent_gevorderd_298",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Wilt u er rekening mee houden dat de buren kleine kinderen hebben? [7]",
-    "translations": {
-      "ar": "هل يمكنك مراعاة أن لدى الجيران أطفالاً صغاراً؟",
-      "ti": "ጎረባብቲ ናእሽቱ ቆልዑ ከምዘለዉዎም ኣብ ግምት ከተእትዉዶ፧",
-      "om": "Ollaan ijoollee xixinnoo akka qaban yaada keessa galchituu?",
-      "en": "Could you please keep in mind that the neighbors have small children?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_299",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Aanstaande vrijdag is er een ouderavond op de middelbare school. [7]",
-    "translations": {
-      "ar": "يوم الجمعة القادم هناك اجتماع لأولياء الأمور في المدرسة الثانوية.",
-      "ti": "ዝመጽእ ዓርቢ ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ናይ ወለዲ ምሸት ኣሎ።",
-      "om": "Jimaata dhufu mana barumsaa sadarkaa lammaffaatti walga'ii warraa jira.",
-      "en": "Next Friday there is a parents evening at the high school."
-    }
-  },
-  {
-    "id": "sent_gevorderd_300",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Mijn dochter overweegt om een mbo-opleiding in de zorg te volgen. [7]",
-    "translations": {
-      "ar": "ابنتي تفكر في متابعة دراسة مهنية متوسطة في مجال الرعاية الصحية.",
-      "ti": "ጓለይ ኣብ ናይ ጥዕና ክንክን ሞያዊ ትምህርቲ ክትከታተል ትሓስብ ኣላ።",
-      "om": "Intalli koo leenjii ogummaa eegumsa fayyaa hordofuu yaadaa jirti.",
-      "en": "My daughter is considering taking an intermediate vocational course in healthcare."
-    }
-  },
-  {
-    "id": "sent_gevorderd_301",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb mijn cv bijgewerkt en een sollicitatiebrief geschreven. [8]",
-    "translations": {
-      "ar": "لقد قمت بتحديث سيرتي الذاتية وكتبت خطاب تقديم للوظيفة.",
-      "ti": "ናይ ስራሕ ታሪኸይ ኣሐዲሰን ናይ ስራሕ መመልከቲ ደብዳበ ጽሒፈን ኣለኹ።",
-      "om": "Seenaa jireenyaa koo haaromsee xalayaa iyyannoo hojii barreesseera.",
-      "en": "I updated my CV and wrote an application letter."
-    }
-  },
-  {
-    "id": "sent_gevorderd_302",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Kunt u mij uitleggen welke arbeidsvoorwaarden hier gelden? [8]",
-    "translations": {
-      "ar": "هل يمكنك أن تشرح لي شروط العمل المعمول بها هنا؟",
-      "ti": "ኣብዚ እንታይ ዓይነት ናይ ስራሕ ውዕል ከም ዘሎ ክትገልጹለይ ትኽእሉዶ፧",
-      "om": "Haala hojii asitti hojjetamu naaf ibsuu dandeessuu?",
-      "en": "Could you explain to me what employment terms apply here?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_303",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Ik heb volgende week dinsdag een belangrijk sollicitatiegesprek. [8]",
-    "translations": {
-      "ar": "لدي مقابلة عمل مهمة يوم الثلاثاء القادم.",
-      "ti": "ዝመጽእ ሰሉስ ኣገዳሲ ናይ ስራሕ ቃለ-መሕትት ኣሎኒ።",
-      "om": "Kibxata dhufu af-gaaffii hojii baay'ee barbaachisaa qaba.",
-      "en": "I have an important job interview next Tuesday."
-    }
-  },
-  {
-    "id": "sent_gevorderd_304",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "De proeftijd van mijn nieuwe baan duurt één maand. [8]",
-    "translations": {
-      "ar": "فترة التجربة لوظيفتي الجديدة تستمر لمدة شهر واحد.",
-      "ti": "ናይቲ ሓድሽ ስርሐይ ናይ ፈተና ግዜ ሓደ ወርሒ እዩ።",
-      "om": "Qormaanni hojii koo haaraa ji'a tokkoof tura.",
-      "en": "The probationary period for my new job lasts one month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_305",
-    "level": "gevorderd",
-    "topic": "Werk",
-    "dutch": "Heeft dit bedrijf een collectieve arbeidsovereenkomst (cao)? [8]",
-    "translations": {
-      "ar": "هل لدى هذه الشركة اتفاقية عمل جماعية؟",
-      "ti": "እዚ ትካል ሓባራዊ ናይ ስራሕ ስምምዕ ኣለዎዶ፧",
-      "om": "Dhaabbanni kun waliigaltee hojjettootaa qabaa?",
-      "en": "Does this company have a collective labor agreement?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_306",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Ik wil graag een bankrekening openen voor mijn salaris. [8]",
-    "translations": {
-      "ar": "أود فتح حساب مصرفي لإيداع راتبي.",
-      "ti": "ንደሞዘይ ዝኸውን ናይ ባንክ ሕሳብ ክኸፍት ደልየ ኣለኹ።",
-      "om": "Miindaa kootiif herreega baankii banachuu barbaada.",
-      "en": "I would like to open a bank account for my salary."
-    }
-  },
-  {
-    "id": "sent_gevorderd_307",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Hoe kan ik huurtoeslag en zorgtoeslag aanvragen bij de Belastingdienst? [8]",
-    "translations": {
-      "ar": "كيف يمكنني التقدم بطلب للحصول على بدل إيجار وبدل رعاية صحية من مصلحة الضرائب؟",
-      "ti": "ናይ ገዛ ክራይ ደገፍን ናይ ጥዕና ደገፍን ብኸመይ ክሓትት ይኽእል፧",
-      "om": "Gargaarsa kireeffannaafi fayyaa akkamitti gaafachuu danda'a?",
-      "en": "How can I apply for rent allowance and healthcare allowance from the Tax Authority?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_308",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "De jaarafrekening voor energie was hoger dan verwacht. [8]",
-    "translations": {
-      "ar": "كانت فاتورة الطاقة السنوية أعلى من المتوقع.",
-      "ti": "ናይ ዓመት ናይ ኤሌክትሪክ ሕሳብ ካብቲ ዝተጸበኽዎ በሊጹ።",
-      "om": "Herreegni humnaa kan waggaa isa tilmaamame caaleera.",
-      "en": "The annual energy statement was higher than expected."
-    }
-  },
-  {
-    "id": "sent_gevorderd_309",
-    "level": "gevorderd",
-    "topic": "Financiën",
-    "dutch": "Vergeet niet om maandelijks uw zorgpremie op tijd te betalen. [8]",
-    "translations": {
-      "ar": "لا تنس دفع قسط التأمين الصحي شهرياً في الوقت المحدد.",
-      "ti": "ናይ ጥዕና መድሕን ክፍሊትኩም ኣብ ወርሒ ብግዜኡ ምኽፋል ኣይትረስዑ።",
-      "om": "Kaffaltii inshuraansii fayyaa keessanii ji'aan kaffaluu hin dagatinaa.",
-      "en": "Do not forget to pay your health insurance premium on time each month."
-    }
-  },
-  {
-    "id": "sent_gevorderd_310",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Voor het inburgeringsexamen moet ik slagen voor spreken en luisteren. [8]",
-    "translations": {
-      "ar": "لاجتياز امتحان الاندماج يجب أن أنجح في التحدث والاستماع.",
-      "ti": "ንፈተና ምውህሃድ ናይ ምዝራብን ምስማዕን ፈተናታት ክሓልፍ ኣሎኒ።",
-      "om": "Qormaata Neezerlaand darbuuf qormaata dubbachuu fi dhaggeeffachuu darbuu qaba.",
-      "en": "For the civic integration exam I must pass speaking and listening."
-    }
-  },
-  {
-    "id": "sent_gevorderd_311",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "We hebben vandaag in de klas geleerd over de Nederlandse grondwet. [8]",
-    "translations": {
-      "ar": "لقد تعلمنا اليوم في الفصل الدراسي عن الدستور الهولندي.",
-      "ti": "ሎሚ ኣብ ክፍሊ ብዛዕባ ቅዋም ኔዘርላንድስ ተማሂርና።",
-      "om": "Har'a kutaa keessatti waa'ee heera mootummaa Neezerlaandi baranne.",
-      "en": "Today in class we learned about the Dutch constitution."
-    }
-  },
-  {
-    "id": "sent_gevorderd_312",
-    "level": "gevorderd",
-    "topic": "Inburgering",
-    "dutch": "Vrijwilligerswerk doen helpt heel goed om de taal te oefenen. [8]",
-    "translations": {
-      "ar": "العمل التطوعي يساعد كثيراً في ممارسة اللغة.",
-      "ti": "ወለንታዊ ስራሕ ምስራሕ ንቋንቋ ንምልምማድ ኣዝዩ ይሕግዝ።",
-      "om": "Hojii tola ooltummaa hojjechuun afaan shaakaluuf baay'ee gargaara.",
-      "en": "Doing volunteer work helps a lot with practicing the language."
-    }
-  },
-  {
-    "id": "sent_gevorderd_313",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "De fysiotherapeut gaf mij oefeningen voor mijn onderrug. [8]",
-    "translations": {
-      "ar": "أعطاني المعالج الطبيعي تمارين لأسفل ظهري.",
-      "ti": "ሓኪም ኣካላዊ ምውስዋስ ንሕቖይ ዝኸውን ልምምድ ሂቡኒ።",
-      "om": "Ogeessi fiiziyooteraapii qoricha sochii qaamaa dugda gadiitiif naaf kenne.",
-      "en": "The physiotherapist gave me exercises for my lower back."
-    }
-  },
-  {
-    "id": "sent_gevorderd_314",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Ik heb een doorverwijzing van de huisarts nodig voor het ziekenhuis. [8]",
-    "translations": {
-      "ar": "أحتاج إلى إحالة طبية من طبيب الأسرة للذهاب إلى المستشفى.",
-      "ti": "ናብ ሆስፒታል ንምኻድ ናይ ሓኪም ስድራቤት መወከሲ ወረቐት የድልየኒ።",
-      "om": "Gara hospitaalaatti deemuf xalayaa dooqtooraa na barbaachisa.",
-      "en": "I need a referral letter from the GP for the hospital."
-    }
-  },
-  {
-    "id": "sent_gevorderd_315",
-    "level": "gevorderd",
-    "topic": "Gezondheid",
-    "dutch": "Is deze tandartsbehandeling gedekt door mijn aanvullende verzekering? [8]",
-    "translations": {
-      "ar": "هل علاج الأسنان هذا مغطى بتأميني الإضافي؟",
-      "ti": "እዚ ናይ ስኒ ሕክምና ብተወሳኺ መድሕነይ ዝተሸፈነ ድዩ፧",
-      "om": "Yaalli ilkaanii kun inshuraansii dabalataatiin kaffalamaa?",
-      "en": "Is this dental treatment covered by my supplementary insurance?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_316",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Ik wil graag een reparatieverzoek indienen bij de woningcorporatie. [8]",
-    "translations": {
-      "ar": "أود تقديم طلب إصلاح لدى مؤسسة الإسكان.",
-      "ti": "ናብ ማሕበር ኣባይቲ ናይ ምዕራይ ሕቶ ከቕርብ ደልየ ኣለኹ።",
-      "om": "Dhaabbata manootiif iyyannoo suphaa galchuu barbaada.",
-      "en": "I would like to submit a repair request to the housing corporation."
-    }
-  },
-  {
-    "id": "sent_gevorderd_317",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Mijn huurcontract loopt voor onbepaalde tijd. [8]",
-    "translations": {
-      "ar": "عقد إيجاري ساري المفعول لأجل غير مسمى.",
-      "ti": "ናይ ገዛ ውዕለይ ንዘይተወሰነ ግዜ ዝጸንሕ እዩ።",
-      "om": "Waliigalteen kireeffannaa koo yeroo hin murtoofneef kan turuudha.",
-      "en": "My rental contract runs for an indefinite period."
-    }
-  },
-  {
-    "id": "sent_gevorderd_318",
-    "level": "gevorderd",
-    "topic": "Wonen",
-    "dutch": "Wilt u er rekening mee houden dat de buren kleine kinderen hebben? [8]",
-    "translations": {
-      "ar": "هل يمكنك مراعاة أن لدى الجيران أطفالاً صغاراً؟",
-      "ti": "ጎረባብቲ ናእሽቱ ቆልዑ ከምዘለዉዎም ኣብ ግምት ከተእትዉዶ፧",
-      "om": "Ollaan ijoollee xixinnoo akka qaban yaada keessa galchituu?",
-      "en": "Could you please keep in mind that the neighbors have small children?"
-    }
-  },
-  {
-    "id": "sent_gevorderd_319",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Aanstaande vrijdag is er een ouderavond op de middelbare school. [8]",
-    "translations": {
-      "ar": "يوم الجمعة القادم هناك اجتماع لأولياء الأمور في المدرسة الثانوية.",
-      "ti": "ዝመጽእ ዓርቢ ኣብ ካልኣይ ደረጃ ቤት ትምህርቲ ናይ ወለዲ ምሸት ኣሎ።",
-      "om": "Jimaata dhufu mana barumsaa sadarkaa lammaffaatti walga'ii warraa jira.",
-      "en": "Next Friday there is a parents evening at the high school."
-    }
-  },
-  {
-    "id": "sent_gevorderd_320",
-    "level": "gevorderd",
-    "topic": "Onderwijs",
-    "dutch": "Mijn dochter overweegt om een mbo-opleiding in de zorg te volgen. [8]",
-    "translations": {
-      "ar": "ابنتي تفكر في متابعة دراسة مهنية متوسطة في مجال الرعاية الصحية.",
-      "ti": "ጓለይ ኣብ ናይ ጥዕና ክንክን ሞያዊ ትምህርቲ ክትከታተል ትሓስብ ኣላ።",
-      "om": "Intalli koo leenjii ogummaa eegumsa fayyaa hordofuu yaadaa jirti.",
-      "en": "My daughter is considering taking an intermediate vocational course in healthcare."
-    }
-  },
-  {
-    "id": "sent_moeilijk_321",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen.",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_322",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W.",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_323",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd.",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_324",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten.",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_325",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld.",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_326",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging.",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_327",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar.",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_328",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden.",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_329",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist.",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_330",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen.",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_331",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen.",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_332",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen.",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_333",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE).",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_334",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering.",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_335",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages.",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_336",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {2}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_337",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {2}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_338",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {2}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_339",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {2}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_340",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {2}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_341",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {2}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_342",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {2}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_343",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {2}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_344",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {2}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_345",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {2}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_346",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {2}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_347",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {2}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_348",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {2}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_349",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {2}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_350",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {2}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_351",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {3}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_352",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {3}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_353",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {3}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_354",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {3}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_355",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {3}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_356",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {3}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_357",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {3}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_358",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {3}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_359",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {3}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_360",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {3}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_361",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {3}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_362",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {3}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_363",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {3}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_364",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {3}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_365",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {3}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_366",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {4}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_367",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {4}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_368",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {4}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_369",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {4}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_370",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {4}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_371",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {4}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_372",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {4}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_373",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {4}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_374",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {4}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_375",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {4}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_376",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {4}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_377",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {4}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_378",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {4}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_379",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {4}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_380",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {4}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_381",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {5}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_382",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {5}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_383",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {5}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_384",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {5}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_385",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {5}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_386",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {5}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_387",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {5}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_388",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {5}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_389",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {5}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_390",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {5}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_391",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {5}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_392",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {5}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_393",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {5}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_394",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {5}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_395",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {5}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_396",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {6}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_397",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {6}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_398",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {6}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_399",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {6}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_400",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {6}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_401",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {6}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_402",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {6}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_403",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {6}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_404",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {6}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_405",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {6}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_406",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {6}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_407",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {6}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_408",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {6}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_409",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {6}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_410",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {6}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_411",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {7}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_412",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {7}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_413",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {7}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_414",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {7}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_415",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {7}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_416",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {7}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_417",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {7}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_418",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {7}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_419",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {7}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_420",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {7}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_421",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {7}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_422",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {7}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_423",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {7}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_424",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {7}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_425",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {7}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_426",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {8}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_427",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {8}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_428",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {8}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_429",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {8}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_430",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {8}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_431",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {8}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_432",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {8}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_433",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {8}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_434",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {8}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_435",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {8}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_436",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {8}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_437",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {8}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_438",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {8}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_439",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {8}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_440",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {8}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_441",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {9}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_442",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {9}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_443",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {9}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_444",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {9}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_445",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {9}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_446",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {9}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_447",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {9}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_448",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {9}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_449",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {9}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_450",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {9}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_451",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {9}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_452",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {9}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_453",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {9}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_454",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {9}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_455",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {9}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
-    }
-  },
-  {
-    "id": "sent_moeilijk_456",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "U heeft het recht om binnen zes weken na dagtekening van dit besluit bezwaar aan te tekenen. {10}",
-    "translations": {
-      "ar": "يحق لك تقديم اعتراض خلال ستة أسابيع من تاريخ صدور هذا القرار.",
-      "ti": "እዚ ውሳነ ካብ ዝወጸሉ ዕለት ጀሚሩ ኣብ ውሽጢ ሽዱሽተ ሰሙን ተቓውሞ ናይ ምቕራብ መሰል ኣለኩም።",
-      "om": "Murtiin kun erga kennamee kaasee torbanoota jaha keessatti mormii dhiyeessuuf mirga qabdu.",
-      "en": "You have the right to lodge an objection within six weeks of the date of this decision."
-    }
-  },
-  {
-    "id": "sent_moeilijk_457",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "Het bezwaarschrift dient schriftelijk en gemotiveerd te worden ingediend bij het college van B&W. {10}",
-    "translations": {
-      "ar": "يجب تقديم خطاب الاعتراض كتابياً ومسبباً إلى المجلس التنفيذي للبلدية.",
-      "ti": "ናይ ተቓውሞ ደብዳበ ብጽሑፍን ብቑዕ ምኽንያት ተገሊጹን ናብ ምምሕዳር ከተማ ክቐርብ ኣለዎ።",
-      "om": "Xalayaan mormii barreeffamaan fi sababa qabatamaa wajjin mana maree magaalaatiif dhiyaachuu qaba.",
-      "en": "The notice of objection must be submitted in writing and substantiated to the municipal executive."
-    }
-  },
-  {
-    "id": "sent_moeilijk_458",
-    "level": "moeilijk",
-    "topic": "Bestuursrecht",
-    "dutch": "De wettelijke beslistermijn kan eenmalig met ten hoogste vier weken worden verdaagd. {10}",
-    "translations": {
-      "ar": "يجوز تمديد المهلة القانونية لاتخاذ القرار مرة واحدة فقط لمدة أقصاها أربعة أسابيع.",
-      "ti": "እቲ ሕጋዊ ናይ ውሳነ ግዜ ሓደ ግዜ ጥራይ ንዝበዝሐ ኣርባዕተ ሰሙን ክናዋሕ ይኽእል እዩ።",
-      "om": "Yeroon seeraa murtii itti kennamu al tokko qofaaf torbanoota afur hin caalleef dheerachuu danda'a.",
-      "en": "The statutory decision period may be extended once by a maximum of four weeks."
-    }
-  },
-  {
-    "id": "sent_moeilijk_459",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De werknemer is gehouden de overeengekomen werkzaamheden naar beste vermogen en inzicht te verrichten. {10}",
-    "translations": {
-      "ar": "يلتزم الموظف بأداء المهام المتفق عليها بأقصى ما لديه من كفاءة وخبرة.",
-      "ti": "እቲ ሰራሕተኛ ነቲ ዝተሰማምዓሉ ስራሕ ብዝበለጸ ዓቕሙን ፍልጠቱን ክፍጽሞ ግዴታ ኣለዎ።",
-      "om": "Hojjetaan sun hojii walii galame sana dandeettii fi beekumsa isaanii isa olaanaadhaan raawwachuuf dirqama qabu.",
-      "en": "The employee is bound to perform the agreed work to the best of their ability and judgment."
-    }
-  },
-  {
-    "id": "sent_moeilijk_460",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "Bij beëindiging met wederzijds goedvinden wordt een vaststellingsovereenkomst opgesteld. {10}",
-    "translations": {
-      "ar": "في حالة إنهاء العقد بالتراضي بين الطرفين يتم إعداد اتفاقية تسوية رضائية.",
-      "ti": "ብክልቲኣዊ ስምምዕ ስራሕ ክቋረጽ ከሎ፡ ናይ መዛዘሚ ስምምዕ ወረቐት ይዳሎ።",
-      "om": "Yoo walii galteedhaan hojiin addaan cite, sanadni waliigaltee gabaasaa ni qophaa'a.",
-      "en": "In the event of termination by mutual consent, a settlement agreement is drawn up."
-    }
-  },
-  {
-    "id": "sent_moeilijk_461",
-    "level": "moeilijk",
-    "topic": "Arbeidsrecht",
-    "dutch": "De opzegtermijn vangt aan op de eerste dag van de kalendermaand volgend op de opzegging. {10}",
-    "translations": {
-      "ar": "تبدأ مهلة الإشعار بإنهاء العقد في اليوم الأول من الشهر التقويمي الذي يلي الإشعار.",
-      "ti": "ናይ ምቁራጽ ናይ መጠንቀቕታ ግዜ ካብቲ ናይ መጠንቀቕታ ዝተዋህበሉ ቀጻሊ ወርሒ ቀዳመይቲ መዓልቲ ይጅምር።",
-      "om": "Yeroon beeksisa dhiyeessuu guyyaa duraa ji'a calandarii beeksisa sana hordofee jalqaba.",
-      "en": "The notice period commences on the first day of the calendar month following notice."
-    }
-  },
-  {
-    "id": "sent_moeilijk_462",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het belastbaar inkomen uit werk en woning wordt berekend over het gehele fiscale kalenderjaar. {10}",
-    "translations": {
-      "ar": "يتم احتساب الدخل الخاضع للضريبة من العمل والمسكن عن السنة الضريبية التقويمية بالكامل.",
-      "ti": "ካብ ስራሕን ካብ መንበሪ ገዛን ዝርከብ ግብሪ ዝኽፈለሉ ኣታዊ ኣብ ምሉእ ዓመት ይሕሰብ።",
-      "om": "Galii hojii fi mana jireenyaa irraa argamu kan gibirri irratti kaffalamu waggaa faayinaansii guutuu keessatti shallagama.",
-      "en": "Taxable income from employment and home ownership is calculated over the entire fiscal calendar year."
-    }
-  },
-  {
-    "id": "sent_moeilijk_463",
-    "level": "moeilijk",
-    "topic": "Belasting",
-    "dutch": "Het recht op heffingskortingen hangt nauw samen met uw persoonlijke en financiële omstandigheden. {10}",
-    "translations": {
-      "ar": "يرتبط الحق في التخفيضات الضريبية ارتباطاً وثيقاً بظروفك الشخصية والمالية.",
-      "ti": "ናይ ግብሪ ምጉዳል ናይ ምርካብ መሰል ምስ ናትኩም ናይ ውልቀን ናይ ገንዘብን ኩነታት ዝተኣሳሰረ እዩ።",
-      "om": "Mirgi hir'ifama gibiraa argachuu haala dhuunfaa fi maallaqa keessan wajjin hidhata cimaa qaba.",
-      "en": "The entitlement to tax credits is closely tied to your personal and financial circumstances."
-    }
-  },
-  {
-    "id": "sent_moeilijk_464",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Voor ingrijpende medische behandelingen is de uitdrukkelijke en geïnformeerde toestemming van de patiënt vereist. {10}",
-    "translations": {
-      "ar": "بالنسبة للعلاجات الطبية الكبرى يتطلب الأمر موافقة صريحة ومستنيرة من المريض.",
-      "ti": "ንዓበይቲ ናይ ሕክምና መጥባሕትታት ናይቲ ሕሙም ግሉጽን ፍሉጥን ፍቓድ የድሊ እዩ።",
-      "om": "Yaala yaalii fayyaa cimaa ta'eef hayyamni ifaa fi odeeffannoo qabu dhukkubsataa irraa barbaachisaadha.",
-      "en": "For major medical treatments, the explicit and informed consent of the patient is strictly required."
-    }
-  },
-  {
-    "id": "sent_moeilijk_465",
-    "level": "moeilijk",
-    "topic": "Zorg & Ethiek",
-    "dutch": "Het medisch beroepsgeheim verbiedt de zorgverlener om vertrouwelijke patiëntgegevens met derden te delen. {10}",
-    "translations": {
-      "ar": "يحظر واجب السرية المهنية الطبية على مقدم الرعاية مشاركة بيانات المريض السرية مع أطراف ثالثة.",
-      "ti": "ናይ ሕክምና ሞያዊ ምስጢር ሓላዊ፡ ናይ ሕሙም ምስጢራዊ ሓበሬታ ንሳልሳይ ኣካል ከይካፈል ይኽልክል እዩ።",
-      "om": "Iccitiin ogummaa fayyaa eegduun fayyaa odeeffannoo iccitii dhukkubsataa qaama sadaffaaf akka hin qoodne dhowwa.",
-      "en": "Medical professional confidentiality prohibits healthcare providers from sharing confidential patient data with third parties."
-    }
-  },
-  {
-    "id": "sent_moeilijk_466",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "De Tweede Kamer controleert de regering en stemt over ingediende wetsvoorstellen. {10}",
-    "translations": {
-      "ar": "يراقب مجلس النواب عمل الحكومة ويصوت على مشاريع القوانين المقدمة.",
-      "ti": "ቤት ምኽሪ ተወከልቲ ህዝቢ ንመንግስቲ ይቆጻጸርን ኣብ ዝቐረቡ ናይ ሕጊ ረቂቓት ድምጺ ይህብን።",
-      "om": "Manni maree bakka bu'oota ummataa mootummaa to'ata akkasumas wixinee seeraa dhiyaate irratti sagalee kenna.",
-      "en": "The House of Representatives scrutinizes the government and votes on submitted legislative proposals."
-    }
-  },
-  {
-    "id": "sent_moeilijk_467",
-    "level": "moeilijk",
-    "topic": "Samenleving & Politiek",
-    "dutch": "Iedere ingezetene met stemrecht kan actief deelnemen aan democratische verkiezingen. {10}",
-    "translations": {
-      "ar": "يمكن لكل مقيم متمتع بحق التصويت المشاركة الفعالة في الانتخابات الديمقراطية.",
-      "ti": "ናይ ድምጺ ምሃብ መሰል ዘለዎ ነባሪ ኩሉ ኣብ ዲሞክራስያዊ ምርጫ ብንጥፈት ክሳተፍ ይኽእል።",
-      "om": "Jiraataan mirga sagalee kennuu qabu hundi filannoo dimookiraatawaa keessatti hirmaachuu danda'a.",
-      "en": "Every resident with voting rights may actively participate in democratic elections."
-    }
-  },
-  {
-    "id": "sent_moeilijk_468",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "Alle appartementseigenaren zijn van rechtswege lid van de Vereniging van Eigenaars (VvE). {10}",
-    "translations": {
-      "ar": "جميع مالكي الشقق هم أعضاء بحكم القانون في جمعية الملاك المشتركين.",
-      "ti": "ኩሎም ናይ ኣፓርተማታት ዋናታት ብሕጊ ኣባላት ናይቲ ናይ ዋናታት ማሕበር (VvE) እዮም።",
-      "om": "Abbootiin qabeenyaa appaartaamaa hundi seeraan miseensa Waldaa Abbootii Qabeenyaati (VvE).",
-      "en": "All apartment owners are by operation of law members of the Association of Owners (VvE)."
-    }
-  },
-  {
-    "id": "sent_moeilijk_469",
-    "level": "moeilijk",
-    "topic": "Huisvesting & VvE",
-    "dutch": "De maandelijkse servicekosten dekken het gemeenschappelijke onderhoud en de opstalverzekering. {10}",
-    "translations": {
-      "ar": "تغطي رسوم الخدمات الشهرية الصيانة المشتركة للمبنى والتأمين على العقار.",
-      "ti": "እቲ ወርሓዊ ናይ ኣገልግሎት ክፍሊት ነቲ ሓባራዊ ጽገናን ናይ ህንጻ መድሕንን ይሽፍን።",
-      "om": "Kaffaltiin tajaajilaa ji'aa suphaa gamoo waloo fi inshuraansii qabeenyaa ni uwwisa.",
-      "en": "Monthly service charges cover communal property maintenance and building insurance."
-    }
-  },
-  {
-    "id": "sent_moeilijk_470",
-    "level": "moeilijk",
-    "topic": "Onderwijs & Wetenschap",
-    "dutch": "Het hoger beroepsonderwijs combineert wetenschappelijke theorie met intensieve praktijkstages. {10}",
-    "translations": {
-      "ar": "يجمع التعليم المهني العالي بين النظرية الأكاديمية والتدريب العملي المكثف.",
-      "ti": "ላዕላይ ሞያዊ ትምህርቲ ነቲ ስነ-ፍልጠታዊ ክልሰ-ሓሳብ ምስ ጽዑቕ ናይ ግብሪ ልምምድ የጠምሮ።",
-      "om": "Barnoonni olaanoo ogummaa yaada saayinsii fi shaakala qabatamaa walitti makuun barsiisa.",
-      "en": "Higher professional education combines academic theory with rigorous practical internships."
+    "dutch": "Middelbaar beroepsonderwijs combineert theorie op school met intensieve praktijkstages bij erkende leerbedrijven.",
+    "translations": {
+      "ar": "يجمع التعليم المهني المتوسط بين الدراسة النظرية في المعهد والتدريب العملي المكثف في شركات معتمدة.",
+      "ti": "ማእከላይ ናይ ሞያ ትምህርቲ ነቲ ኣብ ቤት ትምህርቲ ዝወሃብ ክልሰ-ሓሳብ ምስ ተግባራዊ ናይ ስራሕ ልምምድ የጠምሮ።",
+      "om": "Barnoonni ogummaa barumsa daree fi shaakala qabatamaa walitti mika.",
+      "en": "Secondary vocational education combines classroom theory with intensive practical internships at accredited companies."
     }
   }
 ];

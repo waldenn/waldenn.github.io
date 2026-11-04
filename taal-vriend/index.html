@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>TaalVriend - Woorden, Klok Kijken, Zinnen, Alfabet & Luisteren</title>
-  <meta name="description" content="Offline, local-first Nederlandse taal app voor vluchtelingen en nieuwkomers. Woorden in kolommen, klok kijken in 5-minuten intervallen, 470+ zinnen, alfabet en interactieve luistervaardigheid.">
+  <meta name="description" content="Offline, local-first Nederlandse taal app voor vluchtelingen en nieuwkomers. Woorden in kolommen, klok kijken in 5-minuten intervallen, 370+ zinnen, alfabet en interactieve luistervaardigheid.">
   <meta name="theme-color" content="#2563eb">
   
   <!-- Web App Manifest for Offline PWA -->
@@ -469,7 +469,6 @@
           <div id="luisterMaskedBox" class="listening-masked-container">
             <div class="masked-lock-icon">🔒</div>
             <h4>De tekst is nog verborgen</h4>
-            <p>Luister eerst aandachtig naar het gesproken fragment. Druk op de <strong>SPATIE-toets</strong> of klik op de knop hieronder om de Nederlandse tekst en vertaling te onthullen.</p>
             <button id="luisterRevealBtn" class="footer-action-btn footer-btn-primary" title="Onthul tekst en vertaling (SPATIE)">
               <span>👁️ Onthul tekst & vertaling</span>
               <kbd class="btn-kbd">SPATIE</kbd>
@@ -601,7 +600,35 @@
             </div>
           </button>
 
-          <!-- App 2: Klok Kijken -->
+          <!-- App 2: Zinnen Lezen & Uitspreken -->
+          <button class="app-choice-card" data-app-id="zinnen">
+            <div class="app-choice-icon-box sentences-color">
+              <span>💬</span>
+            </div>
+            <div class="app-choice-content">
+              <div class="app-choice-top">
+                <h3>Zinnen Lezen & Uitspreken</h3>
+                <span class="app-choice-badge">370+ Zinnen</span>
+              </div>
+              <p>Oefen praktische zinnen in Basis (A1), Gevorderd (A2-B1) en Moeilijk (B1-B2) met vertalingen.</p>
+            </div>
+          </button>
+
+          <!-- App 3: Luistervaardigheid -->
+          <button class="app-choice-card" data-app-id="luisteren">
+            <div class="app-choice-icon-box listening-color">
+              <span>🎧</span>
+            </div>
+            <div class="app-choice-content">
+              <div class="app-choice-top">
+                <h3>Luistervaardigheid</h3>
+                <span class="app-choice-badge">119 Luisterteksten</span>
+              </div>
+              <p>Luister naar korte teksten (max 5 regels) zonder de tekst direct te zien. Druk op SPATIE om tekst en vertaling te onthullen.</p>
+            </div>
+          </button>
+
+          <!-- App 4: Klok Kijken -->
           <button class="app-choice-card" data-app-id="klok">
             <div class="app-choice-icon-box clock-color">
               <span>⏰</span>
@@ -615,21 +642,7 @@
             </div>
           </button>
 
-          <!-- App 3: Zinnen Lezen & Uitspreken -->
-          <button class="app-choice-card" data-app-id="zinnen">
-            <div class="app-choice-icon-box sentences-color">
-              <span>💬</span>
-            </div>
-            <div class="app-choice-content">
-              <div class="app-choice-top">
-                <h3>Zinnen Lezen & Uitspreken</h3>
-                <span class="app-choice-badge">470+ Zinnen</span>
-              </div>
-              <p>Oefen praktische zinnen in Basis (A1), Gevorderd (A2-B1) en Moeilijk (B1-B2) met vertalingen.</p>
-            </div>
-          </button>
-
-          <!-- App 4: Alfabet & Klanken -->
+          <!-- App 5: Alfabet & Klanken -->
           <button class="app-choice-card" data-app-id="alphabet">
             <div class="app-choice-icon-box alphabet-color">
               <span>🔤</span>
@@ -640,20 +653,6 @@
                 <span class="app-choice-badge">38 Klanken & Letters</span>
               </div>
               <p>Ontdek letters en speciale Nederlandse klanken (ui, oe, eu, ij, etc.) met klikbare voorbeeldwoorden en vertalingen.</p>
-            </div>
-          </button>
-
-          <!-- App 5: Luistervaardigheid -->
-          <button class="app-choice-card" data-app-id="luisteren">
-            <div class="app-choice-icon-box listening-color">
-              <span>🎧</span>
-            </div>
-            <div class="app-choice-content">
-              <div class="app-choice-top">
-                <h3>Luistervaardigheid</h3>
-                <span class="app-choice-badge">119 Luisterteksten</span>
-              </div>
-              <p>Luister naar korte teksten (max 5 regels) zonder de tekst direct te zien. Druk op SPATIE om tekst en vertaling te onthullen.</p>
             </div>
           </button>
         </div>

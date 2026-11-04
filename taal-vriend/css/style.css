@@ -101,8 +101,11 @@
 
 html, body {
   width: 100%;
+  max-width: 100vw;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
   font-family: var(--font-base);
   background-color: var(--bg-app);
   color: var(--text-main);
@@ -119,12 +122,14 @@ button {
 
 /* App Container */
 .app-container {
-  width: 100vw;
+  width: 100%;
+  max-width: 100vw;
   height: 100vh;
   height: 100dvh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   position: relative;
 }
 
@@ -1731,14 +1736,80 @@ button {
 }
 
 @media (max-width: 640px) {
+  /* Global viewport protection: prevent horizontal page scroll */
+  html, body, .app-container, .app-view {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+  }
+
+  /* Compact mobile header */
   .app-header {
-    padding: 0 10px;
+    height: 56px;
+    padding: 0 8px;
+    gap: 6px;
   }
 
   .app-title {
     display: none;
   }
 
+  .app-logo-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .app-switcher-pill {
+    height: 34px;
+    padding: 0 8px;
+    font-size: 0.8rem;
+    gap: 4px;
+  }
+
+  .app-switcher-pill #currentAppName {
+    max-width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .counter-badge {
+    padding: 2px 6px;
+    font-size: 0.72rem;
+  }
+
+  .header-icon-btn {
+    width: 34px;
+    height: 34px;
+  }
+
+  #fullscreenBtn {
+    display: none;
+  }
+
+  #categoryHeaderBtn {
+    padding: 0 8px;
+    font-size: 0.78rem;
+    height: 34px;
+  }
+
+  #categoryHeaderName {
+    max-width: 65px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #langQuickSelectBtn {
+    padding: 0 6px;
+    font-size: 0.8rem;
+    height: 34px;
+  }
+
+  #langQuickName {
+    display: none;
+  }
+
+  /* Table & Words */
   .table-columns-header {
     display: none;
   }
@@ -1748,7 +1819,7 @@ button {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    padding: 16px;
+    padding: 14px;
   }
 
   .col-image {
@@ -1761,24 +1832,302 @@ button {
     width: 100%;
   }
 
+  /* Footer on mobile */
   .app-footer-bar {
-    padding: 0 12px;
+    height: 58px;
+    padding: 0 8px;
   }
 
-  .footer-right {
+  .footer-action-btn {
+    height: 42px;
+    padding: 0 12px;
+    font-size: 0.88rem;
+  }
+
+  .footer-action-btn .btn-kbd {
     display: none;
+  }
+
+  .footer-nav-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-nav-btn .kbd-subtle {
+    display: none;
+  }
+
+  .footer-right,
+  .footer-shortcuts-hint {
+    display: none;
+  }
+
+  /* Klok App on mobile */
+  .clock-toolbar {
+    padding: 10px 12px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .clock-stage-container {
+    padding: 12px 8px;
+  }
+
+  .clock-hero-card {
+    padding: 16px 12px;
+    gap: 14px;
+  }
+
+  .clock-svg-box {
+    width: 200px;
+    height: 200px;
+  }
+
+  .clock-dutch-phrase {
+    font-size: 1.5rem;
+  }
+
+  .clock-sentence-text {
+    font-size: 1.05rem;
+  }
+
+  .clock-translation-text {
+    font-size: 1rem;
+  }
+
+  .clock-nav-controls {
+    width: 100%;
+    display: flex;
+    gap: 8px;
+  }
+
+  .clock-nav-controls .btn-clock-nav {
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+    font-size: 0.85rem;
+  }
+
+  .clock-minutes-strip {
+    padding: 8px 10px;
+  }
+
+  /* Zinnen App on mobile */
+  .sentences-level-bar {
+    padding: 10px 8px;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .level-tabs-group {
+    width: 100%;
+    display: flex;
+  }
+
+  .level-tab-btn {
+    flex: 1;
+    padding: 6px 8px;
+    font-size: 0.8rem;
+    justify-content: center;
+  }
+
+  .sentence-stage-container {
+    padding: 12px 8px;
+  }
+
+  .sentence-card-wrapper {
+    padding: 16px 12px;
+    gap: 14px;
+  }
+
+  .sentence-dutch-box {
+    padding: 14px;
+  }
+
+  .sentence-dutch-text {
+    font-size: 1.25rem;
+  }
+
+  .sentence-translation-card {
+    padding: 14px;
+  }
+
+  .sentence-trans-text {
+    font-size: 1.05rem;
+  }
+
+  .sentence-action-controls {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .sentence-action-controls .btn-clock-nav {
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .sentence-action-controls .footer-action-btn {
+    width: 100%;
+    order: -1;
+  }
+
+  /* Alphabet App on mobile */
+  .alphabet-toolbar {
+    padding: 10px 8px;
+    gap: 8px;
+  }
+
+  .alphabet-type-filters {
+    width: 100%;
+    display: flex;
+  }
+
+  .alphabet-type-filters .level-tab-btn {
+    flex: 1;
+    padding: 6px 6px;
+    font-size: 0.78rem;
+    justify-content: center;
+  }
+
+  .alphabet-strip-container {
+    padding: 8px 10px;
+  }
+
+  .alphabet-stage-container {
+    padding: 12px 8px;
+  }
+
+  .alphabet-hero-card {
+    padding: 16px 12px;
+    gap: 14px;
+  }
+
+  .alphabet-hero-top {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .alphabet-big-letter-box {
+    min-width: 100%;
+    padding: 12px;
+  }
+
+  .alphabet-big-letter {
+    font-size: 2.3rem;
+  }
+
+  .alphabet-examples-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .alphabet-nav-controls .btn-clock-nav {
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  /* Luister App on mobile */
+  .listening-stage-container {
+    padding: 12px 8px;
+  }
+
+  .listening-hero-card {
+    padding: 16px 12px;
+    gap: 14px;
+  }
+
+  .listening-title-text {
+    font-size: 1.2rem;
+  }
+
+  .listening-audio-prompt-box {
+    padding: 16px 12px;
+    gap: 12px;
+  }
+
+  .listening-play-audio-btn {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 16px;
+    font-size: 0.92rem;
+  }
+
+  .listening-play-audio-btn .btn-kbd {
+    display: none;
+  }
+
+  .listening-masked-container {
+    padding: 16px 12px;
+  }
+
+  .listening-line {
+    font-size: 1.05rem;
+  }
+
+  .listening-trans-line {
+    font-size: 1rem;
+  }
+
+  .listening-nav-controls {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .listening-nav-controls .btn-clock-nav {
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .listening-nav-controls .footer-action-btn {
+    width: 100%;
+    order: -1;
+  }
+
+  /* Modals on mobile */
+  .modal-overlay {
+    padding: 10px;
+  }
+
+  .modal-box {
+    width: 100%;
+    max-width: 95vw;
+    max-height: 90vh;
+    padding: 18px 14px;
+    overflow-x: hidden;
+  }
+
+  .app-switcher-grid {
+    gap: 10px;
+  }
+
+  .app-choice-card {
+    padding: 12px 14px;
+    gap: 12px;
+  }
+
+  .app-choice-icon-box {
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
+  }
+
+  .app-choice-top h3 {
+    font-size: 1.05rem;
+  }
+
+  .app-choice-badge {
+    font-size: 0.7rem;
+  }
+
+  .app-choice-content p {
+    font-size: 0.8rem;
   }
 
   .lang-grid {
     grid-template-columns: 1fr;
-  }
-
-  .sentence-card-wrapper {
-    padding: 20px;
-  }
-
-  .sentence-dutch-text {
-    font-size: 1.35rem;
   }
 }
 

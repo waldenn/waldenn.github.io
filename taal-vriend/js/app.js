@@ -14,7 +14,7 @@
   const APPS = {
     woorden: { name: 'Woorden Leren', icon: '📖', badge: '1.450+ Woorden' },
     klok: { name: 'Klok Kijken', icon: '⏰', badge: '144 Tijden' },
-    zinnen: { name: 'Zinnen Oefenen', icon: '💬', badge: '470+ Zinnen' },
+    zinnen: { name: 'Zinnen Oefenen', icon: '💬', badge: '370+ Zinnen' },
     alphabet: { name: 'Alfabet & Klanken', icon: '🔤', badge: '38 Klanken' },
     luisteren: { name: 'Luistervaardigheid', icon: '🎧', badge: '119 Oefeningen' }
   };
@@ -208,6 +208,7 @@
   function init() {
     // Read URL parameter "?app=..."
     const urlParams = new URLSearchParams(window.location.search);
+    const hasAppParam = urlParams.has('app');
     const appQuery = (urlParams.get('app') || '').toLowerCase().trim();
     if (appQuery) {
       if (appQuery === 'alfabet' || appQuery === 'alphabet') {
@@ -225,6 +226,13 @@
     setupEventListeners();
     updateLanguageUI();
     registerServiceWorker();
+
+    // Als taalvriend zonder app-parameter wordt geopend laat dan meteen de app-modal zien
+    if (!hasAppParam) {
+      setTimeout(() => {
+        openModal(el.appSwitcherModal);
+      }, 150);
+    }
   }
 
   // ====================================================
@@ -593,7 +601,7 @@
     if (activeRow) {
       activeRow.scrollIntoView({
         behavior: 'smooth',
-        block: 'nearest'
+        block: 'center'
       });
     }
   }
