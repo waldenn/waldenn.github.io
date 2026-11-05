@@ -1,9 +1,19 @@
 /* css/style.css - TaalVriend: Woorden, Klok Kijken & Zinnen Oefenen */
 
 :root {
-  --font-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-base: 'IBM Plex Sans Condensed', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-size-base: 16px;
   --font-arabic: "Geeza Pro", "Amiri", "Tahoma", "Segoe UI", Arial, sans-serif;
   --font-tigrinya: "Abyssinica SIL", "Noto Sans Ethiopic", "Kefa", "Nyala", system-ui, sans-serif;
+
+  /* CEFR Level Colors */
+  --cefr-pre-a1: #f97316;
+  --cefr-a1: #10b981;
+  --cefr-a2: #2563eb;
+  --cefr-b1: #0d9488;
+  --cefr-b2: #8b5cf6;
+  --cefr-c1: #4f46e5;
+  --cefr-c2: #e11d48;
 
   /* Light Theme */
   --bg-app: #f8fafc;
@@ -91,7 +101,7 @@
   --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.45);
 }
 
-/* Reset */
+/* Global Reset & Universal Box-Sizing */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -99,31 +109,56 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-html, body {
+html {
+  font-size: var(--font-size-base, 16px);
   width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
   height: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
+}
+
+html {
+  font-size: var(--base-font-size, 16px);
+}
+
+html, body, #root {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  height: 100%;
+  overflow-x: hidden;
   position: relative;
   font-family: var(--font-base);
   background-color: var(--bg-app);
   color: var(--text-main);
   transition: background-color var(--transition-normal), color var(--transition-normal);
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  box-sizing: border-box;
 }
 
 button {
-  font-family: inherit;
   cursor: pointer;
   border: none;
   background: none;
   outline: none;
 }
 
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
 /* App Container */
-.app-container {
+.app-container, #root {
   width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
+  min-width: 0;
   height: 100vh;
   height: 100dvh;
   display: flex;
@@ -131,6 +166,7 @@ button {
   overflow-x: hidden;
   overflow-y: hidden;
   position: relative;
+  box-sizing: border-box;
 }
 
 /* 1. HEADER */
@@ -358,6 +394,18 @@ button {
   flex-direction: column;
   overflow: hidden;
   position: relative;
+  min-height: 0;
+  height: 100%;
+}
+
+#appWoordenView {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  min-height: 0;
+  height: 100%;
 }
 
 /* ======================================================== */
@@ -416,13 +464,62 @@ button {
 
 /* SCROLLABLE WORDS STREAM */
 .words-stream-container {
-  flex: 1;
+  flex: 1 1 0%;
+  min-height: 0;
+  height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
   background-color: var(--bg-app);
   scroll-behavior: smooth;
   outline: none;
   padding-bottom: 80px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+}
+
+.empty-words-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 24px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.empty-words-message .empty-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  opacity: 0.8;
+}
+
+.empty-words-message h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.empty-words-message p {
+  font-size: 0.95rem;
+  max-width: 420px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.empty-reset-btn {
+  background: var(--primary);
+  color: #ffffff;
+  padding: 10px 22px;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all var(--transition-fast);
+}
+
+.empty-reset-btn:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
 }
 
 /* EACH WORD ROW: NEDERLANDS WOORD IS PROMINENT */
@@ -451,13 +548,15 @@ button {
 }
 
 /* SELECTED / ACTIVE ROW HIGHLIGHT & EXPANSION */
-.word-row.active {
+.word-row.active,
+.word-row.active-row {
   background-color: var(--bg-row-active) !important;
-  border-left-color: var(--border-active) !important;
-  border-left-width: 6px;
-  box-shadow: var(--shadow-active);
-  transform: scale(1.006) translateY(-2px);
-  z-index: 5;
+  border-left-color: var(--primary) !important;
+  border-left-width: 8px !important;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.22), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+  transform: scale(1.01) translateY(-2px);
+  z-index: 10;
+  outline: 2px solid var(--primary-light);
 }
 
 @keyframes rowSelectionAnim {
@@ -466,7 +565,8 @@ button {
   100% { transform: scale(1.006) translateY(-2px); }
 }
 
-.word-row.active.row-pulse {
+.word-row.active.row-pulse,
+.word-row.active-row.row-pulse {
   animation: rowSelectionAnim 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -538,23 +638,28 @@ button {
   color: var(--badge-het-text);
 }
 
-.dutch-text {
-  font-size: 1.25rem;
-  font-weight: 750;
+.dutch-text,
+.dutch-word-text {
+  font-size: 1.4rem; /* 140% groter dan de basis font */
+  font-weight: 800;  /* vet gedrukt */
   color: var(--text-main);
   letter-spacing: -0.01em;
   transition: all var(--transition-normal);
 }
 
 /* Large text magnification when row is active */
-.word-row.active .dutch-text {
-  font-size: 1.75rem;
+.word-row.active .dutch-text,
+.word-row.active .dutch-word-text,
+.word-row.active-row .dutch-text,
+.word-row.active-row .dutch-word-text {
+  font-size: 1.95rem;
   font-weight: 900;
   color: var(--primary);
   letter-spacing: -0.02em;
 }
 
-.word-row.active .dutch-article-badge {
+.word-row.active .dutch-article-badge,
+.word-row.active-row .dutch-article-badge {
   font-size: 0.95rem;
   padding: 4px 10px;
   border-radius: 8px;
@@ -1287,13 +1392,16 @@ button {
   z-index: 100;
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
   transition: opacity 0.25s ease, visibility 0.25s ease;
   padding: 20px;
 }
 
-.modal-overlay.active {
+.modal-overlay.active,
+.modal-overlay.open {
   opacity: 1;
   visibility: visible;
+  pointer-events: auto;
 }
 
 .modal-box {
@@ -1315,7 +1423,8 @@ button {
   max-width: 780px;
 }
 
-.modal-overlay.active .modal-box {
+.modal-overlay.active .modal-box,
+.modal-overlay.open .modal-box {
   transform: scale(1) translateY(0);
 }
 
@@ -1711,9 +1820,12 @@ button {
 @media (max-width: 900px) {
   .table-columns-header,
   .word-row {
-    grid-template-columns: 72px minmax(220px, 1.8fr) minmax(160px, 1.1fr) minmax(180px, 1.2fr);
-    gap: 12px;
-    padding: 10px 16px;
+    grid-template-columns: 60px 1.8fr 1fr 1.3fr;
+    gap: 10px;
+    padding: 10px 12px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .clock-hero-card {
@@ -2346,8 +2458,8 @@ button {
 
 .alphabet-examples-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
 }
 
 .alphabet-word-card {
@@ -2375,9 +2487,10 @@ button {
   transform: scale(0.98);
 }
 
+.alph-card-img,
 .alphabet-word-icon {
-  width: 44px;
-  height: 44px;
+  width: 52px;
+  height: 52px;
   border-radius: var(--radius-md);
   overflow: hidden;
   flex-shrink: 0;
@@ -2387,23 +2500,28 @@ button {
   justify-content: center;
 }
 
+.alph-card-img svg,
 .alphabet-word-icon svg {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
+.alph-card-info,
 .alphabet-word-details {
-  flex: 1;
+  flex: 1 1 auto;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 4px;
 }
 
+.alph-card-word,
 .alphabet-word-title {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 800;
   color: var(--text-main);
+  white-space: nowrap;
 }
 
 .letter-match {
@@ -2413,10 +2531,109 @@ button {
   text-underline-offset: 3px;
 }
 
-.alphabet-word-trans {
-  font-size: 0.9rem;
+.alph-card-audio {
+  font-size: 1.25rem;
+  padding: 4px;
+  flex-shrink: 0;
+  opacity: 0.8;
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.alphabet-word-card:hover .alph-card-audio {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+/* Distinct Native Translation Pill for Alphabet Card with ample horizontal space */
+.alph-card-trans-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--bg-app);
+  border: 1px solid var(--border-color);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  margin-top: 4px;
+  font-size: 0.88rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  width: fit-content;
+  max-width: 100%;
+}
+
+.alph-trans-flag {
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.alph-trans-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.alph-trans-val {
   font-weight: 600;
-  color: var(--text-muted);
+  color: var(--text-main);
+  white-space: nowrap !important;
+  word-break: normal !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.alph-trans-val.rtl {
+  direction: rtl;
+  font-family: var(--font-arabic);
+}
+
+.alphabet-tip-trans-text {
+  margin-top: 8px;
+  padding: 8px 14px;
+  background-color: var(--primary-light);
+  border-left: 3px solid var(--primary);
+  border-radius: var(--radius-sm);
+  font-size: 0.94rem;
+  font-weight: 600;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1.45;
+}
+
+.alphabet-tip-trans-text.rtl {
+  direction: rtl;
+  font-family: var(--font-arabic);
+  border-left: none;
+  border-right: 3px solid var(--primary);
+}
+
+/* TTS Active Word Highlighting Cursor */
+.tts-word-token {
+  display: inline-block;
+  padding: 1px 3px;
+  border-radius: 4px;
+  transition: background 0.12s ease, color 0.12s ease, transform 0.12s ease;
+}
+
+.tts-word-token.tts-word-highlight {
+  background-color: var(--primary);
+  color: #ffffff !important;
+  font-weight: 700;
+  transform: scale(1.08);
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.45);
+  border-radius: 4px;
+}
+
+/* Words App Level Tabs Bar */
+.words-level-bar {
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--bg-surface);
+  position: sticky;
+  top: 0;
+  z-index: 15;
 }
 
 .alphabet-word-speak-icon {
@@ -2645,12 +2862,534 @@ button {
   line-height: 1.5;
 }
 
-.listening-nav-controls {
+/* ======================================================== */
+/* 5. CEFR PROFICIENCY BADGES & STYLING                     */
+/* ======================================================== */
+.badge-cefr {
+  background-color: var(--primary);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.72rem;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+}
+
+.level-badge.orange { background-color: rgba(249, 115, 22, 0.15); color: #ea580c; border: 1px solid rgba(249, 115, 22, 0.3); }
+.level-badge.green { background-color: rgba(16, 185, 129, 0.15); color: #059669; border: 1px solid rgba(16, 185, 129, 0.3); }
+.level-badge.blue { background-color: rgba(37, 99, 235, 0.15); color: #2563eb; border: 1px solid rgba(37, 99, 235, 0.3); }
+.level-badge.teal { background-color: rgba(13, 148, 136, 0.15); color: #0d9488; border: 1px solid rgba(13, 148, 136, 0.3); }
+.level-badge.purple { background-color: rgba(139, 92, 246, 0.15); color: #7c3aed; border: 1px solid rgba(139, 92, 246, 0.3); }
+.level-badge.indigo { background-color: rgba(79, 70, 229, 0.15); color: #4f46e5; border: 1px solid rgba(79, 70, 229, 0.3); }
+.level-badge.crimson { background-color: rgba(225, 29, 72, 0.15); color: #e11d48; border: 1px solid rgba(225, 29, 72, 0.3); }
+
+/* ======================================================== */
+/* 6. RANGE SLIDERS & FORM CONTROLS                         */
+/* ======================================================== */
+.slider-control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--bg-app);
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  width: 100%;
+}
+
+.slider-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.badge-pill {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.custom-range-slider {
+  width: 100%;
+  height: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--border-color);
+  border-radius: var(--radius-full);
+  outline: none;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.custom-range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 2.5px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: transform 0.1s ease, background 0.1s ease;
+}
+
+.custom-range-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  background: var(--primary-hover);
+}
+
+.custom-range-slider::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--primary);
+  border: 2.5px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+/* ======================================================== */
+/* 7. WOORDEN APP: TRANSLATED EXAMPLE SENTENCE & SIMPLE BADGE */
+/* ======================================================== */
+.col-sentence {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.word-sentence-dutch {
+  font-size: 0.96rem;
+  color: var(--text-sentence);
+  line-height: 1.45;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+  display: inline-block;
+}
+
+.word-sentence-dutch:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.word-sentence-trans {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 10px; /* Laat een duidelijke regel tussen de nederlandse zin en de vertaling */
+  display: block;
+  padding-top: 6px;
+  border-top: 1px dashed var(--border-color);
+}
+
+.badge-simple-tag {
+  display: inline-block;
+  background-color: rgba(16, 185, 129, 0.12);
+  color: #059669;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* ======================================================== */
+/* 8. KLOK APP: INTERACTIVE REVEAL & MYSTERY CARD          */
+/* ======================================================== */
+.clock-masked-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 14px;
+  padding: 32px 24px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.05), rgba(16, 185, 129, 0.05));
+  border: 2px dashed var(--border-color);
+  border-radius: var(--radius-xl);
+  width: 100%;
+}
+
+.clock-mystery-icon {
+  font-size: 2.8rem;
+  animation: pulse-gentle 2s infinite ease-in-out;
+}
+
+.clock-mystery-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.clock-mystery-desc {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  max-width: 380px;
+  line-height: 1.5;
+}
+
+.clock-revealed-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes pulse-gentle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ======================================================== */
+/* 9. ZINNEN APP: EXPANSIVE & SPACIOUS LAYOUT               */
+/* ======================================================== */
+.sentence-stage-expanded {
+  padding: 24px 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sentence-card-expansive {
+  max-width: 960px;
+  width: 100%;
+  padding: 36px 40px;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.sentence-dutch-box-expansive {
+  padding: 28px 32px;
+  background-color: var(--bg-app);
+  border-radius: var(--radius-lg);
+  border-left: 6px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.sentence-dutch-box-expansive:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.sentence-dutch-box-expansive .sentence-dutch-text {
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.45;
+  flex: 1;
+}
+
+.sentence-translation-expansive {
+  padding: 24px 30px;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.04), rgba(16, 185, 129, 0.04));
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-lg);
+}
+
+.sentence-translation-expansive .sentence-trans-text {
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--text-sentence);
+  line-height: 1.55;
+}
+
+/* ======================================================== */
+/* 10. APP SWITCHER MODAL NATIVE NAME                       */
+/* ======================================================== */
+.app-choice-native {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-left: 6px;
+  opacity: 0.92;
+}
+
+.respond-color {
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  color: #ffffff;
+}
+
+/* ======================================================== */
+/* 11. LUISTER EN REAGEER (NEW APP)                         */
+/* ======================================================== */
+.reageer-stage-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow-y: auto;
+  max-width: 100%;
+}
+
+.reageer-hero-card {
+  width: 100%;
+  max-width: 900px;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.reageer-card-meta {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
+  flex-wrap: wrap;
+}
+
+.reageer-situation-text {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.reageer-audio-box {
+  background-color: var(--bg-app);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.reageer-audio-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.reageer-toggle-q-btn {
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+.reageer-question-revealed {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 20px;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  width: 100%;
+  animation: fadeIn 0.25s ease-in-out;
+}
+
+.reageer-dutch-q {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.45;
+}
+
+.reageer-trans-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--text-muted);
+}
+
+.reageer-trans-q {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.reageer-prompt-instruction {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.reageer-options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  .reageer-options-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.reageer-option-btn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  background-color: var(--bg-surface);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  text-align: left;
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+  min-height: 72px;
+}
+
+.reageer-option-btn:hover:not(:disabled) {
+  border-color: var(--primary);
+  background-color: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.reageer-option-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.reageer-option-key {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--bg-app);
+  border: 1.5px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.reageer-option-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1.4;
+  flex: 1;
+}
+
+.reageer-option-btn.correct {
+  border-color: #10b981 !important;
+  background-color: rgba(16, 185, 129, 0.12) !important;
+}
+
+.reageer-option-btn.correct .reageer-option-key {
+  background-color: #10b981;
+  color: #ffffff;
+  border-color: #10b981;
+}
+
+.reageer-option-btn.incorrect {
+  border-color: #ef4444 !important;
+  background-color: rgba(239, 68, 68, 0.12) !important;
+}
+
+.reageer-option-btn.incorrect .reageer-option-key {
+  background-color: #ef4444;
+  color: #ffffff;
+  border-color: #ef4444;
+}
+
+.reageer-feedback-card {
+  padding: 22px 24px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.reageer-feedback-card.correct-feedback {
+  background-color: rgba(16, 185, 129, 0.08);
+  border: 1.5px solid rgba(16, 185, 129, 0.4);
+}
+
+.reageer-feedback-card.incorrect-feedback {
+  background-color: rgba(239, 68, 68, 0.08);
+  border: 1.5px solid rgba(239, 68, 68, 0.4);
+}
+
+.reageer-feedback-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.feedback-badge-icon {
+  font-size: 1.6rem;
+}
+
+.reageer-feedback-header h4 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.reageer-explanation-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reageer-explanation-nl {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-sentence);
+  line-height: 1.5;
+}
+
+.reageer-native-expl-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background-color: var(--bg-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.reageer-explanation-native {
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.reageer-feedback-action {
+  display: flex;
+  justify-content: flex-end;
   margin-top: 6px;
-  padding-top: 18px;
-  border-top: 1px solid var(--border-color);
 }

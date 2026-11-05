@@ -1,5 +1,5 @@
 // Service Worker for TaalVriend - 100% Offline Caching
-const CACHE_NAME = 'taalvriend-v4';
+const CACHE_NAME = 'taalvriend-v9';
 
 const STATIC_ASSETS = [
   './',
@@ -17,6 +17,8 @@ const STATIC_ASSETS = [
   './data/alphabet.json',
   './data/listening.js',
   './data/listening.json',
+  './data/respond.js',
+  './data/respond.json',
   './assets/icon.svg'
 ];
 

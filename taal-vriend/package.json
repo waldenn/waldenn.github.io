@@ -1,0 +1,29 @@
+{
+  "name": "taal-vriend",
+  "version": "1.0.0",
+  "description": "Een 100% offline, local-first Nederlandse taal app speciaal ontworpen voor vluchtelingen en nieuwkomers om speels en effectief Nederlandse woorden, klokkijken, zinnen, het alfabet, luistervaardigheid en interactieve reactiesituaties te leren.",
+  "main": "sw.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldenn/taalvriend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/waldenn/taalvriend/issues"
+  },
+  "homepage": "https://github.com/waldenn/taalvriend#readme",
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vite": "^8.3.6"
+  }
+}
